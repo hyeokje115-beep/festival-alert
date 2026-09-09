@@ -1,1 +1,275 @@
-{}
+{
+  "아트누리|저작권 조정신청": {
+    "name": "아트누리",
+    "title": "저작권 조정신청",
+    "deadline": "",
+    "url": "https://adr.copyright.or.kr/web/main/mainPage.do",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|지원사업 찾기": {
+    "name": "아트누리",
+    "title": "지원사업 찾기",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr/crawler/info/search.do?key=2301170002",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|나를 위한 지원사업": {
+    "name": "아트누리",
+    "title": "나를 위한 지원사업",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr/user/myBsns.do?key=2301170004",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|공고등록신청": {
+    "name": "아트누리",
+    "title": "공고등록신청",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr/pbanc/aply/list.do?key=2409110001",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|2026년 남동소래아트홀 갤러리 화ㆍ소 전시공간지원사업 모집공고": {
+    "name": "아트누리",
+    "title": "2026년 남동소래아트홀 갤러리 화ㆍ소 전시공간지원사업 모집공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|제13회 솔내음 음악회 출연자 모집공고": {
+    "name": "아트누리",
+    "title": "제13회 솔내음 음악회 출연자 모집공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|2026년 충남예술지원사업 정산설명회 및 의견청취회 참여자 모집": {
+    "name": "아트누리",
+    "title": "2026년 충남예술지원사업 정산설명회 및 의견청취회 참여자 모집",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|2026년 문화관광 일자리 사업(4차) 모집공고": {
+    "name": "아트누리",
+    "title": "2026년 문화관광 일자리 사업(4차) 모집공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|[2026년 제29회 김삿갓문화제] '랩 경연대회' 참가자 모집공고": {
+    "name": "아트누리",
+    "title": "[2026년 제29회 김삿갓문화제] '랩 경연대회' 참가자 모집공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|동아시아문화도시 교류사업 한·중·일 국제포럼 개최(참가신청)": {
+    "name": "아트누리",
+    "title": "동아시아문화도시 교류사업 한·중·일 국제포럼 개최(참가신청)",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|2027년 대구대표축제 감독단 모집 공고": {
+    "name": "아트누리",
+    "title": "2027년 대구대표축제 감독단 모집 공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|2026년 서울문화재단 창작 희곡 공모 <제4회 서울희곡상>": {
+    "name": "아트누리",
+    "title": "2026년 서울문화재단 창작 희곡 공모 <제4회 서울희곡상>",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|2026년 '통하는 갤러리' 3차, 4차 전시 작가 공모": {
+    "name": "아트누리",
+    "title": "2026년 '통하는 갤러리' 3차, 4차 전시 작가 공모",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 2026년 남동소래아트홀 갤러리 화ㆍ소 전시공간지원사업 모집공고": {
+    "name": "아트누리",
+    "title": "진 2026년 남동소래아트홀 갤러리 화ㆍ소 전시공간지원사업 모집공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 제13회 솔내음 음악회 출연자 모집공고": {
+    "name": "아트누리",
+    "title": "진 제13회 솔내음 음악회 출연자 모집공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 2026년 충남예술지원사업 정산설명회 및 의견청취회 참여자 모집": {
+    "name": "아트누리",
+    "title": "진 2026년 충남예술지원사업 정산설명회 및 의견청취회 참여자 모집",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 2026년 문화관광 일자리 사업(4차) 모집공고": {
+    "name": "아트누리",
+    "title": "진 2026년 문화관광 일자리 사업(4차) 모집공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 [2026년 제29회 김삿갓문화제] '랩 경연대회' 참가자 모집공고": {
+    "name": "아트누리",
+    "title": "진 [2026년 제29회 김삿갓문화제] '랩 경연대회' 참가자 모집공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 동아시아문화도시 교류사업 한·중·일 국제포럼 개최(참가신청)": {
+    "name": "아트누리",
+    "title": "진 동아시아문화도시 교류사업 한·중·일 국제포럼 개최(참가신청)",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 2027년 대구대표축제 감독단 모집 공고": {
+    "name": "아트누리",
+    "title": "진 2027년 대구대표축제 감독단 모집 공고",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 2026년 서울문화재단 창작 희곡 공모 <제4회 서울희곡상>": {
+    "name": "아트누리",
+    "title": "진 2026년 서울문화재단 창작 희곡 공모 <제4회 서울희곡상>",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "아트누리|진 2026년 '통하는 갤러리' 3차, 4차 전시 작가 공모": {
+    "name": "아트누리",
+    "title": "진 2026년 '통하는 갤러리' 3차, 4차 전시 작가 공모",
+    "deadline": "",
+    "url": "https://www.artnuri.or.kr#none",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|문화지원사업 통합서비스": {
+    "name": "문화포털 지원사업",
+    "title": "문화지원사업 통합서비스",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSupDash/list.do?menuNo=200066",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|문화지원사업": {
+    "name": "문화포털 지원사업",
+    "title": "문화지원사업",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/list.do?menuNo=200104",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|보조금지원사업": {
+    "name": "문화포털 지원사업",
+    "title": "보조금지원사업",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/rcrtInfo/userList.do?menuNo=200068",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|문화지원사업 캘린더": {
+    "name": "문화포털 지원사업",
+    "title": "문화지원사업 캘린더",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSupCalndr/list.do?menuNo=200067",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|문화지원사업 통계": {
+    "name": "문화포털 지원사업",
+    "title": "문화지원사업 통계",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSupStats/list.do?menuNo=200069",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|채용ㆍ자원봉사 모집": {
+    "name": "문화포털 지원사업",
+    "title": "채용ㆍ자원봉사 모집",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/empRec/list.do?menuNo=200070",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|자원봉사 모집": {
+    "name": "문화포털 지원사업",
+    "title": "자원봉사 모집",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/volunteer/list.do?workArea=A001&menuNo=200092",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|2026년도 수원SK아트리움 제3차 수시대관 공고 지원대상 예술인,기업·": {
+    "name": "문화포털 지원사업",
+    "title": "2026년도 수원SK아트리움 제3차 수시대관 공고 지원대상 예술인,기업·단체",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228776&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|제61회 설악문화제 거리퍼레이드 참가자 모집 공고 지원대상 기업·단체": {
+    "name": "문화포털 지원사업",
+    "title": "제61회 설악문화제 거리퍼레이드 참가자 모집 공고 지원대상 기업·단체",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228774&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|2026년 글로벌 출판전문인력 양성 교육 참가자 모집 공고 지원대상 관련": {
+    "name": "문화포털 지원사업",
+    "title": "2026년 글로벌 출판전문인력 양성 교육 참가자 모집 공고 지원대상 관련종사자",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228761&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|제24회 홍천 인삼·한우 명품축제 입점상가 모집 공고 지원대상 일반인": {
+    "name": "문화포털 지원사업",
+    "title": "제24회 홍천 인삼·한우 명품축제 입점상가 모집 공고 지원대상 일반인",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228727&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|2026 예술산업보증 9월(6차) 공모 안내(9.1.(화)~9.10.(목": {
+    "name": "문화포털 지원사업",
+    "title": "2026 예술산업보증 9월(6차) 공모 안내(9.1.(화)~9.10.(목), 16:00) 지원대상 예술인,기업·단체",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228714&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|2026 경남글로벌게임센터 글로벌 전시 지원 운영 지스타 경남공동관 참여": {
+    "name": "문화포털 지원사업",
+    "title": "2026 경남글로벌게임센터 글로벌 전시 지원 운영 지스타 경남공동관 참여기업 모집 공고 지원대상 기업·단체",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228666&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|<2026 동작 빵도동 축제> 빵 판매부스 모집 공고 지원대상 일반인": {
+    "name": "문화포털 지원사업",
+    "title": "<2026 동작 빵도동 축제> 빵 판매부스 모집 공고 지원대상 일반인",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228423&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|2026 강원문화재단 「청년 ESG 동행단」 모집 지원대상 일반인": {
+    "name": "문화포털 지원사업",
+    "title": "2026 강원문화재단 「청년 ESG 동행단」 모집 지원대상 일반인",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228181&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|2026년 4분기 행복북구생활문화센터 정기대관 신청공고 지원대상 일반인,": {
+    "name": "문화포털 지원사업",
+    "title": "2026년 4분기 행복북구생활문화센터 정기대관 신청공고 지원대상 일반인,예술인,기업·단체",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228178&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|2026 경기문화예술교육 광역-기초협력형연수_경기 동북권 \"탁탁, 톡톡\"": {
+    "name": "문화포털 지원사업",
+    "title": "2026 경기문화예술교육 광역-기초협력형연수_경기 동북권 \"탁탁, 톡톡\" 참여자 모집 지원대상 예술인,관련종사자",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228115&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  }
+}
