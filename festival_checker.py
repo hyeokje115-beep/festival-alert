@@ -1,100 +1,132 @@
 #!/usr/bin/env python3
 """
-visitkorea 축제 캘린더 신규 등록 알림 봇
-새 축제가 등록되면 ntfy.sh를 통해 핸드폰으로 알림을 보냅니다.
+다중 사이트 공모사업 알림 봇
+새 게시물이 등록되면 ntfy.sh를 통해 핸드폰으로 알림을 보냅니다.
 """
 
-import json, os, sys
-from datetime import datetime, timedelta
+import json, os, re
+from datetime import datetime
 from playwright.sync_api import sync_playwright
 import requests
 
 # ── 설정 ─────────────────────────────────────────────────────────────────
-NTFY_TOPIC  = os.environ.get("NTFY_TOPIC", "")   # GitHub Secret에서 주입
+NTFY_TOPIC  = os.environ.get("NTFY_TOPIC", "")
 NTFY_SERVER = "https://ntfy.sh"
-KNOWN_FILE  = "known_festivals.json"
-BASE_URL    = "https://korean.visitkorea.or.kr/kfes/list/festivalCalendar.do"
-LOOK_AHEAD_MONTHS = 3   # 현재 달 포함 몇 달 앞까지 체크
+KNOWN_FILE  = "known_posts.json"
+KEYWORDS    = ["축제", "전시", "체험", "공연"]
+
+SITES = [
+    {
+        "name": "아트누리",
+        "url": "https://www.artnuri.or.kr/crawler/info/search.do?key=2301170002",
+        "type": "generic",
+    },
+    {
+        "name": "문화포털 지원사업",
+        "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/list.do?pageIndex=1&menuNo=200104&hidSubType=&sPeriod=&sWord=&searchPageUnit=10&chkBDatas=&chkSDatas=&chkGDatas=&chkRDatas=&searchFldCd=&sSdate=&sEdate=&searchSttscd=S&sSort=2&clctInstSeCd=&trgtInstCd=CT00000&clctFldCd=",
+        "type": "generic",
+    },
+    {
+        "name": "보조사업포털",
+        "url": "https://www.bojo.go.kr/bojo.do",
+        "type": "bojo",   # 키워드 검색 필요
+    },
+    {
+        "name": "경기도문화재단",
+        "url": "https://gdctf.or.kr/front/M0000184/article/list.do?pageIndex=1&cateId=&atcId=&searchType=title&searchKeyword=",
+        "type": "generic",
+    },
+]
 # ─────────────────────────────────────────────────────────────────────────
 
 
-def get_months_to_check():
-    now = datetime.now()
-    return [(
-        (now + timedelta(days=30 * i)).year,
-        (now + timedelta(days=30 * i)).month
-    ) for i in range(LOOK_AHEAD_MONTHS + 1)]
+def match_keyword(text):
+    return any(k in text for k in KEYWORDS)
 
 
-def scrape_all_festivals(months):
-    festivals = {}
+def scrape_generic(page, site):
+    """공통 게시판 스크래퍼 - 링크+제목 추출"""
+    posts = {}
+    page.goto(site["url"], wait_until="networkidle", timeout=40000)
+    page.wait_for_timeout(2000)
+
+    # 모든 링크 수집
+    for el in page.query_selector_all("a"):
+        try:
+            title = el.inner_text().strip().replace("\n", " ")
+            href  = el.get_attribute("href") or ""
+            if not title or len(title) < 4 or not match_keyword(title):
+                continue
+
+            # 고유 ID 생성
+            post_id = f"{site['name']}|{href or title[:30]}"
+            posts[post_id] = {
+                "name": site["name"],
+                "title": title[:80],
+                "url": make_abs(href, site["url"]),
+                "first_seen": datetime.now().strftime("%Y-%m-%d"),
+            }
+        except Exception:
+            pass
+    return posts
+
+
+def scrape_bojo(page, site):
+    """보조사업포털 - 키워드별 검색"""
+    posts = {}
+    for kw in KEYWORDS:
+        try:
+            search_url = f"https://www.bojo.go.kr/bojo.do?menuNo=1000&searchWord={kw}"
+            page.goto(search_url, wait_until="networkidle", timeout=40000)
+            page.wait_for_timeout(2000)
+
+            for el in page.query_selector_all("a"):
+                title = el.inner_text().strip().replace("\n", " ")
+                href  = el.get_attribute("href") or ""
+                if not title or len(title) < 4:
+                    continue
+                post_id = f"보조사업포털|{href or title[:30]}"
+                posts[post_id] = {
+                    "name": "보조사업포털",
+                    "title": title[:80],
+                    "url": make_abs(href, site["url"]),
+                    "first_seen": datetime.now().strftime("%Y-%m-%d"),
+                }
+        except Exception as e:
+            print(f"  [!] bojo 키워드 '{kw}' 오류: {e}")
+    return posts
+
+
+def make_abs(href, base):
+    if not href:
+        return base
+    if href.startswith("http"):
+        return href
+    from urllib.parse import urljoin
+    return urljoin(base, href)
+
+
+def scrape_all():
+    all_posts = {}
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
         page = browser.new_page(user_agent=(
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
         ))
-        for year, month in months:
-            url = f"{BASE_URL}?selYearMonth={year}{month:02d}"
-            print(f"  ↳ {year}년 {month}월 스캔 중...")
-            page.goto(url, wait_until="networkidle", timeout=40_000)
-
-            # 각 날짜 클릭 → 해당 날 축제 로드 → 파싱
-            day_cells = page.query_selector_all("td")
-            clicked = set()
-            for cell in day_cells:
-                txt = cell.inner_text().strip()[:2]
-                if not txt.isdigit() or txt in clicked:
-                    continue
-                clicked.add(txt)
-                try:
-                    cell.click()
-                    page.wait_for_timeout(700)
-                    festivals.update(_parse_cards(page))
-                except Exception:
-                    pass
-
-            festivals.update(_parse_cards(page))
+        for site in SITES:
+            print(f"  ↳ [{site['name']}] 스캔 중...")
+            try:
+                if site["type"] == "bojo":
+                    posts = scrape_bojo(page, site)
+                else:
+                    posts = scrape_generic(page, site)
+                print(f"     → {len(posts)}개 감지")
+                all_posts.update(posts)
+            except Exception as e:
+                print(f"     [!] 오류: {e}")
         browser.close()
-    return festivals
-
-
-def _parse_cards(page):
-    result = {}
-    for link in page.query_selector_all("a[href*='fstvlCntntsId']"):
-        href = link.get_attribute("href") or ""
-        fid = ""
-        for seg in href.replace("?", "&").split("&"):
-            if seg.startswith("fstvlCntntsId="):
-                fid = seg.split("=", 1)[1]
-                break
-        if not fid or fid in result:
-            continue
-
-        name = period = region = ""
-        try:
-            el = link.query_selector("strong, .tit, h3, h4")
-            name = (el or link).inner_text().strip()[:60]
-        except Exception:
-            pass
-        try:
-            for span in link.query_selector_all("span, p, li, em"):
-                t = span.inner_text().strip()
-                if "~" in t and "." in t and not period:
-                    period = t
-                elif any(k in t for k in ["도 ", "시 ", "군 ", "구 "]) and not region:
-                    region = t
-        except Exception:
-            pass
-
-        result[fid] = {
-            "name": name or f"축제_{fid[:8]}",
-            "period": period,
-            "region": region,
-            "url": f"https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId={fid}",
-            "first_seen": datetime.now().strftime("%Y-%m-%d"),
-        }
-    return result
+    return all_posts
 
 
 def load_known():
@@ -115,8 +147,8 @@ def send_ntfy(title, body, click_url=""):
         return
     headers = {
         "Title": title.encode("utf-8"),
-        "Priority": "default",
-        "Tags": "tada",
+        "Priority": "high",
+        "Tags": "loudspeaker",
     }
     if click_url:
         headers["Click"] = click_url
@@ -126,39 +158,39 @@ def send_ntfy(title, body, click_url=""):
         headers=headers,
         timeout=10,
     )
-    print(f"  [{'✓' if r.status_code==200 else '✗'}] {title}")
+    print(f"  [{'✓' if r.status_code==200 else '✗'}] 알림 전송: {title}")
 
 
 def main():
-    print(f"\n축제 알림 봇 시작: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    months  = get_months_to_check()
-    current = scrape_all_festivals(months)
+    print(f"\n공모사업 알림 봇 시작: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    current = scrape_all()
     known   = load_known()
     new_items = {k: v for k, v in current.items() if k not in known}
 
-    print(f"전체: {len(current)}개 | 신규: {len(new_items)}개")
+    print(f"\n전체: {len(current)}개 | 신규: {len(new_items)}개")
 
     if new_items:
-        vals = list(new_items.values())
-        if len(vals) == 1:
-            f = vals[0]
-            send_ntfy(
-                title=f"🎉 새 축제: {f['name']}",
-                body=f"{f['period']}\n{f['region']}",
-                click_url=f["url"],
-            )
-        else:
-            summary = "\n".join(
-                f"• {v['name']} ({v['region'] or v['period'][:12]})"
-                for v in vals[:10]
-            )
-            if len(vals) > 10:
-                summary += f"\n… 외 {len(vals)-10}개"
-            send_ntfy(
-                title=f"🎉 새 축제 {len(vals)}개 등록!",
-                body=summary,
-                click_url=BASE_URL,
-            )
+        # 사이트별로 묶어서 알림
+        by_site = {}
+        for v in new_items.values():
+            by_site.setdefault(v["name"], []).append(v)
+
+        for site_name, items in by_site.items():
+            if len(items) == 1:
+                item = items[0]
+                send_ntfy(
+                    title=f"📢 [{site_name}] 새 공모",
+                    body=item["title"],
+                    click_url=item["url"],
+                )
+            else:
+                body = "\n".join(f"• {i['title']}" for i in items[:10])
+                if len(items) > 10:
+                    body += f"\n… 외 {len(items)-10}개"
+                send_ntfy(
+                    title=f"📢 [{site_name}] 새 공모 {len(items)}개",
+                    body=body,
+                )
 
     known.update(current)
     save_known(known)
