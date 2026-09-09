@@ -191,6 +191,12 @@ def main():
                     title=f"📢 [{site_name}] 새 공모 {len(items)}개",
                     body=body,
                 )
+    else:
+        send_ntfy(
+            title="✅ 신규 공모 없음",
+            body=f"확인 시각: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+        )
+
 
     known.update(current)
     save_known(known)
