@@ -131,5 +131,68 @@
     "deadline": "",
     "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228115&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
     "first_seen": "2026-09-09"
+  },
+  "아트누리|https://adr.copyright.or.kr/web/main/mainPage.do": {
+    "name": "아트누리",
+    "title": "저작권 조정신청",
+    "deadline": "",
+    "url": "https://adr.copyright.or.kr/web/main/mainPage.do",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228776&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1": {
+    "name": "문화포털 지원사업",
+    "title": "2026년도 수원SK아트리움 제3차 수시대관 공고 지원대상 예술인,기업·단체",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228776&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "문화포털 지원사업|/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228178&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1": {
+    "name": "문화포털 지원사업",
+    "title": "2026년 4분기 행복북구생활문화센터 정기대관 신청공고 지원대상 일반인,예술인,기업·단체",
+    "deadline": "",
+    "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228178&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000259/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "동구 대표 시민 참여형 문화축제 사업",
+    "deadline": "",
+    "url": "https://gdctf.or.kr/front/M0000259/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000215/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "남도 미식 체험 관광 콘텐츠 개발 사업",
+    "deadline": "",
+    "url": "https://gdctf.or.kr/front/M0000215/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000244/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "충장축제 특별기획 프로그램",
+    "deadline": "",
+    "url": "https://gdctf.or.kr/front/M0000244/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000242/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "글로벌 축제 교류·협력 사업",
+    "deadline": "",
+    "url": "https://gdctf.or.kr/front/M0000242/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000140/culture/list.do": {
+    "name": "경기도문화재단",
+    "title": "문화·전시·교육·체험",
+    "deadline": "",
+    "url": "https://gdctf.or.kr/front/M0000140/culture/list.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|#": {
+    "name": "경기도문화재단",
+    "title": "제5회 광주버스킹월드컵 「버스킹프린지 넌버벌 공연」 참가자 모집 공고",
+    "deadline": "",
+    "url": "https://gdctf.or.kr/front/M0000184/article/list.do?pageIndex=1&cateId=&atcId=&searchType=title&searchKeyword=",
+    "first_seen": "2026-09-09"
   }
 }
