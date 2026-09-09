@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
 다중 사이트 공모사업 알림 봇
-새 게시물이 등록되면 ntfy.sh를 통해 핸드폰으로 알림을 보냅니다.
 """
 
-import json, os
+import json, os, re
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 import requests
@@ -13,60 +12,138 @@ import requests
 NTFY_TOPIC  = os.environ.get("NTFY_TOPIC", "")
 NTFY_SERVER = "https://ntfy.sh"
 KNOWN_FILE  = "known_posts.json"
-KEYWORDS    = ["축제", "전시", "체험", "공연", "지원사업", "모집", "공모"]
+
+# 공모 관련 키워드 (제목에 하나라도 있으면 감지)
+POST_KEYWORDS = ["공고", "모집", "신청", "선정", "공모", "지원사업",
+                 "축제", "전시", "체험", "공연", "지원금", "보조금"]
+
+# 메뉴/네비 제외 키워드 (이것만 있으면 제외)
+MENU_WORDS = ["찾기", "바로가기", "다운로드", "통계", "캘린더",
+              "로그인", "회원가입", "마이페이지", "사이트맵"]
 
 SITES = [
     {
         "name": "아트누리",
         "url": "https://www.artnuri.or.kr/crawler/info/search.do?key=2301170002",
         "type": "generic",
+        "base": "https://www.artnuri.or.kr",
     },
     {
         "name": "문화포털 지원사업",
         "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/list.do?pageIndex=1&menuNo=200104&hidSubType=&sPeriod=&sWord=&searchPageUnit=10&chkBDatas=&chkSDatas=&chkGDatas=&chkRDatas=&searchFldCd=&sSdate=&sEdate=&searchSttscd=S&sSort=2&clctInstSeCd=&trgtInstCd=CT00000&clctFldCd=",
-        "type": "generic",
+        "type": "culture",
+        "base": "https://www.culture.go.kr",
     },
     {
         "name": "보조사업포털",
         "url": "https://www.bojo.go.kr/bojo.do?menuNo=1000",
         "type": "bojo",
+        "base": "https://www.bojo.go.kr",
     },
     {
         "name": "경기도문화재단",
         "url": "https://gdctf.or.kr/front/M0000184/article/list.do?pageIndex=1&cateId=&atcId=&searchType=title&searchKeyword=",
         "type": "generic",
+        "base": "https://gdctf.or.kr",
     },
 ]
 # ─────────────────────────────────────────────────────────────────────────
 
-def match_keyword(text):
-    # 메뉴/네비 제외: 너무 짧거나 연도/공고 없으면 제외
-    if len(text) < 8:
+
+def is_valid_post(text):
+    if len(text) < 6:
         return False
-    
-    # 실제 공모 제목 패턴
-    post_keywords = ["공고", "모집", "신청", "선정", "공모", "지원사업", "축제", "전시", "체험", "공연"]
-    has_post_keyword = any(k in text for k in post_keywords)
-    
-    # 연도 포함 여부
-    has_year = any(str(y) in text for y in [2024, 2025, 2026])
-    
-    # 메뉴성 텍스트 제외
-    menu_words = ["찾기", "바로가기", "다운로드", "안내", "통계", "캘린더", "목록", "로그인", "회원가입"]
-    is_menu = any(m in text for m in menu_words)
-    
-    if is_menu:
+    # 메뉴성 텍스트만으로 이루어진 경우 제외
+    if all(m in text for m in MENU_WORDS[:3]):
         return False
-    
-    return has_post_keyword or has_year
+    # 공모 키워드 하나라도 포함
+    return any(k in text for k in POST_KEYWORDS)
+
 
 def make_abs(href, base):
-    if not href or href.startswith("javascript"):
+    if not href or href.startswith("javascript") or href == "#":
         return base
     if href.startswith("http"):
         return href
     from urllib.parse import urljoin
     return urljoin(base, href)
+
+
+def extract_deadline(text):
+    """날짜 패턴 추출"""
+    patterns = [
+        r'\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2}',  # 2025.08.31
+        r'\d{4}년\s*\d{1,2}월\s*\d{1,2}일',    # 2025년 8월 31일
+    ]
+    for pat in patterns:
+        matches = re.findall(pat, text)
+        if matches:
+            return matches[-1]  # 보통 마지막 날짜가 마감일
+    return ""
+
+
+def scrape_culture(page, site):
+    """문화포털 전용 스크래퍼 - 목록 테이블 직접 파싱"""
+    posts = {}
+    try:
+        page.goto(site["url"], wait_until="networkidle", timeout=40000)
+        page.wait_for_timeout(3000)
+
+        # 목록 행 탐색
+        rows = page.query_selector_all("table tbody tr, ul.list li, .bd-list li, .support-list li")
+        print(f"     문화포털 rows: {len(rows)}개")
+
+        for row in rows:
+            try:
+                # 제목 링크 찾기
+                title_el = row.query_selector("a")
+                if not title_el:
+                    continue
+                title = title_el.inner_text().strip().replace("\n", " ")
+                href  = title_el.get_attribute("href") or ""
+
+                if not title or len(title) < 4:
+                    continue
+
+                # 행 전체 텍스트에서 마감일 추출
+                row_text = row.inner_text()
+                deadline = extract_deadline(row_text)
+
+                post_id = f"{site['name']}|{title[:40]}"
+                posts[post_id] = {
+                    "name": site["name"],
+                    "title": title[:80],
+                    "deadline": deadline,
+                    "url": make_abs(href, site["base"]),
+                    "first_seen": datetime.now().strftime("%Y-%m-%d"),
+                }
+            except Exception:
+                pass
+
+        # rows가 0이면 일반 링크 방식으로 폴백
+        if not posts:
+            for el in page.query_selector_all("a"):
+                try:
+                    title = el.inner_text().strip().replace("\n", " ")
+                    href  = el.get_attribute("href") or ""
+                    if not title or len(title) < 6:
+                        continue
+                    if not is_valid_post(title):
+                        continue
+                    post_id = f"{site['name']}|{title[:40]}"
+                    posts[post_id] = {
+                        "name": site["name"],
+                        "title": title[:80],
+                        "deadline": "",
+                        "url": make_abs(href, site["base"]),
+                        "first_seen": datetime.now().strftime("%Y-%m-%d"),
+                    }
+                except Exception:
+                    pass
+
+    except Exception as e:
+        print(f"  [!] 문화포털 오류: {e}")
+    return posts
 
 
 def scrape_generic(page, site):
@@ -75,71 +152,86 @@ def scrape_generic(page, site):
     page.goto(site["url"], wait_until="networkidle", timeout=40000)
     page.wait_for_timeout(2000)
 
-    for el in page.query_selector_all("a"):
-        try:
-            title = el.inner_text().strip().replace("\n", " ")
-            href  = el.get_attribute("href") or ""
-            if not title or len(title) < 4 or not match_keyword(title):
-                continue
-
-            # 마감일 추출 시도
-            deadline = ""
+    # 테이블 행 우선 시도
+    rows = page.query_selector_all("table tbody tr, .board-list tr, ul.list li")
+    if rows:
+        for row in rows:
             try:
-                parent = el.evaluate_handle("el => el.closest('tr, li, div.item')")
-                if parent:
-                    spans = parent.query_selector_all("td, span, p")
-                    for span in spans:
-                        t = span.inner_text().strip()
-                        if ("~" in t or "까지" in t) and ("." in t or "-" in t):
-                            deadline = t[:30]
-                            break
+                title_el = row.query_selector("a")
+                if not title_el:
+                    continue
+                title = title_el.inner_text().strip().replace("\n", " ")
+                href  = title_el.get_attribute("href") or ""
+                if not title or len(title) < 6:
+                    continue
+                if not is_valid_post(title):
+                    continue
+                row_text = row.inner_text()
+                deadline = extract_deadline(row_text)
+                post_id = f"{site['name']}|{title[:40]}"
+                posts[post_id] = {
+                    "name": site["name"],
+                    "title": title[:80],
+                    "deadline": deadline,
+                    "url": make_abs(href, site["base"]),
+                    "first_seen": datetime.now().strftime("%Y-%m-%d"),
+                }
             except Exception:
                 pass
 
-            post_id = f"{site['name']}|{href or title[:40]}"
-            posts[post_id] = {
-                "name": site["name"],
-                "title": title[:80],
-                "deadline": deadline,
-                "url": make_abs(href, site["url"]),
-                "first_seen": datetime.now().strftime("%Y-%m-%d"),
-            }
-        except Exception:
-            pass
+    # 테이블 없으면 전체 링크 방식
+    if not posts:
+        for el in page.query_selector_all("a"):
+            try:
+                title = el.inner_text().strip().replace("\n", " ")
+                href  = el.get_attribute("href") or ""
+                if not title or len(title) < 6:
+                    continue
+                if not is_valid_post(title):
+                    continue
+                post_id = f"{site['name']}|{title[:40]}"
+                posts[post_id] = {
+                    "name": site["name"],
+                    "title": title[:80],
+                    "deadline": "",
+                    "url": make_abs(href, site["base"]),
+                    "first_seen": datetime.now().strftime("%Y-%m-%d"),
+                }
+            except Exception:
+                pass
+
     return posts
 
 
 def scrape_bojo(page, site):
     """보조사업포털 - 키워드 자동 입력 후 검색"""
     posts = {}
-    for kw in KEYWORDS:
+    for kw in ["축제", "공연", "전시", "체험"]:
         try:
             print(f"     bojo 키워드 '{kw}' 검색 중...")
             page.goto("https://www.bojo.go.kr/bojo.do?menuNo=1000",
                       wait_until="networkidle", timeout=40000)
             page.wait_for_timeout(2000)
 
-            # 검색창 키워드 입력
-            search_input = page.query_selector(
-                "input[name='searchWord'], input[placeholder*='공모'], input[type='text']"
-            )
+            # 검색창 입력
+            search_input = page.query_selector("input[name='searchWord'], input[type='text']")
             if search_input:
-                search_input.fill(kw)
+                search_input.click()
+                search_input.fill("")
+                search_input.type(kw)
                 page.wait_for_timeout(500)
 
             # 조회 버튼 클릭
-            search_btn = page.query_selector(
-                "button.btn_search, button:has-text('조회'), input[type='submit']"
-            )
+            search_btn = page.query_selector("button:has-text('조회'), .btn_search, input[type='submit']")
             if search_btn:
                 search_btn.click()
                 page.wait_for_timeout(3000)
 
-            # 결과 목록 파싱
-            rows = page.query_selector_all("table tbody tr, .list_area li, .board_list li")
+            # 결과 파싱
+            rows = page.query_selector_all("table tbody tr")
             for row in rows:
                 try:
-                    title_el = row.query_selector("td.subject a, .tit a, a.title, td a")
+                    title_el = row.query_selector("td a, a")
                     if not title_el:
                         continue
                     title = title_el.inner_text().strip()
@@ -147,15 +239,10 @@ def scrape_bojo(page, site):
                     if not title or len(title) < 4:
                         continue
 
-                    # 마감일 추출
-                    deadline = ""
-                    for td in row.query_selector_all("td, span, p"):
-                        t = td.inner_text().strip()
-                        if ("~" in t or "까지" in t) and ("." in t or "-" in t):
-                            deadline = t[:30]
-                            break
+                    row_text = row.inner_text()
+                    deadline = extract_deadline(row_text)
 
-                    post_id = f"보조사업포털|{title[:40]}"
+                    post_id = f"보조사업포털|{kw}|{title[:40]}"
                     posts[post_id] = {
                         "name": "보조사업포털",
                         "title": title[:80],
@@ -167,7 +254,7 @@ def scrape_bojo(page, site):
                     pass
 
         except Exception as e:
-            print(f"  [!] bojo 키워드 '{kw}' 오류: {e}")
+            print(f"  [!] bojo '{kw}' 오류: {e}")
     return posts
 
 
@@ -184,6 +271,8 @@ def scrape_all():
             try:
                 if site["type"] == "bojo":
                     posts = scrape_bojo(page, site)
+                elif site["type"] == "culture":
+                    posts = scrape_culture(page, site)
                 else:
                     posts = scrape_generic(page, site)
                 print(f"     → {len(posts)}개 감지")
@@ -249,15 +338,17 @@ def main():
                     click_url=item["url"],
                 )
             else:
-                body = "\n".join(
-                    f"• {i['title']}" + (f" (~{i['deadline'][-10:]})" if i.get("deadline") else "")
-                    for i in items[:10]
-                )
+                body_lines = []
+                for i in items[:10]:
+                    line = f"• {i['title']}"
+                    if i.get("deadline"):
+                        line += f" (~{i['deadline']})"
+                    body_lines.append(line)
                 if len(items) > 10:
-                    body += f"\n… 외 {len(items)-10}개"
+                    body_lines.append(f"… 외 {len(items)-10}개")
                 send_ntfy(
                     title=f"📢 [{site_name}] 새 공모 {len(items)}개",
-                    body=body,
+                    body="\n".join(body_lines),
                 )
     else:
         send_ntfy(
