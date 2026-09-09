@@ -35,6 +35,6 @@ jobs:
         run: |
           git config user.name "festival-bot"
           git config user.email "bot@example.com"
-          git add known_festivals.json
+          git add known_posts.json
           git diff --staged --quiet || git commit -m "update known festivals [skip ci]"
           git push
