@@ -2,8 +2,8 @@ name: Festival Alert
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 매일 오전 9시 KST (UTC 00:00)
-  workflow_dispatch:        # 수동 실행 가능
+    - cron: "*/5 * * * *"   # 5분마다
+  workflow_dispatch:
 
 jobs:
   check:
