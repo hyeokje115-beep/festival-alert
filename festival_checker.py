@@ -39,10 +39,26 @@ SITES = [
 ]
 # ─────────────────────────────────────────────────────────────────────────
 
-
 def match_keyword(text):
-    return any(k in text for k in KEYWORDS)
-
+    # 메뉴/네비 제외: 너무 짧거나 연도/공고 없으면 제외
+    if len(text) < 8:
+        return False
+    
+    # 실제 공모 제목 패턴
+    post_keywords = ["공고", "모집", "신청", "선정", "공모", "지원사업", "축제", "전시", "체험", "공연"]
+    has_post_keyword = any(k in text for k in post_keywords)
+    
+    # 연도 포함 여부
+    has_year = any(str(y) in text for y in [2024, 2025, 2026])
+    
+    # 메뉴성 텍스트 제외
+    menu_words = ["찾기", "바로가기", "다운로드", "안내", "통계", "캘린더", "목록", "로그인", "회원가입"]
+    is_menu = any(m in text for m in menu_words)
+    
+    if is_menu:
+        return False
+    
+    return has_post_keyword or has_year
 
 def make_abs(href, base):
     if not href or href.startswith("javascript"):
