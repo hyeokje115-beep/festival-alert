@@ -22,5 +22,1091 @@
     "title": "<2026 동작 빵도동 축제> 빵 판매부스 모집 공고 지원대상 일반인",
     "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228423&menuNo=200104&sPeriod=&sSdate=&sEdate=&sSort=2&pageIndex=1",
     "first_seen": "2026-09-09"
+  },
+  "보조사업포털|#skin_content": {
+    "name": "보조사업포털",
+    "title": "본문 바로가기",
+    "url": "https://www.bojo.go.kr/bojo.do#skin_content",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|https://www.google.com/intl/ko_kr/chrome/": {
+    "name": "보조사업포털",
+    "title": "크롬 브라우저 다운로드",
+    "url": "https://www.google.com/intl/ko_kr/chrome/",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|https://www.microsoft.com/ko-kr/edge/download?form=MA13FJ": {
+    "name": "보조사업포털",
+    "title": "엣지 브라우저 다운로드",
+    "url": "https://www.microsoft.com/ko-kr/edge/download?form=MA13FJ",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|https://www.gosims.go.kr/hf/login/loginView.do": {
+    "name": "보조사업포털",
+    "title": "업무시스템",
+    "url": "https://www.gosims.go.kr/hf/login/loginView.do",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|https://www.losims.go.kr/lss.do": {
+    "name": "보조사업포털",
+    "title": "업무시스템",
+    "url": "https://www.losims.go.kr/lss.do",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/retrieveReport.do','1',2,'참여와 소통','부정수급 제보');": {
+    "name": "보조사업포털",
+    "title": "부정수급제보",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/retrieveReport.do','1',2,'참여와 소통','부정수급 제보');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_history_bak();": {
+    "name": "보조사업포털",
+    "title": "홈으로 이동",
+    "url": "javascript:f_history_bak();",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10020','/ba/retrieveGovsuby.do','1',2,'소개','보조금이란?')": {
+    "name": "보조사업포털",
+    "title": "보조금이란?",
+    "url": "javascript:pageInit_main('USRM_10020','/ba/retrieveGovsuby.do','1',2,'소개','보조금이란?')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개')": {
+    "name": "보조사업포털",
+    "title": "보조금시스템소개",
+    "url": "javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10020','/ba/getBA004100View.do','1',2,'소개','보조금 관련법령')": {
+    "name": "보조사업포털",
+    "title": "보조금 관련법령",
+    "url": "javascript:pageInit_main('USRM_10020','/ba/getBA004100View.do','1',2,'소개','보조금 관련법령')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10138','/ba/getBA007100View.do','1',3,'소개','보조금 교육 및 홍보자료','보조금 영상자료')": {
+    "name": "보조사업포털",
+    "title": "보조금 영상자료",
+    "url": "javascript:pageInit_main('USRM_10138','/ba/getBA007100View.do','1',3,'소개','보조금 교육 및 홍보자료','보조금 영상자료')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10138','/ba/getBA006100View.do','1',3,'소개','보조금 교육 및 홍보자료','보조금 웹툰')": {
+    "name": "보조사업포털",
+    "title": "보조금 웹툰",
+    "url": "javascript:pageInit_main('USRM_10138','/ba/getBA006100View.do','1',3,'소개','보조금 교육 및 홍보자료','보조금 웹툰')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개','','1');": {
+    "name": "보조사업포털",
+    "title": "보조금시스템이란?",
+    "url": "javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개','','1');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개','','3');": {
+    "name": "보조사업포털",
+    "title": "보조금시스템 근거법령",
+    "url": "javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개','','3');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개','','2');": {
+    "name": "보조사업포털",
+    "title": "e나라도움 주요기능",
+    "url": "javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개','','2');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개','','5');": {
+    "name": "보조사업포털",
+    "title": "보탬e 주요기능",
+    "url": "javascript:pageInit_main('USRM_10020','/ba/retrieveSysIntr.do','1',2,'소개','보조금시스템소개','','5');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_popupMenuView('용어사전','/ja/getJA005101View.do','800px','90vh',0)": {
+    "name": "보조사업포털",
+    "title": "보조사업에 대한 전문 용어 사전                                  용어사전",
+    "url": "javascript:f_popupMenuView('용어사전','/ja/getJA005101View.do','800px','90vh',0)",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업 목록','');": {
+    "name": "보조사업포털",
+    "title": "맞춤형보조사업찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업 목록','');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업 목록')": {
+    "name": "보조사업포털",
+    "title": "보조사업 목록",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업 목록')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA002101View.do','1',2,'맞춤형보조사업찾기','보조사업 TOP10')": {
+    "name": "보조사업포털",
+    "title": "보조사업 TOP10",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA002101View.do','1',2,'맞춤형보조사업찾기','보조사업 TOP10')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA006001View.do','1',2,'맞춤형보조사업찾기','간편보조사업찾기')": {
+    "name": "보조사업포털",
+    "title": "간편보조사업찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA006001View.do','1',2,'맞춤형보조사업찾기','간편보조사업찾기')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','서비스주제별 찾기','0');": {
+    "name": "보조사업포털",
+    "title": "서비스주제별 찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','서비스주제별 찾기','0');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','생애주기별 찾기','1');": {
+    "name": "보조사업포털",
+    "title": "생애주기별 찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','생애주기별 찾기','1');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','성별 찾기','2');": {
+    "name": "보조사업포털",
+    "title": "성별 찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','성별 찾기','2');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','가구구성유형별 찾기','3');": {
+    "name": "보조사업포털",
+    "title": "가구구성유형별 찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','가구구성유형별 찾기','3');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','경제활동별 찾기','4');": {
+    "name": "보조사업포털",
+    "title": "경제활동별 찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','경제활동별 찾기','4');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','소득기준별 찾기','5');": {
+    "name": "보조사업포털",
+    "title": "소득기준별 찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','소득기준별 찾기','5');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','교육단위별 찾기','6');": {
+    "name": "보조사업포털",
+    "title": "교육단위별 찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','교육단위별 찾기','6');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','기업규모별 찾기','7');": {
+    "name": "보조사업포털",
+    "title": "기업규모별 찾기",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록','기업규모별 찾기','7');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_getCA006002Popup('.depLi1')": {
+    "name": "보조사업포털",
+    "title": "성별, 지역, 나이로 간편하게 찾는 맞춤 보조금                   간편보조사업찾기",
+    "url": "javascript:f_getCA006002Popup('.depLi1')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업목록','');": {
+    "name": "보조사업포털",
+    "title": "공모사업찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업목록','');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업목록')": {
+    "name": "보조사업포털",
+    "title": "공모사업목록",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업목록')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA002101View.do','1',2,'공모사업찾기','공모사업 TOP10')": {
+    "name": "보조사업포털",
+    "title": "공모사업 TOP10",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA002101View.do','1',2,'공모사업찾기','공모사업 TOP10')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','기간별 찾기','0');": {
+    "name": "보조사업포털",
+    "title": "기간별 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','기간별 찾기','0');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','마감일자별 찾기','1');": {
+    "name": "보조사업포털",
+    "title": "마감일자별 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','마감일자별 찾기','1');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','기관별 찾기','2');": {
+    "name": "보조사업포털",
+    "title": "기관별 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','기관별 찾기','2');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','사업주제별 찾기','3');": {
+    "name": "보조사업포털",
+    "title": "사업주제별 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','사업주제별 찾기','3');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','지원예산별 찾기','4');": {
+    "name": "보조사업포털",
+    "title": "지원예산별 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','지원예산별 찾기','4');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','성별 찾기','5');": {
+    "name": "보조사업포털",
+    "title": "성별 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','성별 찾기','5');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','기업규모별 찾기','6');": {
+    "name": "보조사업포털",
+    "title": "기업규모별 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','기업규모별 찾기','6');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','가구구성별 찾기','7');": {
+    "name": "보조사업포털",
+    "title": "가구구성별 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','가구구성별 찾기','7');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','키워드로 찾기','8');": {
+    "name": "보조사업포털",
+    "title": "키워드로 찾기",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록','키워드로 찾기','8');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_getDA008100Popup('.depLi2');": {
+    "name": "보조사업포털",
+    "title": "마감일자 3일 이내공모사업                                마감임박공모",
+    "url": "javascript:f_getDA008100Popup('.depLi2');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_getDA009000Popup('.depLi2');": {
+    "name": "보조사업포털",
+    "title": "사업주제별로 간편하게찾아보는 최근 공모                      간편공모사업찾기",
+    "url": "javascript:f_getDA009000Popup('.depLi2');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10109','/ea/getEA001101View.do','1',3,'정보공시','보조사업자 정보공시','보조사업자공시 개요');": {
+    "name": "보조사업포털",
+    "title": "정보공시",
+    "url": "javascript:pageInit_main('USRM_10109','/ea/getEA001101View.do','1',3,'정보공시','보조사업자 정보공시','보조사업자공시 개요');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10109','/ea/getEA001101View.do','1',3,'정보공시','보조사업자 정보공시','보조사업자공시 개요')": {
+    "name": "보조사업포털",
+    "title": "보조사업자공시 개요",
+    "url": "javascript:pageInit_main('USRM_10109','/ea/getEA001101View.do','1',3,'정보공시','보조사업자 정보공시','보조사업자공시 개요')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10109','/ea/getEA001201View.do','1',3,'정보공시','보조사업자 정보공시','보조사업자공시 목록')": {
+    "name": "보조사업포털",
+    "title": "보조사업자공시 목록",
+    "url": "javascript:pageInit_main('USRM_10109','/ea/getEA001201View.do','1',3,'정보공시','보조사업자 정보공시','보조사업자공시 목록')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10120','/ea/getEA002100View.do','1',3,'정보공시','중요재산 정보공시','중요재산공시 개요')": {
+    "name": "보조사업포털",
+    "title": "중요재산공시 개요",
+    "url": "javascript:pageInit_main('USRM_10120','/ea/getEA002100View.do','1',3,'정보공시','중요재산 정보공시','중요재산공시 개요')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10120','/ea/getEA002202View.do','0',3,'정보공시','중요재산 정보공시','중요재산공시 현황')": {
+    "name": "보조사업포털",
+    "title": "중요재산공시 현황",
+    "url": "javascript:pageInit_main('USRM_10120','/ea/getEA002202View.do','0',3,'정보공시','중요재산 정보공시','중요재산공시 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10120','/ea/getEA002301View.do','1',3,'정보공시','중요재산 정보공시','중요재산공시 목록')": {
+    "name": "보조사업포털",
+    "title": "중요재산공시 목록",
+    "url": "javascript:pageInit_main('USRM_10120','/ea/getEA002301View.do','1',3,'정보공시','중요재산 정보공시','중요재산공시 목록')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10120','/ea/getEA002202View.do','0',3,'정보공시','중요재산 정보공시','중요재산 공시현황','2');": {
+    "name": "보조사업포털",
+    "title": "중앙관서별 중요재산 공시현황",
+    "url": "javascript:pageInit_main('USRM_10120','/ea/getEA002202View.do','0',3,'정보공시','중요재산 정보공시','중요재산 공시현황','2');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10120','/ea/getEA002202View.do','0',3,'정보공시','중요재산 정보공시','중요재산 공시현황','4');": {
+    "name": "보조사업포털",
+    "title": "연도별 중요재산 공시현황",
+    "url": "javascript:pageInit_main('USRM_10120','/ea/getEA002202View.do','0',3,'정보공시','중요재산 정보공시','중요재산 공시현황','4');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10126','/fa/getFA001100View.do','1',3,'통계센터','보조금','예산 현황');": {
+    "name": "보조사업포털",
+    "title": "통계센터",
+    "url": "javascript:pageInit_main('USRM_10126','/fa/getFA001100View.do','1',3,'통계센터','보조금','예산 현황');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10126','/fa/getFA001100View.do','1',3,'통계센터','보조금','예산 현황')": {
+    "name": "보조사업포털",
+    "title": "예산 현황",
+    "url": "javascript:pageInit_main('USRM_10126','/fa/getFA001100View.do','1',3,'통계센터','보조금','예산 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10126','/fa/getFA001200View.do','1',3,'통계센터','보조금','집행 현황')": {
+    "name": "보조사업포털",
+    "title": "집행 현황",
+    "url": "javascript:pageInit_main('USRM_10126','/fa/getFA001200View.do','1',3,'통계센터','보조금','집행 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10126','/fa/getFA001300View.do','1',3,'통계센터','보조금','비교 검색')": {
+    "name": "보조사업포털",
+    "title": "비교 검색",
+    "url": "javascript:pageInit_main('USRM_10126','/fa/getFA001300View.do','1',3,'통계센터','보조금','비교 검색')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10126','/fa/fa001/getFA001400QView.do','1',3,'통계센터','보조금','연도별 추이')": {
+    "name": "보조사업포털",
+    "title": "연도별 추이",
+    "url": "javascript:pageInit_main('USRM_10126','/fa/fa001/getFA001400QView.do','1',3,'통계센터','보조금','연도별 추이')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10127','/fa/fa002/getFA002101QView.do','1',3,'통계센터','보조사업','보조사업 현황')": {
+    "name": "보조사업포털",
+    "title": "보조사업 현황",
+    "url": "javascript:pageInit_main('USRM_10127','/fa/fa002/getFA002101QView.do','1',3,'통계센터','보조사업','보조사업 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10127','/fa/fa002/getFA002201QView.do','1',3,'통계센터','보조사업','수행단계별 현황')": {
+    "name": "보조사업포털",
+    "title": "수행단계별 현황",
+    "url": "javascript:pageInit_main('USRM_10127','/fa/fa002/getFA002201QView.do','1',3,'통계센터','보조사업','수행단계별 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10127','/fa/getFA002301View.do','1',3,'통계센터','보조사업','서비스 유형별 현황')": {
+    "name": "보조사업포털",
+    "title": "서비스 유형별 현황",
+    "url": "javascript:pageInit_main('USRM_10127','/fa/getFA002301View.do','1',3,'통계센터','보조사업','서비스 유형별 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10127','/fa/getFA002401View.do','1',3,'통계센터','보조사업','사업평가현황')": {
+    "name": "보조사업포털",
+    "title": "사업평가현황",
+    "url": "javascript:pageInit_main('USRM_10127','/fa/getFA002401View.do','1',3,'통계센터','보조사업','사업평가현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10127','/fa/getFA002501View.do','1',3,'통계센터','보조사업','공모사업 현황')": {
+    "name": "보조사업포털",
+    "title": "공모사업 현황",
+    "url": "javascript:pageInit_main('USRM_10127','/fa/getFA002501View.do','1',3,'통계센터','보조사업','공모사업 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10119','/fa/fa003/getFA003100QView.do','1',3,'통계센터','보조사업자','보조사업자 현황')": {
+    "name": "보조사업포털",
+    "title": "보조사업자 현황",
+    "url": "javascript:pageInit_main('USRM_10119','/fa/fa003/getFA003100QView.do','1',3,'통계센터','보조사업자','보조사업자 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10119','/fa/fa003/getFA003201View.do','1',3,'통계센터','보조사업자','보조사업자 유형별 현황')": {
+    "name": "보조사업포털",
+    "title": "보조사업자 유형별 현황",
+    "url": "javascript:pageInit_main('USRM_10119','/fa/fa003/getFA003201View.do','1',3,'통계센터','보조사업자','보조사업자 유형별 현황')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10119','/fa/fa003/getFA003300QView.do','1',3,'통계센터','보조사업자','보조사업자 연도별 추이')": {
+    "name": "보조사업포털",
+    "title": "보조사업자 연도별 추이",
+    "url": "javascript:pageInit_main('USRM_10119','/fa/fa003/getFA003300QView.do','1',3,'통계센터','보조사업자','보조사업자 연도별 추이')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10119','/fa/fa003/getFA003400View.do','1',3,'통계센터','보조사업자','수의계약현황(1천만원이상)')": {
+    "name": "보조사업포털",
+    "title": "수의계약현황(1천만원이상)",
+    "url": "javascript:pageInit_main('USRM_10119','/fa/fa003/getFA003400View.do','1',3,'통계센터','보조사업자','수의계약현황(1천만원이상)')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/getGA001100View.do','1',2,'참여와 소통','공지사항','');": {
+    "name": "보조사업포털",
+    "title": "참여와 소통",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/getGA001100View.do','1',2,'참여와 소통','공지사항','');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/getGA001100View.do','1',2,'참여와 소통','공지사항')": {
+    "name": "보조사업포털",
+    "title": "공지사항",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/getGA001100View.do','1',2,'참여와 소통','공지사항')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/retrieveReport.do','1',2,'참여와 소통','부정수급 제보')": {
+    "name": "보조사업포털",
+    "title": "부정수급 제보",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/retrieveReport.do','1',2,'참여와 소통','부정수급 제보')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/getGA007100View.do','1',2,'참여와 소통','사용자매뉴얼')": {
+    "name": "보조사업포털",
+    "title": "사용자매뉴얼",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/getGA007100View.do','1',2,'참여와 소통','사용자매뉴얼')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/retrieveOpnApi.do','1',2,'참여와 소통','공공데이터')": {
+    "name": "보조사업포털",
+    "title": "공공데이터",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/retrieveOpnApi.do','1',2,'참여와 소통','공공데이터')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/getGA008100View.do','1',2,'참여와 소통','자주묻는질문')": {
+    "name": "보조사업포털",
+    "title": "자주묻는질문",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/getGA008100View.do','1',2,'참여와 소통','자주묻는질문')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/getGA006100View.do','1',2,'참여와 소통','개인정보보호센터')": {
+    "name": "보조사업포털",
+    "title": "개인정보보호센터",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/getGA006100View.do','1',2,'참여와 소통','개인정보보호센터')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/getGA009100View.do','1',2,'참여와 소통','보조금 이외의 공공지원사업')": {
+    "name": "보조사업포털",
+    "title": "보조금 이외의 공공지원사업",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/getGA009100View.do','1',2,'참여와 소통','보조금 이외의 공공지원사업')",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/getGA008100View.do','1',2,'참여와 소통','자주묻는질문','자주묻는질문','1');": {
+    "name": "보조사업포털",
+    "title": "e나라도움 자주묻는질문",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/getGA008100View.do','1',2,'참여와 소통','자주묻는질문','자주묻는질문','1');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_11347','/ga/getGA007100View.do','1',3,'참여와 소통','자주묻는질문','사용자매뉴얼','1');": {
+    "name": "보조사업포털",
+    "title": "e나라도움 사용자매뉴얼",
+    "url": "javascript:pageInit_main('USRM_11347','/ga/getGA007100View.do','1',3,'참여와 소통','자주묻는질문','사용자매뉴얼','1');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10021','/ga/getGA008100View.do','1',2,'참여와 소통','자주묻는질문','자주묻는질문','2');": {
+    "name": "보조사업포털",
+    "title": "보탬e 자주묻는질문",
+    "url": "javascript:pageInit_main('USRM_10021','/ga/getGA008100View.do','1',2,'참여와 소통','자주묻는질문','자주묻는질문','2');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_11347','/ga/getGA007100View.do','1',3,'참여와 소통','자주묻는질문','사용자매뉴얼','2');": {
+    "name": "보조사업포털",
+    "title": "보탬e 사용자매뉴얼",
+    "url": "javascript:pageInit_main('USRM_11347','/ga/getGA007100View.do','1',3,'참여와 소통','자주묻는질문','사용자매뉴얼','2');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|http://idea.epeople.go.kr": {
+    "name": "보조사업포털",
+    "title": "정책제안",
+    "url": "http://idea.epeople.go.kr",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_popupMenuView('메일링서비스','/ja/getJA003000Popup.do','800px','90vh',5);": {
+    "name": "보조사업포털",
+    "title": "관심 사업에 대한 최신공모정보를 이메일로 받기                    메일링서비스",
+    "url": "javascript:f_popupMenuView('메일링서비스','/ja/getJA003000Popup.do','800px','90vh',5);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:sims.comm.setFocusObj($('.topNotiSet'));fn_notice_popup('N_00302570');": {
+    "name": "보조사업포털",
+    "title": "e나라도움 인터넷강의 신규과정(초보자를 위한 보조금 안심 사용 가이드) 개설 안내",
+    "url": "javascript:sims.comm.setFocusObj($('.topNotiSet'));fn_notice_popup('N_00302570');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|#none": {
+    "name": "보조사업포털",
+    "title": "10공동체",
+    "url": "https://www.bojo.go.kr/bojo.do#none",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:void(0);": {
+    "name": "보조사업포털",
+    "title": "제107회 전국체육대회 18세이하부 선수 출전보조비",
+    "url": "javascript:void(0);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|https://bojoai.com": {
+    "name": "보조사업포털",
+    "title": "보조금 통합포털 AI서비스에 문의하세요.",
+    "url": "https://bojoai.com",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_getCA006002Popup('.popupMainCA006002BT');": {
+    "name": "보조사업포털",
+    "title": "간편보조사업찾기",
+    "url": "javascript:f_getCA006002Popup('.popupMainCA006002BT');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록');": {
+    "name": "보조사업포털",
+    "title": "보조사업 목록",
+    "url": "javascript:pageInit_main('USRM_10137','/ca/getCA001201View.do','1',2,'맞춤형보조사업찾기','보조사업목록');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록');": {
+    "name": "보조사업포털",
+    "title": "공모사업 목록",
+    "url": "javascript:pageInit_main('USRM_10194','/da/getDA001200View.do','1',2,'공모사업찾기','공모사업 목록');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_10109','/ea/getEA001201View.do','1',3,'정보공시','보조사업자 정보공시','보조사업자 정보공시 목록 ');": {
+    "name": "보조사업포털",
+    "title": "보조사업자 정보공시",
+    "url": "javascript:pageInit_main('USRM_10109','/ea/getEA001201View.do','1',3,'정보공시','보조사업자 정보공시','보조사업자 정보공시 목록 ');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:pageInit_main('USRM_11347','/ga/getGA007100View.do','1',3,'참여와 소통','자료실','사용자 매뉴얼');": {
+    "name": "보조사업포털",
+    "title": "사용자매뉴얼",
+    "url": "javascript:pageInit_main('USRM_11347','/ga/getGA007100View.do','1',3,'참여와 소통','자료실','사용자 매뉴얼');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_getCA006002Popup('.popupMain2CA006002BT');": {
+    "name": "보조사업포털",
+    "title": "성별, 지역, 나이로 간편하게 찾는 맞춤 보조금  간편보조사업찾기",
+    "url": "javascript:f_getCA006002Popup('.popupMain2CA006002BT');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_getDA009000Popup('.popupAaDA009000Bt');": {
+    "name": "보조사업포털",
+    "title": "사업주제별로 간편하게 찾아보는 최근 공모  간편공모사업찾기",
+    "url": "javascript:f_getDA009000Popup('.popupAaDA009000Bt');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_getDA008100Popup('.popupAa0010DA008100Bt');": {
+    "name": "보조사업포털",
+    "title": "마감일자 3일 이내 공모보조사업  마감임박공모",
+    "url": "javascript:f_getDA008100Popup('.popupAa0010DA008100Bt');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_getJA003000Popup('.popupMainMailBt');": {
+    "name": "보조사업포털",
+    "title": "MY 사업 공모 시작 정보 찾는 맞춤 보조금  메일링서비스 신청",
+    "url": "javascript:f_getJA003000Popup('.popupMainMailBt');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:fn_FritabAct(0);f_tabAct('.sliderTab0',1);": {
+    "name": "보조사업포털",
+    "title": "공모사업",
+    "url": "javascript:fn_FritabAct(0);f_tabAct('.sliderTab0',1);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:fn_FritabAct(1);f_tabAct('.sliderTab3',4);": {
+    "name": "보조사업포털",
+    "title": "보조사업",
+    "url": "javascript:fn_FritabAct(1);f_tabAct('.sliderTab3',4);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_tabAct('.sliderTab0',1);": {
+    "name": "보조사업포털",
+    "title": "인기공모",
+    "url": "javascript:f_tabAct('.sliderTab0',1);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_tabAct('.sliderTab1',2);": {
+    "name": "보조사업포털",
+    "title": "최신공모",
+    "url": "javascript:f_tabAct('.sliderTab1',2);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_tabAct('.sliderTab2',3);": {
+    "name": "보조사업포털",
+    "title": "마감임박공모",
+    "url": "javascript:f_tabAct('.sliderTab2',3);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_tabAct('.sliderTab3',4);": {
+    "name": "보조사업포털",
+    "title": "인기사업",
+    "url": "javascript:f_tabAct('.sliderTab3',4);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_tabAct('.sliderTab4',5);": {
+    "name": "보조사업포털",
+    "title": "최신사업",
+    "url": "javascript:f_tabAct('.sliderTab4',5);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:fn_suppTab(1);": {
+    "name": "보조사업포털",
+    "title": "생애주기별",
+    "url": "javascript:fn_suppTab(1);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:fn_suppTab(3);": {
+    "name": "보조사업포털",
+    "title": "가구구성유형별",
+    "url": "javascript:fn_suppTab(3);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:fn_suppTab(4);": {
+    "name": "보조사업포털",
+    "title": "경제활동별",
+    "url": "javascript:fn_suppTab(4);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:fn_suppTab(5);": {
+    "name": "보조사업포털",
+    "title": "소득기준별",
+    "url": "javascript:fn_suppTab(5);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:fn_suppTab(6);": {
+    "name": "보조사업포털",
+    "title": "교육단위별",
+    "url": "javascript:fn_suppTab(6);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:fn_suppTab(7);": {
+    "name": "보조사업포털",
+    "title": "기업규모별",
+    "url": "javascript:fn_suppTab(7);",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000001');": {
+    "name": "보조사업포털",
+    "title": "행정/통일/ 외교",
+    "url": "javascript:f_mainTheme('000000000001');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000002');": {
+    "name": "보조사업포털",
+    "title": "안전보장",
+    "url": "javascript:f_mainTheme('000000000002');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000003');": {
+    "name": "보조사업포털",
+    "title": "교육보장",
+    "url": "javascript:f_mainTheme('000000000003');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000004');": {
+    "name": "보조사업포털",
+    "title": "문화활동",
+    "url": "javascript:f_mainTheme('000000000004');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000005');": {
+    "name": "보조사업포털",
+    "title": "관광/ 휴양활동",
+    "url": "javascript:f_mainTheme('000000000005');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000006');": {
+    "name": "보조사업포털",
+    "title": "종교활동",
+    "url": "javascript:f_mainTheme('000000000006');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000007');": {
+    "name": "보조사업포털",
+    "title": "환경향상",
+    "url": "javascript:f_mainTheme('000000000007');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000008');": {
+    "name": "보조사업포털",
+    "title": "사회복지향상",
+    "url": "javascript:f_mainTheme('000000000008');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000009');": {
+    "name": "보조사업포털",
+    "title": "보훈향상",
+    "url": "javascript:f_mainTheme('000000000009');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000010');": {
+    "name": "보조사업포털",
+    "title": "고용안정",
+    "url": "javascript:f_mainTheme('000000000010');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000011');": {
+    "name": "보조사업포털",
+    "title": "주거안정",
+    "url": "javascript:f_mainTheme('000000000011');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000012');": {
+    "name": "보조사업포털",
+    "title": "보건/의료",
+    "url": "javascript:f_mainTheme('000000000012');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000013');": {
+    "name": "보조사업포털",
+    "title": "1차산업지원",
+    "url": "javascript:f_mainTheme('000000000013');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000014');": {
+    "name": "보조사업포털",
+    "title": "산업/ 에너지지원",
+    "url": "javascript:f_mainTheme('000000000014');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000015');": {
+    "name": "보조사업포털",
+    "title": "국토개발지원",
+    "url": "javascript:f_mainTheme('000000000015');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000016');": {
+    "name": "보조사업포털",
+    "title": "교통/물류진흥",
+    "url": "javascript:f_mainTheme('000000000016');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000017');": {
+    "name": "보조사업포털",
+    "title": "방송/통신진흥",
+    "url": "javascript:f_mainTheme('000000000017');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainTheme('000000000018');": {
+    "name": "보조사업포털",
+    "title": "과학기술진흥",
+    "url": "javascript:f_mainTheme('000000000018');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainLife('000000000046');": {
+    "name": "보조사업포털",
+    "title": "영·유아(0~5세)",
+    "url": "javascript:f_mainLife('000000000046');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainLife('000000000047');": {
+    "name": "보조사업포털",
+    "title": "아동(6~12세)",
+    "url": "javascript:f_mainLife('000000000047');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainLife('000000000048');": {
+    "name": "보조사업포털",
+    "title": "청소년(13~18세)",
+    "url": "javascript:f_mainLife('000000000048');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainLife('000000000049');": {
+    "name": "보조사업포털",
+    "title": "청년(19~29세)",
+    "url": "javascript:f_mainLife('000000000049');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainLife('000000000050');": {
+    "name": "보조사업포털",
+    "title": "중년(30~49세)",
+    "url": "javascript:f_mainLife('000000000050');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainLife('000000000051');": {
+    "name": "보조사업포털",
+    "title": "장년(50~64세)",
+    "url": "javascript:f_mainLife('000000000051');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainLife('000000000052');": {
+    "name": "보조사업포털",
+    "title": "노년(65세 이상)",
+    "url": "javascript:f_mainLife('000000000052');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainLife('000000000053');": {
+    "name": "보조사업포털",
+    "title": "연령대무관",
+    "url": "javascript:f_mainLife('000000000053');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainGender('000000000107');": {
+    "name": "보조사업포털",
+    "title": "성별무관",
+    "url": "javascript:f_mainGender('000000000107');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000088');": {
+    "name": "보조사업포털",
+    "title": "다문화가족",
+    "url": "javascript:f_mainFamily('000000000088');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000089');": {
+    "name": "보조사업포털",
+    "title": "이주배경청소년",
+    "url": "javascript:f_mainFamily('000000000089');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000090');": {
+    "name": "보조사업포털",
+    "title": "새터민가정",
+    "url": "javascript:f_mainFamily('000000000090');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000091');": {
+    "name": "보조사업포털",
+    "title": "한부모가정",
+    "url": "javascript:f_mainFamily('000000000091');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000092');": {
+    "name": "보조사업포털",
+    "title": "신혼부부",
+    "url": "javascript:f_mainFamily('000000000092');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000093');": {
+    "name": "보조사업포털",
+    "title": "임산부·영유아가정",
+    "url": "javascript:f_mainFamily('000000000093');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000094');": {
+    "name": "보조사업포털",
+    "title": "소년·소녀가장",
+    "url": "javascript:f_mainFamily('000000000094');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000095');": {
+    "name": "보조사업포털",
+    "title": "조손가정",
+    "url": "javascript:f_mainFamily('000000000095');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000101');": {
+    "name": "보조사업포털",
+    "title": "장기치료·요양환자",
+    "url": "javascript:f_mainFamily('000000000101');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000103');": {
+    "name": "보조사업포털",
+    "title": "보훈대상자",
+    "url": "javascript:f_mainFamily('000000000103');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000104');": {
+    "name": "보조사업포털",
+    "title": "1인(독거)가정",
+    "url": "javascript:f_mainFamily('000000000104');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainFamily('000000000114');": {
+    "name": "보조사업포털",
+    "title": "가구유형무관",
+    "url": "javascript:f_mainFamily('000000000114');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEconomy('000000000063');": {
+    "name": "보조사업포털",
+    "title": "사회초년생",
+    "url": "javascript:f_mainEconomy('000000000063');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEconomy('000000000064');": {
+    "name": "보조사업포털",
+    "title": "근로자‧직장인",
+    "url": "javascript:f_mainEconomy('000000000064');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEconomy('000000000068');": {
+    "name": "보조사업포털",
+    "title": "축산업인",
+    "url": "javascript:f_mainEconomy('000000000068');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEconomy('000000000070');": {
+    "name": "보조사업포털",
+    "title": "실직자·구직자",
+    "url": "javascript:f_mainEconomy('000000000070');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEconomy('000000000072');": {
+    "name": "보조사업포털",
+    "title": "자영업자",
+    "url": "javascript:f_mainEconomy('000000000072');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEconomy('000000000110');": {
+    "name": "보조사업포털",
+    "title": "경제활동무관",
+    "url": "javascript:f_mainEconomy('000000000110');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainIncome('000000000055');": {
+    "name": "보조사업포털",
+    "title": "기초생활보호대상자",
+    "url": "javascript:f_mainIncome('000000000055');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainIncome('000000000056');": {
+    "name": "보조사업포털",
+    "title": "차상위계층",
+    "url": "javascript:f_mainIncome('000000000056');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainIncome('000000000057');": {
+    "name": "보조사업포털",
+    "title": "차차상위계층",
+    "url": "javascript:f_mainIncome('000000000057');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainIncome('000000000058');": {
+    "name": "보조사업포털",
+    "title": "소득하위50%이하",
+    "url": "javascript:f_mainIncome('000000000058');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainIncome('000000000059');": {
+    "name": "보조사업포털",
+    "title": "소득하위70%이하",
+    "url": "javascript:f_mainIncome('000000000059');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainIncome('000000000060');": {
+    "name": "보조사업포털",
+    "title": "긴급지원대상자",
+    "url": "javascript:f_mainIncome('000000000060');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainIncome('000000000061');": {
+    "name": "보조사업포털",
+    "title": "기타취약계층",
+    "url": "javascript:f_mainIncome('000000000061');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainIncome('000000000109');": {
+    "name": "보조사업포털",
+    "title": "소득무관",
+    "url": "javascript:f_mainIncome('000000000109');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEducation('000000000074');": {
+    "name": "보조사업포털",
+    "title": "어린이집·유치원생",
+    "url": "javascript:f_mainEducation('000000000074');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEducation('000000000075');": {
+    "name": "보조사업포털",
+    "title": "초등학생",
+    "url": "javascript:f_mainEducation('000000000075');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEducation('000000000077');": {
+    "name": "보조사업포털",
+    "title": "고등학생",
+    "url": "javascript:f_mainEducation('000000000077');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEducation('000000000079');": {
+    "name": "보조사업포털",
+    "title": "대학원생",
+    "url": "javascript:f_mainEducation('000000000079');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEducation('000000000080');": {
+    "name": "보조사업포털",
+    "title": "일반인 등 기타",
+    "url": "javascript:f_mainEducation('000000000080');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainEducation('000000000111');": {
+    "name": "보조사업포털",
+    "title": "교육단위 무관",
+    "url": "javascript:f_mainEducation('000000000111');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainCorporation('000000000083');": {
+    "name": "보조사업포털",
+    "title": "중견기업",
+    "url": "javascript:f_mainCorporation('000000000083');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainCorporation('000000000086');": {
+    "name": "보조사업포털",
+    "title": "소상공업(자영업)",
+    "url": "javascript:f_mainCorporation('000000000086');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainCorporation('000000000112');": {
+    "name": "보조사업포털",
+    "title": "비영리단체/기타",
+    "url": "javascript:f_mainCorporation('000000000112');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:f_mainCorporation('000000000113');": {
+    "name": "보조사업포털",
+    "title": "기업단체종류 무관",
+    "url": "javascript:f_mainCorporation('000000000113');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:sims.comm.setFocusObj($('.popupJa00800Bt'));f_popupMenuView('이용약관','/ja/getJA008000View.do');": {
+    "name": "보조사업포털",
+    "title": "이용약관",
+    "url": "javascript:sims.comm.setFocusObj($('.popupJa00800Bt'));f_popupMenuView('이용약관','/ja/getJA008000View.do');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:sims.comm.setFocusObj($('.popupJa00600Bt'));f_popupMenuView('개인정보처리방침','/ja/getJA006000View.do');": {
+    "name": "보조사업포털",
+    "title": "개인정보처리방침",
+    "url": "javascript:sims.comm.setFocusObj($('.popupJa00600Bt'));f_popupMenuView('개인정보처리방침','/ja/getJA006000View.do');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:sims.comm.setFocusObj($('.popupJa01110Bt'));f_popupMenuView('저작권 및 공공데이터 이용 정책','/ja/getJA011001View.do','800px','652px');": {
+    "name": "보조사업포털",
+    "title": "저작권 및 공공데이터 이용정책",
+    "url": "javascript:sims.comm.setFocusObj($('.popupJa01110Bt'));f_popupMenuView('저작권 및 공공데이터 이용 정책','/ja/getJA011001View.do','800px','652px');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:sims.comm.setFocusObj($('.arsBtn1'));f_popupMenuView('ARS 업무 번호 안내','/ja/getJA012000View.do?code=0','800px','90vh');": {
+    "name": "보조사업포털",
+    "title": "ARS안내",
+    "url": "javascript:sims.comm.setFocusObj($('.arsBtn1'));f_popupMenuView('ARS 업무 번호 안내','/ja/getJA012000View.do?code=0','800px','90vh');",
+    "first_seen": "2026-09-09"
+  },
+  "보조사업포털|javascript:sims.comm.setFocusObj($('.arsBtn2'));f_popupMenuView('ARS 업무 번호 안내','/ja/getJA012000View.do?code=1','800px','90vh');": {
+    "name": "보조사업포털",
+    "title": "ARS안내",
+    "url": "javascript:sims.comm.setFocusObj($('.arsBtn2'));f_popupMenuView('ARS 업무 번호 안내','/ja/getJA012000View.do?code=1','800px','90vh');",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000259/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "동구 대표 시민 참여형 문화축제 사업",
+    "url": "https://gdctf.or.kr/front/M0000259/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000215/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "남도 미식 체험 관광 콘텐츠 개발 사업",
+    "url": "https://gdctf.or.kr/front/M0000215/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000240/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "축제사업팀",
+    "url": "https://gdctf.or.kr/front/M0000240/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000244/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "충장축제 특별기획 프로그램",
+    "url": "https://gdctf.or.kr/front/M0000244/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000242/content/view.do": {
+    "name": "경기도문화재단",
+    "title": "글로벌 축제 교류·협력 사업",
+    "url": "https://gdctf.or.kr/front/M0000242/content/view.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|/front/M0000140/culture/list.do": {
+    "name": "경기도문화재단",
+    "title": "문화·전시·교육·체험",
+    "url": "https://gdctf.or.kr/front/M0000140/culture/list.do",
+    "first_seen": "2026-09-09"
+  },
+  "경기도문화재단|#": {
+    "name": "경기도문화재단",
+    "title": "제5회 광주버스킹월드컵 「버스킹프린지 넌버벌 공연」 참가자 모집 공고",
+    "url": "https://gdctf.or.kr/front/M0000184/article/list.do?pageIndex=1&cateId=&atcId=&searchType=title&searchKeyword=",
+    "first_seen": "2026-09-09"
   }
 }
