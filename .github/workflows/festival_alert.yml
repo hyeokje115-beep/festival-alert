@@ -2,12 +2,15 @@ name: Festival Alert
 
 on:
   schedule:
-    - cron: "0 0,9 * * *"
+    - cron: '0 0,15 * * *'   # KST 09:00 (UTC 00:00) / KST 00:00 (UTC 15:00)
   workflow_dispatch:
 
 jobs:
   check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -15,23 +18,24 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: Install deps
         run: |
-          pip install -r requirements.txt
+          pip install playwright requests google-generativeai
           playwright install chromium
+          playwright install-deps chromium
 
       - name: Run checker
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC:     ${{ secrets.NTFY_TOPIC }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python festival_checker.py
 
       - name: Commit updated known_posts.json
         run: |
-          git config user.name "festival-bot"
+          git config user.name  "festival-bot"
           git config user.email "bot@example.com"
           git add known_posts.json
-          git diff --staged --quiet || git commit -m "update known posts [skip ci]"
+          git diff --staged --quiet || git commit -m "update known_posts [skip ci]"
           git push
