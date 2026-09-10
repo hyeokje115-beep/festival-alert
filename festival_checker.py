@@ -185,17 +185,20 @@ def send_ntfy(title, body, click_url=""):
     if not NTFY_TOPIC:
         print("[!] NTFY_TOPIC 미설정")
         return
-    headers = {
-        "Title": title.encode("utf-8"),
-        "Priority": "high",
-        "Tags": "loudspeaker",
+
+    payload = {
+        "topic": NTFY_TOPIC,
+        "title": title,
+        "message": body,
+        "priority": 4,
+        "tags": ["loudspeaker"],
     }
     if click_url:
-        headers["Click"] = click_url
+        payload["click"] = click_url
+
     r = requests.post(
-        f"{NTFY_SERVER}/{NTFY_TOPIC}",
-        data=body.encode("utf-8"),
-        headers=headers,
+        f"{NTFY_SERVER}",
+        json=payload,
         timeout=10,
     )
     print(f"  [{'✓' if r.status_code==200 else '✗'}] {title}")
@@ -203,8 +206,8 @@ def send_ntfy(title, body, click_url=""):
 
 def main():
     print(f"\n공모사업 알림 봇 시작: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    current  = scrape_all()
-    known    = load_known()
+    current   = scrape_all()
+    known     = load_known()
     new_items = {k: v for k, v in current.items() if k not in known}
 
     print(f"\n전체: {len(current)}개 | 신규: {len(new_items)}개")
@@ -225,7 +228,7 @@ def main():
                 )
             else:
                 lines = []
-                for i in items:  # 전체 표시 (제한 없음)
+                for i in items:
                     line = f"• {i['title']}"
                     if i.get("deadline"):
                         line += f" (~{i['deadline']})"
