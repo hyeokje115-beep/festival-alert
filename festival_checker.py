@@ -16,29 +16,29 @@ KNOWN_FILE  = "known_posts.json"
 KEYWORDS = ["전시", "공연", "체험", "박람회"]
 
 SITES = [
-    {"name": "광주문화재단",       "url": "https://www.gctf.or.kr/web/board/1/postList"},
-    {"name": "MLDC",              "url": "https://mldc.kr/notice"},
-    {"name": "미마프",             "url": "http://www.mimaf.net/xe/index.php?mid=notice"},
-    {"name": "한국문화예술교육진흥원", "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdCodeField=SITES&brdCodeValue=100"},
-    {"name": "리콜렉션",           "url": "https://recollection.kr/bbs/board.php?bo_table=notice&page=1"},
-    {"name": "전주문화재단",        "url": "https://www.jge.go.kr/jgemain/na/ntt/selectNttList.do?mi=2116&bbsId=1123"},
-    {"name": "나주문화재단",        "url": "https://www.njcf.or.kr/www/community/notices"},
-    {"name": "담양문화재단",        "url": "https://www.damyangcf.or.kr/user/board/lists/board_cd/4010"},
-    {"name": "전남문화재단_타기관",  "url": "https://www.jncf.or.kr/jact/open/otherevents.do"},
-    {"name": "전남문화재단_협업",    "url": "https://www.jncf.or.kr/jact/open/collusion.do"},
-    {"name": "전남문화재단_공지",    "url": "https://www.jncf.or.kr/jact/open/notice.do"},
-    {"name": "광주문화재단_공지",    "url": "https://www.gjcf.or.kr/cf/news/notice.do"},
-    {"name": "고양문화재단",        "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&page=1"},
-    {"name": "문화예술",            "url": "http://xn--9p4b13eb4bd6i.com/notice"},
-    {"name": "국립아시아문화전당",   "url": "https://www.ncas.or.kr/board/contest/list?menuNo=&currentPageNo=1&searchCondition="},
-    {"name": "위비티",              "url": "https://www.wevity.com/?c=find&s=1&gub=1"},
-    {"name": "국립아시아문화전당_공지","url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE"},
-    {"name": "광주비엔날레",        "url": "https://www.gwangjubiennale.org/gb/notice.do"},
-    {"name": "전북문화관광재단",     "url": "https://www.jbct.or.kr/notice.php"},
-    {"name": "전북문화관광재단_공모","url": "https://www.jbct.or.kr/c_notice.php"},
-    {"name": "순천문화재단",        "url": "https://www.cfsc.or.kr/contents/open/open0501.asp"},
-    {"name": "목포문화재단",        "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C"},
-    {"name": "목포문화재단_전체",    "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice"},
+    {"name": "광주문화재단",          "url": "https://www.gctf.or.kr/web/board/1/postList"},
+    {"name": "MLDC",                 "url": "https://mldc.kr/notice"},
+    {"name": "미마프",                "url": "http://www.mimaf.net/xe/index.php?mid=notice"},
+    {"name": "한국문화예술교육진흥원",  "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdCodeField=SITES&brdCodeValue=100"},
+    {"name": "리콜렉션",              "url": "https://recollection.kr/bbs/board.php?bo_table=notice&page=1"},
+    {"name": "전주문화재단",           "url": "https://www.jge.go.kr/jgemain/na/ntt/selectNttList.do?mi=2116&bbsId=1123"},
+    {"name": "나주문화재단",           "url": "https://www.njcf.or.kr/www/community/notices"},
+    {"name": "담양문화재단",           "url": "https://www.damyangcf.or.kr/user/board/lists/board_cd/4010"},
+    {"name": "전남문화재단_타기관",     "url": "https://www.jncf.or.kr/jact/open/otherevents.do"},
+    {"name": "전남문화재단_협업",       "url": "https://www.jncf.or.kr/jact/open/collusion.do"},
+    {"name": "전남문화재단_공지",       "url": "https://www.jncf.or.kr/jact/open/notice.do"},
+    {"name": "광주문화재단_공지",       "url": "https://www.gjcf.or.kr/cf/news/notice.do"},
+    {"name": "고양문화재단",           "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&page=1"},
+    {"name": "문화예술",               "url": "http://xn--9p4b13eb4bd6i.com/notice"},
+    {"name": "국립아시아문화전당_공모",  "url": "https://www.ncas.or.kr/board/contest/list?menuNo=&currentPageNo=1&searchCondition="},
+    {"name": "위비티",                 "url": "https://www.wevity.com/?c=find&s=1&gub=1"},
+    {"name": "국립아시아문화전당_공지",  "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE"},
+    {"name": "광주비엔날레",           "url": "https://www.gwangjubiennale.org/gb/notice.do"},
+    {"name": "전북문화관광재단",        "url": "https://www.jbct.or.kr/notice.php"},
+    {"name": "전북문화관광재단_공모",   "url": "https://www.jbct.or.kr/c_notice.php"},
+    {"name": "순천문화재단",           "url": "https://www.cfsc.or.kr/contents/open/open0501.asp"},
+    {"name": "목포문화재단_문화도시",   "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C"},
+    {"name": "목포문화재단_전체",       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice"},
 ]
 # ─────────────────────────────────────────────────────────────────────────
 
@@ -48,7 +48,7 @@ def has_keyword(text):
 
 
 def make_abs(href, base_url):
-    if not href or href.startswith("javascript") or href.strip() == "#":
+    if not href or href.strip().startswith("javascript") or href.strip() == "#":
         return base_url
     if href.startswith("http"):
         return href
@@ -70,14 +70,14 @@ def extract_deadline(text):
 
 def scrape_site(page, site):
     posts = {}
-    url = site["url"]
+    url  = site["url"]
     name = site["name"]
 
     try:
         page.goto(url, wait_until="networkidle", timeout=40000)
         page.wait_for_timeout(2000)
 
-        # 1. 테이블 행 방식 시도
+        # 1. 테이블 행 방식
         rows = page.query_selector_all("table tbody tr")
         if rows:
             for row in rows:
@@ -90,13 +90,11 @@ def scrape_site(page, site):
                         continue
                     if not has_keyword(title):
                         continue
-                    href = title_el.get_attribute("href") or ""
-                    row_text = row.inner_text()
-                    deadline = extract_deadline(row_text)
-                    post_id = f"{name}|{title[:50]}"
+                    href     = title_el.get_attribute("href") or ""
+                    deadline = extract_deadline(row.inner_text())
+                    post_id  = f"{name}|{title[:50]}"
                     posts[post_id] = {
-                        "name": name,
-                        "title": title[:80],
+                        "name": name, "title": title[:80],
                         "deadline": deadline,
                         "url": make_abs(href, url),
                         "first_seen": datetime.now().strftime("%Y-%m-%d"),
@@ -104,10 +102,9 @@ def scrape_site(page, site):
                 except Exception:
                     pass
 
-        # 2. 리스트(li) 방식 시도
+        # 2. 리스트(li) 방식
         if not posts:
-            items = page.query_selector_all("ul li, ol li, .list-item, .board-item")
-            for item in items:
+            for item in page.query_selector_all("ul li, ol li, .list-item, .board-item"):
                 try:
                     title_el = item.query_selector("a")
                     if not title_el:
@@ -117,13 +114,11 @@ def scrape_site(page, site):
                         continue
                     if not has_keyword(title):
                         continue
-                    href = title_el.get_attribute("href") or ""
-                    item_text = item.inner_text()
-                    deadline = extract_deadline(item_text)
-                    post_id = f"{name}|{title[:50]}"
+                    href     = title_el.get_attribute("href") or ""
+                    deadline = extract_deadline(item.inner_text())
+                    post_id  = f"{name}|{title[:50]}"
                     posts[post_id] = {
-                        "name": name,
-                        "title": title[:80],
+                        "name": name, "title": title[:80],
                         "deadline": deadline,
                         "url": make_abs(href, url),
                         "first_seen": datetime.now().strftime("%Y-%m-%d"),
@@ -140,11 +135,10 @@ def scrape_site(page, site):
                         continue
                     if not has_keyword(title):
                         continue
-                    href = el.get_attribute("href") or ""
+                    href    = el.get_attribute("href") or ""
                     post_id = f"{name}|{title[:50]}"
                     posts[post_id] = {
-                        "name": name,
-                        "title": title[:80],
+                        "name": name, "title": title[:80],
                         "deadline": "",
                         "url": make_abs(href, url),
                         "first_seen": datetime.now().strftime("%Y-%m-%d"),
@@ -153,7 +147,7 @@ def scrape_site(page, site):
                     pass
 
     except Exception as e:
-        print(f"     [!] 오류: {e}")
+        print(f"     [!] {name} 오류: {e}")
 
     return posts
 
@@ -209,8 +203,8 @@ def send_ntfy(title, body, click_url=""):
 
 def main():
     print(f"\n공모사업 알림 봇 시작: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    current = scrape_all()
-    known = load_known()
+    current  = scrape_all()
+    known    = load_known()
     new_items = {k: v for k, v in current.items() if k not in known}
 
     print(f"\n전체: {len(current)}개 | 신규: {len(new_items)}개")
@@ -231,16 +225,15 @@ def main():
                 )
             else:
                 lines = []
-                for i in items[:10]:
+                for i in items:  # 전체 표시 (제한 없음)
                     line = f"• {i['title']}"
                     if i.get("deadline"):
                         line += f" (~{i['deadline']})"
                     lines.append(line)
-                if len(items) > 10:
-                    lines.append(f"… 외 {len(items)-10}개")
                 send_ntfy(
                     title=f"📢 [{site_name}] 새 공모 {len(items)}개",
                     body="\n".join(lines),
+                    click_url=items[0]["url"],
                 )
     else:
         send_ntfy(
