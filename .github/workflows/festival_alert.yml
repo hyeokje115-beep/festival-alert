@@ -1,9 +1,10 @@
 name: Festival Alert
 
 on:
-  schedule:
-    - cron: '0 0,15 * * *'   # KST 09:00 (UTC 00:00) / KST 00:00 (UTC 15:00)
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'   # KST 09:00 (UTC 00:00)
+    - cron: '0 9 * * *'   # KST 18:00 (UTC 09:00)
 
 jobs:
   check:
