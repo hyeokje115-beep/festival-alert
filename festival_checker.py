@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
 """
-공모사업 알림 봇 - 키워드: 전시, 공연, 체험, 박람회
+공모사업 알림 봇 - Playwright + Gemini AI 혼합
 """
 
-import json, os, re
+import json, os, re, time
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 import requests
+import google.generativeai as genai
 
 NTFY_TOPIC  = os.environ.get("NTFY_TOPIC", "")
 NTFY_SERVER = "https://ntfy.sh"
 KNOWN_FILE  = "known_posts.json"
+GEMINI_KEY  = os.environ.get("GEMINI_API_KEY", "")
 
 KEYWORDS = ["전시", "공연", "체험", "박람회"]
-
-POST_WORDS = ["모집", "공고", "선정", "결과", "신청", "공모전", "참가자",
-              "참여자", "지원사업", "안내", "개최", "운영", "추진",
-              "구매", "평가", "지원금", "제안서", "공모"]
 
 SITES = [
     {"name": "광주문화재단",          "url": "https://www.gctf.or.kr/web/board/1/postList"},
@@ -44,37 +42,113 @@ SITES = [
     {"name": "목포문화재단_전체",       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice"},
 ]
 
+# ── Gemini 설정 ──────────────────────────────────────────────────────────
+if GEMINI_KEY:
+    genai.configure(api_key=GEMINI_KEY)
+    gemini = genai.GenerativeModel("gemini-1.5-flash")
+else:
+    gemini = None
 
-def is_real_post(title):
-    """실제 게시글인지 판별 - 시뮬레이션으로 도출한 최적 조건"""
-    t = title.strip()
 
-    # 1. 최소 길이 15자
-    if len(t) < 15:
-        return False
+def gemini_filter_titles(candidates: list[dict]) -> list[dict]:
+    """
+    방법1: 후보 제목 배치를 Gemini에게 넘겨 오탐 제거
+    candidates = [{"title": ..., "deadline": ..., ...}, ...]
+    """
+    if not gemini or not candidates:
+        return candidates
 
-    # 2. 슬래시(/) 포함 → 카테고리 분류형 텍스트 제외
-    if "/" in t:
-        return False
+    titles = [c["title"] for c in candidates]
+    numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
 
-    # 3. 중간점(·) 포함 → "교육·체험" 같은 카테고리 제외
-    if "·" in t:
-        return False
+    prompt = f"""
+너는 문화/예술 공모사업 공고 필터링 전문가야.
 
-    # 4. 키워드 없으면 무조건 제외
-    if not any(k in t for k in KEYWORDS):
-        return False
+아래는 문화재단 게시판에서 수집한 제목 목록이야.
+"전시, 공연, 체험, 박람회" 관련 **실제 공모·지원사업 공고**만 골라줘.
 
-    # 5. 연도(2024~2029) 포함 OR (공모성단어 + 20자 이상)
-    has_year = bool(re.search(r'20(2[4-9])', t))
-    has_post_word = any(w in t for w in POST_WORDS)
+제외 기준:
+- 메뉴명, 카테고리 분류 (예: "콘서트/전시회/공연", "교육·체험")
+- 상설 프로그램명 (예: "토요상설공연", "무형유산 작품전시실")  
+- 단순 결과 안내, 선정 결과만 있는 공지
+- 20자 미만의 짧은 텍스트
 
-    if has_year:
-        return True
-    if has_post_word and len(t) >= 20:
-        return True
+포함 기준:
+- 모집, 공고, 지원사업, 참가자 모집, 공모전 등
+- 연도(2024~2026)가 포함된 사업 공고
 
-    return False
+[제목 목록]
+{numbered}
+
+응답: 실제 공모글 번호만 쉼표로. 없으면 "없음"
+예시: 2,4,7
+"""
+    try:
+        resp = gemini.generate_content(prompt)
+        text = resp.text.strip()
+        if "없음" in text:
+            return []
+        valid = set()
+        for n in re.findall(r'\d+', text):
+            valid.add(int(n))
+        return [candidates[i-1] for i in valid if 1 <= i <= len(candidates)]
+    except Exception as e:
+        print(f"     [!] Gemini 필터 오류: {e}")
+        return candidates  # 오류 시 원본 반환
+
+
+def gemini_analyze_raw(page_text: str, site_name: str, site_url: str) -> list[dict]:
+    """
+    방법2: 1차 추출 결과가 0개일 때 raw 텍스트 직접 분석
+    """
+    if not gemini:
+        return []
+
+    prompt = f"""
+너는 문화/예술 공모사업 공고 추출 전문가야.
+
+사이트: {site_name}
+
+아래 게시판 텍스트에서 "전시, 공연, 체험, 박람회" 관련 
+실제 공모·지원사업 공고 제목과 마감일을 추출해줘.
+
+제외: 메뉴명, 카테고리, 상설프로그램, 단순 링크텍스트
+
+[게시판 텍스트]
+{page_text[:4000]}
+
+응답 형식 (JSON 배열, 없으면 []):
+[
+  {{"title": "공고 제목", "deadline": "YYYY-MM-DD 또는 빈 문자열"}}
+]
+JSON만 출력. 다른 텍스트 없이.
+"""
+    try:
+        resp = gemini.generate_content(prompt)
+        text = resp.text.strip()
+        # JSON 추출
+        match = re.search(r'\[.*\]', text, re.DOTALL)
+        if not match:
+            return []
+        items = json.loads(match.group())
+        result = []
+        for item in items:
+            title = item.get("title", "").strip()
+            if len(title) < 10:
+                continue
+            post_id = f"{site_name}|{title[:50]}"
+            result.append({
+                "post_id": post_id,
+                "name": site_name,
+                "title": title[:80],
+                "deadline": item.get("deadline", ""),
+                "site_url": site_url,
+                "first_seen": datetime.now().strftime("%Y-%m-%d"),
+            })
+        return result
+    except Exception as e:
+        print(f"     [!] Gemini raw 분석 오류: {e}")
+        return []
 
 
 def extract_deadline(text):
@@ -89,136 +163,77 @@ def extract_deadline(text):
     return found[-1] if found else ""
 
 
-def clean_title(text):
-    t = text.strip().replace("\n", " ")
-    return re.sub(r'\s+', ' ', t).strip()
+def clean(text):
+    return re.sub(r'\s+', ' ', text.strip().replace("\n", " ")).strip()
 
 
-def try_numbered_rows(page, site_url, name):
-    """
-    게시판 번호(숫자)가 있는 행만 추출 - 가장 정확한 방법
-    일반 게시판은 첫 번째 td가 번호(숫자)
-    """
-    posts = {}
-    rows = page.query_selector_all("table tbody tr")
-    for row in rows:
-        try:
-            cells = row.query_selector_all("td")
-            if len(cells) < 2:
-                continue
-
-            # 첫 번째 셀이 숫자(게시글 번호)인지 확인
-            first_text = cells[0].inner_text().strip()
-            if not re.match(r'^\d+$', first_text):
-                continue  # 번호 없으면 메뉴/헤더행 → 제외
-
-            # 제목 셀에서 링크 찾기
-            title_el = None
-            for cell in cells[1:]:
-                title_el = cell.query_selector("a")
-                if title_el:
-                    break
-            if not title_el:
-                continue
-
-            title = clean_title(title_el.inner_text())
-            if not is_real_post(title):
-                continue
-
-            deadline = extract_deadline(row.inner_text())
-            post_id  = f"{name}|{title[:50]}"
-            posts[post_id] = {
-                "name": name,
-                "title": title[:80],
-                "deadline": deadline,
-                "site_url": site_url,
-                "first_seen": datetime.now().strftime("%Y-%m-%d"),
-            }
-        except Exception:
-            pass
-    return posts
-
-
-def try_list_items(page, site_url, name):
-    """li 기반 게시판"""
-    posts = {}
-    selectors = [
-        "ul.board_list li", "ul.list li", "ol li",
-        ".board-list li", ".post-list li", "li.item"
-    ]
-    for sel in selectors:
-        items = page.query_selector_all(sel)
-        if not items:
-            continue
-        for item in items:
-            try:
-                title_el = item.query_selector("a")
-                if not title_el:
-                    continue
-                title = clean_title(title_el.inner_text())
-                if not is_real_post(title):
-                    continue
-                deadline = extract_deadline(item.inner_text())
-                post_id  = f"{name}|{title[:50]}"
-                posts[post_id] = {
-                    "name": name,
-                    "title": title[:80],
-                    "deadline": deadline,
-                    "site_url": site_url,
-                    "first_seen": datetime.now().strftime("%Y-%m-%d"),
-                }
-            except Exception:
-                pass
-        if posts:
-            break
-    return posts
-
-
-def try_all_links(page, site_url, name):
-    """마지막 수단: 전체 링크에서 필터링"""
-    posts = {}
-    for el in page.query_selector_all("a"):
-        try:
-            title = clean_title(el.inner_text())
-            if not is_real_post(title):
-                continue
-            post_id = f"{name}|{title[:50]}"
-            posts[post_id] = {
-                "name": name,
-                "title": title[:80],
-                "deadline": "",
-                "site_url": site_url,
-                "first_seen": datetime.now().strftime("%Y-%m-%d"),
-            }
-        except Exception:
-            pass
-    return posts
-
-
-def scrape_site(page, site):
-    url  = site["url"]
-    name = site["name"]
-    posts = {}
+def scrape_candidates(page, site_url, name):
+    """Playwright로 1차 후보 수집 + raw 텍스트 반환"""
+    candidates = []
+    raw_text   = ""
 
     try:
-        page.goto(url, wait_until="networkidle", timeout=40000)
+        page.goto(site_url, wait_until="networkidle", timeout=40000)
         page.wait_for_timeout(2000)
+        raw_text = page.inner_text("body")
 
-        # 전략 1: 번호 있는 행 (가장 정확)
-        posts = try_numbered_rows(page, url, name)
+        # 전략1: 번호 있는 테이블 행
+        rows = page.query_selector_all("table tbody tr")
+        for row in rows:
+            try:
+                cells = row.query_selector_all("td")
+                if len(cells) < 2:
+                    continue
+                first = cells[0].inner_text().strip()
+                # 첫 셀이 숫자여야 게시글 행
+                if not re.match(r'^\d+$', first):
+                    continue
+                title_el = None
+                for cell in cells[1:]:
+                    title_el = cell.query_selector("a")
+                    if title_el:
+                        break
+                if not title_el:
+                    continue
+                title = clean(title_el.inner_text())
+                if len(title) < 10:
+                    continue
+                # 키워드 1차 필터 (Gemini 호출 전 최소 필터)
+                if not any(k in title for k in KEYWORDS):
+                    continue
+                candidates.append({
+                    "name": name,
+                    "title": title[:80],
+                    "deadline": extract_deadline(row.inner_text()),
+                    "site_url": site_url,
+                    "first_seen": datetime.now().strftime("%Y-%m-%d"),
+                })
+            except Exception:
+                pass
 
-        # 전략 2: li 기반
-        if not posts:
-            posts = try_list_items(page, url, name)
-
-        # 전략 3: 전체 링크 (마지막 수단)
-        if not posts:
-            posts = try_all_links(page, url, name)
+        # 전략2: li 기반
+        if not candidates:
+            for item in page.query_selector_all("ul li a, ol li a, .board-list a, .list a"):
+                try:
+                    title = clean(item.inner_text())
+                    if len(title) < 10:
+                        continue
+                    if not any(k in title for k in KEYWORDS):
+                        continue
+                    candidates.append({
+                        "name": name,
+                        "title": title[:80],
+                        "deadline": "",
+                        "site_url": site_url,
+                        "first_seen": datetime.now().strftime("%Y-%m-%d"),
+                    })
+                except Exception:
+                    pass
 
     except Exception as e:
-        print(f"     [!] {name} 오류: {e}")
+        print(f"     [!] {name} 스크래핑 오류: {e}")
 
-    return posts
+    return candidates, raw_text
 
 
 def scrape_all():
@@ -229,11 +244,37 @@ def scrape_all():
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
         ))
+
         for site in SITES:
-            print(f"  ↳ [{site['name']}] 스캔 중...")
-            posts = scrape_site(page, site)
-            print(f"     → {len(posts)}개 감지")
-            all_posts.update(posts)
+            name = site["name"]
+            url  = site["url"]
+            print(f"  ↳ [{name}] 스캔 중...")
+
+            # STEP 1: Playwright로 후보 수집
+            candidates, raw_text = scrape_candidates(page, url, name)
+            print(f"     → 1차 후보: {len(candidates)}개")
+
+            if candidates:
+                # STEP 2 (방법1): Gemini로 오탐 제거
+                filtered = gemini_filter_titles(candidates)
+                print(f"     → Gemini 필터 후: {len(filtered)}개")
+                time.sleep(1)  # API 레이트 리밋 방지
+
+                for item in filtered:
+                    post_id = f"{name}|{item['title'][:50]}"
+                    all_posts[post_id] = item
+
+            else:
+                # STEP 3 (방법2): 후보 0개면 Gemini가 raw 텍스트 직접 분석
+                print(f"     → 후보 없음, Gemini raw 분석 시도...")
+                raw_results = gemini_analyze_raw(raw_text, name, url)
+                print(f"     → Gemini raw 결과: {len(raw_results)}개")
+                time.sleep(1)
+
+                for item in raw_results:
+                    post_id = item.pop("post_id", f"{name}|{item['title'][:50]}")
+                    all_posts[post_id] = item
+
         browser.close()
     return all_posts
 
@@ -254,7 +295,6 @@ def send_ntfy(title, body, click_url=""):
     if not NTFY_TOPIC:
         print("[!] NTFY_TOPIC 미설정")
         return
-
     payload = {
         "topic": NTFY_TOPIC,
         "title": title,
@@ -264,12 +304,7 @@ def send_ntfy(title, body, click_url=""):
     }
     if click_url:
         payload["click"] = click_url
-
-    r = requests.post(
-        NTFY_SERVER,
-        json=payload,
-        timeout=10,
-    )
+    r = requests.post(NTFY_SERVER, json=payload, timeout=10)
     print(f"  [{'✓' if r.status_code==200 else '✗'}] {title}")
 
 
@@ -287,7 +322,7 @@ def main():
             by_site.setdefault(v["name"], []).append(v)
 
         for site_name, items in by_site.items():
-            list_url = items[0]["site_url"]  # 항상 목록 URL 고정
+            list_url = items[0]["site_url"]
 
             if len(items) == 1:
                 item = items[0]
