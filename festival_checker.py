@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+공모사업 알림 봇 v5.0
+- 키워드 사전 필터 제거, Gemini가 단독 판단
+- 공모/지원사업 신청 가능한 공고만 선별
+"""
+
 import json, os, re, time
 from datetime import datetime
 from playwright.sync_api import sync_playwright
@@ -10,19 +16,9 @@ NTFY_SERVER = "https://ntfy.sh"
 KNOWN_FILE  = "known_posts.json"
 GEMINI_KEY  = os.environ.get("GEMINI_API_KEY", "")
 
-KEYWORDS = ["전시", "공연", "체험", "박람회"]
-
-# ── 사전 규칙 필터 (명백한 쓰레기 차단) ──────────────────────────────────
-HARD_EXCLUDE_CONTAINS = [
-    "하위메뉴", "더보기", "프로그램더보기", "하위메뉴 있음",
-    "공연예매", "공연예매권", "티켓", "예매",
-]
-HARD_EXCLUDE_ENDS = ["더보기", "있음", "하위메뉴"]
-HARD_EXCLUDE_PATTERNS = [
-    r'^[가-힣\s]{2,8}$',            # 2~8자 순한글 (메뉴명)
-    r'.+/.+/.+',                     # 슬래시 2개 이상 (콘서트/전시회/공연)
-    r'^\d+회차',                     # N회차로 시작
-]
+# Gemini 오류 시 최소 안전망 (절대 놓치면 안 되는 단어)
+FALLBACK_WORDS = ["공모사업", "지원사업", "공모전", "공모 신청", "신청 접수",
+                  "지원금", "지원 공모", "공연 공모", "전시 공모", "작품 공모"]
 
 SITES = [
     {"name": "광주문화재단",          "url": "https://www.gctf.or.kr/web/board/1/postList"},
@@ -50,6 +46,7 @@ SITES = [
     {"name": "목포문화재단_전체",       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice"},
 ]
 
+# ── Gemini 초기화 ─────────────────────────────────────────────────────────
 if GEMINI_KEY:
     genai.configure(api_key=GEMINI_KEY)
     gemini = genai.GenerativeModel("gemini-1.5-flash")
@@ -59,164 +56,111 @@ else:
     print("! Gemini 키 없음")
 
 
-def hard_filter(title):
-    """규칙 기반 사전 필터 - 명백한 쓰레기 즉시 차단"""
-    t = title.strip()
+def build_prompt(numbered_titles):
+    return f"""당신은 문화예술 공모사업 전문 큐레이터입니다.
 
-    # 길이
-    if len(t) < 12:
-        return False
+[대상자]
+전시·공연·체험 사업을 운영하는 문화예술 종사자(사업자/예술단체)
 
-    # 키워드 없으면 제외
-    if not any(k in t for k in KEYWORDS):
-        return False
+[선별 목적]
+이 사람이 "사업계획서 또는 신청서를 제출하여 지원금·공간·사업 기회를 받을 수 있는" 공모·지원사업 공고만 추출
 
-    # 슬래시 포함 → 카테고리 (콘서트/전시회/공연)
-    if "/" in t:
-        return False
+━━━ 반드시 포함 ✅ ━━━
+- 전시·공연·체험·박람회 분야 지원금/보조금/공간 공모사업
+- 예술단체·공연단체 대상 사업 공모
+- 창작지원·제작비·유통지원 공모
+- 예술가·단체가 사업 수행자로 선발되는 공모
+- 공연·전시 참여 예술가/단체 모집 (사업자 자격)
 
-    # 중간점(·) + 짧으면 → 프로그램명 (창제작 어린이·청소년 공연)
-    if "·" in t and len(t) < 25:
-        return False
+━━━ 절대 제외 ❌ ━━━
+- 일반 시민·관객 참여 체험/행사 (야행, AR체험, 국가유산 체험, 시민 참여)
+- 공연·전시 일정/소개/안내 (콘서트 안내, 프로그램 소개)
+- 결과 발표 단독 공지 (선정 결과, 합격자 발표, 수상 결과)
+- 첨부파일 공지 (결과 첨부파일, 모집 첨부파일)
+- 청소년·어린이 교육/체험 프로그램
+- 상설 프로그램명 (토요상설공연, 정기공연, 정월대보름 행사)
+- 메뉴명·카테고리·UI텍스트 (더보기, 하위메뉴)
+- 홍보·사전홍보·추진 안내
+- TF·추진단·위원회 등 조직명
+- 행사 홍보성 소개 (축제 소개, 박람회 홍보)
 
-    # 특정 단어 포함
-    for word in HARD_EXCLUDE_CONTAINS:
-        if word in t:
-            return False
+━━━ 실제 판단 예시 ━━━
+❌ "담양 국가유산 야행 체험 '아침의 숨' 참여자 모집" → 시민 체험행사
+❌ "명량해전 AR을 체험해보세요" → 관광 홍보
+❌ "2026 목요콘서트 9월 공연 안내" → 일정 안내
+❌ "토요상설공연 작품 공모 첨부파일" → 결과 첨부파일
+❌ "토요상설공연 '토요 음향사' 선정 결과 첨부파일" → 결과 첨부
+❌ "ACC 아시아 예술체험" → 교육 프로그램명
+❌ "ACC 청소년 전시연계교육" → 청소년 교육
+❌ "창제작 어린이·청소년 공연" → 프로그램명
+❌ "2025 명량대첩 일자별 공연소개" → 프로그램 소개
+❌ "공연예술대관료 지원사업추진단" → 조직명
+❌ "민간 공연장 활성화 지원TF" → TF 조직명
+❌ "서울국제관광박람회 사전 홍보 추진" → 홍보
+❌ "광주지역 대표 공연 콘텐츠 유통 활성화 지원 최종 선정 결과" → 결과 발표
+❌ "희경루 풍류소리 8회차 공연 안내" → 공연 일정
+❌ "토요상설공연 정월대보름 한마당" → 행사
 
-    # 특정 단어로 끝남
-    for word in HARD_EXCLUDE_ENDS:
-        if t.endswith(word):
-            return False
+✅ "2026 나빌레라 문화센터 전시공간 지원사업 공모" → 공간 지원 공모
+✅ "공연 창작 지원금 공모 신청 접수" → 창작 지원 공모
+✅ "전시작가 공모전" → 작품 공모
+✅ "문화예술단체 공모사업 모집" → 공모사업
+✅ "2026 공연예술 제작 지원사업" → 지원사업
+✅ "전시·공연 분야 사업자 공모" → 공모
 
-    # 패턴
-    for pat in HARD_EXCLUDE_PATTERNS:
-        if re.search(pat, t):
-            return False
+━━━ 핵심 판단 기준 ━━━
+"문화예술 사업자·단체가 이 공고를 보고 신청서를 제출하여 지원을 받을 수 있는가?"
+→ YES → 포함 / NO → 제외
 
-    # "전시실", "체험관", "공연장" 등 공간명으로 끝나는 것
-    if re.search(r'(전시실|체험관|공연장|전시관|박물관)$', t):
-        return False
+[제목 목록]
+{numbered_titles}
 
-    # "N회차 공연 안내" 형태
-    if re.search(r'\d+회차.*(안내|공지)', t):
-        return False
-
-    return True
+응답: 포함 번호만 쉼표로. 없으면 "없음". 설명 절대 금지.
+예: 2,5,8"""
 
 
 def gemini_filter(candidates):
-    """
-    Gemini 강화 필터 - Few-shot 예시 포함
-    실제로 신청/지원 가능한 공모만 통과
-    """
-    if not gemini or not candidates:
-        return candidates
-
-    titles = [c["title"] for c in candidates]
-    numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
-
-    prompt = f"""
-너는 문화재단 공모사업 공고 필터링 AI야.
-전시·공연·체험·박람회 종사자가 실제로 "신청/지원" 할 수 있는 공모 공고만 골라야 해.
-
-━━━ 절대 제외 (이런 건 무조건 NO) ━━━
-❌ 공간명/시설명: "작품전시실", "체험관", "전시관"
-❌ 카테고리/분류: "콘서트/전시회/공연", "교육·체험"  
-❌ 상설 프로그램: "토요상설공연", "풍류소리 N회차"
-❌ UI 텍스트: "하위메뉴 있음", "더보기", "프로그램더보기"
-❌ 단순 일정 안내: "N회차 공연 안내", "공연일정", "공연일정 안내"
-❌ 선정 결과 첨부만: "선정 결과 첨부파일", "모집 첨부파일"
-❌ 프로그램명: "ACC 아시아 예술체험", "창제작 어린이 공연"
-❌ 공연 티켓/예매 관련
-
-━━━ 반드시 포함 (이런 건 YES) ━━━
-✅ 지원사업 공모 공고 (모집, 선정, 지원금)
-✅ 참가자/사업자/단체 모집 공고
-✅ 공모전, 작품 공모
-✅ 예시: "2026년 광주버스킹월드컵 공연 참가자 모집 공고"
-✅ 예시: "전시공간 지원사업 공모"
-✅ 예시: "[박물관박람회] K-Heritage 팝업스토어 참여 모집"
-
-━━━ 판단 기준 ━━━
-"이 공고를 보고 신청서를 낼 수 있는가?" → YES면 포함, NO면 제외
-
-[제목 목록]
-{numbered}
-
-응답 규칙:
-- 포함할 번호만 쉼표로 출력
-- 없으면 정확히 "없음" 출력
-- 다른 말 절대 금지
-예시: 2,5,8
-"""
-    try:
-        resp = gemini.generate_content(prompt)
-        text = resp.text.strip()
-        print(f"     Gemini 응답: {text}")
-
-        if "없음" in text:
-            return []
-
-        valid = set()
-        for n in re.findall(r'\d+', text):
-            valid.add(int(n))
-
-        return [candidates[i-1] for i in valid if 1 <= i <= len(candidates)]
-
-    except Exception as e:
-        print(f"     [!] Gemini 오류: {e}")
-        return candidates  # 오류 시 원본 반환
-
-
-def gemini_raw_analyze(page_text, site_name, site_url):
-    """후보 0개일 때 raw 텍스트 직접 분석"""
+    """Gemini로 공모사업 공고만 선별 (30개씩 배치)"""
+    if not candidates:
+        return []
     if not gemini:
-        return []
+        # Gemini 없으면 fallback 단어 기반
+        return [c for c in candidates if any(w in c["title"] for w in FALLBACK_WORDS)]
 
-    prompt = f"""
-너는 문화재단 공모사업 공고 추출 AI야.
-사이트: {site_name}
+    result = []
+    batch_size = 25  # 25개씩 처리 (토큰 안전)
 
-아래 텍스트에서 "전시, 공연, 체험, 박람회" 관련
-실제로 신청/지원 가능한 공모 공고만 추출해줘.
+    for i in range(0, len(candidates), batch_size):
+        batch = candidates[i:i + batch_size]
+        titles = [c["title"] for c in batch]
+        numbered = "\n".join(f"{j+1}. {t}" for j, t in enumerate(titles))
 
-제외: 메뉴명, 카테고리, 상설프로그램, 단순 안내, UI 텍스트
-포함: 모집 공고, 지원사업, 공모전, 참가자 모집
+        try:
+            prompt = build_prompt(numbered)
+            resp = gemini.generate_content(prompt)
+            text = resp.text.strip()
+            print(f"     Gemini({i//batch_size+1}): {text[:80]}")
 
-[텍스트]
-{page_text[:4000]}
+            if "없음" in text and not re.search(r'\d', text):
+                pass  # 진짜 없음
+            else:
+                valid = set()
+                for n in re.findall(r'\d+', text):
+                    valid.add(int(n))
+                for idx in valid:
+                    if 1 <= idx <= len(batch):
+                        result.append(batch[idx - 1])
 
-JSON 배열로만 응답. 없으면 []:
-[
-  {{"title": "공고 제목", "deadline": "YYYY-MM-DD 또는 빈 문자열"}}
-]
-"""
-    try:
-        resp = gemini.generate_content(prompt)
-        text = resp.text.strip()
-        match = re.search(r'\[.*\]', text, re.DOTALL)
-        if not match:
-            return []
+            time.sleep(2)  # API 레이트 리밋
 
-        items = json.loads(match.group())
-        result = []
-        for item in items:
-            title = item.get("title", "").strip()
-            if len(title) < 12:
-                continue
-            result.append({
-                "name": site_name,
-                "title": title[:80],
-                "deadline": item.get("deadline", ""),
-                "site_url": site_url,
-                "first_seen": datetime.now().strftime("%Y-%m-%d"),
-            })
-        return result
+        except Exception as e:
+            print(f"     Gemini 오류: {e} → fallback 필터 적용")
+            # 오류 시 강한 공모 단어 있는 것만 (놓치지 않으려는 안전망)
+            for c in batch:
+                if any(w in c["title"] for w in FALLBACK_WORDS):
+                    result.append(c)
 
-    except Exception as e:
-        print(f"     [!] Gemini raw 오류: {e}")
-        return []
+    return result
 
 
 def extract_deadline(text):
@@ -235,16 +179,30 @@ def clean(text):
     return re.sub(r'\s+', ' ', text.strip().replace("\n", " ")).strip()
 
 
-def scrape_candidates(page, site_url, name):
+def minimal_filter(title):
+    """명백한 UI 쓰레기만 제거 (최소한만)"""
+    t = title.strip()
+    if len(t) < 8:
+        return False
+    # 슬래시 2개 이상: 콘서트/전시회/공연 형태
+    if t.count("/") >= 2:
+        return False
+    # UI 텍스트
+    for w in ["하위메뉴", "더보기", "TOP", "PREV", "NEXT", "로그인", "회원가입"]:
+        if w in t:
+            return False
+    return True
+
+
+def scrape_site(page, site_url, name):
+    """게시판 전체 수집 (키워드 필터 없음)"""
     candidates = []
-    raw_text = ""
 
     try:
         page.goto(site_url, wait_until="networkidle", timeout=40000)
         page.wait_for_timeout(2000)
-        raw_text = page.inner_text("body")
 
-        # 전략1: 번호 있는 테이블 행
+        # 전략1: 번호 있는 테이블 행 (가장 정확)
         rows = page.query_selector_all("table tbody tr")
         for row in rows:
             try:
@@ -252,6 +210,7 @@ def scrape_candidates(page, site_url, name):
                 if len(cells) < 2:
                     continue
                 first = cells[0].inner_text().strip()
+                # 첫 셀이 숫자여야 게시글 행
                 if not re.match(r'^\d+$', first):
                     continue
                 title_el = None
@@ -262,7 +221,7 @@ def scrape_candidates(page, site_url, name):
                 if not title_el:
                     continue
                 title = clean(title_el.inner_text())
-                if not hard_filter(title):
+                if not minimal_filter(title):
                     continue
                 candidates.append({
                     "name": name,
@@ -276,14 +235,16 @@ def scrape_candidates(page, site_url, name):
 
         # 전략2: li 기반
         if not candidates:
+            seen = set()
             for item in page.query_selector_all("ul li, ol li"):
                 try:
                     title_el = item.query_selector("a")
                     if not title_el:
                         continue
                     title = clean(title_el.inner_text())
-                    if not hard_filter(title):
+                    if not minimal_filter(title) or title in seen:
                         continue
+                    seen.add(title)
                     candidates.append({
                         "name": name,
                         "title": title[:80],
@@ -294,10 +255,29 @@ def scrape_candidates(page, site_url, name):
                 except Exception:
                     pass
 
+        # 전략3: 전체 링크 (마지막 수단)
+        if not candidates:
+            seen = set()
+            for el in page.query_selector_all("a"):
+                try:
+                    title = clean(el.inner_text())
+                    if not minimal_filter(title) or title in seen:
+                        continue
+                    seen.add(title)
+                    candidates.append({
+                        "name": name,
+                        "title": title[:80],
+                        "deadline": "",
+                        "site_url": site_url,
+                        "first_seen": datetime.now().strftime("%Y-%m-%d"),
+                    })
+                except Exception:
+                    pass
+
     except Exception as e:
         print(f"     [!] {name} 스크래핑 오류: {e}")
 
-    return candidates, raw_text
+    return candidates
 
 
 def scrape_all():
@@ -315,29 +295,19 @@ def scrape_all():
             url  = site["url"]
             print(f"\n  ↳ [{name}]")
 
-            candidates, raw_text = scrape_candidates(page, url, name)
-            print(f"     1차 후보: {len(candidates)}개")
+            candidates = scrape_site(page, url, name)
+            print(f"     수집: {len(candidates)}개")
 
-            if candidates:
-                # Gemini 강화 필터
-                filtered = gemini_filter(candidates)
-                print(f"     Gemini 후: {len(filtered)}개")
-                time.sleep(2)  # API 레이트 리밋 방지
+            if not candidates:
+                continue
 
-                for item in filtered:
-                    post_id = f"{name}|{item['title'][:50]}"
-                    all_posts[post_id] = item
+            # Gemini 필터 (핵심)
+            filtered = gemini_filter(candidates)
+            print(f"     최종: {len(filtered)}개")
 
-            else:
-                # raw 텍스트 직접 분석
-                print(f"     후보 없음 → Gemini raw 분석")
-                raw_results = gemini_raw_analyze(raw_text, name, url)
-                print(f"     raw 결과: {len(raw_results)}개")
-                time.sleep(2)
-
-                for item in raw_results:
-                    post_id = f"{name}|{item['title'][:50]}"
-                    all_posts[post_id] = item
+            for item in filtered:
+                post_id = f"{name}|{item['title'][:50]}"
+                all_posts[post_id] = item
 
         browser.close()
 
@@ -360,20 +330,20 @@ def send_ntfy(title, body, click_url=""):
     if not NTFY_TOPIC:
         return
     payload = {
-        "topic": NTFY_TOPIC,
-        "title": title,
-        "message": body,
+        "topic":    NTFY_TOPIC,
+        "title":    title,
+        "message":  body,
         "priority": 4,
-        "tags": ["loudspeaker"],
+        "tags":     ["loudspeaker"],
     }
     if click_url:
         payload["click"] = click_url
     r = requests.post(NTFY_SERVER, json=payload, timeout=10)
-    print(f"  [{'✓' if r.status_code==200 else '✗'}] {title}")
+    print(f"  [{'✓' if r.status_code == 200 else '✗'}] {title}")
 
 
 def main():
-    print(f"\n공모사업 알림 봇: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"\n공모사업 알림 봇 v5.0: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
 
     current   = scrape_all()
     known     = load_known()
