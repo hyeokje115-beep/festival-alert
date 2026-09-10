@@ -15,6 +15,10 @@ KNOWN_FILE  = "known_posts.json"
 
 KEYWORDS = ["전시", "공연", "체험", "박람회"]
 
+# 실제 공모/게시글에 포함되는 단어
+POST_WORDS = ["모집", "공고", "선정", "결과", "신청", "공모전", "참가자", "참여자",
+              "지원사업", "지원자", "안내", "개최", "운영", "추진", "구매", "평가"]
+
 SITES = [
     {"name": "광주문화재단",          "url": "https://www.gctf.or.kr/web/board/1/postList"},
     {"name": "MLDC",                 "url": "https://mldc.kr/notice"},
@@ -43,17 +47,26 @@ SITES = [
 # ─────────────────────────────────────────────────────────────────────────
 
 
-def has_keyword(text):
-    return any(k in text for k in KEYWORDS)
+def is_real_post(title):
+    """메뉴/카테고리가 아닌 실제 게시글인지 판별"""
+    # 너무 짧으면 메뉴
+    if len(title) < 12:
+        return False
 
+    # 슬래시로만 구분된 카테고리형 텍스트 제외 (예: "콘서트/전시회/공연")
+    if "/" in title and len(title) < 20:
+        return False
 
-def make_abs(href, base_url):
-    if not href or href.strip().startswith("javascript") or href.strip() == "#":
-        return base_url
-    if href.startswith("http"):
-        return href
-    from urllib.parse import urljoin
-    return urljoin(base_url, href)
+    # 키워드 포함 여부
+    has_kw = any(k in title for k in KEYWORDS)
+    if not has_kw:
+        return False
+
+    # 연도 포함 OR 공모성 단어 포함 → 실제 게시글
+    has_year = bool(re.search(r'20(2[4-9]|3[0-9])', title))
+    has_post_word = any(w in title for w in POST_WORDS)
+
+    return has_year or has_post_word
 
 
 def extract_deadline(text):
@@ -86,17 +99,16 @@ def scrape_site(page, site):
                     if not title_el:
                         continue
                     title = title_el.inner_text().strip().replace("\n", " ")
-                    if not title or len(title) < 4:
+                    title = re.sub(r'\s+', ' ', title).strip()
+                    if not is_real_post(title):
                         continue
-                    if not has_keyword(title):
-                        continue
-                    href     = title_el.get_attribute("href") or ""
                     deadline = extract_deadline(row.inner_text())
                     post_id  = f"{name}|{title[:50]}"
                     posts[post_id] = {
-                        "name": name, "title": title[:80],
+                        "name": name,
+                        "title": title[:80],
                         "deadline": deadline,
-                        "url": make_abs(href, url),
+                        "site_url": url,  # 목록 URL 고정
                         "first_seen": datetime.now().strftime("%Y-%m-%d"),
                     }
                 except Exception:
@@ -110,17 +122,16 @@ def scrape_site(page, site):
                     if not title_el:
                         continue
                     title = title_el.inner_text().strip().replace("\n", " ")
-                    if not title or len(title) < 4:
+                    title = re.sub(r'\s+', ' ', title).strip()
+                    if not is_real_post(title):
                         continue
-                    if not has_keyword(title):
-                        continue
-                    href     = title_el.get_attribute("href") or ""
                     deadline = extract_deadline(item.inner_text())
                     post_id  = f"{name}|{title[:50]}"
                     posts[post_id] = {
-                        "name": name, "title": title[:80],
+                        "name": name,
+                        "title": title[:80],
                         "deadline": deadline,
-                        "url": make_abs(href, url),
+                        "site_url": url,
                         "first_seen": datetime.now().strftime("%Y-%m-%d"),
                     }
                 except Exception:
@@ -131,16 +142,17 @@ def scrape_site(page, site):
             for el in page.query_selector_all("a"):
                 try:
                     title = el.inner_text().strip().replace("\n", " ")
-                    if not title or len(title) < 6 or len(title) > 100:
+                    title = re.sub(r'\s+', ' ', title).strip()
+                    if len(title) > 100:
                         continue
-                    if not has_keyword(title):
+                    if not is_real_post(title):
                         continue
-                    href    = el.get_attribute("href") or ""
                     post_id = f"{name}|{title[:50]}"
                     posts[post_id] = {
-                        "name": name, "title": title[:80],
+                        "name": name,
+                        "title": title[:80],
                         "deadline": "",
-                        "url": make_abs(href, url),
+                        "site_url": url,
                         "first_seen": datetime.now().strftime("%Y-%m-%d"),
                     }
                 except Exception:
@@ -218,13 +230,16 @@ def main():
             by_site.setdefault(v["name"], []).append(v)
 
         for site_name, items in by_site.items():
+            # 클릭 URL = 항상 해당 사이트 목록 URL (고정)
+            list_url = items[0]["site_url"]
+
             if len(items) == 1:
                 item = items[0]
                 deadline_str = f"\n📅 마감: {item['deadline']}" if item.get("deadline") else ""
                 send_ntfy(
                     title=f"📢 [{site_name}] 새 공모",
                     body=f"{item['title']}{deadline_str}",
-                    click_url=item["url"],
+                    click_url=list_url,
                 )
             else:
                 lines = []
@@ -236,7 +251,7 @@ def main():
                 send_ntfy(
                     title=f"📢 [{site_name}] 새 공모 {len(items)}개",
                     body="\n".join(lines),
-                    click_url=items[0]["url"],
+                    click_url=list_url,
                 )
     else:
         send_ntfy(
