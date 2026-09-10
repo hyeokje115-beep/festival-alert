@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-공모사업 알림 봇 - Playwright + Gemini AI 혼합
-"""
-
 import json, os, re, time
 from datetime import datetime
 from playwright.sync_api import sync_playwright
@@ -15,6 +11,18 @@ KNOWN_FILE  = "known_posts.json"
 GEMINI_KEY  = os.environ.get("GEMINI_API_KEY", "")
 
 KEYWORDS = ["전시", "공연", "체험", "박람회"]
+
+# ── 사전 규칙 필터 (명백한 쓰레기 차단) ──────────────────────────────────
+HARD_EXCLUDE_CONTAINS = [
+    "하위메뉴", "더보기", "프로그램더보기", "하위메뉴 있음",
+    "공연예매", "공연예매권", "티켓", "예매",
+]
+HARD_EXCLUDE_ENDS = ["더보기", "있음", "하위메뉴"]
+HARD_EXCLUDE_PATTERNS = [
+    r'^[가-힣\s]{2,8}$',            # 2~8자 순한글 (메뉴명)
+    r'.+/.+/.+',                     # 슬래시 2개 이상 (콘서트/전시회/공연)
+    r'^\d+회차',                     # N회차로 시작
+]
 
 SITES = [
     {"name": "광주문화재단",          "url": "https://www.gctf.or.kr/web/board/1/postList"},
@@ -42,18 +50,65 @@ SITES = [
     {"name": "목포문화재단_전체",       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice"},
 ]
 
-# ── Gemini 설정 ──────────────────────────────────────────────────────────
 if GEMINI_KEY:
     genai.configure(api_key=GEMINI_KEY)
     gemini = genai.GenerativeModel("gemini-1.5-flash")
+    print("✓ Gemini 연결됨")
 else:
     gemini = None
+    print("! Gemini 키 없음")
 
 
-def gemini_filter_titles(candidates: list[dict]) -> list[dict]:
+def hard_filter(title):
+    """규칙 기반 사전 필터 - 명백한 쓰레기 즉시 차단"""
+    t = title.strip()
+
+    # 길이
+    if len(t) < 12:
+        return False
+
+    # 키워드 없으면 제외
+    if not any(k in t for k in KEYWORDS):
+        return False
+
+    # 슬래시 포함 → 카테고리 (콘서트/전시회/공연)
+    if "/" in t:
+        return False
+
+    # 중간점(·) + 짧으면 → 프로그램명 (창제작 어린이·청소년 공연)
+    if "·" in t and len(t) < 25:
+        return False
+
+    # 특정 단어 포함
+    for word in HARD_EXCLUDE_CONTAINS:
+        if word in t:
+            return False
+
+    # 특정 단어로 끝남
+    for word in HARD_EXCLUDE_ENDS:
+        if t.endswith(word):
+            return False
+
+    # 패턴
+    for pat in HARD_EXCLUDE_PATTERNS:
+        if re.search(pat, t):
+            return False
+
+    # "전시실", "체험관", "공연장" 등 공간명으로 끝나는 것
+    if re.search(r'(전시실|체험관|공연장|전시관|박물관)$', t):
+        return False
+
+    # "N회차 공연 안내" 형태
+    if re.search(r'\d+회차.*(안내|공지)', t):
+        return False
+
+    return True
+
+
+def gemini_filter(candidates):
     """
-    방법1: 후보 제목 배치를 Gemini에게 넘겨 오탐 제거
-    candidates = [{"title": ..., "deadline": ..., ...}, ...]
+    Gemini 강화 필터 - Few-shot 예시 포함
+    실제로 신청/지원 가능한 공모만 통과
     """
     if not gemini or not candidates:
         return candidates
@@ -62,83 +117,95 @@ def gemini_filter_titles(candidates: list[dict]) -> list[dict]:
     numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
 
     prompt = f"""
-너는 문화/예술 공모사업 공고 필터링 전문가야.
+너는 문화재단 공모사업 공고 필터링 AI야.
+전시·공연·체험·박람회 종사자가 실제로 "신청/지원" 할 수 있는 공모 공고만 골라야 해.
 
-아래는 문화재단 게시판에서 수집한 제목 목록이야.
-"전시, 공연, 체험, 박람회" 관련 **실제 공모·지원사업 공고**만 골라줘.
+━━━ 절대 제외 (이런 건 무조건 NO) ━━━
+❌ 공간명/시설명: "작품전시실", "체험관", "전시관"
+❌ 카테고리/분류: "콘서트/전시회/공연", "교육·체험"  
+❌ 상설 프로그램: "토요상설공연", "풍류소리 N회차"
+❌ UI 텍스트: "하위메뉴 있음", "더보기", "프로그램더보기"
+❌ 단순 일정 안내: "N회차 공연 안내", "공연일정", "공연일정 안내"
+❌ 선정 결과 첨부만: "선정 결과 첨부파일", "모집 첨부파일"
+❌ 프로그램명: "ACC 아시아 예술체험", "창제작 어린이 공연"
+❌ 공연 티켓/예매 관련
 
-제외 기준:
-- 메뉴명, 카테고리 분류 (예: "콘서트/전시회/공연", "교육·체험")
-- 상설 프로그램명 (예: "토요상설공연", "무형유산 작품전시실")  
-- 단순 결과 안내, 선정 결과만 있는 공지
-- 20자 미만의 짧은 텍스트
+━━━ 반드시 포함 (이런 건 YES) ━━━
+✅ 지원사업 공모 공고 (모집, 선정, 지원금)
+✅ 참가자/사업자/단체 모집 공고
+✅ 공모전, 작품 공모
+✅ 예시: "2026년 광주버스킹월드컵 공연 참가자 모집 공고"
+✅ 예시: "전시공간 지원사업 공모"
+✅ 예시: "[박물관박람회] K-Heritage 팝업스토어 참여 모집"
 
-포함 기준:
-- 모집, 공고, 지원사업, 참가자 모집, 공모전 등
-- 연도(2024~2026)가 포함된 사업 공고
+━━━ 판단 기준 ━━━
+"이 공고를 보고 신청서를 낼 수 있는가?" → YES면 포함, NO면 제외
 
 [제목 목록]
 {numbered}
 
-응답: 실제 공모글 번호만 쉼표로. 없으면 "없음"
-예시: 2,4,7
+응답 규칙:
+- 포함할 번호만 쉼표로 출력
+- 없으면 정확히 "없음" 출력
+- 다른 말 절대 금지
+예시: 2,5,8
 """
     try:
         resp = gemini.generate_content(prompt)
         text = resp.text.strip()
+        print(f"     Gemini 응답: {text}")
+
         if "없음" in text:
             return []
+
         valid = set()
         for n in re.findall(r'\d+', text):
             valid.add(int(n))
+
         return [candidates[i-1] for i in valid if 1 <= i <= len(candidates)]
+
     except Exception as e:
-        print(f"     [!] Gemini 필터 오류: {e}")
+        print(f"     [!] Gemini 오류: {e}")
         return candidates  # 오류 시 원본 반환
 
 
-def gemini_analyze_raw(page_text: str, site_name: str, site_url: str) -> list[dict]:
-    """
-    방법2: 1차 추출 결과가 0개일 때 raw 텍스트 직접 분석
-    """
+def gemini_raw_analyze(page_text, site_name, site_url):
+    """후보 0개일 때 raw 텍스트 직접 분석"""
     if not gemini:
         return []
 
     prompt = f"""
-너는 문화/예술 공모사업 공고 추출 전문가야.
-
+너는 문화재단 공모사업 공고 추출 AI야.
 사이트: {site_name}
 
-아래 게시판 텍스트에서 "전시, 공연, 체험, 박람회" 관련 
-실제 공모·지원사업 공고 제목과 마감일을 추출해줘.
+아래 텍스트에서 "전시, 공연, 체험, 박람회" 관련
+실제로 신청/지원 가능한 공모 공고만 추출해줘.
 
-제외: 메뉴명, 카테고리, 상설프로그램, 단순 링크텍스트
+제외: 메뉴명, 카테고리, 상설프로그램, 단순 안내, UI 텍스트
+포함: 모집 공고, 지원사업, 공모전, 참가자 모집
 
-[게시판 텍스트]
+[텍스트]
 {page_text[:4000]}
 
-응답 형식 (JSON 배열, 없으면 []):
+JSON 배열로만 응답. 없으면 []:
 [
   {{"title": "공고 제목", "deadline": "YYYY-MM-DD 또는 빈 문자열"}}
 ]
-JSON만 출력. 다른 텍스트 없이.
 """
     try:
         resp = gemini.generate_content(prompt)
         text = resp.text.strip()
-        # JSON 추출
         match = re.search(r'\[.*\]', text, re.DOTALL)
         if not match:
             return []
+
         items = json.loads(match.group())
         result = []
         for item in items:
             title = item.get("title", "").strip()
-            if len(title) < 10:
+            if len(title) < 12:
                 continue
-            post_id = f"{site_name}|{title[:50]}"
             result.append({
-                "post_id": post_id,
                 "name": site_name,
                 "title": title[:80],
                 "deadline": item.get("deadline", ""),
@@ -146,8 +213,9 @@ JSON만 출력. 다른 텍스트 없이.
                 "first_seen": datetime.now().strftime("%Y-%m-%d"),
             })
         return result
+
     except Exception as e:
-        print(f"     [!] Gemini raw 분석 오류: {e}")
+        print(f"     [!] Gemini raw 오류: {e}")
         return []
 
 
@@ -168,9 +236,8 @@ def clean(text):
 
 
 def scrape_candidates(page, site_url, name):
-    """Playwright로 1차 후보 수집 + raw 텍스트 반환"""
     candidates = []
-    raw_text   = ""
+    raw_text = ""
 
     try:
         page.goto(site_url, wait_until="networkidle", timeout=40000)
@@ -185,7 +252,6 @@ def scrape_candidates(page, site_url, name):
                 if len(cells) < 2:
                     continue
                 first = cells[0].inner_text().strip()
-                # 첫 셀이 숫자여야 게시글 행
                 if not re.match(r'^\d+$', first):
                     continue
                 title_el = None
@@ -196,10 +262,7 @@ def scrape_candidates(page, site_url, name):
                 if not title_el:
                     continue
                 title = clean(title_el.inner_text())
-                if len(title) < 10:
-                    continue
-                # 키워드 1차 필터 (Gemini 호출 전 최소 필터)
-                if not any(k in title for k in KEYWORDS):
+                if not hard_filter(title):
                     continue
                 candidates.append({
                     "name": name,
@@ -213,17 +276,18 @@ def scrape_candidates(page, site_url, name):
 
         # 전략2: li 기반
         if not candidates:
-            for item in page.query_selector_all("ul li a, ol li a, .board-list a, .list a"):
+            for item in page.query_selector_all("ul li, ol li"):
                 try:
-                    title = clean(item.inner_text())
-                    if len(title) < 10:
+                    title_el = item.query_selector("a")
+                    if not title_el:
                         continue
-                    if not any(k in title for k in KEYWORDS):
+                    title = clean(title_el.inner_text())
+                    if not hard_filter(title):
                         continue
                     candidates.append({
                         "name": name,
                         "title": title[:80],
-                        "deadline": "",
+                        "deadline": extract_deadline(item.inner_text()),
                         "site_url": site_url,
                         "first_seen": datetime.now().strftime("%Y-%m-%d"),
                     })
@@ -238,6 +302,7 @@ def scrape_candidates(page, site_url, name):
 
 def scrape_all():
     all_posts = {}
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
         page = browser.new_page(user_agent=(
@@ -248,34 +313,34 @@ def scrape_all():
         for site in SITES:
             name = site["name"]
             url  = site["url"]
-            print(f"  ↳ [{name}] 스캔 중...")
+            print(f"\n  ↳ [{name}]")
 
-            # STEP 1: Playwright로 후보 수집
             candidates, raw_text = scrape_candidates(page, url, name)
-            print(f"     → 1차 후보: {len(candidates)}개")
+            print(f"     1차 후보: {len(candidates)}개")
 
             if candidates:
-                # STEP 2 (방법1): Gemini로 오탐 제거
-                filtered = gemini_filter_titles(candidates)
-                print(f"     → Gemini 필터 후: {len(filtered)}개")
-                time.sleep(1)  # API 레이트 리밋 방지
+                # Gemini 강화 필터
+                filtered = gemini_filter(candidates)
+                print(f"     Gemini 후: {len(filtered)}개")
+                time.sleep(2)  # API 레이트 리밋 방지
 
                 for item in filtered:
                     post_id = f"{name}|{item['title'][:50]}"
                     all_posts[post_id] = item
 
             else:
-                # STEP 3 (방법2): 후보 0개면 Gemini가 raw 텍스트 직접 분석
-                print(f"     → 후보 없음, Gemini raw 분석 시도...")
-                raw_results = gemini_analyze_raw(raw_text, name, url)
-                print(f"     → Gemini raw 결과: {len(raw_results)}개")
-                time.sleep(1)
+                # raw 텍스트 직접 분석
+                print(f"     후보 없음 → Gemini raw 분석")
+                raw_results = gemini_raw_analyze(raw_text, name, url)
+                print(f"     raw 결과: {len(raw_results)}개")
+                time.sleep(2)
 
                 for item in raw_results:
-                    post_id = item.pop("post_id", f"{name}|{item['title'][:50]}")
+                    post_id = f"{name}|{item['title'][:50]}"
                     all_posts[post_id] = item
 
         browser.close()
+
     return all_posts
 
 
@@ -293,7 +358,6 @@ def save_known(data):
 
 def send_ntfy(title, body, click_url=""):
     if not NTFY_TOPIC:
-        print("[!] NTFY_TOPIC 미설정")
         return
     payload = {
         "topic": NTFY_TOPIC,
@@ -309,7 +373,8 @@ def send_ntfy(title, body, click_url=""):
 
 
 def main():
-    print(f"\n공모사업 알림 봇 시작: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"\n공모사업 알림 봇: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+
     current   = scrape_all()
     known     = load_known()
     new_items = {k: v for k, v in current.items() if k not in known}
