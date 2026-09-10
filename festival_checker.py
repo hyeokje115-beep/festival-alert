@@ -178,6 +178,7 @@ SITES = [
     {"name": "순천문화재단",           "url": "https://www.cfsc.or.kr/contents/open/open0501.asp"},
     {"name": "목포문화재단_문화도시",   "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C"},
     {"name": "목포문화재단_전체",       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice"},
+    {"name": "순천문화재단_공모소식", "url": "https://www.cfsc.or.kr/contents/news/news0106.asp"},
 ]
 
 
