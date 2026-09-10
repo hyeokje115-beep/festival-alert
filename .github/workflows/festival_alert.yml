@@ -8,26 +8,24 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"
 
-       - name: Install deps
+      - name: Install deps
         run: |
-         pip install -r requirements.txt
-         playwright install chromium
+          pip install -r requirements.txt
+          playwright install chromium
 
       - name: Run checker
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python festival_checker.py
 
       - name: Commit updated known_posts.json
