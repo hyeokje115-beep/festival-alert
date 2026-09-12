@@ -3,40 +3,115 @@ name: Festival Alert
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'   # KST 09:00 (UTC 00:00)
-    - cron: '0 9 * * *'   # KST 18:00 (UTC 09:00)
+    - cron: '0 0 * * *'   # KST 09:00
+    - cron: '0 9 * * *'   # KST 18:00
+
+# 수동 실행과 예약 실행이 겹쳐 상태 파일을 덮어쓰는 것을 방지
+concurrency:
+  group: festival-alert-state
+  cancel-in-progress: false
 
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
+
     permissions:
       contents: write
+
+    env:
+      STATE_DB: festival_state_v7.sqlite3
+      SITES_CONFIG: festival_sites.json
+      PYTHONUNBUFFERED: '1'
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install deps
+      # 변경 1: 누락된 filelock, beautifulsoup4 설치
+      - name: Install dependencies
         run: |
-          pip install playwright requests google-generativeai
-          playwright install chromium
-          playwright install-deps chromium
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4 playwright filelock
+          python -m playwright install --with-deps chromium
+
+      # 변경 2: 코드 자체 테스트 통과 후 수집 실행
+      - name: Run self-tests
+        run: python festival_checker.py --self-test
+
+      # 변경 3: 사이트 설정이 없을 때만 생성
+      - name: Initialize site configuration
+        run: |
+          if [ ! -f "$SITES_CONFIG" ]; then
+            python festival_checker.py --init-config
+          fi
 
       - name: Run checker
         env:
-          NTFY_TOPIC:     ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        # 우선 점검 모드. 검증 완료 후 끝에 --send 추가
         run: python festival_checker.py
 
-      - name: Commit updated known_posts.json
+      # 변경 4: SQLite의 WAL 내용을 DB 본체에 반영
+      - name: Checkpoint state database
+        id: checkpoint
+        if: ${{ always() }}
         run: |
-          git config user.name  "festival-bot"
+          python - <<'PY'
+          import os
+          import sqlite3
+          from pathlib import Path
+
+          path = Path(os.environ["STATE_DB"])
+
+          if not path.exists():
+              print("상태 DB가 없어 저장을 건너뜁니다.")
+              raise SystemExit(0)
+
+          connection = sqlite3.connect(str(path), timeout=30)
+          try:
+              result = connection.execute(
+                  "PRAGMA wal_checkpoint(TRUNCATE)"
+              ).fetchone()
+
+              if result[0] != 0:
+                  raise RuntimeError(
+                      f"SQLite checkpoint 실패: {result}"
+                  )
+
+              print("SQLite checkpoint 완료")
+          finally:
+              connection.close()
+          PY
+
+      # 변경 5: 기존 known_posts.json 대신 새 DB와 설정 저장
+      - name: Commit updated state
+        if: ${{ always() && steps.checkpoint.outcome == 'success' }}
+        run: |
+          git config user.name "festival-bot"
           git config user.email "bot@example.com"
-          git add known_posts.json
-          git diff --staged --quiet || git commit -m "update known_posts [skip ci]"
-          git push
+
+          if [ -f "$STATE_DB" ]; then
+            git add -- "$STATE_DB"
+          fi
+
+          if [ -f "$SITES_CONFIG" ]; then
+            git add -- "$SITES_CONFIG"
+          fi
+
+          if git diff --staged --quiet; then
+            echo "저장할 변경 사항이 없습니다."
+          else
+            git commit -m "update festival state [skip ci]"
+            git push origin HEAD:"${{ github.event.repository.default_branch }}"
+          fi
