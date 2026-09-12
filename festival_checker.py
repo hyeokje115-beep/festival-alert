@@ -363,7 +363,7 @@ def parse_period(text):
     if re.search(r"연장|변경|예정|별도|상시|소진|미정", text):
         raise Hold("변경·상시 등 복잡한 접수기간은 수동 확인")
 
-    middle = text[matches.end():matches[1].start()]
+    middle = text[matches[0].end():matches[1].start()]
     if not re.search(r"~|～|∼|부터|–|—|-", middle):
         raise Hold("시작일과 종료일의 범위 구분 불명확")
 
@@ -390,9 +390,9 @@ def parse_period(text):
     except ValueError as exc:
         raise Hold("접수 날짜/시간 값 오류") from exc
 
-    if values >= values[1]:
+    if values[0] >= values[1]:
         raise Hold("안전하게 확인 가능한 접수 구간 없음")
-    return values, values
+    return values[0], values[1]
 
 
 def labeled_value(root, pattern):
@@ -429,7 +429,7 @@ def select_one(root, selector, label):
     elements = root.select(selector)
     if len(elements) != 1:
         raise Hold(f"{label}: 선택 결과 {len(elements)}개")
-    return elements
+    return elements[0]
 
 
 def default_config():
@@ -531,7 +531,7 @@ def scrape_list(page, site):
         if len(candidates) != 1:
             raise Hold("게시글 행의 상세 링크가 없거나 모호함")
 
-        item = candidates
+        item = candidates[0]
         if item["url"] in posts and posts[item["url"]]["title"] != item["title"]:
             raise Hold("같은 상세 URL에 서로 다른 제목")
         posts[item["url"]] = item
@@ -691,7 +691,7 @@ def classify_ai(title, body):
         if len(candidates) != 1:
             raise Hold("AI 후보 응답 수 오류")
 
-        candidate = candidates
+        candidate = candidates[0]
         if candidate.get("finishReason") != "STOP":
             raise Hold("AI 응답이 정상 완료되지 않음")
 
@@ -1083,7 +1083,7 @@ class RegressionTests(unittest.TestCase):
         ]
         for title in titles:
             with self.subTest(title=title):
-                self.assertFalse(title_filter(title))
+                self.assertFalse(title_filter(title)[0])
 
     def test_valid_title_candidates(self):
         for title in [
@@ -1093,7 +1093,7 @@ class RegressionTests(unittest.TestCase):
             "2026 전시 작가 공모",
         ]:
             with self.subTest(title=title):
-                self.assertTrue(title_filter(title))
+                self.assertTrue(title_filter(title)[0])
 
     def test_tuple_truthiness_regression(self):
         ok, _ = title_filter("예매/신청 조회")
