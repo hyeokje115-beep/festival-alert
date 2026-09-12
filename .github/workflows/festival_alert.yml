@@ -1,56 +1,58 @@
-name: Festival Alert
+name: festival-alert
+
 on:
-  workflow_dispatch:
-    inputs:
-      mode:
-        description: send, dry-run, status, resolve
-        required: false
-        default: send
-      resolve_id:
-        required: false
-      resolution:
-        required: false
-      confirm:
-        required: false
   schedule:
+    # GitHub cron은 UTC 기준 → KST 09:00 = UTC 00:00, KST 18:00 = UTC 09:00
     - cron: "0 0 * * *"
     - cron: "0 9 * * *"
+  workflow_dispatch:        # Actions 탭에서 수동 실행 버튼
+
+permissions:
+  contents: write           # known_posts.json 커밋에 필요
+
 concurrency:
-  group: festival-alert-production
-  cancel-in-progress: false
+  group: festival-alert
+  cancel-in-progress: false # 이전 실행이 안 끝났으면 겹치지 않게 대기
+
 jobs:
   check:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 20
-    permissions:
-      contents: write
-    env:
-      PYTHONUNBUFFERED: "1"
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-      NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
-      GH_TOKEN: ${{ github.token }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-      - name: Setup Python
-        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.12.10"
-      - name: Install
-        run: python -m pip install --requirement requirements.txt
-      - name: Offline self-tests
-        run: python festival_checker.py --self-test
-      - name: Run
+          python-version: "3.11"
+          cache: pip
+
+      - name: 의존성 설치
         run: |
-          MODE="${{ github.event.inputs.mode || 'send' }}"
-          if [ "$MODE" = "dry-run" ]; then
-            python festival_checker.py --dry-run
-          elif [ "$MODE" = "status" ]; then
-            python festival_checker.py --mode status
-          elif [ "$MODE" = "resolve" ]; then
-            python festival_checker.py --mode resolve --resolve "${{ github.event.inputs.resolve_id }}" --resolution "${{ github.event.inputs.resolution }}" --confirm "${{ github.event.inputs.confirm }}"
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: 공모 확인 실행
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TZ: Asia/Seoul
+          PYTHONUNBUFFERED: "1"
+        run: python festival_checker.py
+
+      - name: known_posts.json 커밋
+        if: always()          # 스크립트가 중간에 실패해도 그때까지 저장된 DB는 반영
+        run: |
+          git config user.name "festival-alert-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add known_posts.json
+          if git diff --cached --quiet; then
+            echo "변경 없음"
           else
-            python festival_checker.py --mode send
+            git commit -m "chore: known_posts 갱신 $(date '+%Y-%m-%d %H:%M KST')"
+            git pull --rebase origin ${{ github.ref_name }} || true
+            git push
           fi
