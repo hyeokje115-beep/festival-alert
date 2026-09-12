@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 """
-공모사업 알림 봇 v6.4
-v6.2 대비 변경점:
-1. 위비티 전용 스크래퍼 신설 (gbn=view 상세글만 선택, 다중페이지, 카테고리어 필수)
-2. cfsc 순천 캘린더: "공모" 라벨만 통과 + 상세링크 있는 게시판(open0102.asp) 신규 추가
-3. Gemini: JSON 구조화 출력 + confidence/exclude_reason + 모델 폴백체인(4단계) + recall-first 정책
-4. 규칙필터: 위비티(종합사이트)만 카테고리어 필수, 나머지 22개 문화재단은 목적어+블랙리스트만
-5. 상세페이지 고유 URL 추출 → ntfy click/actions에 직접 링크
-6. known_posts 키를 detail_url 우선으로 변경 (신구 키 동시 확인해 마이그레이션 안전)
-7. 0건 수집 사이트 / Gemini 전체 실패 감지 시 점검 알림 발송
+공모사업 알림 봇 v6.5
+v6.4 대비 변경점:
+- ntfy 알림 발송 시 내용이 길어도 잘리지 않도록, 바이트 한도를 넘으면
+  알림을 여러 건(1/2, 2/2 ...)으로 자동 분할 발송하도록 변경
 """
 
 import json, os, re, time, traceback
@@ -44,29 +39,21 @@ PURPOSE_WORDS = [
 ]
 
 BLACKLIST_PATTERNS = [
-    # 결과/선정
     r"결과\s*발표", r"결과\s*공개", r"결과\s*안내", r"선정\s*결과",
     r"최종\s*선정", r"심사\s*결과", r"수상\s*결과", r"합격자?\s*발표",
     r"\d+차\s*결과", r"행정심사\s*결과",
     r"모집\s*결과", r"접수\s*결과",
-    # 첨부파일/정산
     r"첨부파일", r"정산\s*안내서?", r"정산\s*보고", r"사업비\s*정산", r"보조금\s*정산",
-    # 행정조직/위촉/위원모집
     r"사업\s*추진단", r"^\s*TF\s*$", r"^\s*위원회\s*$", r"위원\s*위촉",
     r"심사위원.{0,10}모집", r"평가위원.{0,10}모집",
     r"자문위원.{0,10}모집", r"운영위원.{0,10}모집",
-    # 상설/정기 공연
     r"상설공연", r"정기공연", r"\d{1,2}월\s*공연\s*안내", r"\d{1,2}일\s*공연\s*안내",
     r"공연\s*소개", r"공연\s*일정",
-    # 채용/구인
     r"채용\s*공고", r"채용\s*공지", r"직원\s*모집", r"근무자\s*모집",
     r"인턴\s*모집", r"기간제\s*모집", r"계약직\s*모집",
-    # 입찰/용역
     r"입찰\s*공고", r"용역\s*발주",
-    # 일반 시민/학생 대상 모집(위비티 등 종합사이트 대비)
     r"서포터즈\s*모집", r"기자단\s*모집", r"모니터단?\s*모집",
     r"자원봉사자?\s*모집", r"수강생\s*모집",
-    # UI 잔여물
     r"^\s*(더보기|바로가기|하위메뉴)\s*$", r"홍보\s*추진",
 ]
 
@@ -82,10 +69,6 @@ def normalize(text: str) -> str:
 
 
 def rule_filter_debug(title: str, category_required: bool = False) -> tuple:
-    """
-    category_required=False (기본, 문화재단 등 전용 사이트): 목적어+블랙리스트만 확인
-    category_required=True (위비티: 전분야 종합 공모사이트): 카테고리어까지 필수
-    """
     raw_len = len(title.strip())
     if raw_len < 8:
         return False, f"너무 짧음({raw_len}자)"
@@ -108,7 +91,7 @@ def rule_filter_debug(title: str, category_required: bool = False) -> tuple:
 
 
 # ═══════════════════════════════════════════════════════════
-# Gemini — 구조화 출력 + 모델 폴백체인 + recall-first 정책
+# Gemini
 # ═══════════════════════════════════════════════════════════
 
 GEMINI_MODEL_CHAIN = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
@@ -171,7 +154,6 @@ JSON 배열로만 반환하세요.
 
 
 def should_include(gemini_item: dict) -> bool:
-    """recall-first 정책: 애매하면 포함, 명확한 근거+고신뢰일 때만 제외"""
     if gemini_item.get("is_relevant") is True:
         return True
     conf = gemini_item.get("confidence")
@@ -227,7 +209,6 @@ def gemini_filter_batch(batch: list) -> list:
                     time.sleep(2 + attempt * 2)
     print(f"     [Gemini 전체 실패] {last_err} → 규칙필터 결과 그대로 통과(fail-open)")
     GEMINI_FAILURE_LOG.append(str(last_err))
-    # 마지막 안전망: fallback 키워드 필터라도 적용
     return [c for c in batch if any(w in c["title"] for w in FALLBACK_KEYWORDS)] or batch
 
 
@@ -279,7 +260,6 @@ SITES = [
     {"name": "광주비엔날레",          "url": "https://www.gwangjubiennale.org/gb/notice.do",         "type": "board"},
     {"name": "전북문화관광재단",       "url": "https://www.jbct.or.kr/notice.php",                   "type": "board"},
     {"name": "전북문화관광재단_공모",  "url": "https://www.jbct.or.kr/c_notice.php",                 "type": "board"},
-    # 순천 — 캘린더(개선) + 실제 링크 있는 게시판(신규, 이중 안전망)
     {"name": "순천문화재단_공모캘린더","url": "https://www.cfsc.or.kr/contents/news/news0106.asp",   "type": "calendar"},
     {"name": "순천문화재단_타기관공모","url": "https://www.cfsc.or.kr/contents/open/open0501.asp",   "type": "board"},
     {"name": "순천문화재단_공모게시판","url": "https://www.cfsc.or.kr/contents/open/open0102.asp?bseq=1&cat=39&yy=", "type": "board"},
@@ -320,10 +300,10 @@ def resolve_href(page, raw_href: str) -> str:
 
 
 # ═══════════════════════════════════════════════════════════
-# 스크래퍼: 위비티 전용 (gbn=view 상세글만, 다중페이지)
+# 스크래퍼: 위비티 전용
 # ═══════════════════════════════════════════════════════════
 
-WEVITY_MAX_PAGES = 3  # 최신순 3페이지(약 45~60건) 커버 → 마감 누락 방지
+WEVITY_MAX_PAGES = 3
 
 
 def scrape_wevity(page, url: str, name: str) -> list:
@@ -431,7 +411,7 @@ def scrape_calendar(page, url: str, name: str) -> list:
                     raw.append({
                         "name": name, "title": title,
                         "site_url": cal_url,
-                        "detail_url": "",  # cfsc 캘린더는 href="#!" (JS 오버레이)라 실제 링크 없음(실측 확인됨)
+                        "detail_url": "",
                         "deadline": deadline,
                     })
                 except Exception:
@@ -445,7 +425,7 @@ def scrape_calendar(page, url: str, name: str) -> list:
 
 
 # ═══════════════════════════════════════════════════════════
-# 스크래퍼: 일반 게시판 (상세 URL 추출 포함)
+# 스크래퍼: 일반 게시판
 # ═══════════════════════════════════════════════════════════
 
 DETAIL_LINK_HINT = re.compile(r'(view|idx=|aseq=|seq=|wr_id=|bo_idx=|no=\d|article|read|detail)', re.IGNORECASE)
@@ -459,7 +439,6 @@ def scrape_board(page, url: str, name: str) -> list:
         page.goto(url, wait_until="networkidle", timeout=40000)
         page.wait_for_timeout(2000)
 
-        # ─ 전략 1: 번호 있는 테이블 ─
         rows = page.query_selector_all("table tbody tr")
         for row in rows:
             try:
@@ -481,7 +460,6 @@ def scrape_board(page, url: str, name: str) -> list:
             except Exception:
                 pass
 
-        # ─ 전략 2: ul/ol li ─
         if not raw:
             seen = set()
             for li in page.query_selector_all("ul li, ol li"):
@@ -500,7 +478,6 @@ def scrape_board(page, url: str, name: str) -> list:
                 except Exception:
                     pass
 
-        # ─ 전략 3: href 패턴 필터가 걸린 a 태그만 (메뉴 오염 방지) ─
         if not raw:
             seen = set()
             for a in page.query_selector_all("a"):
@@ -563,7 +540,6 @@ def scrape_all() -> tuple:
             raw_counts[name] = len(raw)
             print(f"  수집: {len(raw)}개")
 
-            # ── 1차 규칙 필터 (위비티만 카테고리어 필수) ──
             category_required = (stype == "wevity")
             rule_passed = []
             for item in raw:
@@ -576,7 +552,6 @@ def scrape_all() -> tuple:
 
             print(f"  [규칙통과] {len(rule_passed)}개")
 
-            # ── 2차 Gemini 필터 ──
             final = gemini_filter(rule_passed)
             print(f"  [최종알림] {len(final)}개")
 
@@ -589,7 +564,7 @@ def scrape_all() -> tuple:
 
 
 # ═══════════════════════════════════════════════════════════
-# known_posts 관리 (신구 키 동시 확인 → 안전한 마이그레이션)
+# known_posts 관리
 # ═══════════════════════════════════════════════════════════
 
 def make_key(item: dict) -> str:
@@ -599,7 +574,7 @@ def make_key(item: dict) -> str:
 
 
 def make_key_legacy(item: dict) -> str:
-    return f"{item['name']}|{item['title'][:50]}"  # v6.2 방식
+    return f"{item['name']}|{item['title'][:50]}"
 
 
 def is_known(item: dict, known: dict) -> bool:
@@ -619,27 +594,32 @@ def save_known(data: dict):
 
 
 # ═══════════════════════════════════════════════════════════
-# ntfy 알림 전송 (직접 링크 + 액션 버튼)
+# ntfy 알림 전송 — 잘림 없이, 길면 여러 건으로 분할 발송  ★ 이번 수정 핵심
 # ═══════════════════════════════════════════════════════════
+
+NTFY_MAX_BODY_BYTES = 3900  # ntfy 실제 한도(4096바이트)에서 여유를 둔 안전값
+
 
 def _truncate(s: str, n: int) -> str:
     return s if len(s) <= n else s[:n - 1] + "…"
 
 
-def _truncate_bytes(s: str, max_bytes: int) -> str:
-    encoded = s.encode('utf-8')
-    if len(encoded) <= max_bytes:
-        return s
-    return encoded[:max_bytes].decode('utf-8', errors='ignore') + "…"
+def _bytes_len(s: str) -> int:
+    return len(s.encode('utf-8'))
 
 
 def send_ntfy(title: str, body: str, click_url: str = "", actions: list = None):
     if not NTFY_TOPIC:
         return
+    # 극단적으로 body 하나가 한도를 넘는 경우에 대비한 최후 안전장치
+    # (정상적인 경우 아래 _chunk_items_by_bytes 단계에서 이미 걸러지므로 여기 안 걸림)
+    if _bytes_len(body) > NTFY_MAX_BODY_BYTES:
+        body = body.encode('utf-8')[:NTFY_MAX_BODY_BYTES].decode('utf-8', errors='ignore') + "\n…(내용 계속)"
+
     payload = {
         "topic":    NTFY_TOPIC,
         "title":    title,
-        "message":  _truncate_bytes(body, 3800),
+        "message":  body,
         "priority": 4,
         "tags":     ["loudspeaker"],
     }
@@ -659,6 +639,32 @@ def send_ntfy(title: str, body: str, click_url: str = "", actions: list = None):
             time.sleep(3)
 
 
+def _chunk_items_by_bytes(items: list, max_bytes: int) -> list:
+    """
+    항목 리스트를 '본문 바이트 합이 max_bytes를 넘지 않는' 여러 묶음으로 분할.
+    한 항목도 잘리지 않고 반드시 어딘가의 묶음에 온전히 포함됨.
+    """
+    chunks, current, current_bytes = [], [], 0
+    for it in items:
+        line = f"• {it['title']}"
+        if it.get("deadline"):
+            line += f" (~{it['deadline']})"
+        line_bytes = _bytes_len(line) + 1  # 줄바꿈 포함
+
+        if line_bytes > max_bytes:  # 항목 하나가 단독으로 한도 초과하는 비정상 케이스만 축약
+            line = _truncate(line, max_bytes // 3)
+            line_bytes = _bytes_len(line) + 1
+
+        if current and current_bytes + line_bytes > max_bytes:
+            chunks.append(current)
+            current, current_bytes = [], 0
+        current.append((it, line))
+        current_bytes += line_bytes
+    if current:
+        chunks.append(current)
+    return chunks
+
+
 def notify_site(site_name: str, items: list):
     if len(items) == 1:
         it = items[0]
@@ -667,24 +673,28 @@ def notify_site(site_name: str, items: list):
         send_ntfy(f"📢 [{site_name}] 새 공모", f"{it['title']}{dl}", click_url=link)
         return
 
-    primary_link = items[0].get("detail_url") or items[0]["site_url"]
-    lines = []
-    for i in items[:10]:
-        line = f"• {i['title']}"
-        if i.get("deadline"):
-            line += f" (~{i['deadline']})"
-        lines.append(line)
-    if len(items) > 10:
-        lines.append(f"...외 {len(items) - 10}건 더")
+    chunks = _chunk_items_by_bytes(items, NTFY_MAX_BODY_BYTES)
+    total_parts = len(chunks)
 
-    actions = []
-    for it in items[:3]:
-        link = it.get("detail_url") or it["site_url"]
-        if link:
-            actions.append({"action": "view", "label": _truncate(it["title"], 35), "url": link, "clear": True})
+    for part_idx, chunk in enumerate(chunks, start=1):
+        chunk_items = [it for it, _ in chunk]
+        lines = [line for _, line in chunk]
+        primary_link = chunk_items[0].get("detail_url") or chunk_items[0]["site_url"]
 
-    send_ntfy(f"📢 [{site_name}] 새 공모 {len(items)}개", "\n".join(lines),
-              click_url=primary_link, actions=actions)
+        actions = []
+        for it in chunk_items[:3]:
+            link = it.get("detail_url") or it["site_url"]
+            if link:
+                actions.append({"action": "view", "label": _truncate(it["title"], 35), "url": link, "clear": True})
+
+        title = f"📢 [{site_name}] 새 공모 {len(items)}개"
+        if total_parts > 1:
+            title += f" ({part_idx}/{total_parts})"
+
+        send_ntfy(title, "\n".join(lines), click_url=primary_link, actions=actions)
+
+        if part_idx < total_parts:
+            time.sleep(1.5)  # ntfy 연속발송 순서 보장용 짧은 딜레이
 
 
 # ═══════════════════════════════════════════════════════════
@@ -692,7 +702,7 @@ def notify_site(site_name: str, items: list):
 # ═══════════════════════════════════════════════════════════
 
 def main():
-    print(f"\n공모사업 알림 봇 v6.4 | {datetime.now().strftime('%Y-%m-%d %H:%M KST')}")
+    print(f"\n공모사업 알림 봇 v6.5 | {datetime.now().strftime('%Y-%m-%d %H:%M KST')}")
     print("=" * 55)
 
     current, raw_counts = scrape_all()
@@ -703,7 +713,7 @@ def main():
     print(f"전체 공모 풀: {len(current)}건 | 신규: {len(new_items)}건")
 
     if new_items:
-        by_site: dict = {}
+        by_site = {}
         for v in new_items.values():
             by_site.setdefault(v["name"], []).append(v)
         for site_name, items in by_site.items():
@@ -711,17 +721,15 @@ def main():
     else:
         send_ntfy("✅ 신규 공모 없음", f"확인 시각: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
 
-    # ── 점검 알림: 0건 수집 사이트 / Gemini 전체 실패 ──
     warnings = []
     zero_sites = [n for n, c in raw_counts.items() if c == 0]
     if zero_sites:
         warnings.append(f"⚠️ 0건 수집(구조변경/차단 의심): {', '.join(zero_sites)}")
     if GEMINI_FAILURE_LOG:
-        warnings.append(f"⚠️ Gemini 필터 실패 {len(GEMINI_FAILURE_LOG)}건 → 일부는 규칙필터 결과만 반영됐을 수 있음")
+        warnings.append(f"⚠️ Gemini 필터 실패 {len(GEMINI_FAILURE_LOG)}건")
     if warnings:
         send_ntfy("🔧 festival-alert 점검 필요", "\n".join(warnings))
 
-    # known_posts 업데이트 (신규 키 포맷으로 저장, 레거시 키도 함께 보존해 안전)
     known.update(current)
     save_known(known)
     print("\n완료.")
