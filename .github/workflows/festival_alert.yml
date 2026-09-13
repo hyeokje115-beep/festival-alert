@@ -2,57 +2,77 @@ name: festival-alert
 
 on:
   schedule:
-    # GitHub cron은 UTC 기준 → KST 09:00 = UTC 00:00, KST 18:00 = UTC 09:00
-    - cron: "0 0 * * *"
-    - cron: "0 9 * * *"
-  workflow_dispatch:        # Actions 탭에서 수동 실행 버튼
+    - cron: "7 0,4,9 * * *"      # KST 09:07 / 13:07 / 18:07 본실행
+    - cron: "37 */6 * * *"       # 6시간마다 피드백 수거(브라우저 없음, 20초)
+  workflow_dispatch:
 
 permissions:
-  contents: write           # known_posts.json 커밋에 필요
+  contents: write
 
 concurrency:
   group: festival-alert
-  cancel-in-progress: false # 이전 실행이 안 끝났으면 겹치지 않게 대기
+  cancel-in-progress: false
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
+    timeout-minutes: 40
     steps:
-      - name: 체크아웃
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Python 설정
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
 
-      - name: 의존성 설치
+      - name: 실행 모드 결정
+        id: mode
+        run: |
+          if [ "${{ github.event.schedule }}" = "37 */6 * * *" ]; then echo "mode=feedback" >> $GITHUB_OUTPUT; else echo "mode=full" >> $GITHUB_OUTPUT; fi
+
+      - name: 의존성
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
 
-      - name: 공모 확인 실행
+      - name: Playwright 캐시
+        if: steps.mode.outputs.mode == 'full'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Chromium 설치
+        if: steps.mode.outputs.mode == 'full'
+        run: python -m playwright install --with-deps chromium
+
+      - name: 실행
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_FEEDBACK_TOPIC: ${{ secrets.NTFY_FEEDBACK_TOPIC }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RUN_MODE: ${{ steps.mode.outputs.mode }}
           TZ: Asia/Seoul
           PYTHONUNBUFFERED: "1"
         run: python festival_checker.py
 
-      - name: known_posts.json 커밋
-        if: always()          # 스크립트가 중간에 실패해도 그때까지 저장된 DB는 반영
+      - name: 실패 알림
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -s -H "Title: =?UTF-8?B?$(printf '[점검] 워크플로 실행 실패' | base64 -w0)?=" -H "Priority: high" -H "Tags: rotating_light" \
+            -d "GitHub Actions 실행이 실패했습니다. Actions 탭 로그를 확인하세요. run=${{ github.run_id }}" \
+            "https://ntfy.sh/${NTFY_TOPIC}" || true
+
+      - name: DB/리포트 커밋
+        if: always()
         run: |
           git config user.name "festival-alert-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add known_posts.json
-          if git diff --cached --quiet; then
-            echo "변경 없음"
-          else
-            git commit -m "chore: known_posts 갱신 $(date '+%Y-%m-%d %H:%M KST')"
+          git add known_posts.json fixtures reports 2>/dev/null || true
+          if git diff --cached --quiet; then echo "변경 없음"; else
+            git commit -m "chore: 상태 갱신 $(date '+%Y-%m-%d %H:%M')"
             git pull --rebase origin ${{ github.ref_name }} || true
             git push
           fi
