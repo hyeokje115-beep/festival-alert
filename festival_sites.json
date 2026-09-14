@@ -56,7 +56,7 @@
     "row_selector": "tbody > tr",
     "link_selector": "a[href]",
     "date_selector": "",
-    "enabled": true,
+    "enabled": false,
     "verified": false,
     "added_by": "",
     "added_at": "",

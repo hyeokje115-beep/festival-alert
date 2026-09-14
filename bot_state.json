@@ -1,16 +1,16 @@
 {
-  "update_offset": 0,
+  "update_offset": 614088358,
   "pending": {},
   "last_scan_at": "2026-09-15 02:09:34",
-  "last_inbox_at": "2026-09-15 02:04:13",
+  "last_inbox_at": "2026-09-15 02:41:28",
   "commands_set": true,
   "last_inbox": {
-    "updates": 0,
+    "updates": 12,
     "votes": 0,
-    "commands": 0,
+    "commands": 12,
     "errors": 0
   },
-  "updated_at": "2026-09-15 02:09:34",
+  "updated_at": "2026-09-15 02:41:28",
   "last_scan": {
     "at": "2026-09-15 02:09:34",
     "elapsed": 322.7,
