@@ -1,0 +1,54 @@
+name: test-alert (수동)
+
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: "테스트할 카테고리"
+        type: choice
+        default: 전시
+        options:
+          - 전시
+          - 공연
+          - 체험
+          - 전체
+
+permissions:
+  contents: read     # 데이터 파일을 커밋하지 않으므로 read 로 충분
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Asia/Seoul
+      PYTHONUNBUFFERED: "1"
+      PYTHONIOENCODING: "utf-8"
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 패키지 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 가짜 알림 발송
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALLOWED_CHAT_IDS: ${{ secrets.TELEGRAM_ALLOWED_CHAT_IDS }}
+          TELEGRAM_ALERT_CHAT_IDS: ${{ secrets.TELEGRAM_ALERT_CHAT_IDS }}
+          TELEGRAM_ADMIN_CHAT_IDS: ${{ secrets.TELEGRAM_ADMIN_CHAT_IDS }}
+          CATEGORY: ${{ github.event.inputs.category }}
+        run: |
+          if [ "$CATEGORY" = "전체" ]; then
+            python test_alert.py 전시 공연 체험
+          else
+            python test_alert.py "$CATEGORY"
+          fi
