@@ -4,8 +4,8 @@ name: festival-alert
 on:
   schedule:
     # GitHub Actions 는 UTC 기준 (KST = UTC+9). 실제 시작은 예약 시각보다 수 분~수십 분 늦을 수 있음
-    - cron: "0 0,9 * * *"               # KST 09:00 · 18:00 → scan  (사이트 스캔 + 알림, inbox 포함)
-    - cron: "0 3,6,12,15,18,21 * * *"   # 나머지 3시간 간격       → inbox (명령 · 👍👎 처리만)
+    - cron: "0 0,9 * * *"     # KST 09:00 · 18:00 → scan
+    - cron: "*/5 * * * *"     # 5분마다 → inbox (테스트)
   workflow_dispatch:
     inputs:
       mode:
