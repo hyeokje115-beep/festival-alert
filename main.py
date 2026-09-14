@@ -527,6 +527,24 @@ def main(argv: list[str]) -> int:
     finally:
         if rt is not None:
             rt.close()
+          
+    # ── ⑤ 발송 끝난 직후 (기존 코드 그대로)
+    ...
+
+    # ── 공모 없음 알림 추가 ──────────────────────────────────────
+    if not DRY_RUN and sent == 0 and not deferred:
+        broadcast(
+            rt.client,
+            f"📭 <b>새 공모 없음</b>  {esc(config.now_kst_iso()[:16])}\n"
+            f"사이트 {stat['sites_ok']}/{len(sites)} 스캔 완료 · 새 글 {stat['new_rows']}건 검토\n"
+            "<i>알림 기준에 맞는 공모가 없었습니다.</i>",
+            config.TELEGRAM_ALERT_CHAT_IDS,
+            silent=True,   # 무음 (소리 알림 원하면 False)
+        )
+    # ────────────────────────────────────────────────────────────
+
+    # ── ⑥ 마무리 (기존 코드)
+    rt.known.prune()
 
 
 
