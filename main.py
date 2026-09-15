@@ -382,15 +382,28 @@ def run_scan(rt: Runtime) -> int:
     candidates.sort(key=lambda c: (c.pre.score, c.posted_date), reverse=True)
     to_alert: list[dict] = []
     to_review: list[dict] = []                                    # 확신 부족 — 사람이 👍/👎 로 직접 판단
+    defer_max = int(getattr(config, "DEFER_MAX_RETRY", 3))         # 이 횟수 넘게 계속 실패하면 확인요청으로 전환
+    fail_counts: dict = rt.state.get("defer_fail_counts", {}) or {}
     deferred = 0
     for c in candidates:
         post = c.post()
         v = judge.judge(post, c.body, extracted=c.extracted, attachments=c.attachments, prefilter_reason=c.pre.reason)
         dec = final_decision(post, v, c.extracted)
         if v.status in ("error", "budget", "skipped"):
-            deferred += 1
-            log(f"  ⏳ 보류({v.status}): {c.row.title[:40]} — {v.reason[:80]}")
+            n = int(fail_counts.get(c.row.key, 0)) + 1
+            if n >= defer_max:
+                fail_counts.pop(c.row.key, None)
+                post.update(ai_reason=f"AI 판정 {n}회 연속 실패({v.status}) — 1차 필터 근거: {c.pre.reason or '없음'}",
+                            ai_confidence=0.0, category="", applicant="")
+                to_review.append(post)
+                _mark(rt, c.site, c.row, STATUS_LOW_CONF, f"판정 {n}회 연속 실패 → 확인요청 전환")
+                log(f"  🤔 확인 요청(판정 {n}회 실패, {v.status}): {c.row.title[:40]}")
+            else:
+                fail_counts[c.row.key] = n
+                deferred += 1
+                log(f"  ⏳ 보류({v.status}, {n}/{defer_max}회): {c.row.title[:40]} — {v.reason[:80]}")
             continue
+        fail_counts.pop(c.row.key, None)                           # 판정 성공 — 실패 기록 제거
         post.update(deadline=dec.deadline, start=dec.start, always_open=dec.always_open,
                     period_text=dec.period_text or post["period_text"], ai_reason=v.reason,
                     ai_confidence=v.confidence, category=v.category, applicant=v.applicant)
@@ -404,6 +417,9 @@ def run_scan(rt: Runtime) -> int:
                 log(f"  🤔 확인 요청(확신 {v.confidence:.0%}): {c.row.title[:40]} — {v.reason[:60]}")
             else:
                 log(f"  – {dec.status}: {c.row.title[:40]} — {dec.note[:60]}")
+
+
+    rt.state.set(defer_fail_counts=fail_counts)                   # 다음 실행에서 이어서 카운트
 
 
     # ── ⑤ 발송 (마감 임박 순, 마감 미확인은 뒤로)
