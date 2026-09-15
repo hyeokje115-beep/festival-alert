@@ -6,8 +6,8 @@
       "at": "2026-09-15 03:57:49"
     }
   },
-  "last_scan_at": "2026-09-15 18:03:18",
-  "last_inbox_at": "2026-09-15 18:00:44",
+  "last_scan_at": "2026-09-15 18:11:09",
+  "last_inbox_at": "2026-09-15 18:08:33",
   "commands_set": true,
   "last_inbox": {
     "updates": 0,
@@ -15,18 +15,16 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-15 18:03:18",
+  "updated_at": "2026-09-15 18:11:09",
   "last_scan": {
-    "at": "2026-09-15 18:03:18",
-    "elapsed": 155.2,
+    "at": "2026-09-15 18:11:09",
+    "elapsed": 156.0,
     "sites_total": 20,
-    "sites_ok": 19,
-    "sites_fail": [
-      "고양문화재단 — 게시글 행을 찾지 못함 (셀렉터 불일치 · 로그인 필요 · 봇 차단 페이지 가능)"
-    ],
+    "sites_ok": 20,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 6,
+    "new_rows": 3,
     "seeded": 0,
     "candidates": 3,
     "gemini_calls": 5,
