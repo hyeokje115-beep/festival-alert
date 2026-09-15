@@ -3,8 +3,8 @@
 main.py — 실행 진입점                                                             [4단계 / 4]
 
 
-  python main.py scan     명령·👍👎 처리 → 사이트 스캔 → 1차 필터 → 본문 → Gemini → 알림        (KST 09 / 18)
-  python main.py inbox    텔레그램 명령(/add …) · 👍👎 처리만                                      (3시간 간격)
+  python main.py scan     명령·👍👎 처리 → 사이트 스캔 → 1차 필터 → 본문 → Gemini → 알림        (KST 09:00 / 13:30 / 18:00)
+  python main.py inbox    텔레그램 명령(/add …) · 👍👎 처리만                                      (15분 간격)
   python main.py check    설정 · 파일 · 봇 토큰 점검 후 확인 메시지 발송
 
 
@@ -319,8 +319,10 @@ def _summary_text(s: dict) -> str:
         f"🧾 <b>스캔 요약</b> {esc(str(s['at'])[:16])} · {s['elapsed']}초",
         f"사이트 {s['sites_ok']}/{s['sites_total']} · 새 글 {s['new_rows']} (첫 스캔 기록 {s['seeded']}) · 1차 통과 {s['candidates']}",
         f"Gemini {s['gemini_calls']}회 (오류 {s['gemini_errors']} · 👎차단 {s['feedback_blocked']}) · "
-        f"알림 {s['alerts']}건 · 보류 {s['deferred']}",
+        f"알림 {s['alerts']}건 · 확인요청 {s.get('reviewed', 0)}건 · 보류 {s['deferred']}",
     ]
+    if s.get("gemini_last_error"):
+        lines.append("🤖 Gemini 오류: " + esc(str(s["gemini_last_error"])[:160]))
     if s["sites_fail"]:
         lines.append("⚠️ 실패: " + ", ".join(esc(x) for x in s["sites_fail"][:8]))
     if s["disabled"]:
@@ -391,9 +393,11 @@ def run_scan(rt: Runtime) -> int:
         dec = final_decision(post, v, c.extracted)
         if v.status in ("error", "budget", "skipped"):
             n = int(fail_counts.get(c.row.key, 0)) + 1
+            if v.status == "error" and getattr(judge, "exhausted", False):
+                n = max(n, defer_max)                             # 모델 자체가 없음 — 재시도 무의미, 이번 실행에서 확인요청
             if n >= defer_max:
                 fail_counts.pop(c.row.key, None)
-                post.update(ai_reason=f"AI 판정 {n}회 연속 실패({v.status}) — 1차 필터 근거: {c.pre.reason or '없음'}",
+                post.update(ai_reason=f"AI 판정 실패 {n}회({v.status}: {v.reason[:60]}) — 1차 필터 근거: {c.pre.reason or '없음'}",
                             ai_confidence=0.0, category="", applicant="")
                 to_review.append(post)
                 _mark(rt, c.site, c.row, STATUS_LOW_CONF, f"판정 {n}회 연속 실패 → 확인요청 전환")
@@ -490,6 +494,7 @@ def run_scan(rt: Runtime) -> int:
         "candidates": len(candidates), "gemini_calls": judge.calls, "gemini_errors": judge.errors,
         "feedback_blocked": judge.blocked, "alerts": sent, "reviewed": reviewed, "deferred": deferred,
         "send_errors": send_errors, "inbox": inbox, "dry_run": DRY_RUN,
+        "gemini_last_error": getattr(judge, "last_error", ""),
     }
     rt.state.set(last_scan_at=summary["at"], last_scan=summary)
     rt.save()
