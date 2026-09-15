@@ -6,8 +6,8 @@
       "at": "2026-09-15 03:57:49"
     }
   },
-  "last_scan_at": "2026-09-15 02:09:34",
-  "last_inbox_at": "2026-09-15 08:54:10",
+  "last_scan_at": "2026-09-15 09:13:23",
+  "last_inbox_at": "2026-09-15 09:08:43",
   "commands_set": true,
   "last_inbox": {
     "updates": 0,
@@ -15,31 +15,22 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-15 08:54:10",
+  "updated_at": "2026-09-15 09:13:23",
   "last_scan": {
-    "at": "2026-09-15 02:09:34",
-    "elapsed": 322.7,
-    "sites_total": 25,
+    "at": "2026-09-15 09:13:23",
+    "elapsed": 280.1,
+    "sites_total": 24,
     "sites_ok": 20,
     "sites_fail": [
-      "미마프 — HTTP 403 (봇 차단 가능)",
       "전주문화재단 — 페이지 로딩 시간 초과 (30s)",
       "전남문화재단_타기관 — 페이지 로딩 시간 초과 (30s)",
       "전남문화재단_협업 — 페이지 로딩 시간 초과 (30s)",
       "전남문화재단_공지 — 브라우저 오류: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https:/"
     ],
     "disabled": [],
-    "selector_fixed": [
-      "광주문화재단",
-      "리콜렉션",
-      "고양문화재단",
-      "위비티",
-      "순천문화재단_공모캘린더",
-      "순천문화재단_타기관공모",
-      "순천문화재단_공모게시판"
-    ],
-    "new_rows": 398,
-    "seeded": 398,
+    "selector_fixed": [],
+    "new_rows": 2,
+    "seeded": 0,
     "candidates": 0,
     "gemini_calls": 0,
     "gemini_errors": 0,
