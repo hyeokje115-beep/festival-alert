@@ -7,7 +7,8 @@ commands.py — 텔레그램 명령 처리                                      
 
 
 명령 (텔레그램 입력창에서)
-  /start /help            소개 · 명령어
+  /start /help            봇 시작(관리자) · 소개 · 명령어
+  /stop                   알림 스캔 중지(관리자)
   /id                     내 chat_id (화이트리스트에 없어도 응답 — 가족 등록용)
   /add <URL> [이름]       감시 사이트 자동 등록: 목록을 읽어 이름 · 셀렉터를 채우고, 기존 글은 알림 없이 기록
                           URL 만 보내도(명령 없이) 등록됨. /add 만 보내면 URL 을 물어봄 (/cancel 로 취소)
@@ -55,8 +56,10 @@ STATUS_LABEL = {
 HELP_TEXT = (
     "🤖 <b>공모 알림 봇</b>\n"
     "등록한 사이트에서 전시 · 공연 · 체험 분야의 <b>지금 신청 가능한 공모 · 지원사업</b>만 골라\n"
-    "매일 <b>09:00 · 18:00</b> 에 알려드립니다.\n\n"
+    "매일 <b>09:00 · 13:30 · 18:00</b> 에 알려드립니다.\n\n"
     "<b>명령어</b>\n"
+    "/start — 중지된 봇 다시 시작 (관리자)\n"
+    "/stop — 알림 스캔 중지 (관리자)\n"
     "/add &lt;게시판 URL&gt; [이름] — 사이트 등록 (URL 만 보내도 됨)\n"
     "/list — 감시 사이트 목록\n"
     "/remove · /disable · /enable &lt;id 또는 이름&gt;\n"
@@ -175,7 +178,19 @@ class CommandHandler:
 
     # ---- 기본 -----------------------------------------------------------
     def _cmd_start(self, chat_id, user, args, chat):
-        self._reply(chat_id, HELP_TEXT)
+        if is_admin(chat_id):
+            self.state.set(bot_enabled=True)
+            self._reply(chat_id, "▶️ 봇을 시작했습니다. 다음 예약부터 알림 스캔을 재개합니다.\n\n" + HELP_TEXT)
+        else:
+            self._reply(chat_id, HELP_TEXT)
+
+
+    def _cmd_stop(self, chat_id, user, args, chat):
+        if not self._admin_only(chat_id):
+            return "denied"
+        self.state.set(bot_enabled=False)
+        self._reply(chat_id, "⏸ 봇을 중지했습니다. 예약 스캔과 알림을 멈춥니다. 다시 시작하려면 /start 를 보내세요.")
+        return "stop"
 
 
     def _cmd_help(self, chat_id, user, args, chat):
