@@ -15,6 +15,7 @@ commands.py — 텔레그램 명령 처리                                      
   /remove /disable /enable <id 또는 이름>   (관리자 chat_id 만)
   /status                 최근 스캔 결과 · 실패 사이트
   /stats                  알림 · 👍👎 통계 · 기록 분포
+  /kr [off] <id 또는 이름>  한국 PC 러너 담당 사이트 지정/해제 · /kr 만 보내면 목록   (관리자)
   /recent [N] [사이트|상태]  최근 판정 기록 N건 (제목 · 판정 · 근거 · 링크. 첫스캔/이관 기록 제외)
 
 
@@ -62,6 +63,7 @@ HELP_TEXT = (
     "/status — 최근 스캔 결과\n"
     "/stats — 알림 · 👍👎 통계\n"
     "/recent [N] [사이트|상태] — 최근 판정 기록 (AI 근거 포함)\n"
+    "/kr [off] &lt;id&gt; — 한국 PC 에서만 접속되는 사이트 지정/해제 (자동 이관됨)\n"
     "/id — 내 chat_id\n\n"
     "알림의 👍/👎 버튼은 다음 판정에 반영됩니다.\n"
     "<i>명령과 버튼은 3시간 간격으로 처리되어 즉시 응답하지 않습니다.</i>"
@@ -281,10 +283,11 @@ class CommandHandler:
         for i, s in enumerate(items, 1):
             checked = (s.get("last_checked") or "")[5:16] or "미확인"
             extra = f" · 실패 {s['fail_count']}회" if int(s.get("fail_count") or 0) else ""
+            extra += " · 🇰🇷 한국 러너" if s.get("kr_only") else ""
             lines.append(f"{i}. {_site_emoji(s)} <b>{esc(s['name'])}</b>\n"
                          f"　 <code>{esc(s['id'])}</code> · 확인 {esc(checked)} · 기록 {self.known.count(s['id'])}건{extra}")
         lines.append("")
-        lines.append("✅ 정상 · ⚠️ 최근 실패 · ⏸ 비활성    관리: /remove /disable /enable &lt;id&gt;")
+        lines.append("✅ 정상 · ⚠️ 최근 실패 · ⏸ 비활성 · 🇰🇷 한국 PC 러너 담당    관리: /remove /disable /enable /kr &lt;id&gt;")
         self._reply(chat_id, "\n".join(lines), silent=True)
 
 
@@ -342,6 +345,41 @@ class CommandHandler:
         self.sites.set_enabled(s["id"], True)
         self.sites.save()
         self._reply(chat_id, f"▶️ 활성: <b>{esc(s['name'])}</b> — 다음 스캔부터 다시 확인합니다.")
+
+
+    def _cmd_kr(self, chat_id, user, args, chat):
+        """한국 PC 러너 담당 지정/해제 — /kr <id>  ·  /kr off <id>  ·  /kr (목록)"""
+        if not self._admin_only(chat_id):
+            return "denied"
+        toks = (args or "").split(None, 1)
+        if not toks:
+            kr = [s for s in self.sites.all() if s.get("kr_only")]
+            if not kr:
+                self._reply(chat_id, "🇰🇷 한국 러너 담당 사이트가 없습니다.\n지정: /kr &lt;id 또는 이름&gt;", silent=True)
+                return
+            lines = [f"🇰🇷 <b>한국 PC 러너 담당 {len(kr)}개</b>", ""]
+            for s in kr:
+                lines.append(f"　· {_site_emoji(s)} <b>{esc(s['name'])}</b> <code>{esc(s['id'])}</code>")
+            lines.append("")
+            lines.append("해제: /kr off &lt;id&gt;   (GitHub 러너가 다시 스캔 — 해외 차단이면 5회 후 자동 재이관)")
+            self._reply(chat_id, "\n".join(lines), silent=True)
+            return
+        off = toks[0].lower() == "off"
+        query = toks[1] if off and len(toks) > 1 else ("" if off else args)
+        s = self._find_one(chat_id, query, "kr off" if off else "kr")
+        if s is None:
+            return
+        if off:
+            self.sites.update(s["id"], kr_only=False, conn_fail_count=0, fail_count=0)
+            self.sites.set_enabled(s["id"], True)
+            self.sites.save()
+            self._reply(chat_id, f"🌐 <b>{esc(s['name'])}</b> — 한국 러너 지정 해제. 다음 스캔부터 GitHub 러너가 확인합니다.")
+            return
+        self.sites.update(s["id"], kr_only=True, conn_fail_count=0, fail_count=0)
+        self.sites.set_enabled(s["id"], True)
+        self.sites.save()
+        self._reply(chat_id, f"🇰🇷 <b>{esc(s['name'])}</b> — 한국 PC 러너 담당으로 지정 · 활성화.\n"
+                             "PC 가 켜져 있을 때(festival-alert-kr) 스캔합니다.")
 
 
     # ---- 상태 · 통계 ----------------------------------------------------
