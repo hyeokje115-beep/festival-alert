@@ -333,7 +333,7 @@ def tally(alert: Optional[dict]) -> tuple[int, int]:
 
 
 
-def format_alert(post: dict) -> str:
+def format_alert(post: dict, *, review: bool = False) -> str:
     title = esc((post.get("title") or "(제목 없음)")[:300])
     site = esc((post.get("site_name") or post.get("site_id") or "알 수 없는 사이트")[:60])
     url = str(post.get("url") or "")
@@ -348,7 +348,8 @@ def format_alert(post: dict) -> str:
     basis = "제목+본문 검증" if post.get("body_checked") else "제목만 검증 (본문 열람 실패)"
 
 
-    lines = [f"📢 <b>새 공모</b> · {site}", f"<b>{title}</b>", ""]
+    header = f"🤔 <b>애매한 공모 · 확인해주세요</b> · {site}" if review else f"📢 <b>새 공모</b> · {site}"
+    lines = [header, f"<b>{title}</b>", ""]
     lines.append(f"🗓 게시일: {esc(posted) if posted else '미확인'}")
     if deadline:
         lines.append(f"⏰ 마감: <b>{esc(prefilter.format_deadline(deadline))}</b>")
@@ -361,23 +362,31 @@ def format_alert(post: dict) -> str:
     else:
         lines.append("⏰ 마감: 본문에서 확인 필요 (자동 추출 실패)")
     lines.append("")
-    lines.append(f"🤖 {esc(reason)}")
-    lines.append(f"신뢰도 {conf_txt} · {basis}")
+    if review:
+        lines.append(f"🤖 AI가 확신하지 못했습니다 (신뢰도 {conf_txt}) — {esc(reason)}")
+        lines.append(basis)
+    else:
+        lines.append(f"🤖 {esc(reason)}")
+        lines.append(f"신뢰도 {conf_txt} · {basis}")
     if url:
         lines.append(f'🔗 <a href="{esc_attr(url)}">공고 바로가기</a>')
     lines.append("")
-    lines.append("<i>맞는 알림이면 👍, 잘못 온 알림이면 👎 — 다음 판정에 반영됩니다.</i>")
+    if review:
+        lines.append("<i>공모가 맞으면 👍, 아니면 👎 — 다음 판정 정확도에 반영됩니다.</i>")
+    else:
+        lines.append("<i>맞는 알림이면 👍, 잘못 온 알림이면 👎 — 다음 판정에 반영됩니다.</i>")
     return "\n".join(lines)
 
 
 
 
 def send_alert(client: TelegramClient, post: dict, feedback: FeedbackStore,
-               chat_ids: Optional[Iterable[int]] = None) -> dict:
+               chat_ids: Optional[Iterable[int]] = None, *, review: bool = False) -> dict:
     """알림 대상 전체에 발송하고 FeedbackStore 에 등록. 저장(feedback.save())은 호출자가 한다.
+    review=True 면 확신 부족(low_conf) 판정을 '애매합니다, 확인해주세요' 문구로 발송한다.
     반환 {"sent": [(chat_id, message_id), ...], "errors": [str, ...]}"""
     targets = list(chat_ids) if chat_ids is not None else list(config.TELEGRAM_ALERT_CHAT_IDS)
-    text = format_alert(post)
+    text = format_alert(post, review=review)
     result: dict[str, list] = {"sent": [], "errors": []}
     for cid in targets:
         try:
