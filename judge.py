@@ -18,6 +18,7 @@ Gemini API 를 REST(requests) 로 직접 호출한다 — SDK(google-generativea
   prefilter 통과 → 👎 동일 공고 차단 → Gemini → final_decision → 알림 / known_posts 기록
   Verdict.status : ok | feedback_block | skipped(API 키 없음) | budget(호출 상한) | error(API 오류)
                    error · budget 인 글은 main 이 known 에 기록하지 않고 다음 실행에서 다시 판정한다.
+                   (모든 모델이 404 면 Judge.exhausted=True → main 이 즉시 확인요청으로 전환)
 
 
 피드백 루프
@@ -56,7 +57,7 @@ from storage import (STATUS_AI_NO, STATUS_ALERTED, STATUS_EXPIRED, STATUS_LOW_CO
 
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 DEFAULT_MODEL = "gemini-2.5-flash"
-FALLBACK_MODELS: list[str] = list(getattr(config, "GEMINI_FALLBACK_MODELS", ["gemini-2.5-flash-lite", "gemini-2.0-flash"]))
+FALLBACK_MODELS: list[str] = list(getattr(config, "GEMINI_FALLBACK_MODELS", ["gemini-2.5-flash-lite", "gemini-3.1-flash-lite"]))
 MAX_POST_AGE_DAYS = int(getattr(config, "MAX_POST_AGE_DAYS", 60))      # 게시 후 n일 지났고 마감 정보도 없으면 보류
 ALERT_REANNOUNCE = bool(getattr(config, "ALERT_REANNOUNCE", False))    # 재공고·기간연장 글도 알릴지
 
@@ -414,6 +415,8 @@ class Judge:
         self.calls = 0
         self.errors = 0
         self.blocked = 0
+        self.last_error = ""            # 마지막 Gemini 오류 원문 (스캔 요약 표시용)
+        self.exhausted = False          # True = 모든 모델 404 → 이번 실행의 남은 호출 생략
         self._last_call = 0.0
         self.feedback = feedback
         self.dry_run = bool(dry_run) or not self.api_key
@@ -433,8 +436,8 @@ class Judge:
 
     def stats(self) -> dict:
         return {"calls": self.calls, "errors": self.errors, "blocked": self.blocked,
-                "model": self.model, "budget_left": self.budget_left(), "dry_run": self.dry_run}
-
+                "model": self.model, "budget_left": self.budget_left(), "dry_run": self.dry_run,
+                "last_error": self.last_error, "exhausted": self.exhausted}
 
     # ---- 판정 -----------------------------------------------------------
     def judge(self, post: dict, body: str = "", *, extracted: Optional[dict] = None,
@@ -447,14 +450,20 @@ class Judge:
             return Verdict(status="skipped", reason="GEMINI_API_KEY 없음 — 판정 생략")
         if self.budget_left() <= 0:
             return Verdict(status="budget", reason=f"Gemini 호출 상한({self.max_calls}회) 도달 — 다음 실행에서 판정")
+        if self.exhausted:                                       # 모델 전멸 — 호출하지 않고 바로 오류 반환
+            self.errors += 1
+            return Verdict(status="error", reason=self.last_error or "사용 가능한 Gemini 모델 없음", model=self.model)
         prompt = build_user_prompt(post, body, extracted, attachments, prefilter_reason)
         text, model, err = self._generate(prompt)
         if err:
             self.errors += 1
+            self.last_error = err
+            print(f"[judge] 오류: {err}")
             return Verdict(status="error", reason=err, model=model)
         v = parse_verdict(text, model)
         if v.status == "error":
             self.errors += 1
+            self.last_error = v.reason
         return v
 
 
@@ -528,6 +537,8 @@ class Judge:
             if code == 404 or (code == 400 and ("not found" in low or "not supported" in low)):
                 last_err = f"모델 {model} 사용 불가: {msg}"
                 if not self._next_model():
+                    self.exhausted = True
+                    print(f"[judge] 모든 모델 사용 불가 ({', '.join(self.models)}) — 이번 실행 Gemini 호출 중단")
                     return "", model, last_err
                 continue
             if code == 429:
