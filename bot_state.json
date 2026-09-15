@@ -6,8 +6,8 @@
       "at": "2026-09-15 03:57:49"
     }
   },
-  "last_scan_at": "2026-09-15 09:13:23",
-  "last_inbox_at": "2026-09-15 09:08:43",
+  "last_scan_at": "2026-09-15 09:24:08",
+  "last_inbox_at": "2026-09-15 09:19:38",
   "commands_set": true,
   "last_inbox": {
     "updates": 0,
@@ -15,10 +15,10 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-15 09:13:23",
+  "updated_at": "2026-09-15 09:24:08",
   "last_scan": {
-    "at": "2026-09-15 09:13:23",
-    "elapsed": 280.1,
+    "at": "2026-09-15 09:24:08",
+    "elapsed": 270.8,
     "sites_total": 24,
     "sites_ok": 20,
     "sites_fail": [
@@ -29,7 +29,7 @@
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 2,
+    "new_rows": 0,
     "seeded": 0,
     "candidates": 0,
     "gemini_calls": 0,
