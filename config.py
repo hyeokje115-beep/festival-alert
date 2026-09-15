@@ -279,6 +279,7 @@ def summary() -> str:
         f"관리자 chat_id     : {TELEGRAM_ADMIN_CHAT_IDS or '(없음)'}",
         f"GEMINI_API_KEY     : {_mask(GEMINI_API_KEY)}",
         f"GEMINI_MODEL       : {GEMINI_MODEL}",
+        f"대체 모델          : {', '.join(GEMINI_FALLBACK_MODELS) or '(없음)'}",
         f"Gemini 호출 상한   : {GEMINI_MAX_CALLS_PER_RUN}회/실행, 최소 확신 {GEMINI_MIN_CONFIDENCE}",
         f"키워드             : 분야 {len(DOMAIN_KEYWORDS)} / 공모신호 {len(CALL_KEYWORDS)} / 제외 {len(EXCLUDE_KEYWORDS)}",
     ]
