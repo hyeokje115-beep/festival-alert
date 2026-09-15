@@ -56,7 +56,8 @@ BTN_DOWN = "👎 아니에요"
 
 # 봇 명령 메뉴 — commands.py(4단계) 가 이 이름 그대로 구현한다
 BOT_COMMANDS: list[tuple[str, str]] = [
-    ("start",   "봇 소개 · 사용법"),
+    ("start",   "봇 시작 · 사용법"),
+    ("stop",    "봇 중지"),
     ("help",    "명령어 목록"),
     ("id",      "내 chat_id 확인"),
     ("add",     "감시 사이트 등록  /add <게시판 URL> [이름]"),
