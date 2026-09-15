@@ -4,7 +4,7 @@ main.py — 실행 진입점                                                    
 
 
   python main.py scan     명령·👍👎 처리 → 사이트 스캔 → 1차 필터 → 본문 → Gemini → 알림        (KST 09:00 / 13:30 / 18:00)
-  python main.py inbox    텔레그램 명령(/add …) · 👍👎 처리만                                      (15분 간격)
+  python main.py inbox    텔레그램 명령(/add …) · 👍👎 처리만
   python main.py check    설정 · 파일 · 봇 토큰 점검 후 확인 메시지 발송
 
 
@@ -385,6 +385,13 @@ def run_scan(rt: Runtime) -> int:
 
     inbox = ({"updates": 0, "votes": 0, "commands": 0, "errors": 0, "skipped": True} if SKIP_INBOX
              else run_inbox(rt))
+    if not rt.state.get("bot_enabled", True):
+        log("봇이 중지 상태입니다. 이번 예약 스캔과 알림을 건너뜁니다.")
+        rt.state.set(last_scan_at=config.now_kst_iso(), last_scan={
+            "at": config.now_kst_iso(), "skipped": True, "reason": "bot_disabled", "inbox": inbox,
+        })
+        rt.save()
+        return 0
     judge = Judge(rt.feedback)
     sites = _select_sites(rt)
     if not sites:
