@@ -1,0 +1,80 @@
+name: festival-alert-kr
+
+
+on:
+  schedule:
+    - cron: "0 12 * * *"      # KST 21:00 예약 — PC 꺼져 있으면 대기(최대 24h) → 켜지면 즉시 실행
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+
+
+concurrency:
+  group: festival-alert-kr    # 기존 festival-alert 그룹과 분리 — PC 대기가 기존 스캔을 막지 않음
+  cancel-in-progress: false
+
+
+jobs:
+  run:
+    runs-on: self-hosted
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash           # Windows 러너는 Git for Windows(bash) 필요
+    env:
+      TZ: Asia/Seoul
+      PYTHONUNBUFFERED: "1"
+      PYTHONIOENCODING: "utf-8"
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+
+      - name: 패키지 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install chromium
+
+
+      - name: 실행 (scan · 한국 러너 담당 사이트)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALLOWED_CHAT_IDS: ${{ secrets.TELEGRAM_ALLOWED_CHAT_IDS }}
+          TELEGRAM_ALERT_CHAT_IDS: ${{ secrets.TELEGRAM_ALERT_CHAT_IDS }}
+          TELEGRAM_ADMIN_CHAT_IDS: ${{ secrets.TELEGRAM_ADMIN_CHAT_IDS }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-2.5-flash' }}
+          SCAN_RUNNER: kr
+          SKIP_INBOX: "1"
+          SCRAPER_DEBUG_DIR: debug
+        run: python main.py scan
+
+
+      - name: 데이터 파일 커밋 · 푸시
+        if: always()
+        run: |
+          git config user.name "festival-alert-bot"
+          git config user.email "festival-alert-bot@users.noreply.github.com"
+          git checkout -- bot_state.json 2>/dev/null || true
+          for f in festival_sites.json known_posts.json feedback.json; do
+            [ -f "$f" ] && git add "$f"
+          done
+          if git diff --cached --quiet; then
+            echo "변경된 데이터 없음"
+            exit 0
+          fi
+          git commit -m "data: scan-kr $(date '+%Y-%m-%d %H:%M KST') [skip ci]"
+          for i in 1 2 3; do
+            git rebase --abort 2>/dev/null || true
+            if git pull --rebase --autostash -X theirs origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            echo "push 실패 — 재시도 $i"
+            sleep 10
+          done
+          exit 1
