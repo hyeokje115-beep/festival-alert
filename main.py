@@ -39,8 +39,8 @@ import config
 import prefilter
 from commands import CommandHandler
 from judge import Judge, final_decision
-from storage import (STATUS_ALERTED, STATUS_EXPIRED, STATUS_PREFILTER, STATUS_SEEDED, BotState, FeedbackStore,
-                     KnownPosts, Sites)
+from storage import (STATUS_ALERTED, STATUS_EXPIRED, STATUS_LOW_CONF, STATUS_PREFILTER, STATUS_SEEDED, BotState,
+                     FeedbackStore, KnownPosts, Sites)
 from telegram_client import (TelegramClient, TelegramError, broadcast, esc, format_alert, handle_vote, send_alert,
                              strip_tags)
 
@@ -381,6 +381,7 @@ def run_scan(rt: Runtime) -> int:
     # ── ④ Gemini 판정 (1차 점수 높은 것 · 최근 글 먼저)
     candidates.sort(key=lambda c: (c.pre.score, c.posted_date), reverse=True)
     to_alert: list[dict] = []
+    to_review: list[dict] = []                                    # 확신 부족 — 사람이 👍/👎 로 직접 판단
     deferred = 0
     for c in candidates:
         post = c.post()
@@ -398,7 +399,11 @@ def run_scan(rt: Runtime) -> int:
             log(f"  📢 알림 예정: {c.row.title[:40]} ({v.confidence:.0%}) — {v.reason[:60]}")
         else:
             _mark(rt, c.site, c.row, dec.status, dec.note)
-            log(f"  – {dec.status}: {c.row.title[:40]} — {dec.note[:60]}")
+            if dec.status == STATUS_LOW_CONF:
+                to_review.append(post)
+                log(f"  🤔 확인 요청(확신 {v.confidence:.0%}): {c.row.title[:40]} — {v.reason[:60]}")
+            else:
+                log(f"  – {dec.status}: {c.row.title[:40]} — {dec.note[:60]}")
 
 
     # ── ⑤ 발송 (마감 임박 순, 마감 미확인은 뒤로)
@@ -429,6 +434,36 @@ def run_scan(rt: Runtime) -> int:
                 log(f"저장 실패: {e}")
 
 
+    # ── ⑤-보류 확신 부족 공고: '애매합니다, 확인해주세요' 로 발송 (👍/👎 는 기존 handle_vote 가 그대로 처리)
+    review_max = int(getattr(config, "REVIEW_MAX_PER_RUN", 5))
+    reviewed = 0
+    for post in to_review[:review_max]:
+        if DRY_RUN:
+            print("\n" + strip_tags(format_alert(post, review=True)) + "\n")
+            reviewed += 1
+            continue
+        r = send_alert(rt.client, post, rt.feedback, review=True)
+        send_errors += r["errors"]
+        if r["sent"]:
+            reviewed += 1
+            try:
+                rt.feedback.save()
+            except Exception as e:                                # noqa: BLE001
+                log(f"저장 실패: {e}")
+
+
+    # ── 공모 없음 알림 (실제 알림도, 확인요청도 하나도 없을 때만)
+    if not DRY_RUN and sent == 0 and reviewed == 0 and not deferred:
+        broadcast(
+            rt.client,
+            f"📭 <b>새 공모 없음</b>  {esc(config.now_kst_iso()[:16])}\n"
+            f"사이트 {stat['sites_ok']}/{len(sites)} 스캔 완료 · 새 글 {stat['new_rows']}건 검토\n"
+            "<i>알림 기준에 맞는 공모가 없었습니다.</i>",
+            config.TELEGRAM_ALERT_CHAT_IDS,
+            silent=True,   # 무음 (소리 알림 원하면 False)
+        )
+
+
     # ── ⑥ 마무리
     rt.known.prune()
     rt.feedback.prune()
@@ -437,15 +472,15 @@ def run_scan(rt: Runtime) -> int:
         "sites_total": len(sites), "sites_ok": stat["sites_ok"], "sites_fail": fails, "disabled": disabled,
         "selector_fixed": selector_fixed, "new_rows": stat["new_rows"], "seeded": stat["seeded"],
         "candidates": len(candidates), "gemini_calls": judge.calls, "gemini_errors": judge.errors,
-        "feedback_blocked": judge.blocked, "alerts": sent, "deferred": deferred, "send_errors": send_errors,
-        "inbox": inbox, "dry_run": DRY_RUN,
+        "feedback_blocked": judge.blocked, "alerts": sent, "reviewed": reviewed, "deferred": deferred,
+        "send_errors": send_errors, "inbox": inbox, "dry_run": DRY_RUN,
     }
     rt.state.set(last_scan_at=summary["at"], last_scan=summary)
     rt.save()
 
 
     log(f"scan 완료 {summary['elapsed']}s: 사이트 {stat['sites_ok']}/{len(sites)} · 새 글 {stat['new_rows']} · "
-        f"후보 {len(candidates)} · Gemini {judge.calls}회(오류 {judge.errors}) · 알림 {sent} · 보류 {deferred}"
+        f"후보 {len(candidates)} · Gemini {judge.calls}회(오류 {judge.errors}) · 알림 {sent} · 확인요청 {reviewed} · 보류 {deferred}"
         + (f" · 실패 {len(fails)}" if fails else "") + (f" · 비활성 {len(disabled)}" if disabled else ""))
 
 
@@ -527,26 +562,6 @@ def main(argv: list[str]) -> int:
     finally:
         if rt is not None:
             rt.close()
-          
-    # ── ⑤ 발송 끝난 직후 (기존 코드 그대로)
-    ...
-
-    # ── 공모 없음 알림 추가 ──────────────────────────────────────
-    if not DRY_RUN and sent == 0 and not deferred:
-        broadcast(
-            rt.client,
-            f"📭 <b>새 공모 없음</b>  {esc(config.now_kst_iso()[:16])}\n"
-            f"사이트 {stat['sites_ok']}/{len(sites)} 스캔 완료 · 새 글 {stat['new_rows']}건 검토\n"
-            "<i>알림 기준에 맞는 공모가 없었습니다.</i>",
-            config.TELEGRAM_ALERT_CHAT_IDS,
-            silent=True,   # 무음 (소리 알림 원하면 False)
-        )
-    # ────────────────────────────────────────────────────────────
-
-    # ── ⑥ 마무리 (기존 코드)
-    rt.known.prune()
-
-
 
 
 if __name__ == "__main__":
