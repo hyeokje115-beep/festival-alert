@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-15 10:18:19",
+  "updated_at": "2026-09-15 10:34:46",
   "posts": {
     "t:3eb416223e9e69e6bb8e": {
       "site_id": "",
@@ -16,7 +16,7 @@
       "title": "채용 및 입찰",
       "url": "https://www.gctf.or.kr/web/board/2/postList",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -25,7 +25,7 @@
       "title": "공지사항",
       "url": "https://www.gctf.or.kr/web/board/1/postList",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -34,7 +34,7 @@
       "title": "보도자료",
       "url": "https://www.gctf.or.kr/web/board/3/postList",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -43,7 +43,7 @@
       "title": "고창 문화소식",
       "url": "https://www.gctf.or.kr/web/board/4/postList",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -52,7 +52,7 @@
       "title": "유관기관 소식",
       "url": "https://www.gctf.or.kr/web/board/5/postList",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -61,7 +61,7 @@
       "title": "문화관광DB",
       "url": "https://www.gctf.or.kr/web/board/6/postDbList",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -70,7 +70,7 @@
       "title": "발간자료",
       "url": "https://www.gctf.or.kr/web/board/10/postList",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -79,7 +79,7 @@
       "title": "관광지도",
       "url": "https://www.gctf.or.kr/web/02/20005",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -88,7 +88,7 @@
       "title": "문화인력 양성 및 창작 지원",
       "url": "https://www.gctf.or.kr/web/03/30010",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -97,7 +97,7 @@
       "title": "동리시네마 운영",
       "url": "https://www.gctf.or.kr/web/03/30009",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -106,7 +106,7 @@
       "title": "문화자원 발굴 및 정책 연구",
       "url": "https://www.gctf.or.kr/web/03/30011",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -115,7 +115,7 @@
       "title": "전통예술체험마을 운영",
       "url": "https://www.gctf.or.kr/web/03/30012",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -124,7 +124,7 @@
       "title": "관광객 유입 활성화",
       "url": "https://www.gctf.or.kr/web/03/30013",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -133,7 +133,7 @@
       "title": "관광 인프라 구축",
       "url": "https://www.gctf.or.kr/web/03/30014",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -142,7 +142,7 @@
       "title": "관광 브랜드 강화",
       "url": "https://www.gctf.or.kr/web/03/30015",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -151,7 +151,7 @@
       "title": "일정별 코스",
       "url": "https://www.gctf.or.kr/web/04/40003",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -160,7 +160,7 @@
       "title": "관광정보",
       "url": "https://www.gctf.or.kr/web/04/40001",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -169,7 +169,7 @@
       "title": "계절별 코스",
       "url": "https://www.gctf.or.kr/web/04/40006?courseType=spring",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -178,7 +178,7 @@
       "title": "인프라 정보",
       "url": "https://www.gctf.or.kr/web/board/11/postList",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -187,7 +187,7 @@
       "title": "조직 및 담당업무",
       "url": "https://www.gctf.or.kr/web/05/50003",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -196,7 +196,7 @@
       "title": "소개 및 연혁",
       "url": "https://www.gctf.or.kr/web/05/50002",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -205,7 +205,7 @@
       "title": "정보공개",
       "url": "https://www.gctf.or.kr/web/05/50005",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -214,7 +214,7 @@
       "title": "윤리경영",
       "url": "https://www.gctf.or.kr/web/05/50006",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -223,7 +223,7 @@
       "title": "오시는길",
       "url": "https://www.gctf.or.kr/web/05/50007",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -232,7 +232,7 @@
       "title": "전통 예술 체험 마을",
       "url": "http://gctav.or.kr/",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -241,7 +241,7 @@
       "title": "동리 시네마",
       "url": "https://gccinema.moonhwain.net:451/",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -250,7 +250,7 @@
       "title": "고창문화 도시센터",
       "url": "http://gccc23.co.kr/",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -259,7 +259,7 @@
       "title": "고창 문화관광",
       "url": "https://tour.gochang.go.kr/",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -268,7 +268,7 @@
       "title": "578 안내 [안내] 전통예술체험마을 대관 이용 안내 2026-09-14 5",
       "url": "https://www.gctf.or.kr/web/board/1/4462",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -277,7 +277,7 @@
       "title": "577 공고 [공고 제2026-88호] 2026 원로창작이음지원사업 예술인 추천 및 모집 공고 2026-09-14 11",
       "url": "https://www.gctf.or.kr/web/board/1/4461",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -286,7 +286,7 @@
       "title": "576 공고 [공고 제2026-87호] 고인돌 연계 고창 세계유산 힐링 리트릿 「호암마을 세계유산 가족힐링캠프」 참여자 모집 공고 2026-09-14 21",
       "url": "https://www.gctf.or.kr/web/board/1/4459",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -295,7 +295,7 @@
       "title": "575 공고 [공고 제2026-86호] 2026 복작복작 야시장 부스 운영자 모집 공고 2026-09-08 218",
       "url": "https://www.gctf.or.kr/web/board/1/4455",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -304,7 +304,7 @@
       "title": "574 공고 [공고 제2026-85호] 2026 문화관광 일자리 사업(4차) 모집공고 2026-09-07 164",
       "url": "https://www.gctf.or.kr/web/board/1/4453",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -313,7 +313,7 @@
       "title": "573 공고 [공고 제2026-84호] 2026 제4회 치유문화축제 체험부스 운영자 모집 공고 2026-09-07 312",
       "url": "https://www.gctf.or.kr/web/board/1/4451",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -322,7 +322,7 @@
       "title": "572 공고 [공고 제2026-83호] 「문화인력 양성 및 창작 지원」 나무쉼표 목공 교육프로그램 참여자 모집 공고(신청 마감) 2026-09-04 158",
       "url": "https://www.gctf.or.kr/web/board/1/4450",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -331,7 +331,7 @@
       "title": "571 공고 [공고 제2026-82호] 2026 명사십리 달빛마실 참여자 모집 공고 2026-09-02 412",
       "url": "https://www.gctf.or.kr/web/board/1/4448",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -340,7 +340,7 @@
       "title": "570 공고 [공고 제2026-81호] 「터치유」 문화소외(장애인) 대응 치유 프로젝트 <곁: 마음을 잇는 색, 같이 그리는 우리> 참여자 모집 공고 2026-09-01 140",
       "url": "https://www.gctf.or.kr/web/board/1/4446",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -349,7 +349,7 @@
       "title": "569 공고 [공고 제2026-80호] 2026 고창 미식문화 콘텐츠 개발 참여업체 모집 공고 2026-09-01 190",
       "url": "https://www.gctf.or.kr/web/board/1/4443",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -358,7 +358,7 @@
       "title": "568 공고 [공고 제2026-79호] 그래서예술학교 판소리 활용 프로그램「소리밥상 놀이터」참여자 모집 공고 2026-08-31 137",
       "url": "https://www.gctf.or.kr/web/board/1/4441",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -367,7 +367,7 @@
       "title": "567 공고 [공고 제2026-78호] 고창 서해랑길 개인형 프로그램 참여자 모집 공고(안) 2026-08-29 205",
       "url": "https://www.gctf.or.kr/web/board/1/4437",
       "first_seen": "2026-09-15 02:04:22",
-      "last_seen": "2026-09-15 10:13:44",
+      "last_seen": "2026-09-15 10:33:20",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -376,7 +376,7 @@
       "title": "회오리 불꽃쇼 취소 안내",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=100",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -385,7 +385,7 @@
       "title": "2026 명량대첩축제 셔틀버스 운영 안내",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=99",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -394,7 +394,7 @@
       "title": "2026 명량대첩축제 일정표",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=98",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -403,7 +403,7 @@
       "title": "2026 명량대첩축제 주요 프로그램",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=97",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -412,7 +412,7 @@
       "title": "2026 명량대첩축제 행사장 안내",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=96",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -421,7 +421,7 @@
       "title": "2026 명량대첩축제 전국 청소년 K-POP 댄스 경연대회",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=95",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -430,7 +430,7 @@
       "title": "2026 대한민국 해군 호국음악회에 여러분을 초대합니다.",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=94",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -439,7 +439,7 @@
       "title": "2026 명량대첩축제 역사캠프 참가단체 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=93",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -448,7 +448,7 @@
       "title": "(재)명량대첩기념사업회 법인 해산 및 채권신고 공고와 청산종결",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=92",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -457,7 +457,7 @@
       "title": "2025 명량대첩축제 조선수군재건 스탬프랠리(기념품 1일 100개 한정)",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=91",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -466,7 +466,7 @@
       "title": "2025 명량대첩축제 셔틀버스 운영 안내",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=90",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -475,7 +475,7 @@
       "title": "최고의 격군을 뽑아라! 명량대첩축제 수군수군팔씨름대회",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=89",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -484,7 +484,7 @@
       "title": "2025 명량대첩축제 청소년 가요댄스 경연대회",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=88",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -493,7 +493,7 @@
       "title": "2025 명량대첩 일자별 공연소개 및 주요 프로그램 소개",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=87",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -502,7 +502,7 @@
       "title": "2025 명량대첩축제 행사장 안내",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=86",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -511,7 +511,7 @@
       "title": "2025 명량대첩 축제 포럼 상세일정",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=85",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -520,7 +520,7 @@
       "title": "2025 명량대첩축제 리플렛",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=84",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -529,7 +529,7 @@
       "title": "2025「명량! 이순신 리더십 캠프」 교육 참여기관 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=83",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -538,7 +538,7 @@
       "title": "2024 명량대첩축제 리플렛",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=82",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -547,7 +547,7 @@
       "title": "2024 명량대첩축제 조선수군무예대전 4th",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=81",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -556,7 +556,7 @@
       "title": "2024 명량대첩축제와 함께하는 조선수군 역사캠프 참가자 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=80",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -565,7 +565,7 @@
       "title": "2024 명량대첩축제 청소년 가요댄스 경연대회",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=79",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -574,7 +574,7 @@
       "title": "2024 명량대첩축제 대한민국 치어리딩 페스티벌 참가팀 모집",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=78",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -583,7 +583,7 @@
       "title": "통영한산대첩·명량대첩축제 방문 체험단 모집",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=76",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -592,7 +592,7 @@
       "title": "「명량! 이순신 리더십 캠프」 교육 참여기관 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=75",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -601,7 +601,7 @@
       "title": "2024 명량대첩축제 운영대행 용역 제안서 평가위원(후보자) 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=74",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -610,7 +610,7 @@
       "title": "2024 명량대첩축제 운영대행 용역사 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=73",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -619,7 +619,7 @@
       "title": "2023 명량 청소년 가요제",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=70",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -628,7 +628,7 @@
       "title": "2023 명량대첩축제 출연진 [다나카] 섭외에 대한 입장문",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=56",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -637,7 +637,7 @@
       "title": "2023 명량대첩축제 운영대행 용역 평가위원(후보자) 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=55",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -646,7 +646,7 @@
       "title": "2023 명량대첩축제 운영대행 용역 입찰공고안(2023-3호)",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=54",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -655,7 +655,7 @@
       "title": "「명량! 이순신 리더십 캠프」 교육 참여기관 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=53",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -664,7 +664,7 @@
       "title": "2023 명량대첩축제 총감독 면접계획 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=52",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -673,7 +673,7 @@
       "title": "2022 연간기부금모금액활용실적명세서",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=51",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -682,7 +682,7 @@
       "title": "2023 명량대첩축제 총감독 채용계획 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=50",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -691,7 +691,7 @@
       "title": "2022 명량대첩축제「명량 캠핑존」운영계획",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=48",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -700,7 +700,7 @@
       "title": "2022 명량대첩축제 운영대행 용역 제안서 평가 결과 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=47",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -709,7 +709,7 @@
       "title": "「2022 명량대축제 운영대행 용역」 제안서 평가위원(후보자) 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=46",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -718,7 +718,7 @@
       "title": "「명량! 이순신 리더십 캠프」 교육 참여기관 모집 공고",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=45",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -727,7 +727,7 @@
       "title": "2021 연간기부금모금액활용실적명세서 공시",
       "url": "https://mldc.kr/bbs/board.php?bo_table=notice&wr_id=44",
       "first_seen": "2026-09-15 02:04:24",
-      "last_seen": "2026-09-15 10:13:46",
+      "last_seen": "2026-09-15 10:33:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -736,7 +736,7 @@
       "title": "2026 궁중문화축전 AI 영상 공모전 2차 대국민 온라인 투표 안내",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119816&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -745,7 +745,7 @@
       "title": "2026년 세계유산 조선왕릉축전 서포터스 능이랑 최종 함격자 발표",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119810&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -754,7 +754,7 @@
       "title": "[세계국가유산산업전] 국비지원 발굴조사 사업 홍보부스 운영",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119790&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -763,7 +763,7 @@
       "title": "[박물관·미술관박람회] K-Heritage 팝업스토어 in 대전",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119789&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -772,7 +772,7 @@
       "title": "[세계국가유산산업전] K-Heritage 팝업스토어 in 경주",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119769&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -781,7 +781,7 @@
       "title": "K-헤리티지 스토어 국립수중유산박물관 오픈 안내",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119767&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -790,7 +790,7 @@
       "title": "전통 기·예능 분야 및 매장유산 관련 분야 우수 장학생 선발 공고",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119765&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -799,7 +799,7 @@
       "title": "2026년 하반기 사회적 배려 대상자 궁궐 초청행사 참가자 모집 안내",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119764&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -808,7 +808,7 @@
       "title": "[K-헤리티지 스토어] 추석 기획전 안내 - 보름달처럼 가득한 마음",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119746&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -817,7 +817,7 @@
       "title": "2026년 제3회 국가유산교육 수업안 경진대회 공고(수정)",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119717&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -826,7 +826,7 @@
       "title": "[이벤트] K-헤리티지 컬러링북 PICK! 컬러링 챌린지",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119766&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -835,7 +835,7 @@
       "title": "2026년 조선왕릉축전 서포터스 능이랑 서류결과",
       "url": "https://www.kh.or.kr/brd/board/644/L/SITES/100/menu/371?brdType=R&thisPage=1&bbIdx=119756&searchField=&searchText=",
       "first_seen": "2026-09-15 02:04:37",
-      "last_seen": "2026-09-15 10:13:53",
+      "last_seen": "2026-09-15 10:33:31",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -844,7 +844,7 @@
       "title": "Layer 1",
       "url": "https://pf.kakao.com/_MqtxhG/",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -853,7 +853,7 @@
       "title": "도움 주신 분들",
       "url": "https://recollection.kr/bbs/content.php?co_id=0107",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -862,7 +862,7 @@
       "title": "축제소개",
       "url": "https://recollection.kr/bbs/content.php?co_id=0101",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -871,7 +871,7 @@
       "title": "아카이브",
       "url": "https://recollection.kr/bbs/board.php?bo_table=archive",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -880,7 +880,7 @@
       "title": "충장축제 위원회",
       "url": "https://recollection.kr/bbs/content.php?co_id=0108",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -889,7 +889,7 @@
       "title": "축제장 안내",
       "url": "",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -898,7 +898,7 @@
       "title": "화장실 안내",
       "url": "https://recollection.kr/bbs/content.php?co_id=0202",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -907,7 +907,7 @@
       "title": "주차장 안내",
       "url": "https://recollection.kr/bbs/content.php?co_id=0203",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -916,7 +916,7 @@
       "title": "프로그램",
       "url": "https://recollection.kr/bbs/board.php?bo_table=program&sca=&wr_1=10%EC%9B%94%207%EC%9D%BC(%EC%88%98)&mode=day",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -925,7 +925,7 @@
       "title": "축제 스케치",
       "url": "https://recollection.kr/bbs/board.php?bo_table=sketch",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -934,7 +934,7 @@
       "title": "공지사항",
       "url": "https://recollection.kr/bbs/board.php?bo_table=notice",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -943,7 +943,7 @@
       "title": "보도자료",
       "url": "https://recollection.kr/bbs/board.php?bo_table=news",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -952,7 +952,7 @@
       "title": "페이스북 공유",
       "url": "https://recollection.kr/bbs/sns_send.php?longurl=http%3A%2F%2Frecollection.kr%2Fbbs%2Fboard.php%3Fbo_table%3Dnotice%26page%3D1&title=&sns=facebook",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -961,7 +961,7 @@
       "title": "카카오톡 공유",
       "url": "",
       "first_seen": "2026-09-15 02:04:47",
-      "last_seen": "2026-09-15 10:13:57",
+      "last_seen": "2026-09-15 10:33:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -970,7 +970,7 @@
       "title": "소규모 특화 축제 전라유람」 나주목사 행렬 운영 용역 제안서 평.. 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=785&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -979,7 +979,7 @@
       "title": "「2026 대한민국 예술과 기업 동반성장 대상 지원사업」 참여 .. 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=684&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -988,7 +988,7 @@
       "title": "「소규모 특화 축제 전라유람」 <나주목사 행렬> 행사 운영 용역.. 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=674&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -997,7 +997,7 @@
       "title": "2026 나주형 국제예술 레지던시 입주작가 선정 결과 발표 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=641&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1006,7 +1006,7 @@
       "title": "2026 나주형 국제예술 레지던시 입주작가 모집 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=592&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1015,7 +1015,7 @@
       "title": "2026 지역문화 활성화 지원사업 최종 선정 결과 발표 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=415&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1024,7 +1024,7 @@
       "title": "2026 나빌레라 문화센터 공모사업 선정 결과 발표 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=410&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1033,7 +1033,7 @@
       "title": "2026 지역문화 활성화 지원사업 1차 행정심사 결과 및 인터뷰.. 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=401&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1042,7 +1042,7 @@
       "title": "2026 나주형 커뮤니티 발굴 '취향살롱' 공간운영자 선정 결과.. 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=398&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1051,7 +1051,7 @@
       "title": "2026 나빌레라 문화센터 전시공간 지원사업 공모 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=350&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1060,7 +1060,7 @@
       "title": "2026 나빌레라 문화센터 창작실 1기 입주작가 공모 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=349&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1069,7 +1069,7 @@
       "title": "2026 지역문화 활성화 지원사업 공모 안내 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=324&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1078,7 +1078,7 @@
       "title": "2026 나주형 커뮤니티 발굴사업 <취향살롱> 공간운영자 모집 .. 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=323&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1087,7 +1087,7 @@
       "title": "2025년 나빌레라문화센터 <나주 ON기록 콘테스트> 수상작 공.. 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=163&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1096,7 +1096,7 @@
       "title": "2025년 나빌레라문화센터 <나주 ON기록 콘테스트 > 접수기간.. 에 대한 글내용 보기.",
       "url": "https://www.njcf.or.kr/www/community/notices?idx=139&mode=view",
       "first_seen": "2026-09-15 02:05:50",
-      "last_seen": "2026-09-15 10:15:03",
+      "last_seen": "2026-09-15 10:33:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1105,7 +1105,7 @@
       "title": "[공지] (재)담양군문화재단 카카오톡 채널 이용 안내",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/396/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1114,7 +1114,7 @@
       "title": "담양 국가유산 야행「개막 세레머니 」참여자 모집",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/452/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1123,7 +1123,7 @@
       "title": "담양 국가유산 야행 체험 「아침의 숨」참여자 모집",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/451/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1132,7 +1132,7 @@
       "title": "담양 국가유산 야행 체험 「나무따라 빛따라」참여자 모집",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/450/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1141,7 +1141,7 @@
       "title": "담양 국가유산 야행 강연 「방담극장_김정호 소리의 비밀」참여자 모집",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/449/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1150,7 +1150,7 @@
       "title": "담양 국가유산 야행 강연 「방담극장_성이성과 전천상의 숲」참여자 모집",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/448/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1159,7 +1159,7 @@
       "title": "담양 국가유산 야행 가족 체험 「진검승부 전우치」참여자 모집",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/447/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1168,7 +1168,7 @@
       "title": "[모집마감] 로컬가족캠프: 담빛노닥 「관방제림 비밀가족 탐사대 모집」",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/446/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1177,7 +1177,7 @@
       "title": "담빛예술창고 전시 준비 안내",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/445/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1186,7 +1186,7 @@
       "title": "2026 인문학가옥 하절기 휴관안내",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/444/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1195,7 +1195,7 @@
       "title": "2026 생활문화축제 <월;담> 월담투어 참가자 모집",
       "url": "https://www.damyangcf.or.kr/user/board/view/board_cd/4010/wr_no/443/board_cd/4010",
       "first_seen": "2026-09-15 02:05:53",
-      "last_seen": "2026-09-15 10:15:06",
+      "last_seen": "2026-09-15 10:33:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1204,7 +1204,7 @@
       "title": "2026 우수공연초청기획 연극<그녀를 믿지 마세요>",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1213,7 +1213,7 @@
       "title": "2026 무등울림축제 문화장터 먹거리 부스 운영 참가자 모집 결과",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1222,7 +1222,7 @@
       "title": "2026 목요콘서트 9월 공연 안내",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1231,7 +1231,7 @@
       "title": "2026 광주국제거리예술축제 주제공연 참여 시민공연자 모집",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1240,7 +1240,7 @@
       "title": "[광주문화재단×국립아시아문화전당] AI 창작 워크숍 'AI로 펼치는 예술가의 상상' 참여자 모집 공고",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1249,7 +1249,7 @@
       "title": "2026 찾아가는 문화공연 하반기 공연일정(10~11월)",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1258,7 +1258,7 @@
       "title": "2026 광주문화재단 창립 15주년 기념 백서 발간",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1267,7 +1267,7 @@
       "title": "2026 장애예술커뮤니티센터 개방",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1276,7 +1276,7 @@
       "title": "2026 광주예술인복지지원 '예술인 원데이 컨설팅' 참여자 모집",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1285,7 +1285,7 @@
       "title": "2026 생활문화예술활동 동아리지원사업 참여 동아리 선정결과 공고",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1294,7 +1294,7 @@
       "title": "2026 찾아가는 문화공연 「당신 곁에」연간 공연일정",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1303,7 +1303,7 @@
       "title": "2026년도 광주문화재단 문화예술지원사업 통합공모 선정결과 공고",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1312,7 +1312,7 @@
       "title": "2026 어린이목수축제 참여자 모집",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1321,7 +1321,7 @@
       "title": "2026 시민 문화예술교육 아카데미 1회차",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1330,7 +1330,7 @@
       "title": "2026년 예술인 심리상담 운영기관 선정 공고",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1339,7 +1339,7 @@
       "title": "[**참여자 모집 마감] 책과 오디오로 만나는 문학도시 광주기행 소년의 길 탐방 참여자 모집",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1348,7 +1348,7 @@
       "title": "2026년도 통합문화이용권사업 제13,14차 찾아가는 가맹점 문화장터 ‘누리랑께’ 참여 가맹점 선정 결과",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1357,7 +1357,7 @@
       "title": "2026 글빛마루정원 하반기 정기대관 신청접수 공고",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1366,7 +1366,7 @@
       "title": "2026 청춘문화누리터 오픈스테이지, 청춘버스킹 공연 안내",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1375,7 +1375,7 @@
       "title": "2026 글빛마루정원 나의 이야기, 노래가 되다 참여자 모집",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1384,7 +1384,7 @@
       "title": "2026년도 통합문화이용권사업×무등울림축제 연계 제15차 찾아가는 가맹점 문화장터 ‘누리랑께’ 참여 가맹점 모집",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1393,7 +1393,7 @@
       "title": "제17회 광주국제아트페어(아트광주) 본 행사 운영 대행 용역 제안서 평가위원 후보자 모집",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1402,7 +1402,7 @@
       "title": "2026년 광주지역 대표 공연 콘텐츠 유통 활성화 지원 최종 선정 결과",
       "url": "",
       "first_seen": "2026-09-15 02:08:16",
-      "last_seen": "2026-09-15 10:17:29",
+      "last_seen": "2026-09-15 10:33:50",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1411,7 +1411,7 @@
       "title": "조직 및 업무분장",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=organization",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1420,7 +1420,7 @@
       "title": "전통문화관 소개",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=introduction_c",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1429,7 +1429,7 @@
       "title": "희경루 소개",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=introduction_h",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1438,7 +1438,7 @@
       "title": "CI 소개",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=ci",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1447,7 +1447,7 @@
       "title": "오시는 길",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=location",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1456,7 +1456,7 @@
       "title": "시설갤러리",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=facility_gallery",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1465,7 +1465,7 @@
       "title": "시설안내",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=facility",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1474,7 +1474,7 @@
       "title": "전통문화예술강좌",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=art_class",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1483,7 +1483,7 @@
       "title": "토요상설공연",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=saturday_show",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1492,7 +1492,7 @@
       "title": "무등풍류 뎐",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=mudeung_show",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1501,7 +1501,7 @@
       "title": "무등울림축제",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=mudeung_festival",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1510,7 +1510,7 @@
       "title": "전통문화예술체험",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=culture_experience",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1519,7 +1519,7 @@
       "title": "무형유산 작품전시실",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=heritage_gallery",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1528,7 +1528,7 @@
       "title": "무형유산 소개",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=heritage_intro",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1537,7 +1537,7 @@
       "title": "무형유산 종목",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=heritage_item",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1546,7 +1546,7 @@
       "title": "무형유산 목록",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=heritage_list",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1555,7 +1555,7 @@
       "title": "무형유산 전수실",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=heritage_room",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1564,7 +1564,7 @@
       "title": "행사소식",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=news",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1573,7 +1573,7 @@
       "title": "문화관광해설 예약",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=tour_guide",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1582,7 +1582,7 @@
       "title": "프로그램 신청",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=program_apply",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1591,7 +1591,7 @@
       "title": "신청 목록",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=apply_list",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1600,7 +1600,7 @@
       "title": "대관 사용료",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=venue_fees",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1609,7 +1609,7 @@
       "title": "대관 신청",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=venue_apply",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1618,7 +1618,7 @@
       "title": "대관 규칙",
       "url": "https://www.gtcc.or.kr/bbs/content.php?co_id=venue_rules",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1627,7 +1627,7 @@
       "title": "홍보동영상",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=video",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1636,7 +1636,7 @@
       "title": "행사소식",
       "url": "",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1645,7 +1645,7 @@
       "title": "인스타그램",
       "url": "https://www.instagram.com/gjcf_gtcc/",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1654,7 +1654,7 @@
       "title": "페이스북",
       "url": "https://www.facebook.com/kjgtcc/",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1663,7 +1663,7 @@
       "title": "2026 무등울림축제 문화장터 먹거리 부스 운영 참가자 모집 공고 첨부파일",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=154&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1672,7 +1672,7 @@
       "title": "공공기관 차량 5부제 실시 안내",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=153&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1681,7 +1681,7 @@
       "title": "2026 토요상설공연 '토요 음향사' 선정 결과 첨부파일",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=152&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1690,7 +1690,7 @@
       "title": "2026 <무등풍류뎐 in 희경루> 2회차 '희경의 봄, 청명' 행사 안내 첨부파일",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=151&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1699,7 +1699,7 @@
       "title": "2026 토요상설공연 '토요 음향사' 모집 첨부파일",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=150&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1708,7 +1708,7 @@
       "title": "2026 토요상설공연 작품 공모 결과 첨부파일",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=149&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1717,7 +1717,7 @@
       "title": "2026 토요상설공연 작품 공모 첨부파일",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=148&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1726,7 +1726,7 @@
       "title": "2026 희경루 대보름잔치",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=147&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1735,7 +1735,7 @@
       "title": "2026 토요상설공연 정월대보름 한마당",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=146&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1744,7 +1744,7 @@
       "title": "2026 상반기 전통문화예술강좌 수강생 모집 첨부파일",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=145&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1753,7 +1753,7 @@
       "title": "전통문화관 창립기념일 휴무 안내",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=144&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1762,7 +1762,7 @@
       "title": "2025 전통문화예술강좌 수료식 및 결과발표회",
       "url": "https://www.gtcc.or.kr/bbs/board.php?bo_table=info&wr_id=143&page=1",
       "first_seen": "2026-09-15 02:08:24",
-      "last_seen": "2026-09-15 10:17:31",
+      "last_seen": "2026-09-15 10:33:53",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1771,7 +1771,7 @@
       "title": "제60회 여수거북선축제 그리기 공모전 수상작품 온라인 전시 오픈 및 상장 수령 안내",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/188",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1780,7 +1780,7 @@
       "title": "업사이클링 상상 속 거북선 만들기 경연대회 취소 안내문",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/186",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1789,7 +1789,7 @@
       "title": "여수진남상가 거북선 보물찾기 참여 가게 리스트",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/185",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1798,7 +1798,7 @@
       "title": "제60회 여수거북선축제 그리기 공모전 수상자 명단",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/183",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1807,7 +1807,7 @@
       "title": "제60회 여수거북선축제 행사기간 도로 교통통제 안내",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/184",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1816,7 +1816,7 @@
       "title": "제60회 여수거북선축제 플리마켓 진남상가",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/181",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1825,7 +1825,7 @@
       "title": "제60회 여수거북선축제 『도전! 이순신 골든벨』 예시문제",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/180",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1834,7 +1834,7 @@
       "title": "제60회 여수거북선축제 체험부스(유료) 확정",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/179",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1843,7 +1843,7 @@
       "title": "제60회 여수거북선축제 푸드트럭 확정",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/178",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1852,7 +1852,7 @@
       "title": "제60회 여수거북선축제 플리마켓 확정(해양공원)",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/176",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1861,7 +1861,7 @@
       "title": "제60회 여수거북선축제 부스 배치도(체험, 플리마켓, 푸드트럭, 맛장터)",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/175",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1870,7 +1870,7 @@
       "title": "공영 및 임시 주차장 안내",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/187",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1879,7 +1879,7 @@
       "title": "제60회 여수거북선축제 자원봉사자 모집",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/174",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1888,7 +1888,7 @@
       "title": "제60회 여수거북선축제 플리마켓 모집",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/173",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1897,7 +1897,7 @@
       "title": "제60회 여수거북선축제 푸드트럭 모집",
       "url": "http://xn--9p4b13eb4bd6i.com/notice/172",
       "first_seen": "2026-09-15 02:08:33",
-      "last_seen": "2026-09-15 10:17:35",
+      "last_seen": "2026-09-15 10:33:57",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1906,7 +1906,7 @@
       "title": "2026 예술산업 금융지원 시범사업(융자) 5차 공모(9/14~10.2.(금) 16:00) 상세보기",
       "url": "https://www.gokams.or.kr/01_news/notice_view.aspx?Idx=4564",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1915,7 +1915,7 @@
       "title": "2026 예술인 창작안정 대출이자 지원 공고(10/15~10/30) 상세보기",
       "url": "https://uctf.or.kr/board/notice/view/202411239195",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1924,7 +1924,7 @@
       "title": "인천 대표공연 콘텐츠 유통활성화 지원 공모(9/3~9/23) 상세보기",
       "url": "https://www.ncas.or.kr:6443/bos/ncas/cmm/main/ncasMain.do",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1933,7 +1933,7 @@
       "title": "2026년 공연예술대관료지원 2차 공모(9/2~9/16) 상세보기",
       "url": "https://artnuri.or.kr/crawler/info/view.do?docid=CRL3578&source=%ED%95%9C%EA%B5%AD%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%EC%9C%84%EC%9B%90%ED%9A%8C&pageSetting=&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=001&sw=%EB%8C%80%EA%B4%80%EB%A3%8C&sc_genre=&sc_target=&sc_local=&sc_field=&sc_isDo=",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1942,7 +1942,7 @@
       "title": "2027년 해외레지던시및프로그램참가지원(칠레 테아트로아밀축제-플라테아아밀)(8/31~9/14) 상세보기",
       "url": "https://artnuri.or.kr/crawler/info/view.do?docid=CRL3577&source=%ED%95%9C%EA%B5%AD%EB%AC%B8%ED%99%94%EC%98%88%EC%88%A0%EC%9C%84%EC%9B%90%ED%9A%8C&pageSetting=&sc_seNo=&key=2301170002&sc_orderBy=&recordCountPerPage=10&pageIndex=1&sc_hash=&sc_list=&seNo=001&sw=&sc_genre=&sc_target=&sc_local=&sc_field=&sc_isDo=",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1951,7 +1951,7 @@
       "title": "2026 예술산업보증 9월(6차) 공모 안내(9.1.(화)~9.10.(목), 16:00) 상세보기",
       "url": "https://www.gokams.or.kr/01_news/notice_view.aspx?Idx=4552&page=1&txtKeyword=&ddlKeyfield=T",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1960,7 +1960,7 @@
       "title": "2026년 창작공간 임차료?대관료 지원사업 추가모집 기간연장 공고(8/5~9/7) 상세보기",
       "url": "https://www.cacf.or.kr/site/board/index.php?table_nm=tbl_culture&fn=view&no=2026082714135360836&page=1",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1969,7 +1969,7 @@
       "title": "2026 제주예술인 도외 예술활동 교통비 지원사업 공모 안내 (★ 4차: 9.7 10:00~9/11, 선착순 조기마감 50명 ) 상세보기",
       "url": "https://www.jfac.kr/notification/notice/20128",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1978,7 +1978,7 @@
       "title": "2026 인천미술은행 소장품 구입 공모 (접수: 8/28 10:00 ~ 9/18 17:59) 상세보기",
       "url": "https://ifac.or.kr/bbs/view.do?key=m2501152808232&bbsSn=236038",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1987,7 +1987,7 @@
       "title": "2026 충남문화예술교육 거점공간 협업 공간 추가 모집 안내(8/26~9/4) 상세보기",
       "url": "https://www.cacf.or.kr/site/board/?table_nm=tbl_notice&fn=view&no=2026082609234797887&page=1",
       "first_seen": "2026-09-15 02:08:43",
-      "last_seen": "2026-09-15 10:17:45",
+      "last_seen": "2026-09-15 10:34:09",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -1996,7 +1996,7 @@
       "title": "공모전전략",
       "url": "https://www.wevity.com/?c=idea",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2005,7 +2005,7 @@
       "title": "대외활동",
       "url": "https://www.wevity.com/?c=active",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2014,7 +2014,7 @@
       "title": "이벤트참여",
       "url": "https://www.wevity.com/?c=event",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2023,7 +2023,7 @@
       "title": "공모전자료",
       "url": "https://www.wevity.com/?c=comm",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2032,7 +2032,7 @@
       "title": "전체 공모전",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2041,7 +2041,7 @@
       "title": "기획/아이디어",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=1",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2050,7 +2050,7 @@
       "title": "광고/마케팅",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=2",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2059,7 +2059,7 @@
       "title": "논문/리포트",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=3",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2068,7 +2068,7 @@
       "title": "영상/UCC/사진",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=10",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2077,7 +2077,7 @@
       "title": "디자인/캐릭터/웹툰",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=19",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2086,7 +2086,7 @@
       "title": "웹/모바일/플래시",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2095,7 +2095,7 @@
       "title": "게임/소프트웨어",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2104,7 +2104,7 @@
       "title": "과학/공학",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=22",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2113,7 +2113,7 @@
       "title": "문학/글/시나리오",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=23",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2122,7 +2122,7 @@
       "title": "건축/건설/인테리어",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=24",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2131,7 +2131,7 @@
       "title": "네이밍/슬로건",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=25",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2140,7 +2140,7 @@
       "title": "예체능/미술/음악",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=26",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2149,7 +2149,7 @@
       "title": "대외활동/서포터즈",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=27",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2158,7 +2158,7 @@
       "title": "봉사활동",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=89",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2167,7 +2167,7 @@
       "title": "취업/창업",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=88",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2176,7 +2176,7 @@
       "title": "제한없음",
       "url": "https://www.wevity.com/?c=find&s=1&gub=2&cidx=32",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2185,7 +2185,7 @@
       "title": "정부/공공기관",
       "url": "https://www.wevity.com/?c=find&s=1&gub=3&cidx=6",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2194,7 +2194,7 @@
       "title": "신문/방송/언론",
       "url": "https://www.wevity.com/?c=find&s=1&gub=3&cidx=34",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2203,7 +2203,7 @@
       "title": "외국계기업",
       "url": "https://www.wevity.com/?c=find&s=1&gub=3&cidx=35",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2212,7 +2212,7 @@
       "title": "중견/중소/벤처기업",
       "url": "https://www.wevity.com/?c=find&s=1&gub=3&cidx=36",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2221,7 +2221,7 @@
       "title": "비영리/협회/재단",
       "url": "https://www.wevity.com/?c=find&s=1&gub=3&cidx=37",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2230,7 +2230,7 @@
       "title": "5천만원이상",
       "url": "https://www.wevity.com/?c=find&s=1&gub=4&cidx=8",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2239,7 +2239,7 @@
       "title": "5천만원~3천만원",
       "url": "https://www.wevity.com/?c=find&s=1&gub=4&cidx=9",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2248,7 +2248,7 @@
       "title": "3천만원~1천만원",
       "url": "https://www.wevity.com/?c=find&s=1&gub=4&cidx=40",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2257,7 +2257,7 @@
       "title": "1천만원이하",
       "url": "https://www.wevity.com/?c=find&s=1&gub=4&cidx=41",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2266,7 +2266,7 @@
       "title": "취업특전",
       "url": "https://www.wevity.com/?c=find&s=1&gub=4&cidx=42",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2275,7 +2275,7 @@
       "title": "입사시가산점",
       "url": "https://www.wevity.com/?c=find&s=1&gub=4&cidx=43",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2284,7 +2284,7 @@
       "title": "인턴채용",
       "url": "https://www.wevity.com/?c=find&s=1&gub=4&cidx=44",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2293,7 +2293,7 @@
       "title": "정직원채용",
       "url": "https://www.wevity.com/?c=find&s=1&gub=4&cidx=45",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2302,7 +2302,7 @@
       "title": "현금/순금",
       "url": "https://www.wevity.com/?c=event&s=1&gub=1&cidx=12",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2311,7 +2311,7 @@
       "title": "가전/디지털가전",
       "url": "https://www.wevity.com/?c=event&s=1&gub=1&cidx=11",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2320,7 +2320,7 @@
       "title": "상품권/주유권",
       "url": "https://www.wevity.com/?c=event&s=1&gub=1&cidx=47",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2329,7 +2329,7 @@
       "title": "IT기기/SW",
       "url": "https://www.wevity.com/?c=event&s=1&gub=1&cidx=48",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2338,7 +2338,7 @@
       "title": "여행/항공/숙박",
       "url": "https://www.wevity.com/?c=event&s=1&gub=1&cidx=49",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2347,7 +2347,7 @@
       "title": "의류/패션/잡화",
       "url": "https://www.wevity.com/?c=event&s=1&gub=1&cidx=50",
       "first_seen": "2026-09-15 02:08:52",
-      "last_seen": "2026-09-15 10:17:48",
+      "last_seen": "2026-09-15 10:34:12",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2356,7 +2356,7 @@
       "title": "ACC 초이스 <아우구스틴 하델리히 무반주 바이올린 리사이틀> 9.12.(토) 공연 앵콜곡...",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2872&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2365,7 +2365,7 @@
       "title": "국립아시아문화전당 2027년 ACC NEXT 아시아신진작가전 국제공모",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2865&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2374,7 +2374,7 @@
       "title": "2026년도 국립아시아문화전당 3차 수시대관 신청공고",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2870&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2383,7 +2383,7 @@
       "title": "2026 꿈의 극단 ‘광주 동구’ 참여인력(교육강사, 창작인력) 추가 모집 공고",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2871&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2392,7 +2392,7 @@
       "title": "국립아시아문화전당 대체인력(문화교육과) 채용 서류전형 합격자 및 면접시험 일정 공고",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2869&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2401,7 +2401,7 @@
       "title": "ACC 자원순환 그린마켓 참가자 모집 안내",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2868&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2410,7 +2410,7 @@
       "title": "도서관 문화행사 운영 안내(9.18.금. - 9.20.일.)",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2867&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2419,7 +2419,7 @@
       "title": "2026년 제2차 문화체육관광부(국립아시아문화전당 연구조사과) 청년인턴 채용 최종합격자 공...",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2863&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2428,7 +2428,7 @@
       "title": "『2026 ACC 민주·인권·평화 영상(+AI) 콘텐츠 공모전』 국민심사 & 공개확인",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2858&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2437,7 +2437,7 @@
       "title": "2026 ACC × 지역연출가 협력 공연 공모 ‘기언치 봄 II’ 최종 합격자 안내",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2861&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2446,7 +2446,7 @@
       "title": "국립아시아문화전당 예술극장 공연용 프로젝터 구매 제안서 평가 결과 알림",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2860&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 02:09:01",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2464,7 +2464,7 @@
       "title": "2026년 제3차 기간제근로자 제한 경쟁 채용 서류전형 결과 및 면접전형 시행공고",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2473,7 +2473,7 @@
       "title": "[수의계약 내역공개] 8월 수의계약 내역공개",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2482,7 +2482,7 @@
       "title": "2026년 제3차 기간제근로자 제한 경쟁 채용 공고",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2491,7 +2491,7 @@
       "title": "[광주비엔날레 AI라키비움 시스템 구축 감리 용역] 제안서(정성적) 평가결과",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2500,7 +2500,7 @@
       "title": "[수의계약 내역공개]7월 수의계약 내역공개",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2509,7 +2509,7 @@
       "title": "광주비엔날레 AI라키비움 시스템 구축 감리 용역 제안서 제출안내 공고(긴급)",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2518,7 +2518,7 @@
       "title": "「2026년 2차 제한(경력)경쟁 공개 채용」재공고 면접전형 결과 및 최종 임용후보자 공고",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2527,7 +2527,7 @@
       "title": "「2026년 2차 제한(경력)경쟁 공개 채용」 재공고 필기전형 결과 및 면접전형 시행 공고",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2536,7 +2536,7 @@
       "title": "제16회 광주비엔날레 옥외광고물 제작 및 설치 소액 수의견적 제출 공고",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2545,7 +2545,7 @@
       "title": "[수의계약 내역공개]6월 수의계약 내역공개",
       "url": "",
       "first_seen": "2026-09-15 02:09:07",
-      "last_seen": "2026-09-15 10:18:04",
+      "last_seen": "2026-09-15 10:34:29",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2554,7 +2554,7 @@
       "title": "2026 전북특별자치도문화관광재단 ESG 경영 이해관계자 설문조사",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2563,7 +2563,7 @@
       "title": "보이스피싱 및 직원사칭 주의",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2572,7 +2572,7 @@
       "title": "매주 수요일은 문화요일! '문화가 있는 날' 확대 안내",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2581,7 +2581,7 @@
       "title": "2026 문화예술육성지원사업 집행 및 정산 안내서",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2590,7 +2590,7 @@
       "title": "전북특별자치도문화관광재단 사칭 금융 사기 주의 안내",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2599,7 +2599,7 @@
       "title": "문화·관광인 등록은 어떻게 하나요?",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2608,7 +2608,7 @@
       "title": "문화예술·관광 행사 정보 등록은 어떻게 하나요?",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2617,7 +2617,7 @@
       "title": "회원가입은 어떻게 하나요?",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2626,7 +2626,7 @@
       "title": "2026 청년 문화예술 활성화 사업 청년싸롱 교육프로그램 안내",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2635,7 +2635,7 @@
       "title": "2026 HERE, HEART 뮤직 크리에이티브 공모전 안내",
       "url": "",
       "first_seen": "2026-09-15 02:09:11",
-      "last_seen": "2026-09-15 10:18:07",
+      "last_seen": "2026-09-15 10:34:33",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2644,7 +2644,7 @@
       "title": "2026 전북특별자치도문화관광재단 ESG 경영 이해관계자 설문조사",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2653,7 +2653,7 @@
       "title": "보이스피싱 및 직원사칭 주의",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2662,7 +2662,7 @@
       "title": "매주 수요일은 문화요일! '문화가 있는 날' 확대 안내",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2671,7 +2671,7 @@
       "title": "2026 문화예술육성지원사업 집행 및 정산 안내서",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2680,7 +2680,7 @@
       "title": "전북특별자치도문화관광재단 사칭 금융 사기 주의 안내",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2689,7 +2689,7 @@
       "title": "문화·관광인 등록은 어떻게 하나요?",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2698,7 +2698,7 @@
       "title": "문화예술·관광 행사 정보 등록은 어떻게 하나요?",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2707,7 +2707,7 @@
       "title": "회원가입은 어떻게 하나요?",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2716,7 +2716,7 @@
       "title": "2026 청년 문화예술 활성화 사업 청년싸롱 교육프로그램 안내",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2725,7 +2725,7 @@
       "title": "2026 HERE, HEART 뮤직 크리에이티브 공모전 안내",
       "url": "",
       "first_seen": "2026-09-15 02:09:12",
-      "last_seen": "2026-09-15 10:18:09",
+      "last_seen": "2026-09-15 10:34:35",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2734,7 +2734,7 @@
       "title": "공연 아고라 순천 9월 18일 아랫장 야시장 공연안내 2026-09-18 ~ 2026-09-18 아랫장 야시장 특설무대",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2743,7 +2743,7 @@
       "title": "공연 9월 16일 찾아가는 아고라 음악회 2026-09-16 ~ 2026-09-16 낙안효자실버빌",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2752,7 +2752,7 @@
       "title": "축제·행사 「2026 순천 클래식 페스타」 Peace of Garden \"우리 모두의 클래식\" 2026-09-10 ~ 2026-09-15 순천시 청소년수련관 3층 영화관",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2761,7 +2761,7 @@
       "title": "축제·행사 2026 순천창작예술촌 활성화 공연 「가을날의 피날레」 2026-09-17 ~ 2026-09-17 순천부 읍성 남문터광장",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2770,7 +2770,7 @@
       "title": "공연 아고라 순천 9월 13일 조례호수공원 공연안내 2026-09-13 ~ 2026-09-13 조례호수공원 수변무대",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2779,7 +2779,7 @@
       "title": "공연 아고라 순천 9월 12일 문화의거리 공연안내 2026-09-12 ~ 2026-09-12 문화의거리 일원",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2788,7 +2788,7 @@
       "title": "전시 도장 5개 찍으면 팔망이가 내 손에🐎 2026-09-09 ~ 2026-09-13 문화의거리",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2797,7 +2797,7 @@
       "title": "공모 2026 문화로 치유 지원사업 「도시숲 예술치유」 프로그램 참여자 모집 2026-09-01 ~ 2026-09-09 순천만국가정원",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2806,7 +2806,7 @@
       "title": "교육 문화예술교육 프로그램 <틔·키·피 마음정원> 2026-09-19 ~ 2026-09-20 순천시 장명로 54 2층(이화슈퍼 2층)",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2815,7 +2815,7 @@
       "title": "공연 아고라 순천 9월 5일 순천만국가정원 상설공연 2026-09-05 ~ 2026-09-05 순천만국가정원 동원",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2824,7 +2824,7 @@
       "title": "전시 순천 창작예술촌 2호 「단아한 선, 깊은 울림」 展 2026-09-02 ~ 2026-10-29 창작예술촌 2호 '예정'",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2833,7 +2833,7 @@
       "title": "공모 2026 제6회 순천생활문화 밴드경연대회 참여단체 모집 공고 2026-08-24 ~ 2026-09-09 순천문화재단",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2842,7 +2842,7 @@
       "title": "공모 제7회 순천생활문화 페스티벌 공연·전시·체험 참여단체 모집 공고 2026-08-24 ~ 2026-09-09 순천문화재단",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2851,7 +2851,7 @@
       "title": "교육 2026 시민생활문화교육 「만날강좌」 강사 모집 (하반기/원데이클래스) 2026-08-20 ~ 2026-09-02 방문 또는 온라인 접수",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2860,7 +2860,7 @@
       "title": "축제·행사 🌳몰랑하우스 순천 8월 작가와의 만남 프로그램🌳 2026-08-29 ~ 2026-08-30 몰랑하우스 순천",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2869,7 +2869,7 @@
       "title": "공모 2026 문화로 치유 지원사업 「도시숲 예술치유」 9월 프로그램 참여자 모집 2026-08-12 ~ 2026-08-25 순천만국가정원",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2878,7 +2878,7 @@
       "title": "공모 2026 문화예술교육 「이음」 전문인력 양성과정 '예술잇다' 수강생 추가 모집 2026-08-11 ~ 2026-08-18 순천문화재단, 시민공익활동지원센터",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2887,7 +2887,7 @@
       "title": "전시 2026 작은미술관 조성 및 운영지원 공모사업 4차전시 「세대통합전」 2026-08-13 ~ 2026-08-31 (재)순천문화재단 남문터광장 작은미술관",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2896,7 +2896,7 @@
       "title": "공모 「청소년이 만드는 재단 캐릭터 AI 영상 공모전」 접수 2026-08-03 ~ 2026-08-10 순천문화재단",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2905,7 +2905,7 @@
       "title": "교육 🎥2026 어린이영화캠프「OOO in 순천」참가자 모집 2026-08-05 ~ 2026-08-14 순천만국가정원, 순천만에코촌(생태관) 등",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2914,7 +2914,7 @@
       "title": "교육 '지루한 방학은 그만!' 2026 문화예술교육 프로그램 수강생 모집 2026-08-01 ~ 2026-08-22 청소년 수련관 / 연필한자루",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2923,7 +2923,7 @@
       "title": "교육 순천 창작예술촌 3호 커뮤니티 프로그램 시민 아트 클래스 1 [나를 닮은 띠 동물 액자 만들기] 참여자 모집 2026-07-29 ~ 2026-07-31 창작예술촌 3호 '조강훈아트스튜디오'",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2932,7 +2932,7 @@
       "title": "공연 7월 29일 찾아가는 아고라 음악회 2026-07-29 ~ 2026-07-29 순천장애인종합복지관",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2941,7 +2941,7 @@
       "title": "공모 💜2026 문화예술교육 「이음」 전문인력 양성과정 '예술잇다' 수강생 모집💜 2026-07-24 ~ 2026-08-06 순천문화재단, 공익활동지원센터",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2950,7 +2950,7 @@
       "title": "공연 아고라 순천 7월 25일 조례호수공원 상설공연 안내 2026-07-25 ~ 2026-07-25 조례호수공원 수변무대",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2959,7 +2959,7 @@
       "title": "교육 2026 시민생활문화교육 「만날강좌」 강사 모집 (하반기/원데이클래스) 2026-07-20 ~ 2026-08-02 방문 또는 이메일 접수",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2968,7 +2968,7 @@
       "title": "공연 [우천취소]아고라 순천 7월 18일 신대천 상설공연 2026-07-18 ~ 2026-07-18 신대천 팽나무 앞",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2977,7 +2977,7 @@
       "title": "교육 (조기마감) 순천 창작예술촌 2호 커뮤니티 [전통자수-한 땀에 담은 마음] 참여자 모집 2026-07-15 ~ 2026-07-18 창작예술촌 2호 '예정'",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2986,7 +2986,7 @@
       "title": "교육 2026 순천문화기획학교 축제과정💙수강생 모집💙 2026-07-10 ~ 2026-07-31 영동일번지",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -2995,7 +2995,7 @@
       "title": "축제·행사 ☀️뜨거운 여름, 더 시원하게 돌아온 광장생활 워터파크 2회차!💙 2026-07-18 ~ 2026-07-18 순천부 읍성 남문터광장",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3004,7 +3004,7 @@
       "title": "공모 「2026 도시숲 예술치유」 명월: 사운드 워킹 ‘소리로 마음 산책’ 참여자 모집 공고(8월) 2026-07-08 ~ 2026-07-15 순천만국가정원",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3013,7 +3013,7 @@
       "title": "공연 아고라 순천 7월 11일 오천그린광장 상설공연 안내 2026-07-11 ~ 2026-07-11 오천그린광장 일원",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3022,7 +3022,7 @@
       "title": "축제·행사 (사전접수 조기마감안내)🌊 2026 남문터 광장 문화 콘서트 - 광장생활 워터파크 1회차 2026-07-11 ~ 2026-07-11 순천부 읍성 남문터광장",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3031,7 +3031,7 @@
       "title": "전시 2026 작은미술관 조성 및 운영지원사업 2차 전시 「여순항쟁을 치유하는 시각전」 2026-07-09 ~ 2026-07-25 (재)순천문화재단 남문터광장 작은미술관",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3040,7 +3040,7 @@
       "title": "전시 순천 창작예술촌 2호 「바느질에 담긴 시간」展 2026-07-08 ~ 2026-08-27 창작예술촌 2호 '예정'",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3049,7 +3049,7 @@
       "title": "공모 ✨ 2026 일상문화예술실험실 <아쉬움을 예술로> 참가팀 모집✨ 2026-07-02 ~ 2026-07-22 영동일번지",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3058,7 +3058,7 @@
       "title": "축제·행사 🌊 2026 남문터 광장 문화 콘서트 - 광장생활 워터파크 1회차 2026-07-11 ~ 2026-07-11 순천부 읍성 남문터광장",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3067,7 +3067,7 @@
       "title": "전시 순천 창작예술촌 3호 「2026 조강훈 컬렉션 II」 展 2026-07-01 ~ 2026-09-27 창작예술촌 3호 '조강훈아트스튜디오'",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3076,7 +3076,7 @@
       "title": "공연 아고라 순천 6월 27일 조례호수공원 상설공연 안내 2026-06-27 ~ 2026-06-27 조례호수공원 수변무대",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3085,7 +3085,7 @@
       "title": "공연 6월 24일 찾아가는 아고라 음악회 2026-06-24 ~ 2026-06-24 섬돌요양원",
       "url": "",
       "first_seen": "2026-09-15 02:09:15",
-      "last_seen": "2026-09-15 10:18:12",
+      "last_seen": "2026-09-15 10:34:39",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3094,7 +3094,7 @@
       "title": "문화예술정보 다보여",
       "url": "https://artinfo.cfsc.or.kr/",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3103,7 +3103,7 @@
       "title": "순천시청",
       "url": "https://www.suncheon.go.kr/kr/",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3112,7 +3112,7 @@
       "title": "사업안내",
       "url": "https://www.cfsc.or.kr/contents/biz/agora0101.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3121,7 +3121,7 @@
       "title": "문화소식",
       "url": "https://www.cfsc.or.kr/contents/news/news0101.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3130,7 +3130,7 @@
       "title": "문화공간",
       "url": "https://www.cfsc.or.kr/contents/space/space0101.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3139,7 +3139,7 @@
       "title": "아카이빙",
       "url": "https://www.cfsc.or.kr/contents/arch/hr0101.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3148,7 +3148,7 @@
       "title": "열린광장",
       "url": "https://www.cfsc.or.kr/contents/open/open0101.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3157,7 +3157,7 @@
       "title": "재단소개",
       "url": "https://www.cfsc.or.kr/contents/cfsc/cfsc0101.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3166,7 +3166,7 @@
       "title": "타 기관 공모 소식",
       "url": "https://www.cfsc.or.kr/contents/open/open0501.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3175,7 +3175,7 @@
       "title": "타 기관 행사 소식",
       "url": "https://www.cfsc.or.kr/contents/open/open0502.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3184,7 +3184,7 @@
       "title": "문의게시판",
       "url": "https://www.cfsc.or.kr/contents/open/open0201.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3193,7 +3193,7 @@
       "title": "자유게시판",
       "url": "https://www.cfsc.or.kr/contents/open/open0202.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3202,7 +3202,7 @@
       "title": "열린광장",
       "url": "",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:14",
+      "last_seen": "2026-09-15 10:34:41",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3211,7 +3211,7 @@
       "title": "타 기관 소식",
       "url": "",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:14",
+      "last_seen": "2026-09-15 10:34:41",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3220,7 +3220,7 @@
       "title": "타 기관 공모 소식",
       "url": "",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:14",
+      "last_seen": "2026-09-15 10:34:41",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3229,7 +3229,7 @@
       "title": "공유하기",
       "url": "",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:14",
+      "last_seen": "2026-09-15 10:34:41",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3238,7 +3238,7 @@
       "title": "카카오톡링크",
       "url": "",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:14",
+      "last_seen": "2026-09-15 10:34:41",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3247,7 +3247,7 @@
       "title": "마이페이지",
       "url": "https://cfsc.or.kr/contents/user/user0301.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3256,7 +3256,7 @@
       "title": "이용약관",
       "url": "",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:14",
+      "last_seen": "2026-09-15 10:34:41",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3265,7 +3265,7 @@
       "title": "개인정보처리방침",
       "url": "https://www.cfsc.or.kr/contents/protect.asp",
       "first_seen": "2026-09-15 02:09:23",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3274,7 +3274,7 @@
       "title": "열린광장",
       "url": "",
       "first_seen": "2026-09-15 02:09:31",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3283,7 +3283,7 @@
       "title": "재단소식",
       "url": "",
       "first_seen": "2026-09-15 02:09:31",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3292,7 +3292,7 @@
       "title": "공유하기",
       "url": "",
       "first_seen": "2026-09-15 02:09:31",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3301,7 +3301,7 @@
       "title": "카카오톡링크",
       "url": "",
       "first_seen": "2026-09-15 02:09:31",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3310,7 +3310,7 @@
       "title": "(분류)",
       "url": "https://www.cfsc.or.kr/contents/open/open0102.asp?bseq=1&yy=",
       "first_seen": "2026-09-15 02:09:31",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3319,7 +3319,7 @@
       "title": "이용약관",
       "url": "",
       "first_seen": "2026-09-15 02:09:31",
-      "last_seen": "2026-09-15 10:18:16",
+      "last_seen": "2026-09-15 10:34:43",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3328,7 +3328,7 @@
       "title": "[문화도시][공고] 2026 목포 문화항구 창·제작 지원 사업 ...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=481&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3337,7 +3337,7 @@
       "title": "[문화도시][공고] 2026 문화갯물학교 라이브커머스 교육 프로...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=480&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3346,7 +3346,7 @@
       "title": "[문화도시][공고] 2026 문화다방 운영공간 추가 모집 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=478&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3355,7 +3355,7 @@
       "title": "[문화도시][공고] 2026 문화항구 조타실 SNS 서포터즈 모...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=470&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3364,7 +3364,7 @@
       "title": "[문화도시][공고] 2026 문화갯물학교 로컬크리에이터 교육 참...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=467&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3373,7 +3373,7 @@
       "title": "[문화도시][공고] 2026 문화다방 운영공간 모집 결과 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=466&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3382,7 +3382,7 @@
       "title": "[문화도시][공고] 2026 뜬금포 기획단 참여자 모집 결과 공...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=465&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3391,7 +3391,7 @@
       "title": "[문화도시][공고] 2026 찾아가는 문화이음 공연예술인(단체)...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=464&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3400,7 +3400,7 @@
       "title": "[문화도시][공고] 2026 문화다방 서류심사 결과 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=463&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3409,7 +3409,7 @@
       "title": "[문화도시][공고] 2026 뜬금포 기획단 서류심사 결과 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=462&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3418,7 +3418,7 @@
       "title": "[문화도시][공고] 2026 문화항구 조타실 SNS 서포터즈 모...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=461&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3427,7 +3427,7 @@
       "title": "[문화도시][공고] 2026 문화갯물학교 로컬크리에이터 교육 프...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=460&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3436,7 +3436,7 @@
       "title": "[문화도시][공고] 2026 꼼지락 실험실 상주단체 선정 결과 ...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=459&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3445,7 +3445,7 @@
       "title": "[문화도시][공고] 2026 꼼지락 실험실 상주단체 서류심사 결...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=458&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 02:09:33",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3463,7 +3463,7 @@
       "title": "2026 목포·신안 일주일 살기 1회차 참가자 선정 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=482",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3472,7 +3472,7 @@
       "title": "[문화도시][공고] 2026 목포 문화항구 창·제작 지원 사업 ...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=481",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3481,7 +3481,7 @@
       "title": "[문화도시][공고] 2026 문화갯물학교 라이브커머스 교육 프로...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=480",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3490,7 +3490,7 @@
       "title": "2026 목포·신안 일주일 살기 1회차 참가자 모집 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=479",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3499,7 +3499,7 @@
       "title": "[문화도시][공고] 2026 문화다방 운영공간 추가 모집 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=478",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3508,7 +3508,7 @@
       "title": "2026 꿈의 예술단 플러스 목포 참여단원 상시 모집 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=477",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3517,7 +3517,7 @@
       "title": "목포 문화도시 조성사업 기간제근로자(사원) 채용 최종합격자 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=476",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3526,7 +3526,7 @@
       "title": "2026 꿈의 예술단 플러스 목포 참여단원 추가 모집 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=475",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3535,7 +3535,7 @@
       "title": "목포 문화도시 조성사업 기간제근로자(사원) 채용 서류심사 결과 ...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=474",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3544,7 +3544,7 @@
       "title": "꿈의 예술단 플러스 코디네이터(운영인력) 채용 최종합격자 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=473",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3553,7 +3553,7 @@
       "title": "2026년 목포 문화도시 조성사업 기간제근로자(사원) 채용 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=472",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3562,7 +3562,7 @@
       "title": "꿈의 예술단 플러스 코디네이터(운영인력) 채용 서류심사 결과 공...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=471",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3571,7 +3571,7 @@
       "title": "[문화도시][공고] 2026 문화항구 조타실 SNS 서포터즈 모...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=470",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3580,7 +3580,7 @@
       "title": "2026 꿈의 예술단 플러스 목포 참여단원 모집 공고",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=469",
       "first_seen": "2026-09-15 02:09:34",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "seeded",
       "reason": "첫 스캔 — 기존 글 기록"
     },
@@ -3598,7 +3598,7 @@
       "title": "[문화도시][공고] 2026 문화다방 추가모집 서류심사 결과 공...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=483&sca=%EB%AC%B8%ED%99%94%EB%8F%84%EC%8B%9C",
       "first_seen": "2026-09-15 09:13:22",
-      "last_seen": "2026-09-15 10:18:18",
+      "last_seen": "2026-09-15 10:34:45",
       "status": "prefilter",
       "reason": "제외어: 심사결과, 결과"
     },
@@ -3607,7 +3607,7 @@
       "title": "[문화도시][공고] 2026 문화다방 추가모집 서류심사 결과 공...",
       "url": "https://mpcf.or.kr/bbs/board.php?bo_table=notice&wr_id=483",
       "first_seen": "2026-09-15 09:13:23",
-      "last_seen": "2026-09-15 10:18:19",
+      "last_seen": "2026-09-15 10:34:46",
       "status": "prefilter",
       "reason": "제외어: 심사결과, 결과"
     },
@@ -3616,7 +3616,7 @@
       "title": "10월 정기휴관일 변경 안내(10.6.화)",
       "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2862&searchType=all&searchText=&pageIndex=1",
       "first_seen": "2026-09-15 09:51:20",
-      "last_seen": "2026-09-15 10:17:57",
+      "last_seen": "2026-09-15 10:34:22",
       "status": "prefilter",
       "reason": "제외어: 변경 안내, 휴관"
     }

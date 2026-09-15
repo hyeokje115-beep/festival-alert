@@ -6,8 +6,8 @@
       "at": "2026-09-15 03:57:49"
     }
   },
-  "last_scan_at": "2026-09-15 10:18:19",
-  "last_inbox_at": "2026-09-15 10:13:41",
+  "last_scan_at": "2026-09-15 10:34:46",
+  "last_inbox_at": "2026-09-15 10:33:16",
   "commands_set": true,
   "last_inbox": {
     "updates": 0,
@@ -15,24 +15,14 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-15 10:18:19",
+  "updated_at": "2026-09-15 10:34:46",
   "last_scan": {
-    "at": "2026-09-15 10:18:19",
-    "elapsed": 278.3,
-    "sites_total": 24,
+    "at": "2026-09-15 10:34:46",
+    "elapsed": 90.3,
+    "sites_total": 20,
     "sites_ok": 20,
-    "sites_fail": [
-      "전주문화재단 — 페이지 로딩 시간 초과 (30s)",
-      "전남문화재단_타기관 — 페이지 로딩 시간 초과 (30s)",
-      "전남문화재단_협업 — 페이지 로딩 시간 초과 (30s)",
-      "전남문화재단_공지 — 브라우저 오류: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https:/"
-    ],
-    "disabled": [
-      "전주문화재단",
-      "전남문화재단_타기관",
-      "전남문화재단_협업",
-      "전남문화재단_공지"
-    ],
+    "sites_fail": [],
+    "disabled": [],
     "selector_fixed": [],
     "new_rows": 0,
     "seeded": 0,
