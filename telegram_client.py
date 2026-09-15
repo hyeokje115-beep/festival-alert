@@ -66,6 +66,7 @@ BOT_COMMANDS: list[tuple[str, str]] = [
     ("disable", "사이트 비활성화  /disable <id 또는 이름>"),
     ("stats",   "알림 · 피드백 통계"),
     ("status",  "최근 스캔 상태"),
+    ("recent",  "최근 판정 기록  /recent [N] [사이트|상태]"),
 ]
 
 
