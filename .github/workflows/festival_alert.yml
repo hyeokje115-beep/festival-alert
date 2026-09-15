@@ -79,14 +79,19 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
-          key: playwright-chromium-${{ runner.os }}-${{ steps.deps.outputs.pw_version }}
+          key: playwright-chromium-${{ runner.os }}-${{ steps.deps.outputs.pw_version }}-v2
 
 
       - name: Chromium 설치
         run: |
-          if [ "${{ steps.pw-cache.outputs.cache-hit }}" = "true" ]; then
+          # 캐시 히트여도 실행 파일이 실제로 있는지 확인 — 불완전하게 저장된 캐시(빈 폴더·구버전 셸)면 재설치
+          if [ "${{ steps.pw-cache.outputs.cache-hit }}" = "true" ] \
+             && ls ~/.cache/ms-playwright/chromium-*/chrome-linux/chrome >/dev/null 2>&1 \
+             && ls ~/.cache/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell >/dev/null 2>&1; then
+            echo "브라우저 캐시 정상 — 시스템 의존성만 설치"
             python -m playwright install-deps chromium
           else
+            echo "브라우저 캐시 없음/불완전 — Chromium 재설치"
             python -m playwright install --with-deps chromium
           fi
 
