@@ -126,9 +126,9 @@ def run_inbox(rt: Runtime) -> dict:
     handler = CommandHandler(client, rt.sites, rt.known, rt.feedback, rt.state, rt.scraper)
     try:
         client.delete_webhook()
-        if not rt.state.get("commands_set"):
+        if rt.state.get("commands_version") != 2:
             client.set_my_commands()
-            rt.state.set(commands_set=True)
+            rt.state.set(commands_set=True, commands_version=2)
     except TelegramError as e:
         log(f"봇 초기화 경고: {e}")
 
