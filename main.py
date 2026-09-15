@@ -23,6 +23,8 @@ scan 흐름
   DRY_RUN=1          알림 발송 · 파일 저장 없이 흐름만 확인 (Gemini 는 호출)
   SCAN_SUMMARY       always | issues(기본) | never   — 스캔 요약을 관리자 채팅에 무음으로 보낼지
   SCAN_SITES         쉼표로 구분한 site id/이름 — 이 사이트만 스캔 (로컬 테스트)
+  SCAN_RUNNER        kr = 한국 PC 러너: kr_only 사이트만 스캔 / 미설정 = GitHub 러너: kr_only 제외
+  SKIP_INBOX=1       scan 앞의 명령·👍👎 처리 생략 (보조 러너가 텔레그램 오프셋을 건드리지 않도록)
 """
 from __future__ import annotations
 
@@ -50,6 +52,18 @@ STATUS_DUPLICATE = "duplicate"
 DRY_RUN = os.getenv("DRY_RUN", "").strip().lower() in ("1", "true", "yes", "y")
 SCAN_SUMMARY = os.getenv("SCAN_SUMMARY", "issues").strip().lower()
 SCAN_SITES = [s.strip() for s in os.getenv("SCAN_SITES", "").split(",") if s.strip()]
+SCAN_RUNNER = os.getenv("SCAN_RUNNER", "").strip().lower()                        # "kr" = 한국 PC 러너
+SKIP_INBOX = os.getenv("SKIP_INBOX", "").strip().lower() in ("1", "true", "yes", "y")
+# 해외 IP 차단으로 보이는 실패 사유 — 이 사유로 연속 SITE_FAIL_DISABLE_AFTER 회면 비활성 대신 한국 러너로 이관
+_CONN_ERROR_MARKS = ("ERR_CONNECTION_TIMED_OUT", "ERR_CONNECTION_REFUSED", "ERR_CONNECTION_RESET",
+                     "ERR_TIMED_OUT", "ERR_ADDRESS_UNREACHABLE", "페이지 로딩 시간 초과")
+
+
+
+
+def _is_connection_error(err: str) -> bool:
+    e = err or ""
+    return any(m in e for m in _CONN_ERROR_MARKS)
 
 
 
@@ -211,6 +225,10 @@ def _recent_signatures(known: KnownPosts) -> dict[str, dict]:
 
 def _select_sites(rt: Runtime) -> list[dict]:
     sites = rt.sites.enabled()
+    if SCAN_RUNNER == "kr":
+        sites = [s for s in sites if s.get("kr_only")]                # 한국 러너: 이관된 사이트만
+    else:
+        sites = [s for s in sites if not s.get("kr_only")]            # GitHub 러너: 이관된 사이트 제외
     if not SCAN_SITES:
         return sites
     picked: list[dict] = []
@@ -231,12 +249,25 @@ def _collect_site(rt: Runtime, sc, site: dict, recent_sigs: dict, run_sigs: dict
         rt.sites.touch(sid, False, f"fail:{res.error[:80]}")
         fails.append(f"{sname} — {res.error[:60]}")
         log(f"✗ {sname}: {res.error}  (연속 {site['fail_count']}회)")
+        if SCAN_RUNNER != "kr" and _is_connection_error(res.error):
+            n_conn = int(site.get("conn_fail_count") or 0) + 1
+            rt.sites.update(sid, conn_fail_count=n_conn)
+            if n_conn >= config.SITE_FAIL_DISABLE_AFTER:
+                # 해외 IP 차단 추정 — 비활성 대신 한국 러너 담당으로 이관 (활성 유지, 실패 카운트 초기화)
+                rt.sites.update(sid, kr_only=True, conn_fail_count=0, fail_count=0)
+                stat.setdefault("moved_kr", []).append(sname)
+                log(f"  🇰🇷 연속 {n_conn}회 연결 실패 → 한국 러너로 이관 (kr_only)")
+                return
+        elif site.get("conn_fail_count"):
+            rt.sites.update(sid, conn_fail_count=0)                  # 다른 종류의 실패 — 연결 실패 연속 끊김
         if int(site.get("fail_count") or 0) >= config.SITE_FAIL_DISABLE_AFTER:
             rt.sites.set_enabled(sid, False)
             disabled.append(sname)
             log(f"  ⏸ 연속 {site['fail_count']}회 실패 → 자동 비활성")
         return
     rt.sites.touch(sid, True, "ok")
+    if site.get("conn_fail_count"):
+        rt.sites.update(sid, conn_fail_count=0)
     stat["sites_ok"] += 1
     if res.selector_changed:
         rt.sites.update(sid, **res.selector_used)
@@ -328,6 +359,9 @@ def _summary_text(s: dict) -> str:
     if s["disabled"]:
         lines.append(f"⏸ 자동 비활성(연속 {config.SITE_FAIL_DISABLE_AFTER}회 실패): "
                      + ", ".join(esc(x) for x in s["disabled"]) + " → /enable 로 재시도")
+    if s.get("moved_kr"):
+        lines.append("🇰🇷 해외 접속 차단 추정 → 한국 러너로 이관: " + ", ".join(esc(x) for x in s["moved_kr"])
+                     + " (PC 가 켜지면 스캔 · 되돌리기 /kr off &lt;id&gt;)")
     if s["selector_fixed"]:
         lines.append("🔧 셀렉터 자동 보정: " + ", ".join(esc(x) for x in s["selector_fixed"][:8]))
     if s["send_errors"]:
@@ -349,7 +383,8 @@ def run_scan(rt: Runtime) -> int:
         return 1
 
 
-    inbox = run_inbox(rt)
+    inbox = ({"updates": 0, "votes": 0, "commands": 0, "errors": 0, "skipped": True} if SKIP_INBOX
+             else run_inbox(rt))
     judge = Judge(rt.feedback)
     sites = _select_sites(rt)
     if not sites:
@@ -473,7 +508,7 @@ def run_scan(rt: Runtime) -> int:
 
 
     # ── 공모 없음 알림 (실제 알림도, 확인요청도 하나도 없을 때만)
-    if not DRY_RUN and sent == 0 and reviewed == 0 and not deferred:
+    if not DRY_RUN and sent == 0 and reviewed == 0 and not deferred and SCAN_RUNNER != "kr":
         broadcast(
             rt.client,
             f"📭 <b>새 공모 없음</b>  {esc(config.now_kst_iso()[:16])}\n"
@@ -494,6 +529,7 @@ def run_scan(rt: Runtime) -> int:
         "candidates": len(candidates), "gemini_calls": judge.calls, "gemini_errors": judge.errors,
         "feedback_blocked": judge.blocked, "alerts": sent, "reviewed": reviewed, "deferred": deferred,
         "send_errors": send_errors, "inbox": inbox, "dry_run": DRY_RUN,
+        "moved_kr": stat.get("moved_kr", []), "runner": SCAN_RUNNER or "github",
         "gemini_last_error": getattr(judge, "last_error", ""),
     }
     rt.state.set(last_scan_at=summary["at"], last_scan=summary)
