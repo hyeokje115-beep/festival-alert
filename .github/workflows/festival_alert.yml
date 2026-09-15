@@ -5,7 +5,6 @@ on:
   schedule:
     - cron: "0 0,9 * * *"     # KST 09:00 · 18:00 → scan
     - cron: "30 4 * * *"      # KST 13:30 → scan
-    - cron: "*/15 * * * *"    # 15분마다 → inbox
   workflow_dispatch:
     inputs:
       mode:
@@ -145,3 +144,4 @@ jobs:
           path: debug/
           if-no-files-found: ignore
           retention-days: 5
+
