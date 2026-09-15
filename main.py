@@ -539,7 +539,7 @@ def run_check(rt: Runtime) -> int:
     if ok and not DRY_RUN:
         text = ("✅ <b>festival-alert 점검 완료</b>\n"
                 f"사이트 {len(rt.sites)}개 (활성 {len(rt.sites.enabled())}) · 기록 {len(rt.known)}건\n"
-                "스캔: 매일 09:00 · 18:00 KST / 명령 · 👍👎 처리: 3시간 간격\n"
+                "스캔: 매일 09:00 · 13:30 · 18:00 KST / 명령 · 👍👎 처리: 15분 간격\n"
                 "게시판 URL 을 보내면 바로 등록됩니다. 명령어: /help")
         errs = broadcast(rt.client, text, silent=True)
         print("확인 메시지 발송: " + ("성공" if not errs else " / ".join(errs)))
