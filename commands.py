@@ -15,6 +15,7 @@ commands.py — 텔레그램 명령 처리                                      
   /remove /disable /enable <id 또는 이름>   (관리자 chat_id 만)
   /status                 최근 스캔 결과 · 실패 사이트
   /stats                  알림 · 👍👎 통계 · 기록 분포
+  /recent [N] [사이트|상태]  최근 판정 기록 N건 (제목 · 판정 · 근거 · 링크. 첫스캔/이관 기록 제외)
 
 
 규칙
@@ -60,6 +61,7 @@ HELP_TEXT = (
     "/remove · /disable · /enable &lt;id 또는 이름&gt;\n"
     "/status — 최근 스캔 결과\n"
     "/stats — 알림 · 👍👎 통계\n"
+    "/recent [N] [사이트|상태] — 최근 판정 기록 (AI 근거 포함)\n"
     "/id — 내 chat_id\n\n"
     "알림의 👍/👎 버튼은 다음 판정에 반영됩니다.\n"
     "<i>명령과 버튼은 3시간 간격으로 처리되어 즉시 응답하지 않습니다.</i>"
@@ -396,4 +398,53 @@ class CommandHandler:
                 f"{STATUS_LABEL.get(k, k)} {v}" for k, v in dist.most_common()))
         lines.append("")
         lines.append("👎 를 받은 공고와 같은 제목은 자동 차단되고, 최근 평가는 AI 판정 예시로 반영됩니다.")
+        self._reply(chat_id, "\n".join(lines), silent=True)
+
+
+    def _cmd_recent(self, chat_id, user, args, chat):
+        """최근 판정 기록 — /recent [N] [사이트 id·이름 | 상태]  (기본 10건 · 최대 30건. 첫스캔·이관 기록은 제외)"""
+        emoji = {STATUS_ALERTED: "📢", STATUS_LOW_CONF: "🤔", STATUS_AI_NO: "❌", STATUS_PREFILTER: "⛔",
+                 STATUS_EXPIRED: "⏰", "duplicate": "🔁", "feedback_block": "👎", "stale": "🕰"}
+        status_words = {k.lower(): k for k in STATUS_LABEL} | {v.lower(): k for k, v in STATUS_LABEL.items()}
+        n, site_ids, status_q = 10, None, ""
+        for tok in (args or "").split():
+            tl = tok.lower()
+            if tok.isdigit():
+                n = max(1, min(int(tok), 30))
+            elif tl in status_words:
+                status_q = status_words[tl]
+            elif site_ids is None and self.sites.find(tok):
+                site_ids = {s["id"] for s in self.sites.find(tok)}
+        rows = []
+        for r in self.known.posts.values():
+            st = r.get("status", "")
+            if st in (STATUS_SEEDED, "migrated"):
+                continue
+            if site_ids is not None and r.get("site_id") not in site_ids:
+                continue
+            if status_q and st != status_q:
+                continue
+            rows.append(r)
+        rows.sort(key=lambda r: str(r.get("last_seen") or r.get("first_seen") or ""), reverse=True)
+        rows = rows[:n]
+        if not rows:
+            self._reply(chat_id, "조건에 맞는 판정 기록이 없습니다. (첫스캔 · 이관 기록은 표시하지 않습니다)\n"
+                                 "예) /recent 20 · /recent ai_no · /recent 광주문화재단", silent=True)
+            return
+        title_q = f" — {esc(STATUS_LABEL.get(status_q, status_q))}" if status_q else ""
+        lines = [f"🗂 <b>최근 판정 {len(rows)}건</b>{title_q}", ""]
+        for i, r in enumerate(rows, 1):
+            st = r.get("status", "?")
+            site = self.sites.get(r.get("site_id") or "")
+            sname = site["name"] if site else (r.get("site_id") or "?")
+            title = esc((r.get("title") or "(제목 없음)")[:70])
+            url = str(r.get("url") or "")
+            head = f'<a href="{esc(url).replace(chr(34), "&quot;")}">{title}</a>' if url.startswith("http") else title
+            when = str(r.get("last_seen") or r.get("first_seen") or "")[5:16]
+            lines.append(f"{i}. {emoji.get(st, '▫️')} {head}\n"
+                         f"　 {esc(sname)} · {esc(STATUS_LABEL.get(st, st))} · {esc(when)}")
+            if r.get("reason"):
+                lines.append(f"　 <i>{esc(str(r['reason'])[:120])}</i>")
+        lines.append("")
+        lines.append("필터: /recent 20 · /recent &lt;사이트 이름&gt; · /recent ai_no | low_conf | alerted | prefilter")
         self._reply(chat_id, "\n".join(lines), silent=True)
