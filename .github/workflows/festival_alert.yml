@@ -123,6 +123,8 @@ jobs:
           fi
           git commit -m "data: ${{ steps.mode.outputs.mode }} $(date '+%Y-%m-%d %H:%M KST') [skip ci]"
           for i in 1 2 3; do
+            git rebase --abort 2>/dev/null || true
+            if git pull --rebase --autostash -X theirs origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then
             # 이전 시도에서 rebase 가 중단된 채 남아 있으면 정리 (unmerged files 로 pull 이 막히는 것 방지)
             git rebase --abort 2>/dev/null || true
             # 데이터 JSON 이 원격과 충돌하면 이번 실행 결과를 우선 (rebase 중이라 'theirs' 가 이번 커밋)
