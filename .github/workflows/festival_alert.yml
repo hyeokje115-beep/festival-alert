@@ -4,6 +4,7 @@ name: festival-alert
 on:
   schedule:
     - cron: "0 0,9 * * *"     # KST 09:00 · 18:00 → scan
+    - cron: "30 4 * * *"      # KST 13:30 → scan
     - cron: "*/15 * * * *"    # 15분마다 → inbox
   workflow_dispatch:
     inputs:
@@ -45,13 +46,13 @@ jobs:
         id: mode
         env:
           INPUT_MODE: ${{ github.event.inputs.mode }}
+          CRON: ${{ github.event.schedule }}
         run: |
           MODE="$INPUT_MODE"
           if [ -z "$MODE" ]; then
-            H=$(date -u +%H)
-            case "$H" in
-              00|01|09|10) MODE=scan ;;     # 예약 지연(최대 1시간)까지 scan 으로 인정
-              *)           MODE=inbox ;;
+            case "$CRON" in
+              "0 0,9 * * *"|"30 4 * * *") MODE=scan ;;    # 어떤 예약이 깨웠는지로 판정 — 실행 지연·inbox 겹침과 무관
+              *)                          MODE=inbox ;;
             esac
           fi
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
@@ -98,6 +99,7 @@ jobs:
           TELEGRAM_ADMIN_CHAT_IDS: ${{ secrets.TELEGRAM_ADMIN_CHAT_IDS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-2.5-flash' }}
+          GEMINI_FALLBACK_MODELS: ${{ secrets.GEMINI_FALLBACK_MODELS }}
           SCRAPER_DEBUG_DIR: debug
         run: python main.py ${{ steps.mode.outputs.mode }}
 
