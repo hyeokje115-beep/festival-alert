@@ -1,35 +1,33 @@
 {
-  "update_offset": 614088378,
+  "update_offset": 614088381,
   "pending": {
     "-5198533799": {
       "cmd": "add",
       "at": "2026-09-15 03:57:49"
     }
   },
-  "last_scan_at": "2026-09-16 03:31:30",
-  "last_inbox_at": "2026-09-16 03:55:35",
+  "last_scan_at": "2026-09-16 04:10:50",
+  "last_inbox_at": "2026-09-16 04:09:24",
   "commands_set": true,
   "last_inbox": {
-    "updates": 1,
+    "updates": 3,
     "votes": 0,
-    "commands": 1,
+    "commands": 2,
     "errors": 0
   },
-  "updated_at": "2026-09-16 03:55:35",
+  "updated_at": "2026-09-16 04:10:50",
   "last_scan": {
-    "at": "2026-09-16 03:31:30",
-    "elapsed": 231.6,
+    "at": "2026-09-16 04:10:50",
+    "elapsed": 88.1,
     "sites_total": 20,
-    "sites_ok": 19,
-    "sites_fail": [
-      "광주문화재단_공지 — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 20,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 3,
+    "new_rows": 0,
     "seeded": 0,
-    "candidates": 3,
-    "gemini_calls": 6,
+    "candidates": 0,
+    "gemini_calls": 0,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 0,
@@ -37,9 +35,9 @@
     "deferred": 0,
     "send_errors": [],
     "inbox": {
-      "updates": 0,
+      "updates": 3,
       "votes": 0,
-      "commands": 0,
+      "commands": 2,
       "errors": 0
     },
     "dry_run": false,
