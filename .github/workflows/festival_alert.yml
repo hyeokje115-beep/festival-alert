@@ -5,6 +5,7 @@ on:
   schedule:
     - cron: "0 0,9 * * *"     # KST 09:00 · 18:00 → scan
     - cron: "30 4 * * *"      # KST 13:30 → scan
+    - cron: "*/10 * * * *"   # 매 10분 → 명령·👍👎 처리만
   workflow_dispatch:
     inputs:
       mode:
@@ -50,7 +51,8 @@ jobs:
           MODE="$INPUT_MODE"
           if [ -z "$MODE" ]; then
             case "$CRON" in
-              "0 0,9 * * *"|"30 4 * * *") MODE=scan ;;    # 어떤 예약이 깨웠는지로 판정 — 실행 지연·inbox 겹침과 무관
+              "0 0,9 * * *"|"30 4 * * *") MODE=scan ;;    # 공모 스캔 시간
+              "*/10 * * * *")             MODE=inbox ;;   # 명령·👍👎 전용 주기
               *)                          MODE=inbox ;;
             esac
           fi
@@ -105,6 +107,8 @@ jobs:
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-2.5-flash' }}
           GEMINI_FALLBACK_MODELS: ${{ secrets.GEMINI_FALLBACK_MODELS }}
           SCRAPER_DEBUG_DIR: debug
+          # 공모 스캔은 명령 처리를 하지 않아 알림 시간대에 목록/러너 알림이 섞이지 않게 함
+          SKIP_INBOX: ${{ steps.mode.outputs.mode == 'scan' && '1' || '0' }}
         run: python main.py ${{ steps.mode.outputs.mode }}
 
 
@@ -144,4 +148,130 @@ jobs:
           path: debug/
           if-no-files-found: ignore
           retention-days: 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
