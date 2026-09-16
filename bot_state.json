@@ -1,5 +1,5 @@
 {
-  "update_offset": 614088381,
+  "update_offset": 614088390,
   "pending": {
     "-5198533799": {
       "cmd": "add",
@@ -7,15 +7,15 @@
     }
   },
   "last_scan_at": "2026-09-16 04:10:50",
-  "last_inbox_at": "2026-09-16 04:27:34",
+  "last_inbox_at": "2026-09-16 19:58:26",
   "commands_set": true,
   "last_inbox": {
-    "updates": 0,
+    "updates": 9,
     "votes": 0,
-    "commands": 0,
+    "commands": 9,
     "errors": 0
   },
-  "updated_at": "2026-09-16 04:27:34",
+  "updated_at": "2026-09-16 19:58:26",
   "last_scan": {
     "at": "2026-09-16 04:10:50",
     "elapsed": 88.1,
@@ -43,5 +43,6 @@
     "dry_run": false,
     "gemini_last_error": ""
   },
-  "defer_fail_counts": {}
+  "defer_fail_counts": {},
+  "commands_version": 2
 }
