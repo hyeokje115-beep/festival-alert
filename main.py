@@ -9,7 +9,7 @@ main.py — 실행 진입점                                                    
 
 
 scan 흐름
-  ① inbox 먼저 실행 — /add 로 추가된 사이트와 새 👍👎 를 이번 스캔에 반영
+  ① 명령·👍👎 처리는 별도 inbox 작업에서 수행하며, 공모 스캔은 명령을 처리하지 않음
   ② 사이트별 목록 수집 → 실패는 fail_count+1 (연속 SITE_FAIL_DISABLE_AFTER 회면 자동 비활성)
      · 대체 셀렉터로 잡힌 사이트는 festival_sites.json 셀렉터를 자동 보정
      · 기록이 하나도 없는 사이트(첫 스캔)는 기존 글을 알림 없이 기록만 (FIRST_SCAN_SILENT)
@@ -383,8 +383,9 @@ def run_scan(rt: Runtime) -> int:
         return 1
 
 
-    inbox = ({"updates": 0, "votes": 0, "commands": 0, "errors": 0, "skipped": True} if SKIP_INBOX
-             else run_inbox(rt))
+    # 명령·👍👎 처리는 별도 10분 주기 inbox 작업에서만 수행한다.
+    # 스캔에서 getUpdates를 호출하면 /recent, /list 등의 응답이 공모 알림과 섞일 수 있다.
+    inbox = {"updates": 0, "votes": 0, "commands": 0, "errors": 0, "skipped": True}
     if not rt.state.get("bot_enabled", True):
         log("봇이 중지 상태입니다. 이번 예약 스캔과 알림을 건너뜁니다.")
         rt.state.set(last_scan_at=config.now_kst_iso(), last_scan={
