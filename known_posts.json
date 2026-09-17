@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-17 23:40:45",
+  "updated_at": "2026-09-17 23:54:57",
   "posts": {
     "t:3eb416223e9e69e6bb8e": {
       "site_id": "",
@@ -3799,6 +3799,2004 @@
       "last_seen": "2026-09-17 18:08:21",
       "status": "prefilter",
       "reason": "신호어만 있음(공모) → 본문에서 분야어 확인 필요 (본문 없음 → 탈락)"
+    },
+    "u:ceec02aae64fca87fe89": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 청년성장동력 지원 사업 국악창업 실습 교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25312&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fd6d1383bf600f02bb90": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 청년성장동력 지원 AI활용실습 교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25311&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:0c4ba8014500cb15a411": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 청년성장동력 지원 사업 마케팅·홍보 실습 교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25294&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c854c4c8424f035578a4": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 국악공연 길라잡이 육성 <국악 길라잡이 : 비즈니스 랩 STEP 1> 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25288&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:4a44185cf8d8e23f1e4b": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 전통공연예술 저변확대 국악공연 관광상품 개발 <옹기콘서트> 도슨트 공모",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25283&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:4026d9e89e0ae59a336a": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 전통공연예술 저변확대 국악공연 관광상품 개발 <옹기콘서트> 출연자 공모",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25282&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:806b42687163e22dccbd": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 청년성장동력 지원 음원녹음실습 교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25281&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:40d10f7364a81112f930": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 청년성장동력 지원 - 공연기획 실무 교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25273&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:43bd04d380855cea486a": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "<청소년 국악 아카데미> 참가자 모집 연장공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25265&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:49eb555f04a571907af0": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 청년성장동력 지원 - 무대조명활용 교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25264&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c35e33e3ff1e761fa8e3": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026 청년성장동력 지원 - 음원제작 및 상품화 실습교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25261&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:0e74311a6813297cca2a": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "전통예술 콘텐츠 크리에이터 실습교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25254&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c1aa9b0de2bf06e42273": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "큐시트 및 테크니컬라이더 작성 실습교육 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25252&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:da8561d5017f68a1bfb4": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "국악문화산업 초청 특강 - 참가자 모집 공고",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25238&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f84c9e1a888642996187": {
+      "site_id": "kotpa_org_f7cbd7",
+      "title": "2026년 전통공연창작마루 하반기 정기대관 공모",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25217&menuNo=300008&pageIndex=1",
+      "first_seen": "2026-09-17 23:53:14",
+      "last_seen": "2026-09-17 23:53:14",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d8a8d29c1553722438d0": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "제안서 평가위원 모집 공고(동산문화유산 보존처리 표준품셈 제정 연구(5차년도))",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21693&no=28353&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:16f29df61e7a9a9639a2": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "국가유산분야 연구개발과제평가위원 후보단 상시모집 안내",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21692&no=28352&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ce2b96aa2ec6244065e5": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "2026년도 국가유산청 정책만족도 조사 실시 공고",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21691&no=28351&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e28ffea7b50e61e6cf67": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "남겨진 기억, 이어갈 역사 「 숨은 민주화 운동 유산을 찾습니다 」 개최",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21690&no=28350&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f506e198815584e6f15e": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "2027년 지역 국가유산교육 활성화 사업 공모 선정 결과 알림",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21689&no=28349&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:41937470ec99e5278d9e": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "2026년 시각장애인 자연유산 전문가 양성 교육 평가 결과",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21688&no=28348&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d06af3dd83c81b2e8fd0": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "2027년도 세계유산축전 및 국가유산 미디어아트 사업 선정 결과",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21687&no=28347&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:5ef45e588341aabaaff8": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "2027년 우리고장 국가유산 활용사업 공모 선정 결과 알림",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21686&no=28346&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:544b222775f6e1b42c76": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "2027년도 미지정 무형유산 발굴육성 사업 추가공모",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21685&no=28345&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:853da44ff693183b3c29": {
+      "site_id": "khs_go_kr_17e168",
+      "title": "제56회 대한민국 공예품대전 정부시상 후보자 공개검증",
+      "url": "https://www.khs.go.kr/multiBbz/selectMultiBbzView.do;jsessionid=y4VFu5NpeC5eOxClKUdJQxh5MMLKtGq1jZF34gPs1GQ3ru11TKUrGxnxhFGa3rAz.cha-was02_servlet_engine1?id=21684&no=28344&bbzId=newpublic&pageIndex=1&pageUnit=10&strWhere=&searchWrd=&sdate=&edate=&mn=NS_01_01",
+      "first_seen": "2026-09-17 23:53:24",
+      "last_seen": "2026-09-17 23:53:24",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6e5408d6286982a15c6d": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "지원사업 선정작 발표정보",
+      "url": "https://thearts.arko.or.kr/thearts/info/support-output-program",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:eb1afa56e91e308b0954": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "공지사항",
+      "url": "https://thearts.arko.or.kr/thearts/news/notice",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ee84ed0236aa2a0a1529": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "전시·행사·공연·교육",
+      "url": "https://thearts.arko.or.kr/thearts/news/all-schedule",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:08bb723ec850bf27daca": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "인물·작품",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:04315fe422f9b852d5f3": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "예술 단체",
+      "url": "https://thearts.arko.or.kr/thearts/output/person/group",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:4ebd4d7f789205ef23e7": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "기타 인물",
+      "url": "https://thearts.arko.or.kr/thearts/output/person/etc",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b0735e38924e92ae7608": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "예술 작품",
+      "url": "https://thearts.arko.or.kr/thearts/output/contents",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:48ef3c2970eee652e17b": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "선정사업",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:1c5ec0af27db665de1d6": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "다원예술",
+      "url": "https://thearts.arko.or.kr/thearts/contents/column-contents?searchColumnType=569",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:76020a688cae0329df87": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "시각예술",
+      "url": "https://thearts.arko.or.kr/thearts/contents/column-contents?searchColumnType=568",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:eb121cb57116de2958f5": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "청년예술",
+      "url": "https://thearts.arko.or.kr/thearts/contents/column-contents?searchColumnType=562",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:8215bca3048da05a3feb": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "기타 정보",
+      "url": "https://thearts.arko.or.kr/thearts/info/other-information",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:196eaa8ff61afe3e0914": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "발간자료",
+      "url": "https://thearts.arko.or.kr/thearts/info/publication",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:040e4832228637483086": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "기관 운영 사이트",
+      "url": "https://thearts.arko.or.kr/thearts/introduce/related-site",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:71451f9c8a0ddf714060": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "통합플랫폼 소개",
+      "url": "https://thearts.arko.or.kr/thearts/introduce/about",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fc8e43fb080b2b5ee407": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "기관 소개",
+      "url": "https://www.arko.or.kr/content/843",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d7bb79a570ff6500767b": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "A SQUARE",
+      "url": "https://thearts.arko.or.kr/asquare/",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:fbff0379ff122e8631ec": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "전체 장르",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:9022bb16f2b702c55005": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "문화일반",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:5ef46aba1f8d66d319d6": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "최근 등록일 순",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0116731b1ffb1e772808": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "마감일 가까운 순",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d530d47655111fbfd8ac": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 2027년 해외레지던시참가지원(지정) IETM 국제현대공연예술네트워크 글로벌 커넥트 및 정기총회 초청 프로그램 2026.09.15 - 2026.10.15 해외 개인",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3581",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:162689bde584d03e3dd5": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 전주문화재단 전통 음악 2026년 AI 국악 크로스오버 작곡 공모전 온라인 청중평가 오픈 다이브 투 퓨전: 만개(滿開) 2026.09.10 - 2026.09.20 전북 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64880",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:775ab809400b1db4e38d": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 군포문화재단 연극 뮤지컬 무용 + 2026년 군포시생활문화축제 공연참가팀 모집공고 2026.09.16 - 2026.09.22 경기 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64872",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:605e9cafd24c778018a0": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 충주문화관광재단 전통 2026년 문화도시 충주 국악향유공간활성화지원 소소한호강 우리함께국악학교 모집 공고 2026.09.09 - 2026.09.30 충북 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64857",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:53ebb0a0ca8238b1e9b8": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 인천문화재단 연극 뮤지컬 무용 + 인천 대표공연 콘텐츠 유통활성화 지원 공모 공지 2026.09.03 - 2026.09.23 인천 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=IFAC_MENU_20260903010805001",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:12eb86bc73b5949a04b6": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 구로문화재단 연극 뮤지컬 무용 + [안양천문화위크] 구로 뮤직&피크닉 참가자 공개모집 2026.09.07 - 2026.09.23 서울 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64661",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:cab514d7e9ef27fbf7aa": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 서울문화재단 시각 연극 무용 + <제5회 서울예술상> 스팍 포커스상 후보작 공모 안내 2026.08.31 - 2027.01.05 서울 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260901044205002",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:0ed6bdeecf63d6a23a88": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 한국공예디자인문화진흥원 전통 2026년 하반기 전통문화 혁신이용권 공급기업 공모 2026.08.31 - 2026.09.18 전국 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=KCDF_MENU_20260901044123001",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:0ff4119e7acefdad09d9": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 전주문화재단 전통 2026년 전승공예품 악기은행 대여자 모집 안내 2026.08.28 - 2026.09.30 전북 개인",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64559",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:a204bcaf6aa26a77376a": {
+      "site_id": "thearts_arko_or_kr_077764",
+      "title": "아트누리 강남문화재단 연극 뮤지컬 무용 + 2026년 강남생활문화축제 공연동호회 경연대회 참가 동호회 모집 변경공고 2026.08.03 - 2026.09.17 서울 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64523",
+      "first_seen": "2026-09-17 23:53:40",
+      "last_seen": "2026-09-17 23:53:40",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:b91337c03467766fc6bf": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "인물·작품",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:8fcd8edf5c765bcdd91d": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "선정사업",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0f63d6e1db310a2ed6b1": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "전체 장르",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:21b8d274fa1dede987df": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "문화일반",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0894cb927d0c9dd568a7": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "최근 등록일 순",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:577eeca786b0c86585df": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "마감일 가까운 순",
+      "url": "",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:1eb6d1477b155a2e0211": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 충주문화관광재단 전체 2026년 문화도시 충주 국악향유공간활성화지원 소소한호강 소소한살롱 모집 공고 2026.09.09 - 2026.09.30 충북 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64859",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:2c55f84257221d923422": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 청주시문화산업진흥재단 전체 2026년 원도심 활성화 시민 공모사업 [3차] 공모 안내 2026.09.09 - 2026.09.28 충북 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64850",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ea0d23b09884d47d7025": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 대구문화예술진흥원 전체 2026년도 대구광역시 예술인 실태조사 참여 2026.09.09 - 2026.10.31 대구 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64839",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:4bc13514935b2d31e8b2": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 충남문화관광재단 전체 2026년 충남예술지원사업 정산설명회 및 의견청취회 참여자 모집 2026.09.09 - 2026.09.17 충남 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64813",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:cb8548ee329e463b4ae4": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 광주문화재단 전체 [광주문화메세나] 기업의 마음을 움직이는 예술후원-예술후원 제안서 워크숍 2026.08.28 - 2026.09.17 광주 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64535",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:690533e091cb42ffd250": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 제주문화예술재단 전체 2026년 제주 예술인 창작준비금 지원사업 공모 2026.09.01 - 2026.09.30 제주 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=JFAC_NOTICE_20260827044246001",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:07d8155a6e234b25ff32": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 한국예술인복지재단 전체 2026년 생활안정자금 융자 사업 안내(상시 운영) 2026.08.18 - 2026.12.31 전국 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64276",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:27cce3bcffdd41b59ec2": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 은평문화재단 전체 2026년 은평구 지역예술인 DB구축 <ᄋᄑ아트태그> 참여자 모집 공고 2026.08.18 - 2026.12.31 서울 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S64261",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:24dacf640a681e461a57": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 한국문화예술위원회 전체 2026년 크라우드펀딩 확산사업 <크라우드펀딩 챌린지> 2차 공모 2026.08.14 - 2026.10.18 전국 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3575",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:98c4413337a991af8689": {
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "title": "아트누리 과천문화재단 전체 2026년 과천시민회관 예술강좌실·연습실 상시대관 신청 안내(8월) 2026.08.03 - 2026.09.30 경기 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S63775",
+      "first_seen": "2026-09-17 23:53:54",
+      "last_seen": "2026-09-17 23:53:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7a98988d16e352a4ff9b": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "[일정변경] 2026년 한복마름방 <4차 분기 교육 수강생 모집> 공고",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9168&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c9fdf491b942891c6855": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "2026 공예 온라인 유통 및 AI활용 역량 강화 교육 프로그램 교육생 모집 (온라인)",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9161&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c52c7e36946ff324a2df": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "[모집마감] 2026 한복마름방 한복 소품 제작 특강(일일특강) 수강생 모집공고",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9159&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:99db6f5fc3779462b09d": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "2026 하반기 전통문화 혁신이용권 공급기업 공모",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9148&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:caf2d88c4fb413cdfb4b": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "2026 올해의 공예상 후보자 추천 공모",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9135&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:011670a45ecc9d6fb95a": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "2026 공공디자인 라운드 3차 참여자 모집 공모",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9134&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c6a1eaff81b7c499db4a": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "2026 찾아가는 한복교육 모집공고(3회차)",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9127&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f501ea96103cff23d0f6": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "2026 공공데이터 아이디어 공모",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9112&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:4f134e26e2790131b166": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "2026 디자인마이애미 현장운영 세일즈 파트너사 공모",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9108&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:dd35cb3fc62226f6b505": {
+      "site_id": "kcdf_or_kr_6bd01c",
+      "title": "2026 디자인마이애미 한국공예부스 참여작가 공모",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9107&brdCodeValue=",
+      "first_seen": "2026-09-17 23:54:08",
+      "last_seen": "2026-09-17 23:54:08",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0b117befeb51dfd68f3a": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "알림소식",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:25db385b8c4b1b8cd325": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "공지사항",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:b52de1da7f10580bc432": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "공모소식",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0524c06bafda3430db16": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "공모결과",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:6c9c73a31fc1d725fa5d": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "입찰정보",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:f2219926542dabb1fd99": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "입찰공고",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:eea92641913d0326fd40": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "입찰결과",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:d00a53ad54456234cae8": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "채용정보",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0fc5cc7f98e7a764550d": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "채용공고",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:47a85ce53422584824d6": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "채용결과",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:256fca9ed9a99e812929": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "보도자료",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c3bc1a15ade259d5b7e4": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "생활문화센터 활성화 지원 <주말엔 생활문화센터로>",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:d1141159ee70177e294e": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "일상 속 문화 향유 기회 확대",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:14efb11ba1865e1d548b": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "청춘마이크",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:93326f443b37d3592b6b": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "청춘마이크_시너지",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:15c4d3e867a9c698e730": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "실버마이크",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:117ed3c9144e00b34124": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "여가친화지원",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:9293965e81a1109c2161": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "문화로 사회연대",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:8bfac5a6af8900dd218b": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "지역문화아카데미",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:4d3e397723543448e06b": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "지역간 균형 있는 문화참여 및 활동 제고",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:3d7f96d48c7291ccdf81": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "구석구석 문화가 있는 날",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:044ce01ea9051c7b6de7": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "문화도시 관리 및 홍보 지원",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:21d6eb2dfd240c4a9681": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "로컬 100",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:9fa40026035c8f031647": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "문화가 있는 산업단지",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:d7c184bfc6258d130c81": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "민간협력 마케팅 지원",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:e2bb2c6bbf822081e2c4": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "지역문화통합정보시스템 협력운영",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:53697f2b01028284162b": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "기초단위 생활문화 확산 지원 <모두의 생활문화>",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:ddfb6c87063117fce704": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "생활문화공동체 활성화 지원",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:60b8481dad4ada6b096f": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "대국민 일상 속 생활문화 확산",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:8924bc3c116ed76c7e2c": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "생활문화 정책 연구",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:e781f2e1d13dbd26ad35": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "생활문화교류대회&생활문화 마켓",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:73dc8a09238dbcaa3ec3": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "함께 만드는 문화 소식",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:93619b21b2d0022775e9": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "지역문화진흥원 소식",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:6494ef13428a1407df34": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "언론보도",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:23193904822765ac77f5": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "지역문화진흥원 ON",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:a6d664ce53fc2054e36f": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "지역문화 영상",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:90b64029ee615a90aa9f": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "뉴스레터 구독하기",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c5e36503d87a8727823d": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "뉴스레터",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:6821292bd06bb5cd4cba": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "웹진 지:문",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:54e59d3bf149bf94d94c": {
+      "site_id": "rcs_or_kr_113e0a",
+      "title": "웹진소개",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:20",
+      "last_seen": "2026-09-17 23:54:20",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:a0b67b4c16904e584e9c": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 예술산업 금융지원 시범사업(융자) 5차 공모(~10.2.(금) 16:00)",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2832&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:3d162e0af0fb707882ae": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 예술기업 상생혁신(오픈이노베이션) 지원사업 공모 2차 발표심의 결과 안내",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2831&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:a01d80f71ea5ed948c8a": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 예술산업보증 9월(6차) 공모 안내(9.1.(화)~9.10.(목), 16:00)",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2830&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:735f7461d68da3bb4890": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 예술기업 상생혁신(오픈이노베이션) 지원사업 공모(~8.20.(목), 18:00)",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2828&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:442f9ec168dd6d4c6b54": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 예술산업보증 8월(5차) 공모 안내(8.1.(토)~8.10.(월), 16:00)",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2827&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:58033e4f15d22a67dfac": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 예술산업 금융지원 시범사업(융자) 4차 공모(~8.21.(금) 16:00)",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2826&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:595bb4ead092aef0728e": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 국내 화랑 해외 아트페어 참가 하반기 공모 1차 서류심의 결과발표",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2825&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fc640fd59eab350abfe8": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 아트코리아랩 글로벌 교류 유통 지원- 자유형 발표심의 결과 안내",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2824&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6dda2b10b08f541d0643": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 아트코리아랩 글로벌 교류 유통 지원- 자유형 서류심의 결과 안내",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2823&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fd811f4f58cbbd5e85ab": {
+      "site_id": "gokams_or_kr_d04cce",
+      "title": "2026 예술산업보증 7월(4차) 공모 안내(7.1.(수)~7.10.(금), 16:00)",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2822&page=1&txtKeyword=&ddlKeyfield=45",
+      "first_seen": "2026-09-17 23:54:27",
+      "last_seen": "2026-09-17 23:54:27",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:e81b72bcc3360e4ea08a": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "K-컬처 원천콘텐츠 발굴 및 활용",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:f5e4b0f9ea9dbf44ddc3": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "지방문화원 원천콘텐츠발굴 지원사업",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:e44a1628a86ecd3fb616": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "자원봉사 운영 및 활성화",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:7d14c701a942255e3045": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "어르신 문화누림",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:265db8ef350168bdab4c": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "문화기반 활성화 사업",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:7711708525f111c512f8": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "문화기반 교류 사업",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c3d623af6a613eefcd7f": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "사진·영상자료",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:9a14e5accd5db7782118": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "공지사항",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:a918d3907f082f12e676": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "입찰공고",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0e70083ad3654daafa1e": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "사업공고",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:11f070ae32ed1d7f2468": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "채용공고",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:786425324343b7422659": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "보도자료",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:91da610390f86dfd4cd4": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "발간자료",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:acf5781b793a7b9a0e96": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "현황자료",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:d17fb36339f2f6b612af": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "행사·알림",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:2b06d54eac6668676b59": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "지방문화원 소개",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:2b95714343eaba52a1a6": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "지방문화원 찾기",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:140a48818a8652d973f9": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "문화원 행사",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c2f9827baab6d1c835fb": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "문화원 공고",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:a5b8d5e2fb81f8923f1d": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "자주묻는 질문",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:803d9379e22b484ceac9": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "자체공시",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:de818021e6debc81c30b": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "설문조사",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:6de147edc4db44492ce4": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "사이버신고센터",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:adccd89a96bb00300f33": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "지방문화원진흥법 시행령",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:7bd89f7696bd3e2b4f16": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "문화비전 선언",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:a8772c5c891622b06518": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "설립목적",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:e5f6a98e7ec44e679515": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "연합회장 인사말",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:ef3a2dcab862c75e9f51": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "역대 회장",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:01b26985727317b12cf5": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "지방문화원진흥법",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:1a059581c4e3629149a1": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "한국문화원연합회 정관",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c8cf8198eb3f5cd7fc86": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "저작권 정책",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:eeacafaae716dbcae416": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "조직안내",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:f058b3485bb8ff68dec9": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "찾아오시는 길",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:e2abb4d4df48118292e5": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "알림·소식+-+-",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:265e2898e0b5d533ae4f": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "지방문화원 소개+-+-",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:512fb269525aeda2cabe": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "열린소통+-+-",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:be22a18faf2b16ca332c": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "[공모결과] 2026 대한민국 지역문화대전 - 제41회 전국향토문화공모전 최종 수상자 안내",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:295f0d3797275fe926ef": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "[공모결과] 2026 대한민국 지역문화대전 - 제19회 대한민국문화원상 최종 수상자 안내",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:11d5f907f1f40f843357": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "[공모결과] 2026 대한민국 지역문화대전 - 제41회 전국향토문화공모전 예비수상작 및 공개검증 안내",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:6457e345f7cda486b81c": {
+      "site_id": "kccf_or_kr_490451",
+      "title": "[공모결과] 2026 대한민국 지역문화대전 - 제19회 대한민국문화원상 예비수상자 및 공개검증 안내",
+      "url": "",
+      "first_seen": "2026-09-17 23:54:39",
+      "last_seen": "2026-09-17 23:54:39",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:2e302ef75c5c00fcc8ae": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 꿈의 극단 ‘광주 동구’ 참여인력(교육강사, 창작인력) 추가 모집 공고 지원대상 관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229683&indRow=1&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6f5917bc66d4d6bc06ff": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 충남예술지원사업 정산설명회 및 의견청취회 참여자 모집 지원대상 예술인,관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229396&indRow=2&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fa8248ec0b0505415621": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "문화예술교육 프로그램 <틔·키·피 마음정원> 참여자 모집 공고 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229018&indRow=3&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:86112e853cdf726d7620": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 문화예술교육 활성화 사업 <예술 그리고, 전통> - 「단아하고 청아하게, 단청」교육 참여자 모집 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228833&indRow=4&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6ccda2be926dc222414c": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026년 강남생활문화축제 공연동호회 경연대회 참가 동호회 모집 변경공고 지원대상 일반인,예술인,관련종사자,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228716&indRow=5&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b205b87258ff215842c4": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "[광주문화메세나] 기업의 마음을 움직이는 예술후원-예술후원 제안서 워크숍 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228715&indRow=6&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:420cfd3c8c5a29d81deb": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 뉴스빅데이터 해커톤 참가자 공모(~9.17. 17:00) 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228107&indRow=7&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:9574495f0ce30f3152a0": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "ACC 자원순환 그린마켓 셀러 모집 안내 지원대상 일반인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=227924&indRow=8&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e3a966a6d06620e70254": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 원로창작이음지원사업 예술인 추천 및 모집 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229826&indRow=9&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:565db77301c46a513385": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 삼동제(TROIKA) 「감동제」 학술포럼 현장 참여자 모집 지원대상 일반인,예술인,관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229824&indRow=10&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6c7570b6ae938d0eb8a2": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 대학생 서포터즈 제13기 KNO오페라캐스터 모집 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229799&indRow=11&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:633d24ff5658b062453f": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "충남창작스튜디오 해외 레지던시 교류 참여 작가 모집 공고 지원대상 예술인,관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229427&indRow=18&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:0b785fbbc013c78ff16a": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2027년 상반기 마포아트센터 공연·전시시설 정시대관 공고 지원대상 일반인,예술인,관련종사자,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229089&indRow=20&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ce111b59a8b23e0bdeea": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 KOFIC x VIPO Producers Exchange @Tokyo 참가자 모집 지원대상 관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229041&indRow=21&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:0e41abc936dabc555676": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "제26회 고성명태축제 이야기경연대회 모집공고 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228720&indRow=22&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:490f65f0fdf32bff2790": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 인천미술은행 소장품 구입 공모 (접수: 8/28 10:00 ~ 9/18 17:59) 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228718&indRow=23&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:171102308570e5ab59ab": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 하반기 전통문화 혁신이용권 공급기업 공모 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228654&indRow=24&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7575a82946108a6b40ed": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "효(孝)문화 어린이 사생대회 참가자 모집 공고 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228648&indRow=25&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:58713a5c134d5d52deb7": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "[2026 달망달망 종지윷놀이 대회] 참가자 모집 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228613&indRow=26&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:16e4dfef3b86c79113e3": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2027 서울 커넥트 스테이지-무용 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228129&indRow=27&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:70563220999768cce3a1": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2027 서울 커넥트 스테이지-연극 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228128&indRow=28&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:61883a4674d568f897b3": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2027 해외 우수 콘텐츠 지역 네트워크 사업 공모 안내 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228043&indRow=29&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:07a0844df05b5df9b7e6": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026년 에코스테이션 자원재순환 창작 공모전 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=225373&indRow=30&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f875f22933eccb3ecf6c": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 서리풀뮤직페스티벌 서리풀 청소 퍼레이드 엔딩요정(주민참여단) 모집 안내 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229366&indRow=31&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6f2c2bbb5b3bf51fe849": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 꿈의 극단 예비거점기관 '제천' 파일럿 프로그램 참여자 모집 지원대상 일반인,관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229091&indRow=32&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:4dfd0b8034c40ddacf12": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 공예 온라인 유통 및 AI활용 역량 강화 교육 프로그램 교육생 모집 (온라인) 지원대상 예술인,관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229715&indRow=34&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:da317a31677f515cf81a": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 아트코리아랩 오픈 프롬프트 커뮤니티 포스트모템 9월 참여자 모집(~9.20(일)까지) 지원대상 일반인,예술인,관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229666&indRow=35&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f22e96f36679014a212e": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "동아시아문화도시 교류사업 한·중·일 국제포럼 개최(참가신청) 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229332&indRow=36&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6ec4ef67e998ff2a1e07": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 생활문화센터 4분기 정기 대관 모집 지원대상 일반인,예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229228&indRow=37&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6043f474fab8de377d43": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026년도 하반기 밀양아리랑아트센터 전시실 수시대관 공고(모집완료 시까지) 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228053&indRow=38&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:60a89c7c90b919c63958": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 생활예술 마스터클래스 역량강화 워크숍 참여자 모집(무용, 합창)(선착순 마감시 조기 종료) 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=227699&indRow=40&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c0b3aca4909be576cb00": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "[예술교양학부]《제4회 K'ARTS 젊은 평론가상》 공모전 개최 안내 지원대상 관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=219648&indRow=41&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:25a412bb9f6f28dcaf79": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 NPAF : 남동공연예술페스타 프린지 공연팀 모집 공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229741&indRow=42&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ea61c20755eab479a8c5": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026년도 국립아시아문화전당 3차 수시대관 신청공고 지원대상 일반인,예술인,관련종사자,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229663&indRow=44&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e3d8c10d0e97f75c09b9": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 지역예술유통기반강화 「제로베이스×화성」 하반기 참여 작가 모집 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229219&indRow=45&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:00964fa3ba57f10dd976": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "[유관기관협조] 제65회 탐라문화제 탐나들이(아트마켓) 운영 부스 신청자 모집 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228965&indRow=46&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e66ca3bc445d0f559778": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "제30회 울산고래축제 체험·홍보부스 운영자 모집 공고문 지원대상 일반인,예술인,관련종사자,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228964&indRow=47&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:923e88eb195627161170": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2027 콘텐츠 아메리카 한국공동관 및 쇼케이스 참가기업 모집공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228668&indRow=48&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:905a12e20a9346a0e25c": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026 문화다양성 AI 영상 콘텐츠 공모전 지원대상 일반인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228182&indRow=49&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e204c25b45092ab35dcb": {
+      "site_id": "culture_go_kr_42d609",
+      "title": "2026년 사당생활문화센터 4분기 정기대관 공고 지원대상 일반인,예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228066&indRow=50&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "first_seen": "2026-09-17 23:54:52",
+      "last_seen": "2026-09-17 23:54:52",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:71b9f2f077bb0938cb57": {
+      "site_id": "momo365_net_128bd4",
+      "title": "[공고] 2026년 청년예술가 국제교류(댄스) 참여예술가 모집(연장)",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177125",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fdcec89f0b88c65917b6": {
+      "site_id": "momo365_net_128bd4",
+      "title": "2026 경남콘텐츠코리아랩 입주기업 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177096",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:79d90ab826a182dcae84": {
+      "site_id": "momo365_net_128bd4",
+      "title": "[2026년 제29회 김삿갓문화제] 김삿갓 예술 한마당 지역예술단체 모집공고(연장)",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177074",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:435d3820870ff4391611": {
+      "site_id": "momo365_net_128bd4",
+      "title": "[공지] 2026 충남 천안 그린스타트업타운 입주기업 홍보 지원사업 참여 희망기업 모집",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177062",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7912d5a3852cc95fa040": {
+      "site_id": "momo365_net_128bd4",
+      "title": "2027년 해외레지던시참가지원(지정) IETM 국제현대공연예술네트워크 글로벌 커넥트 및 정기총회 초청 프로그램",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177057",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d9c3b4fcc4c950a2628d": {
+      "site_id": "momo365_net_128bd4",
+      "title": "2026 청년성장동력 지원 사업 국악창업 실습 교육 참가자 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177056",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f113f3a5c8e1f71282b3": {
+      "site_id": "momo365_net_128bd4",
+      "title": "2026 청년성장동력 지원 AI활용실습 교육 참가자 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177055",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:8617b63b88cc3286493a": {
+      "site_id": "momo365_net_128bd4",
+      "title": "[회원등록공고] [공모] 2026년 야간 공연 관람권 운영 사업_4차 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177028",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:da95ee173f7b0004eef8": {
+      "site_id": "momo365_net_128bd4",
+      "title": "2026년 예술산업 금융지원 시범사업(융자) 5차 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177027",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:71d6374dd6b99eb621dd": {
+      "site_id": "momo365_net_128bd4",
+      "title": "2026년 문예회관 종합컨설팅 지원 사업 추가 공모 안내",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177017",
+      "first_seen": "2026-09-17 23:54:57",
+      "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
     }
   }
 }
