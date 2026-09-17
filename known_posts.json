@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-18 00:09:10",
+  "updated_at": "2026-09-18 00:26:12",
   "posts": {
     "t:3eb416223e9e69e6bb8e": {
       "site_id": "",
@@ -5795,6 +5795,996 @@
       "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177017",
       "first_seen": "2026-09-17 23:54:57",
       "last_seen": "2026-09-17 23:54:57",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:19a82ee8406f33071cc7": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "문예진흥기금 공모 한눈에 보기",
+      "url": "https://arko.or.kr/content/6123",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:a4cb3b52a5e263ab0fe1": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "문예진흥기금 공모사업 공통안내",
+      "url": "https://arko.or.kr/content/6051",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:549e32c6910c21a6aebf": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "지원신청 방법 안내",
+      "url": "https://arko.or.kr/content/5428",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:943c6b70ee48413eeacf": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "심의 및 결과 발표 안내",
+      "url": "https://arko.or.kr/content/6122",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b4effc571bf6ac14253f": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "지원금의 집행과 정산 방법",
+      "url": "https://arko.or.kr/content/5426",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b309d8787ca78e9e1b8f": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "지원금 예산 편성",
+      "url": "https://arko.or.kr/content/6052",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:8e145f68f26e3dc63150": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "AI 활용에 대한 안내",
+      "url": "https://arko.or.kr/content/6121",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c7a248df367da187297c": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "아르코 e나라도움 안내센터",
+      "url": "https://arko.or.kr/content/5708",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b4987b9f205fa1e1b6f2": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "심의위원 후보단",
+      "url": "https://arko.or.kr/content/6089",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:84cd85a1fd836dadbab7": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "심의위원회",
+      "url": "https://arko.or.kr/content/6090",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d3690306970ff333ce92": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "전담심의제",
+      "url": "https://arko.or.kr/content/6091",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:a6eb115abf55eb1567ca": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "지원심의옴부즈만",
+      "url": "https://arko.or.kr/content/818",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:a3b4e9b8dfc72bf309c0": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "옴부즈만 소개",
+      "url": "https://arko.or.kr/content/5610",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:0dc7ba40c593ba98184d": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "민원 신청",
+      "url": "https://arko.or.kr/ombudsman/list",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7ab5dea6713cc7a0b06f": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "한국지역문화지원협의회 운영",
+      "url": "https://arko.or.kr/content/5632",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:a1ca2db21a34004d2ac9": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "예술창작지원",
+      "url": "https://arko.or.kr/content/5737",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e9bff39a6b05cc7965d2": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "시각예술",
+      "url": "https://arko.or.kr/content/5742",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:3c487d97cb6a01d49810": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "다원예술",
+      "url": "https://arko.or.kr/content/5754",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:309a1be66f76ab881546": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "공연예술",
+      "url": "https://arko.or.kr/content/5980",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6bca5c19e44cbc22499b": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "국제교류",
+      "url": "https://arko.or.kr/content/5749",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d67ad8ddd6c1c73be178": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "차세대예술인력육성",
+      "url": "https://arko.or.kr/content/5620",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c30c54df555a4427df48": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "현장예술인력육성",
+      "url": "https://arko.or.kr/content/5760",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f85ed3607896b3ab689c": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "어린이청소년을위한예술지원",
+      "url": "https://arko.or.kr/content/5628",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b09102fc91e451a59451": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "통합문화이용권",
+      "url": "https://arko.or.kr/content/5622",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:8196439374b60afb8155": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "청년문화예술패스",
+      "url": "https://arko.or.kr/content/6033",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:a2a018c576cd3902b4ab": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "전통공연예술활성화",
+      "url": "https://arko.or.kr/content/5635",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:8c8713bc184c4113616e": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "문화예술기부활성화",
+      "url": "https://arko.or.kr/content/5636",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e43859ce6573330e296d": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "캠페인 사업",
+      "url": "https://arko.or.kr/content/5637",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7cf4c0397091b9d9aa13": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "제도 사업",
+      "url": "https://arko.or.kr/content/5638",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:10ce4b4eaf8afaf8f4e9": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "아르코·대학로예술극장",
+      "url": "https://arko.or.kr/content/5633",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:3a6d66b1dddb02a6edf9": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "예술가의집",
+      "url": "https://arko.or.kr/content/5629",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:94e5e497326a177633c2": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "아르코미술관",
+      "url": "https://arko.or.kr/content/5630",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:cc56d67f42e26b5f770f": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "아르코예술인력개발원",
+      "url": "https://arko.or.kr/content/5762",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:41cabae398af2d63d560": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "아르코예술기록원",
+      "url": "https://arko.or.kr/content/5759",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:5e91801fd88e99c8c1dd": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "베니스비엔날레 한국관",
+      "url": "https://arko.or.kr/content/5551",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ee1946eb8f62e0662111": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "공연/전시/행사/채용/모집",
+      "url": "https://arko.or.kr/infra/board/list/5871?bid=269",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7adb122c99431385e59a": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "운영시설 공지사항",
+      "url": "https://arko.or.kr/infra/board/list/5571?bid=407",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:df586ca5874bc073d4ab": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "공지사항",
+      "url": "https://arko.or.kr/board/list/4053",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:88ed9968e376fac16304": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "채용모집",
+      "url": "https://arko.or.kr/board/list/4054",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ebe136dcce5ccb3d9bd6": {
+      "site_id": "arko_or_kr_fd9fb1",
+      "title": "청렴계약제 시행안내",
+      "url": "https://arko.or.kr/content/768",
+      "first_seen": "2026-09-18 00:24:36",
+      "last_seen": "2026-09-18 00:24:36",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:430633280fc69ada0b1b": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "제15회 국립국악원 학술상, 평론상 원고 모집",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48307&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b1dcf3dc2f9a7d40caed": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "국악사전 표제어 발굴 대회 개최 안내",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48986&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e6c788bf754f6e4726a6": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "제20회 온나라 전통춤 경연대회 본선경연 안내",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48978&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:03d82ec019d3259523f4": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "2026년 제6회 국악사전 월례 토론회 개최",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48926&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:54074bf43cd50b81577e": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "제20회 온나라 전통춤 경연대회 예선 결과",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48924&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e0731b227750b7ba1678": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "2026 국악아카이브 학술세미나: 문화예술과 인공지능II",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48923&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f69ea197ee1d0c9e1587": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "단체교섭 과반수 노동조합 통지 사실 공고",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48900&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:371a503b9f4d6f4cfa7f": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "2026국악 디지털 음원 활용 창작 공모전'국악 디지털 사운드랩' 대중평가 이벤트 선정자 추첨 결과 발표",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48899&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d89d1893b19645ea60b2": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "제20회 온나라 전통춤 경연대회 예선경연 안내",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48891&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:43f3fc18f580f0ad2eab": {
+      "site_id": "gugak_go_kr_ff5b67",
+      "title": "2026 국악디지털음원 활용 창작 공모전 ‘국악 디지털 사운드랩’최종 수상자 명단 발표",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48779&lang=ko",
+      "first_seen": "2026-09-18 00:24:43",
+      "last_seen": "2026-09-18 00:24:43",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:8676eeb0dce983ced2d5": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "마한 그 실체와 인식 학술대회 개최",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:5d0acb5b015b4cc6821f": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "국립나주박물관 특별전시 도록 『영산강 유역 마한의 성장과 수입 문물(가제)』 위탁출판 재공고",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:9f55a19be7fd79732470": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "국립나주박물관 특별전 '영산강 유역 마한의 성장과 수입 문물(가제)' 위탁출판 공고",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:a1ad474728e5096fe977": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "2026년 국립나주박물관 특별전 영상 콘텐츠 제작 설치 제안서 평가 결과 알림",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:b4f1bf1bb7a43151f332": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "2026년 하반기 문화가 있는 날 연계 행사",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:762ea8bd422363ce8366": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "나주 신촌리 9호분 독널 복원 및 기록화 사업 제안서 평가 결과 알림",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:4397947364484541ad96": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "2026년 어린이날 문화 프로그램",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:23d1869facb499e6d1ea": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "문화가 있는 날 연계 행사",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:55a80221a3c132f4a35d": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "새로운 어린이박물관 시범운영 참여 가족 모집",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:ffbf3947cac816f412df": {
+      "site_id": "naju_museum_go_kr_3d3c35",
+      "title": "국유재산 유상 사용·수익허가 입찰 결과",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:49",
+      "last_seen": "2026-09-18 00:24:49",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:f7fcc21448d7e46ac08b": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "[성인] 현직 교원 초청 - 2026 2차 뮤지엄 토크",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:1b2d38a8900057e89150": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "[교육/가족] 특별전 오브저브, 도기 : 우리를 담은 질그릇",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c3959e1298d3785075bc": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "[가족] 방학! MoCHAS 가족탐사대! 모집안내",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:fab87c2bd8c59cbbdf28": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "[유아/단체]2026'쏙쏙! 꼬마 도공 탐험' 참여 유아기관 모집",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c51b3d950084fb7bd19c": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "[초등 4-6학년] '제20기 광주어린이박물관학교' 교육생 모집[마감]",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:fdc10bc2fe7e12be8b53": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "2026 국립광주박물관 기획운영과 공무직(시설관리원, 시설청소원, 사무보조원) 채용 서류전형 합격자 및 면접시험 공고",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:1db2da1801a7de10fcd8": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "[교육/가족] 특별전 오브저브, 푸른 세상을 빚다 고려 상형청자",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:77d11429049fe630d7dc": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "[가족] 2026 겨울방학! MoCHAS 가족탐사대 -기후변화",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:7a69df604ce6580413a0": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "[성인] 현직 교원 초청 -뮤지엄 토크",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:ae388146f88ac1b3c984": {
+      "site_id": "gwangju_museum_go_kr_f4e8e7",
+      "title": "2025년 9월 토요 어린이를 위한 공연 추첨결과(접수번호)",
+      "url": "",
+      "first_seen": "2026-09-18 00:24:55",
+      "last_seen": "2026-09-18 00:24:55",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:5ff26368ec5b39d8704a": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "K-컬처 원천콘텐츠 발굴 및 활용",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0535a980a82f56323d1d": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "지방문화원 원천콘텐츠발굴 지원사업",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:b5b37672e9ac86d61c5e": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "자원봉사 운영 및 활성화",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:e8d3f4b8e8927b0ec705": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "어르신 문화누림",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c9ff3fd0a6842fc9a6f1": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "문화기반 활성화 사업",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:1cbd84b7cfb9e8b58bf0": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "문화기반 교류 사업",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c856d642dcbe1e7de311": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "사진·영상자료",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:bef7b7d0e66fca9dd49a": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "공지사항",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:f58b504f98e886733e4a": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "입찰공고",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:e5da6c1899e00e4f49e9": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "사업공고",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:661501e9a697d6c3b7e8": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "채용공고",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:8e088b5044f4a42c0a8a": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "보도자료",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:f9e6f8000dbbe58cecf1": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "발간자료",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:ca1208d0bbec1af24a72": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "현황자료",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:fe66faad1751411da3e3": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "행사·알림",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:ddb23b6ffa232aefc61b": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "지방문화원 소개",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:65103e84b3603ab356ac": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "지방문화원 찾기",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:de87f722039f7e362de9": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "문화원 행사",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:9893d96cb80e7522a759": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "문화원 공고",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:d36506093130f5d5e080": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "자주묻는 질문",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:5c92bb0dbfdb0d3c4282": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "자체공시",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:9becc66ff088fd92a997": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "설문조사",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:5296bc7be8d62250865d": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "사이버신고센터",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:470a7be48219c44480ee": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "지방문화원진흥법 시행령",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:73b97d95cf82ea7063a1": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "문화비전 선언",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:dec56f08566ba44ff9f2": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "설립목적",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:440cd494f56259252d8f": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "연합회장 인사말",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:99ae45aa25dd2f90362c": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "역대 회장",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:24d0caf531da884afccf": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "지방문화원진흥법",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:46287882d3f15671946d": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "한국문화원연합회 정관",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:dda9acd2efb44dd2524b": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "저작권 정책",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:b455c58a1810b869328e": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "조직안내",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:6e219dabd8bf870a04ef": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "찾아오시는 길",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:0c8abb1303cfcd5517e7": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "알림·소식+-+-",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:eee0c30e4494315bf7b9": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "지방문화원 소개+-+-",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:90e17d28805e9bd72ebc": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "열린소통+-+-",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:7cca33eb953f4dc1e5fc": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "2026 경산 문화 탐탐 음악회 안내",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:1698ee1a1a2d52a276b3": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "경산문화원",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:a44a487c63bc526f039d": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "「제18회 부산문화예술큰잔치」운영 용역선정 공고",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:dec297e0e374e83994ef": {
+      "site_id": "kccf_or_kr_b6960f",
+      "title": "부산광역시문화원연합회",
+      "url": "",
+      "first_seen": "2026-09-18 00:25:11",
+      "last_seen": "2026-09-18 00:25:11",
       "status": "seeded",
       "reason": "/add 등록 시 기존 글 (Seo Dojae)"
     }
