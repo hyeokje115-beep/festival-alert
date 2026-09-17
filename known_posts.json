@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-18 00:39:54",
+  "updated_at": "2026-09-18 00:51:24",
   "posts": {
     "t:3eb416223e9e69e6bb8e": {
       "site_id": "",
@@ -8423,6 +8423,222 @@
       "url": "https://tyhansancf.or.kr/notice/view.html?Ncode=b3&num=1320&keyfield=&keyword=",
       "first_seen": "2026-09-18 00:39:54",
       "last_seen": "2026-09-18 00:39:54",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:9a2f9fd5af8602ca919c": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "두암 김용두 기증 30년 기념 특별전 <나의 인생 박물관> 전시 안내장",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=f94dca054004c8e6b961b1f9ad3809ec&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:43d0eadfea8be871c6b1": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "[이벤트] 특별전 연계 퀴즈 이벤트 안내",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=e2291411be74be16512ce7968e994923&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:04064c948a566ab1fe7a": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "두암실 임시휴실 안내 (8월 24일부터)",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=386ef5b081cccc34117b374cbd7f6490&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:69af328a7b08554dedc4": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "[알림] 2026년 국립진주박물관 대체휴관일",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=33e54acf7414d10e7e1693c3fa0d33f8&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:880f0261025aac2fcba8": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "2026년 개인정보 보호주간(9.28.~10.2.) 포스터 및 앰블럼",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=f0dd2a02f98469de27b223a77a480cbe&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:8e17576390a123f5916b": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "국립진주박물관 공무직 및 기간제근로자 채용 최종합격자 공고",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=b4ce07c08715f650fdc62b2d8334f080&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f0d9229c77b3be59338f": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "[행사] 2026년 추석맞이 문화 한마당 안내",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=675317590ece06723f5ba236bb451e2d&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:5494ce8fb350031b6bac": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "제22기 박물관대학 <조선의 불교회화> 개최",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=bacb451212c0b080c3ec7eae75ab5491&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:56f2b6a634b7725eb8a6": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "국립진주박물관 공무직 및 기간제근로자 채용 서류전형 합격자 발표 및 면접전형 일정 공고",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=dc463611f092cfcceaff217e06280cda&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:3d439737a5ec1bc3b1b2": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "8월 큐레이터와의 대화 <두 충무공 이야기, 김시민과 이순신> 개최",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=10db7360dac7c236adf3247e5dc5630f&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:95f1da450d8ba18e0229": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "2026년 을지연습 안내",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=32543f4346c8f3a56cbc32ec809a2537&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:4d824705662e0c8d37d7": {
+      "site_id": "jinju_museum_go_kr_4c8f4d",
+      "title": "2026 진주국가유산야행 연계 문화행사 '국립진주박물관과 함께하는 공감(共感)'",
+      "url": "https://jinju.museum.go.kr/kor/html/sub06/0601.html?mode=V&no=ab5c985aec2f0815032d8f095e59af1f&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:18",
+      "last_seen": "2026-09-18 00:51:18",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fb2d4b10c58669747432": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "(어린이) 조선의 바다를 지켜라",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=14fdd011dac8b019ec1e4040a4977a30&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fa80191bf7cff9df58fb": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "(유아 단체) 뿔잔이와 함께 하는 박물관 탐험",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=e9d8bda09a147a14e821cbfbadbb75fa&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:c75d5df208f3039331fa": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "(초등 저학년 단체) 조선의 바다를 지켜라",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=e68e0470a6d43ebd7f6daaebd4d05ac0&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d1df3ef1c397f4f02653": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "[행사] 2026년 추석맞이 문화 한마당 안내",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=653559d3e3b994acdeb97ed07638f64a&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:fb2aee0d928dc702db2f": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "2026 진주국가유산야행 연계 문화행사 '국립진주박물관과 함께하는 공감(共感)'",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=122845d8b92e70f8a0fb1a5a7931c31c&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:65336a95d2a98e6a65c5": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "[행사] 7월 문화가 있는 날 <제3회 진주성 전투 기억의 날 행사>",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=974d3643d67ba056732ee4237112a5d1&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b3e752f8b3630b7c5d8f": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "[공연] 2026년 6월 문화가 있는 날 <신통방통 도깨비>",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=cf52e7dd86b9ee2d6534ca1a0168f942&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:3ad08e215174f07b70b5": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "[행사] 2026년 5월 문화가 있는 날 <조선 수군 군함 이야기>",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=c0129db0bc038fc4e8c34921f1fffc83&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ac3a74a607afae1e0594": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "[행사] '2026 진주박물관과 함께하는 어린이날' 행사 안내",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=0f3590792f6469971b6f9152da32a494&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:217e199ec902cb7fd6c3": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "[행사] 2026년 3월 문화가 있는 날 <화력조선 체험>",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=f377a0095c0b0c25ae573406d66e3f26&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:e468383f3e74c23e8d27": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "[행사] 국립진주박물관 2026년 설맞이 문화행사 안내",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=86cdd3012bc4ad6c41eaf92301a3f5ac&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d0dfaa0530bdd077baf0": {
+      "site_id": "jinju_museum_go_kr_e392c0",
+      "title": "[행사] 2025년 11월 문화가 있는 날 <거북선, 신기전> 퀴즈 및 만들기 체험",
+      "url": "https://jinju.museum.go.kr/kor/html/sub03/0301.html?mode=V&no=01c77f27d522fa320afd50217fcbf27f&GotoPage=1",
+      "first_seen": "2026-09-18 00:51:22",
+      "last_seen": "2026-09-18 00:51:22",
       "status": "seeded",
       "reason": "/add 등록 시 기존 글 (Seo Dojae)"
     }
