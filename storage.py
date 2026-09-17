@@ -392,9 +392,13 @@ class KnownPosts:
              status: str = STATUS_ALERTED, reason: str = "") -> dict:
         now = config.now_kst_iso()
         rec = self.posts.get(key)
+        is_judgment = status not in (STATUS_SEEDED, STATUS_MIGRATED)
         if rec is None:
             rec = {"site_id": site_id, "title": title, "url": url, "first_seen": now, "last_seen": now,
                    "status": status, "reason": reason}
+            if is_judgment:
+                rec["judged_at"] = now
+                rec["first_judged_at"] = now
             self.posts[key] = rec
         else:
             rec["last_seen"] = now
@@ -402,6 +406,9 @@ class KnownPosts:
                 rec["status"] = status
             if reason:
                 rec["reason"] = reason
+            if is_judgment:
+                rec["judged_at"] = now
+                rec.setdefault("first_judged_at", now)
             for k, v in (("site_id", site_id), ("title", title), ("url", url)):
                 if v and not rec.get(k):
                     rec[k] = v
