@@ -85,12 +85,20 @@ def parse_command(text: str) -> tuple[str, str]:
 
 
 def split_url_name(args: str) -> tuple[str, str]:
+    """URL 앞뒤의 텔레그램 링크 표기와 일반 문장 속 URL도 안전하게 추출한다."""
+    text = (args or "").strip()
     url, rest = "", []
-    for tok in (args or "").split():
-        if not url and _URL_RE.fullmatch(tok):
-            url = tok.strip("<>()[]\"'")
+    for tok in text.split():
+        cleaned = tok.strip("<>()[]\"'.,;!")
+        if not url and _URL_RE.fullmatch(cleaned):
+            url = cleaned
         else:
             rest.append(tok)
+    if not url:
+        m = re.search(r"https?://[^\s<>()\[\]\"']+", text)
+        if m:
+            url = m.group(0).rstrip(".,;!")
+            rest = [x for x in text.replace(m.group(0), " ").split() if x]
     return url, " ".join(rest).strip()
 
 
@@ -144,11 +152,11 @@ class CommandHandler:
 
         if not cmd:
             pending = self.state.pending(chat_id)
-            first = text.split()[0]
+            first = text.split()[0].strip("<>()[]\"'.,;!")
             if pending and pending.get("cmd") == "add":
                 self.state.set_pending(chat_id, None)
                 cmd, args = "add", text
-            elif _URL_RE.fullmatch(first):
+            elif _URL_RE.fullmatch(first) or re.search(r"https?://[^\s<>()\[\]\"']+", text):
                 cmd, args = "add", text
             elif chat.get("type") == "private":
                 self._reply(chat_id, "게시판 URL 을 보내면 바로 등록합니다. 명령어는 /help 로 확인할 수 있어요.")
