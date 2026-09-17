@@ -455,7 +455,7 @@ class CommandHandler:
 
 
     def _cmd_recent(self, chat_id, user, args, chat):
-        """최근 판정 기록 — /recent [N] [사이트 id·이름 | 상태]  (기본 10건 · 최대 30건. 첫스캔·이관 기록은 제외)"""
+        """최근 판정 기록 — 판정 시각 최신순 /recent [N] [사이트 id·이름 | 상태]"""
         emoji = {STATUS_ALERTED: "📢", STATUS_LOW_CONF: "🤔", STATUS_AI_NO: "❌", STATUS_PREFILTER: "⛔",
                  STATUS_EXPIRED: "⏰", "duplicate": "🔁", "feedback_block": "👎", "stale": "🕰"}
         status_words = {k.lower(): k for k in STATUS_LABEL} | {v.lower(): k for k, v in STATUS_LABEL.items()}
@@ -478,7 +478,8 @@ class CommandHandler:
             if status_q and st != status_q:
                 continue
             rows.append(r)
-        rows.sort(key=lambda r: str(r.get("last_seen") or r.get("first_seen") or ""), reverse=True)
+        # last_seen은 게시판 재확인 때마다 바뀌므로, 실제 판정 시각을 우선한다.
+        rows.sort(key=lambda r: str(r.get("judged_at") or r.get("last_seen") or r.get("first_seen") or ""), reverse=True)
         rows = rows[:n]
         if not rows:
             self._reply(chat_id, "조건에 맞는 판정 기록이 없습니다. (첫스캔 · 이관 기록은 표시하지 않습니다)\n"
@@ -493,11 +494,14 @@ class CommandHandler:
             title = esc((r.get("title") or "(제목 없음)")[:70])
             url = str(r.get("url") or "")
             head = f'<a href="{esc(url).replace(chr(34), "&quot;")}">{title}</a>' if url.startswith("http") else title
-            when = str(r.get("last_seen") or r.get("first_seen") or "")[5:16]
-            lines.append(f"{i}. {emoji.get(st, '▫️')} {head}\n"
+            judged_at = str(r.get("judged_at") or r.get("last_seen") or r.get("first_seen") or "")
+            when = judged_at[5:16]
+            is_new = bool(r.get("first_judged_at") and r.get("judged_at") == r.get("first_judged_at"))
+            badge = "⭐ " if is_new else ""
+            lines.append(f"{i}. {badge}{emoji.get(st, '▫️')} {head}\n"
                          f"　 {esc(sname)} · {esc(STATUS_LABEL.get(st, st))} · {esc(when)}")
             if r.get("reason"):
                 lines.append(f"　 <i>{esc(str(r['reason'])[:120])}</i>")
         lines.append("")
-        lines.append("필터: /recent 20 · /recent &lt;사이트 이름&gt; · /recent ai_no | low_conf | alerted | prefilter")
+        lines.append("⭐ 신규 판정 · 필터: /recent 20 · /recent &lt;사이트 이름&gt; · /recent ai_no | low_conf | alerted | prefilter")
         self._reply(chat_id, "\n".join(lines), silent=True)
