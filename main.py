@@ -34,6 +34,7 @@ import sys
 import time
 import traceback
 from dataclasses import dataclass
+from datetime import date, timedelta
 from typing import Any, Optional
 
 
@@ -151,6 +152,7 @@ def run_inbox(rt: Runtime) -> dict:
                     st = handle_vote(client, rt.feedback, u["callback_query"])
                     if st in ("recorded", "changed"):
                         stats["votes"] += 1
+                        rt.feedback.save()
                     cq = u["callback_query"]
                     log(f"👍👎 {st}: {cq.get('data')} by {((cq.get('from') or {}).get('first_name'))}")
                 elif u.get("message"):
@@ -206,6 +208,30 @@ class Candidate:
 
 def _mark(rt: Runtime, site: dict, row: Any, status: str, reason: str) -> None:
     rt.known.mark(row.key, site_id=site["id"], title=row.title, url=row.url, status=status, reason=reason[:200])
+
+
+def _deadline5_posts(rt: Runtime) -> list[dict]:
+    target = config.now_kst().date() + timedelta(days=5)
+    out = []
+    for key, rec in rt.known.posts.items():
+        deadline = str(rec.get("deadline") or "")
+        if rec.get("status") != STATUS_ALERTED or not deadline or rec.get("deadline5_alerted_at"):
+            continue
+        try:
+            if date.fromisoformat(deadline) != target:
+                continue
+        except ValueError:
+            continue
+        if rt.feedback.is_down(key):
+            continue
+        post = dict(rec)
+        post["key"] = key
+        alerts = [a for a in rt.feedback.alerts.values() if a.get("key") == key]
+        if alerts:
+            post.update({k: v for k, v in alerts[-1].items() if v not in (None, "")})
+        post["deadline"] = deadline
+        out.append(post)
+    return out
 
 
 
@@ -469,6 +495,10 @@ def run_scan(rt: Runtime) -> int:
     rt.state.set(defer_fail_counts=fail_counts)                   # 다음 실행에서 이어서 카운트
 
 
+    # ── ⑤ 발송 (신규 알림 + 마감 5일 전 재알림)
+    deadline5_posts = _deadline5_posts(rt)
+    to_alert.extend(deadline5_posts)
+    deadline5_keys = {p["key"] for p in deadline5_posts}
     # ── ⑤ 발송 (마감 임박 순, 마감 미확인은 뒤로)
     to_alert.sort(key=lambda p: (not p["deadline"], p["deadline"]))
     sent = 0
@@ -484,8 +514,10 @@ def run_scan(rt: Runtime) -> int:
         r = send_alert(rt.client, post, rt.feedback)
         send_errors += r["errors"]
         if r["sent"]:
-            rt.known.mark(post["key"], site_id=post["site_id"], title=post["title"], url=post["url"],
-                          status=STATUS_ALERTED, reason=post["ai_reason"][:200])
+            rt.known.mark(post["key"], site_id=post.get("site_id", ""), title=post.get("title", ""),
+                          url=post.get("url", ""), deadline=post.get("deadline", ""),
+                          status=STATUS_ALERTED, reason=str(post.get("ai_reason", ""))[:200],
+                          alert_kind=("deadline5" if post["key"] in deadline5_keys else "new"))
             sig = prefilter.title_signature(post["title"])
             if len(sig) >= 8:
                 recent_sigs[sig] = {"site_id": post["site_id"]}
