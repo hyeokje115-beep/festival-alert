@@ -1,19 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-18 18:11:59",
-  "alerts": {
-    "-5198533799:392": {
-      "key": "u:937c090a3046b8445e74",
-      "site_id": "gugak_go_kr_ff5b67",
-      "site_name": "국립국악원 공지사항(목록)",
-      "title": "2027 국악누리 표지 그림 공모",
-      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=48993&lang=ko",
-      "deadline": "2026-10-30",
-      "ai_reason": "2027 국악누리 표지 그림 작가 공모로, 2026년 10월 28일부터 30일까지 접수 기간이 명시됨",
-      "ai_confidence": 0.95,
-      "sent_at": "2026-09-18 18:11:59",
-      "votes": {}
-    }
-  },
+  "updated_at": "2026-09-18 18:12:31",
+  "alerts": {},
   "feedback": []
 }
