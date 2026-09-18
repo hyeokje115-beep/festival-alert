@@ -467,6 +467,9 @@ def handle_vote(client: TelegramClient, feedback: FeedbackStore, callback_query:
         return "denied"
 
 
+    # 콜백을 즉시 acknowledge해 Telegram 버튼의 로딩 상태가 바로 끝나게 한다.
+    _answer_quietly(client, cq_id, "처리 중...")
+
     status, alert = feedback.vote(chat_id, message_id, user.get("id", 0), user_display_name(user), vote)
     if status == "unknown" or alert is None:
         _answer_quietly(client, cq_id, f"보관 기간({config.ALERT_KEEP_DAYS}일)이 지난 알림이라 기록할 수 없습니다.",
@@ -481,7 +484,6 @@ def handle_vote(client: TelegramClient, feedback: FeedbackStore, callback_query:
         except TelegramError as e:
             if "not modified" not in e.description.lower():
                 print(f"[telegram] 버튼 갱신 실패 chat={chat_id} msg={message_id}: {e}")
-    _answer_quietly(client, cq_id, _TOAST.get((status, vote), "반영했습니다."))
     return status
 
 
