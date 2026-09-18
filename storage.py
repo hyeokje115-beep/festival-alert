@@ -389,7 +389,7 @@ class KnownPosts:
         return self.posts.get(key)
 
     def mark(self, key: str, *, site_id: str = "", title: str = "", url: str = "",
-             status: str = STATUS_ALERTED, reason: str = "") -> dict:
+             status: str = STATUS_ALERTED, reason: str = "", deadline: str = "", alert_kind: str = "") -> dict:
         now = config.now_kst_iso()
         rec = self.posts.get(key)
         is_judgment = status not in (STATUS_SEEDED, STATUS_MIGRATED)
@@ -412,6 +412,12 @@ class KnownPosts:
             for k, v in (("site_id", site_id), ("title", title), ("url", url)):
                 if v and not rec.get(k):
                     rec[k] = v
+        if deadline:
+            rec["deadline"] = deadline
+        if alert_kind == "new":
+            rec.setdefault("new_alerted_at", now)
+        elif alert_kind == "deadline5":
+            rec["deadline5_alerted_at"] = now
         return rec
 
     def seen(self, key: str) -> bool:
@@ -527,6 +533,10 @@ class FeedbackStore:
         for c in out.values():
             c["vote"] = VOTE_DOWN if c["n_down"] >= c["n_up"] else VOTE_UP
         return out
+
+    def is_down(self, key: str) -> bool:
+        c = self.consensus().get(key)
+        return bool(c and c.get("vote") == VOTE_DOWN)
 
     def examples(self, limit: Optional[int] = None) -> list[dict]:
         """Gemini 프롬프트용 최근 예시. 싫어요(교정)를 최대 2/3, 나머지는 좋아요."""
