@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "0 0,9 * * *"     # KST 09:00 · 18:00 → scan
     - cron: "30 4 * * *"      # KST 13:30 → scan
-    - cron: "*/10 * * * *"   # 매 10분 → 명령·👍👎 처리만
+    - cron: "*/5 * * * *"    # 매 5분 → 명령·👍👎 처리만
   workflow_dispatch:
     inputs:
       mode:
@@ -52,7 +52,7 @@ jobs:
           if [ -z "$MODE" ]; then
             case "$CRON" in
               "0 0,9 * * *"|"30 4 * * *") MODE=scan ;;    # 공모 스캔 시간
-              "*/10 * * * *")             MODE=inbox ;;   # 명령·👍👎 전용 주기
+              "*/5 * * * *")              MODE=inbox ;;   # 명령·👍👎 전용 주기
               *)                          MODE=inbox ;;
             esac
           fi
