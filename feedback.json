@@ -1,6 +1,148 @@
 {
   "version": 1,
-  "updated_at": "2026-09-19 15:58:42",
-  "alerts": {},
-  "feedback": []
+  "updated_at": "2026-09-19 16:13:04",
+  "alerts": {
+    "-5198533799:398": {
+      "key": "u:2d1b9b78dec1865b13df",
+      "site_id": "",
+      "site_name": "",
+      "title": "2026 지역예술유통기반강화 「제로베이스×화성」 하반기 참여 작가 모집 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229219&indRow=14&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "",
+      "ai_confidence": null,
+      "sent_at": "2026-09-19 16:12:59",
+      "votes": {
+        "8904986733": "up"
+      }
+    },
+    "-5198533799:403": {
+      "key": "u:b40e0fbf065fd8254f22",
+      "site_id": "",
+      "site_name": "",
+      "title": "2027년도 고양문화재단 상반기 공연장 정기대관 공고 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=227562&indRow=47&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "",
+      "ai_confidence": null,
+      "sent_at": "2026-09-19 16:13:00",
+      "votes": {
+        "8904986733": "down"
+      }
+    },
+    "-5198533799:402": {
+      "key": "u:051b5262eae122bcb775",
+      "site_id": "",
+      "site_name": "",
+      "title": "2026 군포시생활문화축제 공연참가팀 모집공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229667&indRow=24&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "",
+      "ai_confidence": null,
+      "sent_at": "2026-09-19 16:13:01",
+      "votes": {
+        "8904986733": "down"
+      }
+    },
+    "-5198533799:401": {
+      "key": "u:2fad33d5ad446d0607c4",
+      "site_id": "",
+      "site_name": "",
+      "title": "2026 경남 콘텐츠페어 전시존 참가기업 모집 공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229818&indRow=23&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "",
+      "ai_confidence": null,
+      "sent_at": "2026-09-19 16:13:01",
+      "votes": {
+        "8904986733": "down"
+      }
+    },
+    "-5198533799:400": {
+      "key": "u:85072e1117644df028d1",
+      "site_id": "",
+      "site_name": "",
+      "title": "인천 대표공연 콘텐츠 유통활성화 지원 공모 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229226&indRow=33&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "",
+      "ai_confidence": null,
+      "sent_at": "2026-09-19 16:13:04",
+      "votes": {
+        "8904986733": "down"
+      }
+    }
+  },
+  "feedback": [
+    {
+      "at": "2026-09-19 16:12:59",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "up",
+      "key": "u:2d1b9b78dec1865b13df",
+      "site_id": "",
+      "site_name": "",
+      "title": "2026 지역예술유통기반강화 「제로베이스×화성」 하반기 참여 작가 모집 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229219&indRow=14&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "ai_reason": "",
+      "ai_confidence": null
+    },
+    {
+      "at": "2026-09-19 16:13:02",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "down",
+      "key": "u:b40e0fbf065fd8254f22",
+      "site_id": "",
+      "site_name": "",
+      "title": "2027년도 고양문화재단 상반기 공연장 정기대관 공고 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=227562&indRow=47&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "ai_reason": "",
+      "ai_confidence": null
+    },
+    {
+      "at": "2026-09-19 16:13:03",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "down",
+      "key": "u:051b5262eae122bcb775",
+      "site_id": "",
+      "site_name": "",
+      "title": "2026 군포시생활문화축제 공연참가팀 모집공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229667&indRow=24&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "ai_reason": "",
+      "ai_confidence": null
+    },
+    {
+      "at": "2026-09-19 16:13:03",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "down",
+      "key": "u:2fad33d5ad446d0607c4",
+      "site_id": "",
+      "site_name": "",
+      "title": "2026 경남 콘텐츠페어 전시존 참가기업 모집 공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229818&indRow=23&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "ai_reason": "",
+      "ai_confidence": null
+    },
+    {
+      "at": "2026-09-19 16:13:04",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "down",
+      "key": "u:85072e1117644df028d1",
+      "site_id": "",
+      "site_name": "",
+      "title": "인천 대표공연 콘텐츠 유통활성화 지원 공모 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229226&indRow=33&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "ai_reason": "",
+      "ai_confidence": null
+    }
+  ]
 }
