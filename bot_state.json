@@ -6,7 +6,7 @@
       "at": "2026-09-19 07:07:09"
     }
   },
-  "last_scan_at": "2026-09-17 18:08:28",
+  "last_scan_at": "2026-09-19 09:24:46",
   "last_inbox_at": "2026-09-19 08:58:12",
   "commands_set": true,
   "last_inbox": {
@@ -15,27 +15,26 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-19 08:58:12",
+  "updated_at": "2026-09-19 09:24:46",
   "last_scan": {
-    "at": "2026-09-18 18:11:59",
-    "elapsed": 347.0,
+    "at": "2026-09-19 09:24:46",
+    "elapsed": 976.2,
     "sites_total": 48,
-    "sites_ok": 47,
+    "sites_ok": 46,
     "sites_fail": [
-      "gongju.museum.go.kr 알림 < 소식 < 소식/참여 < 국립 — 페이지 로딩 시간 초과 (30s)"
+      "한국공예·디자인문화진흥원 사업공모 — 브라우저 오류: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ww",
+      "국립무형유산원 소식/참여 — 페이지 로딩 시간 초과 (30s)"
     ],
     "disabled": [],
-    "selector_fixed": [
-      "gunsancf.or.kr"
-    ],
-    "new_rows": 45,
-    "seeded": 26,
-    "candidates": 3,
-    "gemini_calls": 5,
+    "selector_fixed": [],
+    "new_rows": 81,
+    "seeded": 0,
+    "candidates": 12,
+    "gemini_calls": 25,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 1,
-    "reviewed": 0,
+    "reviewed": 5,
     "deferred": 0,
     "send_errors": [],
     "inbox": {

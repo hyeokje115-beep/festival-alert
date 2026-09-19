@@ -1,6 +1,79 @@
 {
   "version": 1,
-  "updated_at": "2026-09-19 08:58:12",
-  "alerts": {},
+  "updated_at": "2026-09-19 09:24:46",
+  "alerts": {
+    "-5198533799:398": {
+      "key": "u:2d1b9b78dec1865b13df",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026 지역예술유통기반강화 「제로베이스×화성」 하반기 참여 작가 모집 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229219&indRow=14&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "2026-09-21",
+      "ai_reason": "화성시 기반 시각 예술인을 대상으로 하는 참여 작가 모집 공고이며 접수 기간 내에 해당함",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-09-19 09:24:40",
+      "votes": {}
+    },
+    "-5198533799:399": {
+      "key": "u:e628fff5fb256a9eb016",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026 관악아트페어 <미술에 진심 3050> 참여 예술인 모집 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229596&indRow=44&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "제목에 예술인 모집 공고가 명시되어 있으나 본문이 없어 접수 기간 확인이 불가능함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-19 09:24:41",
+      "votes": {}
+    },
+    "-5198533799:400": {
+      "key": "u:85072e1117644df028d1",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "인천 대표공연 콘텐츠 유통활성화 지원 공모 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229226&indRow=33&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연 콘텐츠 유통활성화를 위한 기업 및 단체 대상 공모 사업으로 판단됨",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-19 09:24:42",
+      "votes": {}
+    },
+    "-5198533799:401": {
+      "key": "u:2fad33d5ad446d0607c4",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026 경남 콘텐츠페어 전시존 참가기업 모집 공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229818&indRow=23&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전시존 참가기업 모집 공고로 전시 분야 사업자 대상 모집임이 명확함",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-19 09:24:44",
+      "votes": {}
+    },
+    "-5198533799:402": {
+      "key": "u:051b5262eae122bcb775",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026 군포시생활문화축제 공연참가팀 모집공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229667&indRow=24&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연참가팀 모집공고로 예술단체 대상의 모집 사업으로 판단됨",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-19 09:24:45",
+      "votes": {}
+    },
+    "-5198533799:403": {
+      "key": "u:b40e0fbf065fd8254f22",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년도 고양문화재단 상반기 공연장 정기대관 공고 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=227562&indRow=47&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연장 정기대관 공고로 예술인 및 단체를 대상으로 하는 시설 사용 신청 건임",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-19 09:24:46",
+      "votes": {}
+    }
+  },
   "feedback": []
 }
