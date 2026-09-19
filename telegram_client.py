@@ -46,7 +46,7 @@ import requests
 
 import config
 import prefilter
-from storage import VOTE_DOWN, VOTE_UP, FeedbackStore
+from storage import VOTE_DOWN, VOTE_UP, FeedbackStore, post_key
 
 
 VOTE_PREFIX = "v:"              # callback_data = "v:up" / "v:down"
@@ -448,6 +448,25 @@ def _answer_quietly(client: TelegramClient, cq_id: Optional[str], text: str = ""
 
 
 
+def _recover_callback_alert(chat_id: int | str, message_id: int, msg: dict) -> dict:
+    text = str(msg.get("text") or "")
+    url = ""
+    for ent in (msg.get("entities") or []):
+        if ent.get("type") == "text_link" and ent.get("url"):
+            url = str(ent["url"])
+            break
+        if ent.get("type") == "url":
+            try:
+                off, length = int(ent.get("offset", 0)), int(ent.get("length", 0))
+                url = text[off:off + length]
+            except (TypeError, ValueError):
+                pass
+            break
+    lines = [x.strip() for x in text.splitlines() if x.strip()]
+    title = next((x for x in lines if not x.startswith(("📢", "🤔", "🗓", "⏰", "🤖", "신뢰도", "🔗", "맞는", "공모가"))), "(복구된 알림)")[:300]
+    return {"key": post_key(url, title=title), "site_id": "", "site_name": "", "title": title, "url": url, "deadline": "", "ai_reason": "", "ai_confidence": None}
+
+
 def handle_vote(client: TelegramClient, feedback: FeedbackStore, callback_query: dict) -> str:
     """반환: recorded | changed | same | unknown | denied | ignored   (feedback.save() 는 호출자가)"""
     cq = callback_query or {}
@@ -472,9 +491,8 @@ def handle_vote(client: TelegramClient, feedback: FeedbackStore, callback_query:
 
     status, alert = feedback.vote(chat_id, message_id, user.get("id", 0), user_display_name(user), vote)
     if status == "unknown" or alert is None:
-        _answer_quietly(client, cq_id, f"보관 기간({config.ALERT_KEEP_DAYS}일)이 지난 알림이라 기록할 수 없습니다.",
-                        show_alert=True)
-        return "unknown"
+        feedback.register_alert(chat_id, message_id, _recover_callback_alert(chat_id, message_id, msg))
+        status, alert = feedback.vote(chat_id, message_id, user.get("id", 0), user_display_name(user), vote)
 
 
     if status in ("recorded", "changed"):
