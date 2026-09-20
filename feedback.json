@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-20 09:00:36",
+  "updated_at": "2026-09-20 09:16:38",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -71,6 +71,18 @@
       "votes": {
         "8904986733": "down"
       }
+    },
+    "-5198533799:411": {
+      "key": "u:3c1c3166e177f8d736fc",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026 관악아트페어 <미술에 진심 3050> 참여 예술인 모집 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229596&indRow=41&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "제목에 참여 예술인 모집 공고가 명시되어 있으며 전시 분야의 예술인 대상 공모로 판단됨.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-20 09:16:38",
+      "votes": {}
     }
   },
   "feedback": [
