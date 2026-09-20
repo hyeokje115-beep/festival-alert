@@ -6,7 +6,7 @@
       "at": "2026-09-19 07:07:09"
     }
   },
-  "last_scan_at": "2026-09-20 09:16:38",
+  "last_scan_at": "2026-09-20 18:10:45",
   "last_inbox_at": "2026-09-20 18:03:02",
   "commands_set": true,
   "last_inbox": {
@@ -15,18 +15,13 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-20 18:03:02",
+  "updated_at": "2026-09-20 18:10:45",
   "last_scan": {
-    "at": "2026-09-20 13:50:10",
-    "elapsed": 440.7,
-    "sites_total": 48,
-    "sites_ok": 44,
-    "sites_fail": [
-      "khs.go.kr 공지사항 목록- 국가유산청 — 페이지 로딩 시간 초과 (30s)",
-      "국립국악원 공지사항(목록) — 페이지 로딩 시간 초과 (30s)",
-      "gunsancf.or.kr — 페이지 로딩 시간 초과 (30s)",
-      "국립무형유산원 소식/참여 — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "at": "2026-09-20 18:10:45",
+    "elapsed": 267.8,
+    "sites_total": 47,
+    "sites_ok": 47,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
     "new_rows": 0,
@@ -47,9 +42,7 @@
       "skipped": true
     },
     "dry_run": false,
-    "moved_kr": [
-      "국립무형유산원 소식/참여"
-    ],
+    "moved_kr": [],
     "runner": "github",
     "gemini_last_error": ""
   },
