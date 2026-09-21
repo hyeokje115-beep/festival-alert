@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21 14:24:50",
+  "updated_at": "2026-09-21 14:37:56",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -94,7 +94,9 @@
       "ai_reason": "예술단체 모집 공고로 신청 주체가 예술단체이며 공모 성격이 명확함.",
       "ai_confidence": 0.7,
       "sent_at": "2026-09-21 09:14:53",
-      "votes": {}
+      "votes": {
+        "8904986733": "down"
+      }
     },
     "-5198533799:417": {
       "key": "u:a5f2adf956ea08c7aed7",
@@ -179,6 +181,20 @@
       "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229226&indRow=33&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
       "ai_reason": "",
       "ai_confidence": null
+    },
+    {
+      "at": "2026-09-21 14:37:55",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "down",
+      "key": "u:9413a703bc53f47efcea",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 새빛 문화예술클럽 <시민의 메아리> 참여 예술단체 모집 공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=219542&indRow=51&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "ai_reason": "예술단체 모집 공고로 신청 주체가 예술단체이며 공모 성격이 명확함.",
+      "ai_confidence": 0.7
     }
   ]
 }
