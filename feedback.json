@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21 14:49:50",
+  "updated_at": "2026-09-21 14:58:44",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -108,7 +108,9 @@
       "ai_reason": "전시 참여 예술인 모집 공고로, 신청 주체가 예술인이며 공모 성격이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-09-21 09:14:53",
-      "votes": {}
+      "votes": {
+        "8904986733": "down"
+      }
     }
   },
   "feedback": [
@@ -195,6 +197,20 @@
       "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=219542&indRow=51&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
       "ai_reason": "예술단체 모집 공고로 신청 주체가 예술단체이며 공모 성격이 명확함.",
       "ai_confidence": 0.7
+    },
+    {
+      "at": "2026-09-21 14:58:44",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "down",
+      "key": "u:a5f2adf956ea08c7aed7",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026 관악아트페어 <미술에 진심 3050> 참여 예술인 모집 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229596&indRow=33&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "ai_reason": "전시 참여 예술인 모집 공고로, 신청 주체가 예술인이며 공모 성격이 명확함.",
+      "ai_confidence": 0.75
     }
   ]
 }
