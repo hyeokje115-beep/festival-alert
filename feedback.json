@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22 18:05:00",
+  "updated_at": "2026-09-22 18:15:29",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -122,6 +122,18 @@
       "ai_reason": "지스타 콘솔게임 공동관 참가 기업 모집 공고로, 게임 개발사를 대상으로 9월 29일까지 접수를 진행함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-09-22 13:50:54",
+      "votes": {}
+    },
+    "-5198533799:432": {
+      "key": "u:a5ab9fa9bff531b187d3",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[회원등록공고] 을숙도 대지·생태예술 국제공모 찰나의 우리, 오래 흐르는 대지",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177266",
+      "deadline": "2026-11-22",
+      "ai_reason": "을숙도 대지·생태예술 국제공모로, 예술가 및 전문가 대상 작품 제작 지원 공고임",
+      "ai_confidence": 1.0,
+      "sent_at": "2026-09-22 18:15:29",
       "votes": {}
     }
   },
