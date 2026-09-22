@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22 13:39:38",
+  "updated_at": "2026-09-22 13:50:54",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -111,6 +111,18 @@
       "votes": {
         "8904986733": "down"
       }
+    },
+    "-5198533799:428": {
+      "key": "u:04fb149fddb87c7b5e62",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "<2026년 콘솔게임 공동관> 참가기업 추가 모집공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229852&indRow=44&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "2026-09-29",
+      "ai_reason": "지스타 콘솔게임 공동관 참가 기업 모집 공고로, 게임 개발사를 대상으로 9월 29일까지 접수를 진행함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-09-22 13:50:54",
+      "votes": {}
     }
   },
   "feedback": [
