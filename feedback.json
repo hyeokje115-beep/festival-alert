@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-24 09:00:07",
+  "updated_at": "2026-09-24 09:15:09",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -134,6 +134,42 @@
       "ai_reason": "을숙도 대지·생태예술 국제공모로, 예술가 및 전문가 대상 작품 제작 지원 공고임",
       "ai_confidence": 1.0,
       "sent_at": "2026-09-22 18:15:29",
+      "votes": {}
+    },
+    "-5198533799:442": {
+      "key": "u:04fb149fddb87c7b5e62",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "<2026년 콘솔게임 공동관> 참가기업 추가 모집공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229852&indRow=44&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "2026-09-29",
+      "ai_reason": "지스타 콘솔게임 공동관 참가 기업 모집 공고로, 게임 개발사를 대상으로 9월 29일까지 접수를 진행함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-09-24 09:15:06",
+      "votes": {}
+    },
+    "-5198533799:443": {
+      "key": "u:340b8032120377cd862e",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 서울문화재단 연극 뮤지컬 무용 + 2027년 서울 커넥트 스테이지(연극·무용·음악·전통) 통합공모 안내 2026.08.24 - 2026.10.02 서울 개인",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260825044202001",
+      "deadline": "2026-10-02",
+      "ai_reason": "2027년 서울 커넥트 스테이지 공연 예술인 대상 통합공모로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-09-24 09:15:07",
+      "votes": {}
+    },
+    "-5198533799:444": {
+      "key": "u:62b81ca44925cb4833f3",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "[아트뮤지엄 려]2027년 「아트뮤지엄 려」 공모전시 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229390&indRow=46&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "아트뮤지엄 려의 공모전시 공고로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-09-24 09:15:08",
       "votes": {}
     }
   },

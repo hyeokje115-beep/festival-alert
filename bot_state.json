@@ -6,7 +6,7 @@
       "at": "2026-09-19 07:07:09"
     }
   },
-  "last_scan_at": "2026-09-23 18:13:51",
+  "last_scan_at": "2026-09-24 09:15:08",
   "last_inbox_at": "2026-09-24 09:00:07",
   "commands_set": true,
   "last_inbox": {
@@ -15,27 +15,25 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-24 09:00:07",
+  "updated_at": "2026-09-24 09:15:09",
   "last_scan": {
-    "at": "2026-09-23 18:13:51",
-    "elapsed": 458.8,
+    "at": "2026-09-24 09:15:08",
+    "elapsed": 431.0,
     "sites_total": 47,
-    "sites_ok": 44,
+    "sites_ok": 46,
     "sites_fail": [
-      "khs.go.kr 공지사항 목록- 국가유산청 — 페이지 로딩 시간 초과 (30s)",
-      "gunsancf.or.kr — 페이지 로딩 시간 초과 (30s)",
-      "gongju.museum.go.kr 알림 < 소식 < 소식/참여 < 국립 — 페이지 로딩 시간 초과 (30s)"
+      "gunsancf.or.kr — 페이지 로딩 시간 초과 (30s)"
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 10,
+    "new_rows": 91,
     "seeded": 0,
-    "candidates": 1,
-    "gemini_calls": 3,
+    "candidates": 12,
+    "gemini_calls": 13,
     "gemini_errors": 0,
-    "feedback_blocked": 0,
-    "alerts": 0,
-    "reviewed": 0,
+    "feedback_blocked": 3,
+    "alerts": 2,
+    "reviewed": 1,
     "deferred": 0,
     "send_errors": [],
     "inbox": {
