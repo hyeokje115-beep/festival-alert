@@ -6,7 +6,7 @@
       "at": "2026-09-19 07:07:09"
     }
   },
-  "last_scan_at": "2026-09-25 13:50:02",
+  "last_scan_at": "2026-09-25 18:10:12",
   "last_inbox_at": "2026-09-25 17:57:45",
   "commands_set": true,
   "last_inbox": {
@@ -15,16 +15,13 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-25 17:57:45",
+  "updated_at": "2026-09-25 18:10:12",
   "last_scan": {
-    "at": "2026-09-25 13:50:02",
-    "elapsed": 289.2,
+    "at": "2026-09-25 18:10:12",
+    "elapsed": 210.3,
     "sites_total": 46,
-    "sites_ok": 44,
-    "sites_fail": [
-      "광주문화재단_공지 — 페이지 로딩 시간 초과 (30s)",
-      "고양문화재단 — 게시글 행을 찾지 못함 (셀렉터 불일치 · 로그인 필요 · 봇 차단 페이지 가능)"
-    ],
+    "sites_ok": 46,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
     "new_rows": 0,
