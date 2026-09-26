@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-26 09:00:21",
+  "updated_at": "2026-09-26 09:17:19",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -170,6 +170,30 @@
       "ai_reason": "아트뮤지엄 려의 공모전시 공고로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
       "ai_confidence": 0.7,
       "sent_at": "2026-09-24 09:15:08",
+      "votes": {}
+    },
+    "-5198533799:455": {
+      "key": "u:218122310ebd6a8dd1d8",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "[아트뮤지엄 려]2027년 「아트뮤지엄 려」 공모전시 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229390&indRow=44&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "아트뮤지엄 려의 공모전시 공고로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-26 09:17:18",
+      "votes": {}
+    },
+    "-5198533799:456": {
+      "key": "u:a91392a80b9c75be7d0f",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "「2026 고향사랑기금사업」 세종 시각예술인 미술작품 공모 안내 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228717&indRow=52&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "시각예술인 대상 미술작품 공모로 신청 주체와 분야가 명확하나 본문이 없어 접수 기간 확인이 불가함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-09-26 09:17:19",
       "votes": {}
     }
   },
