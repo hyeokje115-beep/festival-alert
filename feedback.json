@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-26 11:55:45",
+  "updated_at": "2026-09-26 12:07:49",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -182,7 +182,9 @@
       "ai_reason": "아트뮤지엄 려의 공모전시 공고로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-09-26 09:17:18",
-      "votes": {}
+      "votes": {
+        "8904986733": "up"
+      }
     },
     "-5198533799:456": {
       "key": "u:a91392a80b9c75be7d0f",
@@ -294,6 +296,20 @@
       "title": "2026 관악아트페어 <미술에 진심 3050> 참여 예술인 모집 공고 지원대상 예술인",
       "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229596&indRow=33&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
       "ai_reason": "전시 참여 예술인 모집 공고로, 신청 주체가 예술인이며 공모 성격이 명확함.",
+      "ai_confidence": 0.75
+    },
+    {
+      "at": "2026-09-26 12:07:49",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "up",
+      "key": "u:218122310ebd6a8dd1d8",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "[아트뮤지엄 려]2027년 「아트뮤지엄 려」 공모전시 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229390&indRow=44&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "ai_reason": "아트뮤지엄 려의 공모전시 공고로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
       "ai_confidence": 0.75
     }
   ]
