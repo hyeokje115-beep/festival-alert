@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-26 21:19:15",
+  "updated_at": "2026-09-26 21:37:09",
   "posts": {
     "t:3eb416223e9e69e6bb8e": {
       "site_id": "",
@@ -15622,6 +15622,114 @@
       "reason": "분야어·신호어 없음",
       "judged_at": "2026-09-26 18:10:17",
       "first_judged_at": "2026-09-26 18:10:17"
+    },
+    "t:a6d8b0661624d709f184": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "본문바로가기",
+      "url": "",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:c7028af9b8e66bc2c6c9": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "메인메뉴 바로가기",
+      "url": "",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:54cfe113ff0ca5ea3d90": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "사이트정보 바로가기",
+      "url": "",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:1f75c3091f66aa35196f": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "2025년 서울특별시 보조금 \"무료 결혼식\" (궁중도감청)",
+      "url": "http://www.wmswms.or.kr/introduce/s_subsidy?gnb=2",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6a1d6eb5af1d229b4631": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "2025년 경기도 보조금 \"무료 전통혼례\" (경기한문회)",
+      "url": "http://www.wmswms.or.kr/introduce/g_subsidy?gnb=1",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:bcb8163a94762a5d5a4b": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "궁중혼례",
+      "url": "http://www.wmswms.or.kr/introduce/royal?gnb=3",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:868b8e3b5432b81b2936": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "전통혼례",
+      "url": "http://www.wmswms.or.kr/introduce/traditional?gnb=4",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:b486c1250d37f764fb23": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "궁중돌잔치",
+      "url": "http://www.wmswms.or.kr/introduce/birthday_1th?gnb=5",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:0df139c2574d2103b8dd": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "궁중장수연",
+      "url": "http://www.wmswms.or.kr/introduce/birthday_70th?gnb=6",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:f27ec1897c6071f472cf": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "전통혼례 동영상 보기",
+      "url": "",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:7b59b5dc31b8eb3ff6e2": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "관광상품 동영상 보기",
+      "url": "",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "t:127ead31a50f0ba74b4e": {
+      "site_id": "wmswms_or_kr_1ba563",
+      "title": "궁중혼례 동영상 보기",
+      "url": "",
+      "first_seen": "2026-09-26 21:37:09",
+      "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
     }
   }
 }

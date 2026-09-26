@@ -1119,5 +1119,23 @@
     "last_status": "ok",
     "fail_count": 0,
     "note": ""
+  },
+  {
+    "id": "wmswms_or_kr_1ba563",
+    "name": "경기한국전통문화계승선양회",
+    "url": "http://www.wmswms.or.kr/",
+    "base_url": "http://www.wmswms.or.kr",
+    "list_selector": "body",
+    "row_selector": "li, tr, dl, article, .item, .card",
+    "link_selector": "a[href]",
+    "date_selector": "",
+    "enabled": true,
+    "verified": true,
+    "added_by": "Seo Dojae",
+    "added_at": "2026-09-26 21:37:09",
+    "last_checked": "2026-09-26 21:37:09",
+    "last_status": "ok",
+    "fail_count": 0,
+    "note": ""
   }
 ]
