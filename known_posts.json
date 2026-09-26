@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-26 21:37:09",
+  "updated_at": "2026-09-26 21:51:22",
   "posts": {
     "t:3eb416223e9e69e6bb8e": {
       "site_id": "",
@@ -15728,6 +15728,141 @@
       "url": "",
       "first_seen": "2026-09-26 21:37:09",
       "last_seen": "2026-09-26 21:37:09",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7102bf71087d59f03cf6": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] 2026년 (재)철원문화재단 임원 공개모집 공고",
+      "url": "https://gcwcf.or.kr/w5_2/179",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:1673e589da7ac9824999": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [제44회 태봉제] 먹거리장터 참여자 모집 결과",
+      "url": "https://gcwcf.or.kr/w5_2/192",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7cce190dca9b95d5cffc": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [제44회 태봉제] 프로그램(전시, 체험, 홍보, 판매) 부스 모집결과",
+      "url": "https://gcwcf.or.kr/w5_2/191",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:3800db834163f5d05489": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[공지] [제44회 태봉제] 지역예술문화공연 참가자 모집결과",
+      "url": "https://gcwcf.or.kr/w5_2/190",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d41220afe538123011ca": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [제44회 태봉제] 백일장 및 사생대회 참가자 모집공고",
+      "url": "https://gcwcf.or.kr/w5_2/189",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:27b9b0a3617e7a19ea98": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [제44회 태봉제] 철원 청소년 갓 탤런트 참가자 모집",
+      "url": "https://gcwcf.or.kr/w5_2/188",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:1f91f698e30bedc2d0d3": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[채용 공고] 2026년 (재)철원문화재단 비상임 임원 선정결과 공고",
+      "url": "https://gcwcf.or.kr/w5_2/187",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:f70f476215d01ad7686a": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [2026 고석정 꽃밭 개장 프로그램 및 행사운영] 하반기 지역문화예술공연 모집결과",
+      "url": "https://gcwcf.or.kr/w5_2/186",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:7cc198988088947e8099": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [2026 철원 세종대왕 강무행차] 행렬 참여자 모집공고",
+      "url": "https://gcwcf.or.kr/w5_2/185",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:bbc8696170c669fdaafb": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] 2026년 제44회 태봉제 기념 철원 어린이 킥보드 경주대회 참가자 모집",
+      "url": "https://gcwcf.or.kr/w5_2/184",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:ab1c72a1c9c3fff19d13": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [제44회 태봉제] 먹거리장터 참여자 모집",
+      "url": "https://gcwcf.or.kr/w5_2/183",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:747e13ac6429573b2e3b": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [제44회 태봉제] 프로그램(전시, 체험, 홍보, 판매) 부스 모집",
+      "url": "https://gcwcf.or.kr/w5_2/182",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:d408e80b9e8bb0bd5054": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [제44회 태봉제] 지역문화예술공연 단체 모집공고",
+      "url": "https://gcwcf.or.kr/w5_2/181",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:6de40cbc1bb33b8fbd15": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[모집공고] [2026 고석정 꽃밭 개장 프로그램 및 행사운영' 하반기 지역문화예술공연 모집 공고",
+      "url": "https://gcwcf.or.kr/w5_2/180",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (Seo Dojae)"
+    },
+    "u:06fdce996dbe77271b08": {
+      "site_id": "gcwcf_or_kr_3ee9ce",
+      "title": "[공지] 제20회 철원 화강 다슬기축제 CCTV설치에 따른 행정예고",
+      "url": "https://gcwcf.or.kr/w5_2/159",
+      "first_seen": "2026-09-26 21:51:22",
+      "last_seen": "2026-09-26 21:51:22",
       "status": "seeded",
       "reason": "/add 등록 시 기존 글 (Seo Dojae)"
     }
