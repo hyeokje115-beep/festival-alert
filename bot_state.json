@@ -1,5 +1,5 @@
 {
-  "update_offset": 614088576,
+  "update_offset": 614088579,
   "pending": {
     "-5198533799": {
       "cmd": "add",
@@ -7,15 +7,15 @@
     }
   },
   "last_scan_at": "2026-09-28 09:14:35",
-  "last_inbox_at": "2026-09-28 10:19:09",
+  "last_inbox_at": "2026-09-28 10:33:39",
   "commands_set": true,
   "last_inbox": {
-    "updates": 0,
-    "votes": 0,
+    "updates": 2,
+    "votes": 2,
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-28 10:19:09",
+  "updated_at": "2026-09-28 10:33:39",
   "last_scan": {
     "at": "2026-09-28 09:14:35",
     "elapsed": 293.7,

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28 10:19:09",
+  "updated_at": "2026-09-28 10:33:39",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -208,7 +208,23 @@
       "ai_reason": "2027년 서울 커넥트 스테이지 공연 예술인 대상 통합공모로 접수 기간이 명시되어 있음.",
       "ai_confidence": 0.95,
       "sent_at": "2026-09-27 09:13:11",
-      "votes": {}
+      "votes": {
+        "8904986733": "up"
+      }
+    },
+    "-5198533799:475": {
+      "key": "u:340b8032120377cd862e",
+      "site_id": "",
+      "site_name": "",
+      "title": "아트누리 서울문화재단 연극 뮤지컬 무용 + 2027년 서울 커넥트 스테이지(연극·무용·음악·전통) 통합공모 안내 2026.08.24 - 2026.10.02 서울 개인",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260825044202001",
+      "deadline": "",
+      "ai_reason": "",
+      "ai_confidence": null,
+      "sent_at": "2026-09-28 10:33:39",
+      "votes": {
+        "8904986733": "up"
+      }
     }
   },
   "feedback": [
@@ -323,6 +339,20 @@
       "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229390&indRow=44&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
       "ai_reason": "아트뮤지엄 려의 공모전시 공고로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
       "ai_confidence": 0.75
+    },
+    {
+      "at": "2026-09-28 10:33:39",
+      "chat_id": -5198533799,
+      "user_id": 8904986733,
+      "user_name": "Seo Dojae",
+      "vote": "up",
+      "key": "u:340b8032120377cd862e",
+      "site_id": "",
+      "site_name": "",
+      "title": "아트누리 서울문화재단 연극 뮤지컬 무용 + 2027년 서울 커넥트 스테이지(연극·무용·음악·전통) 통합공모 안내 2026.08.24 - 2026.10.02 서울 개인",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260825044202001",
+      "ai_reason": "",
+      "ai_confidence": null
     }
   ]
 }
