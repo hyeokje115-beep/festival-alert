@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-28 17:47:15",
+  "updated_at": "2026-09-28 17:59:27",
   "posts": {
     "t:3eb416223e9e69e6bb8e": {
       "site_id": "",
@@ -15967,6 +15967,195 @@
       "first_judged_at": "2026-09-28 13:55:17",
       "deadline": "2026-10-31",
       "new_alerted_at": "2026-09-28 13:55:17"
+    },
+    "u:729b8551344aedd65ac2": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "홈페이지 이용 안내(보안장비 패치 2026.09.29 21:30~22:30)",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=9eadaf428ddf61a07584e4e1e244110c&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:d9d872f9b4e2f8408952": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "hcf_레지던시 작가 전시_전시장 지킴이 모집공고_0916",
+      "url": "https://www.hcf.or.kr/File/d8a772fd580f3eab9c625eebaaeea3c9",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:89d23315e115042a8bc4": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "화성거리예술 활성화 거리공연 9월 18일(금) - 동탄호수공원 운답원",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=23aaa741f0976f0b2eb4626cdedb9775&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:10bba030119f0f69869b": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[2026 화성메세나] 에이앤씨코리아 - 화성의 숨어있는 향토민요 (9. 22.(화) 17:00)",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=a913fdc1c373ce41b780fa08cbf98812&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:709114dc58030997313f": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[화성시미디어센터] 미디어 아카데미 9월 특별강좌 모집 안내",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=ce0e80f4b671019ec8cefd890ad5d0bc&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:ff43d3591a36e4e9a46e": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[2026 찾아가는공연장] <10월문화의달 거리공연> - 2026. 10. 2.(금) 19:00~ 화성예술의전당 앞 자라뫼공원",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=28aa5f828606d0ac607f3dd3a2729d64&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:48dd7377b6816288dd96": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[2026 찾아가는 공연장] <화성특례시 문화의날주간 거리공연> - 2026. 9. 27.(일) 13:00~ 서해랑 제부도케이블카 전곡정류장",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=fa89896110661ba9f59b5b1eeaa6d6f7&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:010ebb547828204a69f5": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[2026 찾아가는 공연장] <가을, 다시 찾아온 공연> -2026.9.19.(토) 19:00~ 삼봉근린공원",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=da9c17bca81a4fb22fe4818530356c16&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:f12bc1888d0ab3059fe8": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "화성거리예술 활성화 거리공연 9월 13일 - 병점역 2번 출구 앞 분수 광장",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=5685648b4f84c1bfed51bac631fa0c8c&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:4a2070d7c6ee025f4847": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[2026 화성메세나] 알앤디뮤직앙상블 - 매직클래식: 사라진 멜로디를 찾아서(9. 20.(일) 17:00)",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=43db400bd8b4423b3234b60868b02980&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:a62ee219efddc6ddc5de": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[2026 화성예술지원] 9월 공연·전시 일정 안내",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=c9482e86b1594448a0dc7c18d520997e&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:e74bd2b2d0b1d5012330": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "2026 정조대왕능행차 화성구간 『효 퍼레이드: 왕의 길을 따르다』 참가 단체 모집",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=e5aa17d7ab09751adab0d02382e8d2e1&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:6615cdc97166cf36990f": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "2026 화성시 정조효문화제 「현륭원 천원」 시민행렬단 참가자 모집",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=29a95b9e547b94b2160820f877acb838&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:34a9434bb634385ad07c": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "2026 정조대왕능행차 화성구간『정조대왕능행차_이어걷기:1795』시민행렬단 모집",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=53366a2f61734934e1d8acc7f80921ad&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:f36b49894edbb52f76be": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "2026 정조대왕능행차 화성구간『정조대왕능행차_이어걷기:1795』전통구간 시민행렬단 모집",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=60babaf502d17bffd36456e2bf1e4332&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:702d745a5d36d37fc454": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "2026 화성 IN 시네마 <상영프로그램 소개>",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=52fa7ce6b9cb7baad48444d8131f2156&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:6df54ab1d5a75a6cc4cf": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[2026 화성메세나] 라인오케스트라 - 시대를 잇는 현의 울림 (9. 13.(일) 18:00)",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=9b448f5200c48d9ea5efd2c0aaa1f72a&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:212a5da629010c769c7b": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "청소년 뮤지컬 프로젝트 [라이징스타: 틴즈 스테이지] 참가자 모집!",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=8d0c3bc358ee934cd097454fc7142d7e&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:e5659163111105ff0545": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[화성특례시 서울로 365] 전시 홍보 채널 변경 안내",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=de541e1b69f388910b86117ed731198f&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:1207a1d148fab902d3c2": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "2026 화성 IN 시네마 개최",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=2c22d2b9a336d5afcf9c216ea47624fa&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:9034e31d578e62ba293b": {
+      "site_id": "hcf_or_kr_b8e51a",
+      "title": "[2026 신진예술인 지원] 허주혜 작가 수묵 프로젝트 - <겹의도시_마주하는 시선들>",
+      "url": "https://www.hcf.or.kr/hcf/59?action-value=cadc3db974c990e2fd8a046ce9815a1c&action=read&chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+      "first_seen": "2026-09-28 17:59:26",
+      "last_seen": "2026-09-28 17:59:26",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
     }
   }
 }

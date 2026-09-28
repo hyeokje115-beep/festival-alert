@@ -1156,5 +1156,23 @@
     "last_status": "ok",
     "fail_count": 0,
     "note": ""
+  },
+  {
+    "id": "hcf_or_kr_b8e51a",
+    "name": "화성시문화관광재단 공지 < 알림마당",
+    "url": "https://www.hcf.or.kr/hcf/59?chathead=%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8",
+    "base_url": "https://www.hcf.or.kr",
+    "list_selector": "table:has(tbody)",
+    "row_selector": "tbody > tr",
+    "link_selector": "a[href]",
+    "date_selector": "",
+    "enabled": true,
+    "verified": true,
+    "added_by": "홍석 서",
+    "added_at": "2026-09-28 17:59:26",
+    "last_checked": "2026-09-28 17:59:26",
+    "last_status": "ok",
+    "fail_count": 0,
+    "note": ""
   }
 ]
