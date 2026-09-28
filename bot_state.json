@@ -7,7 +7,7 @@
     }
   },
   "last_scan_at": "2026-09-28 09:14:35",
-  "last_inbox_at": "2026-09-28 09:30:03",
+  "last_inbox_at": "2026-09-28 09:50:13",
   "commands_set": true,
   "last_inbox": {
     "updates": 0,
@@ -15,7 +15,7 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-28 09:30:03",
+  "updated_at": "2026-09-28 09:50:13",
   "last_scan": {
     "at": "2026-09-28 09:14:35",
     "elapsed": 293.7,
