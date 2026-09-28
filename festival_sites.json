@@ -1174,5 +1174,23 @@
     "last_status": "ok",
     "fail_count": 0,
     "note": ""
+  },
+  {
+    "id": "gcwcf_or_kr_31d459",
+    "name": "철원문화재단 공지사항 페이지",
+    "url": "https://gcwcf.or.kr/w5_1",
+    "base_url": "https://gcwcf.or.kr",
+    "list_selector": "table:has(tbody)",
+    "row_selector": "tbody > tr",
+    "link_selector": "a[href]",
+    "date_selector": "",
+    "enabled": true,
+    "verified": true,
+    "added_by": "홍석 서",
+    "added_at": "2026-09-28 18:18:58",
+    "last_checked": "2026-09-28 18:18:58",
+    "last_status": "ok",
+    "fail_count": 0,
+    "note": ""
   }
 ]

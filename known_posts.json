@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-28 18:14:01",
+  "updated_at": "2026-09-28 18:18:58",
   "posts": {
     "t:3eb416223e9e69e6bb8e": {
       "site_id": "",
@@ -16178,6 +16178,60 @@
       "reason": "일반 시민을 대상으로 하는 국민체험단 모집으로, 예술가나 사업자가 참여하는 공모가 아님.",
       "judged_at": "2026-09-28 18:14:00",
       "first_judged_at": "2026-09-28 18:14:00"
+    },
+    "u:85693b5967eb84779763": {
+      "site_id": "gcwcf_or_kr_31d459",
+      "title": "[2025 축제 서포터즈] 바투카타 공연 알림",
+      "url": "https://gcwcf.or.kr/w5_1/49",
+      "first_seen": "2026-09-28 18:18:58",
+      "last_seen": "2026-09-28 18:18:58",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:210e9b6e18e9f82e8d23": {
+      "site_id": "gcwcf_or_kr_31d459",
+      "title": "[제43회 태봉제] 백일장 및 사생대회 수상작 선정 결과",
+      "url": "https://gcwcf.or.kr/w5_1/48",
+      "first_seen": "2026-09-28 18:18:58",
+      "last_seen": "2026-09-28 18:18:58",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:75ab2ced72829c3bc727": {
+      "site_id": "gcwcf_or_kr_31d459",
+      "title": "[제43회 태봉제] 철원 어린이 킥보드 경주대회 참가자 모집",
+      "url": "https://gcwcf.or.kr/w5_1/45",
+      "first_seen": "2026-09-28 18:18:58",
+      "last_seen": "2026-09-28 18:18:58",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:c818803b63d682bb0574": {
+      "site_id": "gcwcf_or_kr_31d459",
+      "title": "[제43회 태봉제] 철원 청소년 갓 탤런트 참가자 모집",
+      "url": "https://gcwcf.or.kr/w5_1/44",
+      "first_seen": "2026-09-28 18:18:58",
+      "last_seen": "2026-09-28 18:18:58",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:e07a428fc98ecf5eee6e": {
+      "site_id": "gcwcf_or_kr_31d459",
+      "title": "[2025 캠핑 페스티벌 및 산소길 걷기 행사] 안내사항",
+      "url": "https://gcwcf.or.kr/w5_1/43",
+      "first_seen": "2026-09-28 18:18:58",
+      "last_seen": "2026-09-28 18:18:58",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
+    },
+    "u:29b88c46a0d7c6dd6de0": {
+      "site_id": "gcwcf_or_kr_31d459",
+      "title": "[문화가있는날] 6월 오감만족 뮤지컬 '빵굽는 포포아저씨' 예약창 15:00 재오픈",
+      "url": "https://gcwcf.or.kr/w5_1/37",
+      "first_seen": "2026-09-28 18:18:58",
+      "last_seen": "2026-09-28 18:18:58",
+      "status": "seeded",
+      "reason": "/add 등록 시 기존 글 (홍석 서)"
     }
   }
 }
