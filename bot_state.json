@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-09-28 18:14:01",
+  "last_scan_at": "2026-09-29 09:17:13",
   "last_inbox_at": "2026-09-29 08:58:06",
   "commands_set": true,
   "last_inbox": {
@@ -15,25 +15,25 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-29 08:58:06",
+  "updated_at": "2026-09-29 09:17:13",
   "last_scan": {
-    "at": "2026-09-28 18:14:01",
-    "elapsed": 304.0,
-    "sites_total": 49,
-    "sites_ok": 48,
+    "at": "2026-09-29 09:17:13",
+    "elapsed": 471.4,
+    "sites_total": 50,
+    "sites_ok": 49,
     "sites_fail": [
-      "고양문화재단 — 게시글 행을 찾지 못함 (셀렉터 불일치 · 로그인 필요 · 봇 차단 페이지 가능)"
+      "khs.go.kr 공지사항 목록- 국가유산청 — 페이지 로딩 시간 초과 (30s)"
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 2,
+    "new_rows": 80,
     "seeded": 0,
-    "candidates": 1,
-    "gemini_calls": 3,
+    "candidates": 10,
+    "gemini_calls": 12,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 0,
-    "reviewed": 0,
+    "reviewed": 4,
     "deferred": 0,
     "send_errors": [],
     "inbox": {
