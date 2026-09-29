@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-09-29 09:17:13",
+  "last_scan_at": "2026-09-29 13:53:22",
   "last_inbox_at": "2026-09-29 13:34:22",
   "commands_set": true,
   "last_inbox": {
@@ -15,25 +15,25 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-29 13:34:22",
+  "updated_at": "2026-09-29 13:53:22",
   "last_scan": {
-    "at": "2026-09-29 09:17:13",
-    "elapsed": 471.4,
+    "at": "2026-09-29 13:53:22",
+    "elapsed": 412.8,
     "sites_total": 50,
     "sites_ok": 49,
     "sites_fail": [
-      "khs.go.kr 공지사항 목록- 국가유산청 — 페이지 로딩 시간 초과 (30s)"
+      "지원정보 조회 문화사업지원플랫폼 모모365 — 페이지 로딩 시간 초과 (30s)"
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 80,
+    "new_rows": 7,
     "seeded": 0,
-    "candidates": 10,
-    "gemini_calls": 12,
+    "candidates": 2,
+    "gemini_calls": 4,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 0,
-    "reviewed": 4,
+    "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
     "inbox": {
