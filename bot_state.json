@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-09-30 09:16:39",
+  "last_scan_at": "2026-09-30 18:13:27",
   "last_inbox_at": "2026-09-30 17:58:28",
   "commands_set": true,
   "last_inbox": {
@@ -15,23 +15,19 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-09-30 17:58:28",
+  "updated_at": "2026-09-30 18:13:27",
   "last_scan": {
-    "at": "2026-09-30 13:53:42",
-    "elapsed": 401.2,
+    "at": "2026-09-30 18:13:27",
+    "elapsed": 362.0,
     "sites_total": 50,
-    "sites_ok": 47,
-    "sites_fail": [
-      "포털사이트 공모(목록) — 페이지 로딩 시간 초과 (30s)",
-      "한국공예·디자인문화진흥원 사업공모 — 브라우저 오류: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ww",
-      "포털사이트 공지사항(목록) — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 50,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 5,
+    "new_rows": 11,
     "seeded": 0,
-    "candidates": 2,
-    "gemini_calls": 5,
+    "candidates": 6,
+    "gemini_calls": 8,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 0,
