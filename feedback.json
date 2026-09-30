@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30 08:57:51",
+  "updated_at": "2026-09-30 09:16:39",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -368,6 +368,66 @@
       "ai_reason": "전시 협업 제안 및 대관 공고로 예술인 및 단체를 대상으로 하는 신청 모집임이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-09-29 18:17:08",
+      "votes": {}
+    },
+    "-5198533799:501": {
+      "key": "u:26f2b67fddeae10ad182",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 안산문화재단 연극 뮤지컬 무용 + 제23회 안산거리극축제 국내공식참가작 공모 2026.09.28 - 2026.10.31 전국 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S65176",
+      "deadline": "2026-10-31",
+      "ai_reason": "안산거리극축제 국내공식참가작 공모로 공연단체 대상 모집이며 접수 기간이 명시됨.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-09-30 09:16:34",
+      "votes": {}
+    },
+    "-5198533799:502": {
+      "key": "u:bd627f9694dce498b8b7",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 제6회 군포청년작가展 GYAP1939 청년작가 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228942&indRow=54&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "청년작가 공모로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-30 09:16:35",
+      "votes": {}
+    },
+    "-5198533799:503": {
+      "key": "u:0251fc3359ce4731d8bb",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "[아트뮤지엄 려]2027년 「아트뮤지엄 려」 공모전시 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229390&indRow=21&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "제목에 2027년 아트뮤지엄 려 공모전시 공고 및 지원대상 예술인이 명시되어 있음.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-30 09:16:36",
+      "votes": {}
+    },
+    "-5198533799:504": {
+      "key": "u:91af100f49c24b428c4c",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "「2026 고향사랑기금사업」 세종 시각예술인 미술작품 공모 안내 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=228717&indRow=29&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "시각예술인 대상 미술작품 공모 안내로, 예술가 대상 전시 참여 공모 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-30 09:16:37",
+      "votes": {}
+    },
+    "-5198533799:505": {
+      "key": "u:65f6bfa894d192064da9",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 충북 갤러리 청주오스코관 협업제안 및 전시대관 통합 공고 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229046&indRow=26&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전시 협업 제안 및 대관 통합 공고로 예술인 및 단체를 대상으로 하는 모집 공고임",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-09-30 09:16:39",
       "votes": {}
     }
   },
