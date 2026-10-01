@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01 08:55:19",
+  "updated_at": "2026-10-01 09:19:00",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -428,6 +428,66 @@
       "ai_reason": "전시 협업 제안 및 대관 통합 공고로 예술인 및 단체를 대상으로 하는 모집 공고임",
       "ai_confidence": 0.75,
       "sent_at": "2026-09-30 09:16:39",
+      "votes": {}
+    },
+    "-5198533799:511": {
+      "key": "u:3fe24bf39655b44c456d",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 인천문화재단 시각 연극 음악 + 2027년 인천문화재단 청년예술활동지원 공모 2026.10.01 - 2026.10.21 인천 개인",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=IFAC_MENU_20260923010806001",
+      "deadline": "2026-10-21",
+      "ai_reason": "인천문화재단 청년예술활동지원 공모로 예술인 대상 창작지원 사업이며 접수 기간이 명시됨.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-01 09:18:55",
+      "votes": {}
+    },
+    "-5198533799:512": {
+      "key": "u:f57e1e86b08a8e1b64ac",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027 Shinhan Young Artist Festa 신진 작가 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177769",
+      "deadline": "2026-10-24",
+      "ai_reason": "신한갤러리에서 2027년 전시를 위한 신진 작가그룹을 모집하며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-01 09:18:56",
+      "votes": {}
+    },
+    "-5198533799:513": {
+      "key": "u:755198e4747684011cce",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "제23회 안산거리극축제 국내공식참가작 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177767",
+      "deadline": "2026-10-31",
+      "ai_reason": "안산거리극축제 국내공식참가작 공모로 공연단체 대상이며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-01 09:18:57",
+      "votes": {}
+    },
+    "-5198533799:514": {
+      "key": "u:81a4b821a28f77d03f3c",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 서울문화재단 연극 뮤지컬 무용 + 서울문화재단 대학로센터 <제철공연> 참여단체 모집 2026.08.10 - 2026.11.24 서울 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260808044603001",
+      "deadline": "2026-11-24",
+      "ai_reason": "서울문화재단 대학로센터 제철공연 참여단체 모집 공고로, 신청 주체가 공연단체이며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-01 09:18:59",
+      "votes": {}
+    },
+    "-5198533799:515": {
+      "key": "u:cf67ce78d196c4e10905",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026 남동소래아트홀 갤러리 화ᆞ소 전시공간지원사업 모집공고 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229383&indRow=59&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전시공간지원사업 모집공고로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-10-01 09:19:00",
       "votes": {}
     }
   },
