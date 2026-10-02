@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-02 09:15:21",
+  "last_scan_at": "2026-10-02 18:16:10",
   "last_inbox_at": "2026-10-02 17:55:13",
   "commands_set": true,
   "last_inbox": {
@@ -15,21 +15,21 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-02 17:55:13",
+  "updated_at": "2026-10-02 18:16:10",
   "last_scan": {
-    "at": "2026-10-02 13:53:24",
-    "elapsed": 383.4,
+    "at": "2026-10-02 18:16:10",
+    "elapsed": 445.1,
     "sites_total": 50,
     "sites_ok": 49,
     "sites_fail": [
-      "화성시문화관광재단 공지 < 알림마당 — 페이지 로딩 시간 초과 (30s)"
+      "포털사이트 공모(목록) — 페이지 로딩 시간 초과 (30s)"
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 28,
+    "new_rows": 41,
     "seeded": 0,
     "candidates": 5,
-    "gemini_calls": 9,
+    "gemini_calls": 10,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 0,
