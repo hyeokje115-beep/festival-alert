@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-02 09:15:21",
+  "last_scan_at": "2026-10-03 09:18:18",
   "last_inbox_at": "2026-10-03 08:57:46",
   "commands_set": true,
   "last_inbox": {
@@ -15,25 +15,23 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-03 08:57:46",
+  "updated_at": "2026-10-03 09:18:18",
   "last_scan": {
-    "at": "2026-10-02 18:16:10",
-    "elapsed": 445.1,
+    "at": "2026-10-03 09:18:18",
+    "elapsed": 568.0,
     "sites_total": 50,
-    "sites_ok": 49,
-    "sites_fail": [
-      "포털사이트 공모(목록) — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 50,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 41,
+    "new_rows": 88,
     "seeded": 0,
-    "candidates": 5,
-    "gemini_calls": 10,
+    "candidates": 15,
+    "gemini_calls": 18,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 0,
-    "reviewed": 0,
+    "alerts": 4,
+    "reviewed": 1,
     "deferred": 0,
     "send_errors": [],
     "inbox": {

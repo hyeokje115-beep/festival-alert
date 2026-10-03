@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-03 08:57:46",
+  "updated_at": "2026-10-03 09:18:18",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -526,6 +526,66 @@
       "ai_reason": "전시공간지원사업 모집공고로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-10-02 09:15:21",
+      "votes": {}
+    },
+    "-5198533799:529": {
+      "key": "u:80ab47dc4107220dce88",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 과천시민회관 공연장·전시실 수시대관 신청 안내(10월) 지원대상 일반인,예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=232529&indRow=47&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "2026-10-08",
+      "ai_reason": "공연장 및 전시실 수시대관 신청 공고로 예술인 및 단체의 시설 사용 신청을 받는 공고임",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-03 09:18:13",
+      "votes": {}
+    },
+    "-5198533799:530": {
+      "key": "u:d66199d19becaa4e03aa",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[공모] 2027 서울무용센터 입주예술가 사업 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177919",
+      "deadline": "2026-10-20",
+      "ai_reason": "2027 서울무용센터 입주예술가 공모로, 예술가를 대상으로 하는 지원사업이며 접수 기간이 명시됨.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-03 09:18:14",
+      "votes": {}
+    },
+    "-5198533799:531": {
+      "key": "u:e114bb179e18ae2f0392",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 인천문화재단 청년예술활동지원 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177918",
+      "deadline": "2026-10-21",
+      "ai_reason": "인천문화재단에서 청년 예술가를 대상으로 하는 활동 지원 공모로, 접수 마감일이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-03 09:18:15",
+      "votes": {}
+    },
+    "-5198533799:532": {
+      "key": "u:4e1907578806bf82928f",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 서울문화재단 예술지원 통합공모 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177917",
+      "deadline": "2026-10-23",
+      "ai_reason": "서울문화재단 예술지원 통합공모로 예술인 및 단체를 대상으로 하는 지원사업 모집이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-03 09:18:16",
+      "votes": {}
+    },
+    "-5198533799:533": {
+      "key": "u:e80d2e8ee886eeb0832b",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 서리풀청년아트갤러리 시각예술 전시기획 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229476&indRow=60&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "서리풀청년아트갤러리 시각예술 전시기획 공모로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-10-03 09:18:18",
       "votes": {}
     }
   },
