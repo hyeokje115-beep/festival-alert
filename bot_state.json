@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-06 13:54:28",
+  "last_scan_at": "2026-10-06 18:14:38",
   "last_inbox_at": "2026-10-06 17:59:10",
   "commands_set": true,
   "last_inbox": {
@@ -15,26 +15,23 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-06 17:59:10",
+  "updated_at": "2026-10-06 18:14:38",
   "last_scan": {
-    "at": "2026-10-06 13:54:28",
-    "elapsed": 404.1,
+    "at": "2026-10-06 18:14:38",
+    "elapsed": 359.3,
     "sites_total": 50,
-    "sites_ok": 48,
-    "sites_fail": [
-      "khs.go.kr 공지사항 목록- 국가유산청 — 페이지 로딩 시간 초과 (30s)",
-      "국립국악원 공지사항(목록) — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 50,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 11,
+    "new_rows": 51,
     "seeded": 0,
-    "candidates": 5,
-    "gemini_calls": 7,
+    "candidates": 9,
+    "gemini_calls": 12,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 4,
-    "reviewed": 0,
+    "alerts": 3,
+    "reviewed": 1,
     "deferred": 0,
     "send_errors": [],
     "inbox": {
