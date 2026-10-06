@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-06 13:43:15",
+  "updated_at": "2026-10-06 13:54:28",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -598,6 +598,54 @@
       "ai_reason": "시각예술 전시기획 공모로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-10-04 12:11:55",
+      "votes": {}
+    },
+    "-5198533799:548": {
+      "key": "u:689b1245bb8997140919",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[한국연극인복지재단] <2026 프로젝트 워크숍 ; 이음과 과정> 배우 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177916",
+      "deadline": "2026-10-11",
+      "ai_reason": "한국연극인복지재단의 프로젝트 워크숍 참여 배우 모집 공고로, 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-06 13:54:25",
+      "votes": {}
+    },
+    "-5198533799:549": {
+      "key": "u:5c347365913be935c40b",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2026년 지역문화행사 지원(전시분야) 사업 운영단체 공모 [모집]",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177816",
+      "deadline": "2026-10-11",
+      "ai_reason": "전시 분야 지역문화행사 운영단체를 모집하는 공모사업으로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-06 13:54:26",
+      "votes": {}
+    },
+    "-5198533799:550": {
+      "key": "u:a7c118a9fb672fd7c013",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "2027 인천문화재단 청년예술활동지원 공모 안내(10/1~10/21) 상세보기",
+      "url": "https://ifac.or.kr/bbs/view.do?bbsSn=236090&key=m2501152808232&pageIndex=1&bbsCtgrySn=&sw=",
+      "deadline": "2026-10-21",
+      "ai_reason": "청년 예술인 및 단체를 대상으로 하는 창작·발표 지원사업 공모로 접수 기간이 명확함",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-06 13:54:27",
+      "votes": {}
+    },
+    "-5198533799:551": {
+      "key": "u:10b785682e202c05de01",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[행사] 용인어린이상상의숲 <상상 아트마켓> 참여 예술가 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177848",
+      "deadline": "2026-10-23",
+      "ai_reason": "용인어린이상상의숲 아트마켓 참여 예술가 모집 공고로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-06 13:54:28",
       "votes": {}
     }
   },
