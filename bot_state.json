@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-09 09:22:37",
+  "last_scan_at": "2026-10-09 13:54:10",
   "last_inbox_at": "2026-10-09 13:38:35",
   "commands_set": true,
   "last_inbox": {
@@ -15,27 +15,25 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-09 13:38:35",
+  "updated_at": "2026-10-09 13:54:10",
   "last_scan": {
-    "at": "2026-10-09 09:22:37",
-    "elapsed": 706.3,
+    "at": "2026-10-09 13:54:10",
+    "elapsed": 315.6,
     "sites_total": 50,
-    "sites_ok": 47,
+    "sites_ok": 49,
     "sites_fail": [
-      "khs.go.kr 공지사항 목록- 국가유산청 — 페이지 로딩 시간 초과 (30s)",
-      "국립국악원 공지사항(목록) — 페이지 로딩 시간 초과 (30s)",
       "화성시문화관광재단 공지 < 알림마당 — 페이지 로딩 시간 초과 (30s)"
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 97,
+    "new_rows": 0,
     "seeded": 0,
-    "candidates": 20,
-    "gemini_calls": 23,
+    "candidates": 0,
+    "gemini_calls": 0,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 8,
-    "reviewed": 2,
+    "alerts": 0,
+    "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
     "inbox": {
