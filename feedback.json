@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09 08:58:25",
+  "updated_at": "2026-10-09 09:22:37",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -838,6 +838,126 @@
       "ai_reason": "한국문화예술위원회의 해외 레지던시 및 프로그램 참가 지원 공모로, 예술가 대상의 지원사업이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-08 18:15:21",
+      "votes": {}
+    },
+    "-5198533799:574": {
+      "key": "u:8a8dfb9015ae19b4d584",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 2027년 어린이청소년을위한공연예술지원 2026.10.08 - 2026.11.05 전국 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3605",
+      "deadline": "2026-11-05",
+      "ai_reason": "한국문화예술위원회의 공연예술단체 대상 지원사업 공모로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-09 09:22:26",
+      "votes": {}
+    },
+    "-5198533799:575": {
+      "key": "u:dacff9063a2152c87f85",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 2027년 대한민국공연예술제 2026.10.08 - 2026.11.05 전국 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3604",
+      "deadline": "2026-11-05",
+      "ai_reason": "한국문화예술위원회 주관 2027년 대한민국공연예술제 참여 단체 모집 공고로 신청 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-09 09:22:27",
+      "votes": {}
+    },
+    "-5198533799:576": {
+      "key": "u:ef12ba41958848291d6f",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 2027년 공연예술비평활동활성화지원 2026.10.08 - 2026.11.05 전국 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3603",
+      "deadline": "2026-11-05",
+      "ai_reason": "공연예술비평활동 활성화를 위한 지원사업 공모로, 예술단체 및 관련 종사자를 대상으로 접수 중임.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-09 09:22:28",
+      "votes": {}
+    },
+    "-5198533799:577": {
+      "key": "u:f41176a2a84cece5d558",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 2027년 공연예술창작주체(공연장기획제작지원) 2026.10.08 - 2026.11.05 전국 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3602",
+      "deadline": "2026-11-05",
+      "ai_reason": "공연예술창작주체 지원사업 공모로 공연단체 대상 신청 접수가 명확함",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-09 09:22:30",
+      "votes": {}
+    },
+    "-5198533799:578": {
+      "key": "u:74a31d34665fbafde92c",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 2027년 공연예술창작산실(2차 제작지원) 2026.10.08 - 2026.11.05 전국 개인,단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3599",
+      "deadline": "2026-11-05",
+      "ai_reason": "공연예술창작산실 제작지원 공모로 예술인 및 단체를 대상으로 하는 지원사업이 명확함.",
+      "ai_confidence": 1.0,
+      "sent_at": "2026-10-09 09:22:31",
+      "votes": {}
+    },
+    "-5198533799:579": {
+      "key": "u:a25f6ebe17d7f1e22802",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국문화예술위원회 연극 뮤지컬 무용 + 2027년 공연예술청년예술가지원 2026.10.08 - 2026.11.05 전국 개인",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3596",
+      "deadline": "2026-11-05",
+      "ai_reason": "공연예술 분야 청년 예술가를 대상으로 하는 지원사업 공모로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-09 09:22:32",
+      "votes": {}
+    },
+    "-5198533799:580": {
+      "key": "u:02914701e304e63865f9",
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국문화예술위원회 전체 2027년 인바운드국제협력강화(인바운드레지던시지원) 2026.10.08 - 2026.11.05 전국 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3615",
+      "deadline": "2026-11-05",
+      "ai_reason": "한국문화예술위원회의 2027년 인바운드레지던시 지원사업 공모로, 예술단체를 대상으로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-09 09:22:33",
+      "votes": {}
+    },
+    "-5198533799:581": {
+      "key": "u:1b9b18cb85a41ce85ab6",
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국문화예술위원회 전체 2027년 해외레지던시및프로그램참가지원 2026.10.08 - 2026.11.05 전국,해외 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3608",
+      "deadline": "2026-11-05",
+      "ai_reason": "예술가 및 예술단체를 대상으로 하는 해외 레지던시 및 프로그램 참가 지원사업 공모로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-09 09:22:34",
+      "votes": {}
+    },
+    "-5198533799:582": {
+      "key": "u:87cf2bff3fb0d75bf4dd",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 양평문화자원 공연 창작프로젝트 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=225881&indRow=46&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연 창작프로젝트 공모로 예술인을 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-09 09:22:36",
+      "votes": {}
+    },
+    "-5198533799:583": {
+      "key": "u:f8c28aea9005efde5be1",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 10월 제주 예술인 성장 지원 프로그램 [아트내비] 참여 예술인 모집 (~ 모집 마감 시까지) 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234851&indRow=45&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술인 성장 지원 프로그램 참여 예술인 모집 공고로, 모집 마감 시까지 상시 모집 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-09 09:22:37",
       "votes": {}
     }
   },
