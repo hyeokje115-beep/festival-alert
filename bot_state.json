@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-10 09:17:44",
+  "last_scan_at": "2026-10-10 13:53:14",
   "last_inbox_at": "2026-10-10 09:06:00",
   "commands_set": true,
   "last_inbox": {
@@ -15,25 +15,23 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-10 09:17:44",
+  "updated_at": "2026-10-10 13:53:14",
   "last_scan": {
-    "at": "2026-10-10 09:17:44",
-    "elapsed": 458.5,
-    "sites_total": 50,
+    "at": "2026-10-10 13:53:14",
+    "elapsed": 227.8,
+    "sites_total": 49,
     "sites_ok": 49,
-    "sites_fail": [
-      "화성시문화관광재단 공지 < 알림마당 — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 80,
+    "new_rows": 0,
     "seeded": 0,
-    "candidates": 14,
-    "gemini_calls": 16,
+    "candidates": 0,
+    "gemini_calls": 0,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 0,
-    "reviewed": 4,
+    "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
     "inbox": {
@@ -44,9 +42,7 @@
       "skipped": true
     },
     "dry_run": false,
-    "moved_kr": [
-      "화성시문화관광재단 공지 < 알림마당"
-    ],
+    "moved_kr": [],
     "runner": "github",
     "gemini_last_error": ""
   },
