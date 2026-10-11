@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-11 20:03:21",
+  "last_scan_at": "2026-10-12 00:21:36",
   "last_inbox_at": "2026-10-12 00:06:37",
   "commands_set": true,
   "last_inbox": {
@@ -15,25 +15,23 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-12 00:06:37",
+  "updated_at": "2026-10-12 00:21:36",
   "last_scan": {
-    "at": "2026-10-11 20:03:21",
-    "elapsed": 263.2,
+    "at": "2026-10-12 00:21:36",
+    "elapsed": 425.0,
     "sites_total": 49,
-    "sites_ok": 48,
-    "sites_fail": [
-      "광주문화재단_공지 — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 49,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 0,
+    "new_rows": 81,
     "seeded": 0,
-    "candidates": 0,
-    "gemini_calls": 0,
+    "candidates": 16,
+    "gemini_calls": 19,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 0,
-    "reviewed": 0,
+    "reviewed": 5,
     "deferred": 0,
     "send_errors": [],
     "inbox": {
