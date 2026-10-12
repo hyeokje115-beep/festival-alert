@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-12 18:25:16",
+  "updated_at": "2026-10-12 21:28:48",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -1126,6 +1126,78 @@
       "ai_reason": "전시관 순회전 참여기관 모집 공고로 전시 분야의 단체 대상 공모 성격이 명확함.",
       "ai_confidence": 0.7,
       "sent_at": "2026-10-12 00:21:36",
+      "votes": {}
+    },
+    "-5198533799:610": {
+      "key": "u:7c7d4a306b1c4461860a",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 서리풀청년아트갤러리 시각예술 전시기획 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229476&indRow=7&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "2026-10-12",
+      "ai_reason": "청년예술가 대상 시각예술 전시기획 공모로, 접수 기간이 오늘까지 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-12 21:28:42",
+      "votes": {}
+    },
+    "-5198533799:611": {
+      "key": "u:d27bbfb68e75d0b8fb66",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[모집]2027년 금천예술공장 입주작가 정기공모(일반/기획 입주)",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178134",
+      "deadline": "2026-10-19",
+      "ai_reason": "2027년 금천예술공장 입주작가 정기공모로 예술인 대상 모집이 명확함",
+      "ai_confidence": 1.0,
+      "sent_at": "2026-10-12 21:28:43",
+      "votes": {}
+    },
+    "-5198533799:612": {
+      "key": "u:f861ab9481027364f8e2",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 사천시문화예술회관 기획공연 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178216",
+      "deadline": "2026-11-10",
+      "ai_reason": "사천시문화예술회관 기획공연 공모로 공연단체 및 예술가를 대상으로 하며 접수 마감일이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-12 21:28:45",
+      "votes": {}
+    },
+    "-5198533799:613": {
+      "key": "u:cc864e285c3c64e18a64",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 양평문화자원 공연 창작프로젝트 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=225881&indRow=41&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연 창작프로젝트 공모로 예술인을 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-12 21:28:46",
+      "votes": {}
+    },
+    "-5198533799:614": {
+      "key": "u:3e6548962d4f9f8a6834",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 천안문화재단 예술창작 집중지원 <공연작품 제작지원사업> 모집 공고 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=229762&indRow=43&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연작품 제작지원사업 모집 공고로 예술단체 대상의 지원사업 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-10-12 21:28:47",
+      "votes": {}
+    },
+    "-5198533799:615": {
+      "key": "u:c70e397c2bfcb52ca41c",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 국립여성사전시관 순회전 참여기관 모집 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=209471&indRow=52&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전시관 순회전 참여기관 모집 공고로 전시 분야의 단체 대상 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-12 21:28:48",
       "votes": {}
     }
   },
