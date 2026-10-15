@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-15 13:53:02",
+  "updated_at": "2026-10-15 18:25:30",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -1486,6 +1486,30 @@
       "ai_reason": "국립여성사전시관 순회전 참여기관 모집 공고로 전시 분야의 단체 대상 공모 성격이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-10-15 11:51:04",
+      "votes": {}
+    },
+    "-5198533799:647": {
+      "key": "u:c0356b65ece27374754a",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "[강북미술협회 30주년 기념 ] 청년작가 특별기획 공모(2차모집) 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=235442&indRow=31&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "2026-10-17",
+      "ai_reason": "청년작가 특별기획 공모전 참여 예술인 모집 공고로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-15 18:25:29",
+      "votes": {}
+    },
+    "-5198533799:648": {
+      "key": "u:daa17fac94b81a88b8e5",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "종로아이들극장×ACC 어린이극장, 통진두레문화센터 두레홀 <2027년도 어린이, 가족공연> 작품 공모 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234831&indRow=42&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "어린이 및 가족공연 작품 공모로 공연 예술단체 및 기업을 대상으로 하는 모집 공고임",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-10-15 18:25:30",
       "votes": {}
     }
   },
