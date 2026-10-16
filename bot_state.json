@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-16 18:18:34",
+  "last_scan_at": "2026-10-16 22:45:27",
   "last_inbox_at": "2026-10-16 20:45:01",
   "commands_set": true,
   "last_inbox": {
@@ -15,18 +15,16 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-16 20:45:01",
+  "updated_at": "2026-10-16 22:45:27",
   "last_scan": {
-    "at": "2026-10-16 18:18:34",
-    "elapsed": 290.3,
+    "at": "2026-10-16 22:45:27",
+    "elapsed": 248.2,
     "sites_total": 49,
-    "sites_ok": 48,
-    "sites_fail": [
-      "국립국악원 공지사항(목록) — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 49,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 7,
+    "new_rows": 0,
     "seeded": 0,
     "candidates": 0,
     "gemini_calls": 0,
