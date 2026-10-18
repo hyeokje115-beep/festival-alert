@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-18 18:05:24",
+  "last_scan_at": "2026-10-18 22:00:06",
   "last_inbox_at": "2026-10-18 13:29:17",
   "commands_set": true,
   "last_inbox": {
@@ -15,10 +15,10 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-18 18:05:24",
+  "updated_at": "2026-10-18 22:00:06",
   "last_scan": {
-    "at": "2026-10-18 18:05:24",
-    "elapsed": 230.3,
+    "at": "2026-10-18 22:00:06",
+    "elapsed": 273.8,
     "sites_total": 49,
     "sites_ok": 49,
     "sites_fail": [],
