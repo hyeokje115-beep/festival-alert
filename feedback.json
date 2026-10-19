@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19 10:08:49",
+  "updated_at": "2026-10-19 11:53:09",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -1750,6 +1750,78 @@
       "ai_reason": "예술창작지원 공모로 예술인 및 단체를 대상으로 하는 지원사업 성격이 명확함.",
       "ai_confidence": 0.6,
       "sent_at": "2026-10-18 11:39:43",
+      "votes": {}
+    },
+    "-5198533799:680": {
+      "key": "u:f57e1e86b08a8e1b64ac",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027 Shinhan Young Artist Festa 신진 작가 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177769",
+      "deadline": "2026-10-24",
+      "ai_reason": "신한갤러리에서 2027년 전시를 위한 신진 작가그룹을 모집하며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-19 11:53:03",
+      "votes": {}
+    },
+    "-5198533799:681": {
+      "key": "u:febf54b0c30488d75376",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 양평문화자원 공연 창작프로젝트 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=225881&indRow=26&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연 창작프로젝트 공모로 예술인을 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-10-19 11:53:04",
+      "votes": {}
+    },
+    "-5198533799:682": {
+      "key": "u:1be9698adbc050d2adf8",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 국립여성사전시관 순회전 참여기관 모집 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=209471&indRow=37&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전시관 순회전 참여기관 모집 공고로 전시 분야의 단체 대상 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-19 11:53:06",
+      "votes": {}
+    },
+    "-5198533799:683": {
+      "key": "u:db1d45c4235162443781",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-시각 기획전 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234877&indRow=37&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원-시각 기획전 공고로 예술인 및 단체를 대상으로 하는 전시 지원사업으로 판단됨.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-19 11:53:07",
+      "votes": {}
+    },
+    "-5198533799:684": {
+      "key": "u:c5c66afbf6cf743a56ea",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-다원 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234876&indRow=38&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 사업으로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-19 11:53:08",
+      "votes": {}
+    },
+    "-5198533799:685": {
+      "key": "u:f8925ad17b1df1287900",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-B트랙 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234874&indRow=40&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 사업으로 예술인 및 단체를 대상으로 하는 지원사업 공고로 판단됨.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-19 11:53:09",
       "votes": {}
     }
   },
