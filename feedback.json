@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19 15:09:32",
+  "updated_at": "2026-10-19 19:20:12",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -1822,6 +1822,78 @@
       "ai_reason": "예술창작지원 사업으로 예술인 및 단체를 대상으로 하는 지원사업 공고로 판단됨.",
       "ai_confidence": 0.7,
       "sent_at": "2026-10-19 11:53:09",
+      "votes": {}
+    },
+    "-5198533799:687": {
+      "key": "u:6bdfb90ada9cf969327c",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 양평문화자원 공연 창작프로젝트 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=225881&indRow=27&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "2026-11-02",
+      "ai_reason": "예술인을 대상으로 하는 공연 창작프로젝트 공모이며, 오늘까지 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-19 19:20:06",
+      "votes": {}
+    },
+    "-5198533799:688": {
+      "key": "u:472a77de029bccf79b0e",
+      "site_id": "gugak_go_kr_ff5b67",
+      "site_name": "국립국악원 공지사항(목록)",
+      "title": "지역 문화향유기회 확대를 위한 2027<국악을 국민속으로> 참여 공연장 모집 공고",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=49076&lang=ko",
+      "deadline": "2026-11-02",
+      "ai_reason": "국립국악원 순회 공연을 유치할 공연장 및 공연예술기관을 모집하는 공고로 신청 주체와 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-19 19:20:07",
+      "votes": {}
+    },
+    "-5198533799:689": {
+      "key": "u:10b52ceb47af968eddd8",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-시각 기획전 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234877&indRow=39&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원-시각 기획전 지원사업으로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-19 19:20:08",
+      "votes": {}
+    },
+    "-5198533799:690": {
+      "key": "u:f8672332195637a44824",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-다원 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234876&indRow=40&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 사업으로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-19 19:20:10",
+      "votes": {}
+    },
+    "-5198533799:691": {
+      "key": "u:7666da30b491f6925577",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-B트랙 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234874&indRow=42&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 사업으로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-10-19 19:20:11",
+      "votes": {}
+    },
+    "-5198533799:692": {
+      "key": "u:06e27f97fc970ed395a0",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-A트랙 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234873&indRow=43&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 공모로 예술인 및 단체를 대상으로 하는 지원사업 성격이 명확함.",
+      "ai_confidence": 0.6,
+      "sent_at": "2026-10-19 19:20:12",
       "votes": {}
     }
   },
