@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21 10:30:46",
+  "updated_at": "2026-10-21 11:56:09",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2014,6 +2014,54 @@
       "ai_reason": "2027년 남산문화창작소 레지던시 입주작가 모집 공고로, 예술가 대상의 공모 성격이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-20 18:42:32",
+      "votes": {}
+    },
+    "-5198533799:706": {
+      "key": "u:6bc0b8e85fbf41b2f94d",
+      "site_id": "kcdf_or_kr_6bd01c",
+      "site_name": "한국공예·디자인문화진흥원 사업공모",
+      "title": "2027 KCDF 공예·디자인 공모전시 모집 공고",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9218&brdCodeValue=",
+      "deadline": "2026-11-20",
+      "ai_reason": "공예·디자인 분야 작가 및 기획자를 대상으로 하는 전시 지원사업 공모로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-21 11:56:06",
+      "votes": {}
+    },
+    "-5198533799:707": {
+      "key": "u:a5d861e82f8d07515044",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-C트랙 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234875&indRow=32&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 사업으로 예술인 및 단체를 대상으로 하는 지원사업 공고로 판단됨.",
+      "ai_confidence": 0.6,
+      "sent_at": "2026-10-21 11:56:07",
+      "votes": {}
+    },
+    "-5198533799:708": {
+      "key": "u:cfe57a91f6b3369c60b1",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-B트랙 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234874&indRow=33&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 사업으로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.65,
+      "sent_at": "2026-10-21 11:56:08",
+      "votes": {}
+    },
+    "-5198533799:709": {
+      "key": "u:1ab7b0ec328ba8296b47",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-A트랙 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234873&indRow=34&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 공고로 예술인 및 단체를 대상으로 하는 지원사업 성격이 명확함.",
+      "ai_confidence": 0.6,
+      "sent_at": "2026-10-21 11:56:09",
       "votes": {}
     }
   },
