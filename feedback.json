@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22 15:40:07",
+  "updated_at": "2026-10-22 18:42:45",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2086,6 +2086,18 @@
       "ai_reason": "예술창작지원 공모로 예술인 및 단체를 대상으로 하는 지원사업 성격이 명확함.",
       "ai_confidence": 0.6,
       "sent_at": "2026-10-22 11:55:22",
+      "votes": {}
+    },
+    "-5198533799:714": {
+      "key": "u:788adce4b85a9faff720",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 고양문화재단 고양시립 아람미술관 소장품 구입 공모 공고 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=254766&indRow=9&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "2026-10-23",
+      "ai_reason": "고양시립 아람미술관 소장품 구입 공모로, 작가를 대상으로 10월 23일까지 접수를 진행함",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-22 18:42:45",
       "votes": {}
     }
   },
