@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-22 18:42:45",
+  "last_scan_at": "2026-10-22 23:25:02",
   "last_inbox_at": "2026-10-22 21:30:14",
   "commands_set": true,
   "last_inbox": {
@@ -15,24 +15,22 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-22 21:30:14",
+  "updated_at": "2026-10-22 23:25:02",
   "last_scan": {
-    "at": "2026-10-22 18:42:45",
-    "elapsed": 488.4,
+    "at": "2026-10-22 23:25:02",
+    "elapsed": 249.1,
     "sites_total": 49,
-    "sites_ok": 48,
-    "sites_fail": [
-      "지원정보 조회 문화사업지원플랫폼 모모365 — HTTP 403 (봇 차단 가능)"
-    ],
+    "sites_ok": 49,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 38,
+    "new_rows": 2,
     "seeded": 0,
-    "candidates": 8,
-    "gemini_calls": 18,
+    "candidates": 1,
+    "gemini_calls": 5,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 1,
+    "alerts": 0,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
