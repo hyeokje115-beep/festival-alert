@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22 10:50:10",
+  "updated_at": "2026-10-22 11:55:23",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2062,6 +2062,30 @@
       "ai_reason": "예술창작지원 공고로 예술인 및 단체를 대상으로 하는 지원사업 성격이 명확함.",
       "ai_confidence": 0.6,
       "sent_at": "2026-10-21 11:56:09",
+      "votes": {}
+    },
+    "-5198533799:712": {
+      "key": "u:71f1896f10fce5857076",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 천안어린이꿈누리터 공연 제안사 모집 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=254502&indRow=62&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연 제안사 모집 공고로, 공연 프로그램 운영업체 및 단체를 대상으로 하는 위탁운영 모집 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-10-22 11:55:22",
+      "votes": {}
+    },
+    "-5198533799:713": {
+      "key": "u:d94f9e5f5f4b2ea4af22",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "예술창작지원-A트랙 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=234873&indRow=30&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "예술창작지원 공모로 예술인 및 단체를 대상으로 하는 지원사업 성격이 명확함.",
+      "ai_confidence": 0.6,
+      "sent_at": "2026-10-22 11:55:22",
       "votes": {}
     }
   },
