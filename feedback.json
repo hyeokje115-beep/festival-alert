@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23 21:18:38",
+  "updated_at": "2026-10-23 23:05:43",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2158,6 +2158,66 @@
       "ai_reason": "공연 제안사 모집 공고로, 공연 운영 업체를 대상으로 하는 위탁운영자 선정 공모 성격이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-10-23 18:37:22",
+      "votes": {}
+    },
+    "-5198533799:727": {
+      "key": "u:0d1fe87a2b3bea14d2e5",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[회원등록공고] [참여 예술인 모집] 2026 장르별 시장 거점화 지원 사업 <소리 NEXT>_소리 브릿지 참여 예술인 공개 모집",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178772",
+      "deadline": "2026-10-28",
+      "ai_reason": "전통음악 예술인 대상 쇼케이스 및 홍보 지원사업 참여자 모집 공고로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-23 23:05:38",
+      "votes": {}
+    },
+    "-5198533799:728": {
+      "key": "u:836e9802c0bbf103f042",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2026 아트비즈 프로젝트 공모 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178783",
+      "deadline": "2026-11-12",
+      "ai_reason": "충북문화재단에서 주관하는 아트비즈 프로젝트 공모로 예술가 및 단체를 대상으로 하며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-23 23:05:39",
+      "votes": {}
+    },
+    "-5198533799:729": {
+      "key": "u:99d8ff037a889e110506",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 문학상주작가 지원사업 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178750",
+      "deadline": "2026-11-13",
+      "ai_reason": "2027년 문학상주작가 지원사업 공모로, 작가를 대상으로 하는 지원사업이며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-23 23:05:41",
+      "votes": {}
+    },
+    "-5198533799:730": {
+      "key": "u:fc7584e04bdc34c41db0",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "(재)인천광역시부평구문화재단 관객 맞춤형 콘텐츠 공동개발 예술단체 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178776",
+      "deadline": "2026-11-18",
+      "ai_reason": "부평구문화재단에서 예술단체를 대상으로 콘텐츠 공동개발 공모를 진행하며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-23 23:05:42",
+      "votes": {}
+    },
+    "-5198533799:731": {
+      "key": "u:bc287802879e7ed5d0e4",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "<아시아CGI애니메이션센터> 2026 제주웹툰캠퍼스 웹툰창작작가실 입주작가 3차 모집",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178755",
+      "deadline": "2026-11-18",
+      "ai_reason": "웹툰창작작가실 입주작가 모집 공고로 신청 주체가 작가이며 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-23 23:05:43",
       "votes": {}
     }
   },
