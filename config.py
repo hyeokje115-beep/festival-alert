@@ -95,7 +95,7 @@ GEMINI_MODEL             = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
 GEMINI_FALLBACK_MODELS   = [m.strip() for m in (os.getenv("GEMINI_FALLBACK_MODELS", "").strip()
                             or "gemini-2.5-flash-lite,gemini-3.1-flash-lite,gemini-3.5-flash-lite").split(",") if m.strip()]
 GEMINI_MAX_CALLS_PER_RUN = int(os.getenv("GEMINI_MAX_CALLS_PER_RUN", "40"))   # 1회 실행 호출 상한 (무료 한도 보호)
-GEMINI_MIN_CONFIDENCE    = float(os.getenv("GEMINI_MIN_CONFIDENCE", "0.85"))  # 이 미만이면 확인요청
+GEMINI_MIN_CONFIDENCE    = float(os.getenv("GEMINI_MIN_CONFIDENCE", "0.70"))  # 이 미만이면 확인요청
 DEFER_MAX_RETRY          = int(os.getenv("DEFER_MAX_RETRY", "3"))             # 보류(오류/한도) 이 횟수 넘으면 확인요청으로 전환
 GEMINI_MIN_INTERVAL_SEC  = 6.5    # 호출 간 최소 간격 (분당 한도 회피)
 GEMINI_TIMEOUT_SEC       = 60
