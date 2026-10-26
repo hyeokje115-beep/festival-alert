@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26 13:46:07",
+  "updated_at": "2026-10-26 19:31:36",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2410,6 +2410,18 @@
       "ai_reason": "공연단체 대상 지역공연 공모 안내로, 신청 주체와 분야가 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-10-26 11:47:46",
+      "votes": {}
+    },
+    "-5198533799:765": {
+      "key": "u:6da0a4b95fe8f6389a23",
+      "site_id": "gokams_or_kr_d04cce",
+      "site_name": "지원 신청 공모사업 안내",
+      "title": "2027년 대표공연 콘텐츠 지역유통 지원사업 공모",
+      "url": "https://www.gokams.or.kr/02_apply/introduction_view.aspx?Idx=2835&page=1&txtKeyword=&ddlKeyfield=45",
+      "deadline": "",
+      "ai_reason": "공연 콘텐츠 지역유통 지원사업 공모로 공연단체 및 시설을 대상으로 하는 지원사업임이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-26 19:31:36",
       "votes": {}
     }
   },

@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-26 11:47:46",
+  "last_scan_at": "2026-10-26 19:31:36",
   "last_inbox_at": "2026-10-26 13:46:07",
   "commands_set": true,
   "last_inbox": {
@@ -15,22 +15,25 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-26 13:46:07",
+  "updated_at": "2026-10-26 19:31:36",
   "last_scan": {
-    "at": "2026-10-26 11:47:46",
-    "elapsed": 515.8,
+    "at": "2026-10-26 19:31:36",
+    "elapsed": 370.8,
     "sites_total": 48,
-    "sites_ok": 48,
-    "sites_fail": [],
+    "sites_ok": 46,
+    "sites_fail": [
+      "국립진주박물관 목록 — HTTP 404",
+      "교육·문화 목록 — HTTP 404"
+    ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 45,
+    "new_rows": 49,
     "seeded": 0,
-    "candidates": 9,
-    "gemini_calls": 17,
+    "candidates": 7,
+    "gemini_calls": 10,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 7,
+    "alerts": 1,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
