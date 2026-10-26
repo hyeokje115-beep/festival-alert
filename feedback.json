@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26 19:34:16",
+  "updated_at": "2026-10-27 00:50:27",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2422,6 +2422,18 @@
       "ai_reason": "공연 콘텐츠 지역유통 지원사업 공모로 공연단체 및 시설을 대상으로 하는 지원사업임이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-26 19:31:36",
+      "votes": {}
+    },
+    "-5198533799:767": {
+      "key": "u:d2d30e2255075e2f119b",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[회원등록공고] 플랫폼 미묘(mimio) <인천아트쇼2026> 참여 작가 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178550",
+      "deadline": "2026-11-01",
+      "ai_reason": "인천아트쇼2026 참여 작가 공모로, 시각예술 작가를 대상으로 하며 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-27 00:50:27",
       "votes": {}
     }
   },
