@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27 09:38:36",
+  "updated_at": "2026-10-27 12:18:20",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2434,6 +2434,30 @@
       "ai_reason": "인천아트쇼2026 참여 작가 공모로, 시각예술 작가를 대상으로 하며 접수 기간이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-27 00:50:27",
+      "votes": {}
+    },
+    "-5198533799:769": {
+      "key": "u:175ecae084080a7bff38",
+      "site_id": "kotpa_org_f7cbd7",
+      "site_name": "포털사이트 공모(목록)",
+      "title": "2027년 전통공연창작마루 상반기 정기대관 공모",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25327&menuNo=300008&pageIndex=1",
+      "deadline": "2026-11-09",
+      "ai_reason": "전통공연창작마루 상반기 정기대관 공모로 예술가 및 단체를 대상으로 하는 신청 공고임",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-27 12:18:19",
+      "votes": {}
+    },
+    "-5198533799:770": {
+      "key": "u:10bb7217c72d542e267f",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 공연예술 지역유통 지원사업 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178854",
+      "deadline": "2027-01-07",
+      "ai_reason": "공연예술 지역유통 지원사업 공모로 공연단체 및 시설을 대상으로 하며 접수 기간이 명시됨.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-27 12:18:20",
       "votes": {}
     }
   },
