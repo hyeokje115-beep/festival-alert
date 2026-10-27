@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-27 19:04:20",
+  "last_scan_at": "2026-10-28 00:29:45",
   "last_inbox_at": "2026-10-27 19:55:22",
   "commands_set": true,
   "last_inbox": {
@@ -15,27 +15,30 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-27 19:55:22",
+  "updated_at": "2026-10-28 00:29:46",
   "last_scan": {
-    "at": "2026-10-27 19:04:20",
-    "elapsed": 267.4,
+    "at": "2026-10-28 00:29:45",
+    "elapsed": 800.8,
     "sites_total": 48,
     "sites_ok": 46,
     "sites_fail": [
       "국립진주박물관 목록 — HTTP 404",
       "교육·문화 목록 — HTTP 404"
     ],
-    "disabled": [],
+    "disabled": [
+      "국립진주박물관 목록",
+      "교육·문화 목록"
+    ],
     "selector_fixed": [],
-    "new_rows": 4,
+    "new_rows": 43,
     "seeded": 0,
-    "candidates": 0,
-    "gemini_calls": 0,
-    "gemini_errors": 0,
+    "candidates": 8,
+    "gemini_calls": 32,
+    "gemini_errors": 1,
     "feedback_blocked": 0,
-    "alerts": 0,
+    "alerts": 5,
     "reviewed": 0,
-    "deferred": 0,
+    "deferred": 1,
     "send_errors": [],
     "inbox": {
       "updates": 0,
@@ -47,8 +50,10 @@
     "dry_run": false,
     "moved_kr": [],
     "runner": "github",
-    "gemini_last_error": ""
+    "gemini_last_error": "Gemini 서버 오류(503)"
   },
-  "defer_fail_counts": {},
+  "defer_fail_counts": {
+    "u:fbc757732e8c6a823eab": 1
+  },
   "commands_version": 2
 }

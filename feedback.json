@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27 19:55:22",
+  "updated_at": "2026-10-28 00:29:46",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2458,6 +2458,66 @@
       "ai_reason": "공연예술 지역유통 지원사업 공모로 공연단체 및 시설을 대상으로 하며 접수 기간이 명시됨.",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-27 12:18:20",
+      "votes": {}
+    },
+    "-5198533799:774": {
+      "key": "u:6bdfb90ada9cf969327c",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 양평문화자원 공연 창작프로젝트 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=225881&indRow=27&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "2026-11-02",
+      "ai_reason": "예술인을 대상으로 하는 공연 창작프로젝트 공모이며, 오늘까지 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-28 00:29:41",
+      "votes": {}
+    },
+    "-5198533799:775": {
+      "key": "u:472a77de029bccf79b0e",
+      "site_id": "gugak_go_kr_ff5b67",
+      "site_name": "국립국악원 공지사항(목록)",
+      "title": "지역 문화향유기회 확대를 위한 2027<국악을 국민속으로> 참여 공연장 모집 공고",
+      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?menuid=001005006001&pagesize=10&boardtypeid=58&boardid=49076&lang=ko",
+      "deadline": "2026-11-02",
+      "ai_reason": "국립국악원 순회 공연을 유치할 공연장 및 공연예술기관을 모집하는 공고로 신청 주체와 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-28 00:29:42",
+      "votes": {}
+    },
+    "-5198533799:776": {
+      "key": "u:c4823be856813268e915",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "지역 문화향유기회 확대를 위한 2027<국악을 국민속으로> 참여 공연장 모집 공고 첨부파일 다운로드",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178528",
+      "deadline": "2026-11-02",
+      "ai_reason": "국립국악원 주관 2027년 공연장 모집 공고로, 신청 주체와 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-28 00:29:43",
+      "votes": {}
+    },
+    "-5198533799:777": {
+      "key": "u:214dad3b1475481d5b71",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 충북갤러리 서울관 시·군문화예술기관 협력 초대전 공모 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178871",
+      "deadline": "2026-11-18",
+      "ai_reason": "충북갤러리 서울관 협력 초대전 공모로, 문화예술기관을 대상으로 하는 전시 참여 공모임이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-28 00:29:44",
+      "votes": {}
+    },
+    "-5198533799:778": {
+      "key": "t:f49c0e333e6470811c6d",
+      "site_id": "gjcf_or_kr_07eb9c",
+      "site_name": "광주문화재단_공지",
+      "title": "2026 광주프린지페스티벌 \"광주국제거리예술축제\" 예술인아카데미 참여 예술인 모집 공고",
+      "url": "https://www.gjcf.or.kr/cf/news/notice.do",
+      "deadline": "",
+      "ai_reason": "광주국제거리예술축제 예술인아카데미 참여 예술인 모집 공고로, 예술인을 대상으로 하는 교육 및 참여 프로그램 모집임이 명확함.",
+      "ai_confidence": 0.85,
+      "sent_at": "2026-10-28 00:29:45",
       "votes": {}
     }
   },
