@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28 14:23:49",
+  "updated_at": "2026-10-28 19:51:18",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2578,6 +2578,18 @@
       "ai_reason": "공연예술 지역유통 지원사업 공모로 공연단체 및 시설을 대상으로 하며 접수 기간이 명시되어 있음.",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-28 12:35:21",
+      "votes": {}
+    },
+    "-5198533799:791": {
+      "key": "u:fb2b2d5ebe5dd74f8252",
+      "site_id": "acc_go_kr_993369",
+      "site_name": "국립아시아문화전당_공지",
+      "title": "2026 ACC 윈터 페스타 지역 마켓 부스 참가사 모집 공고 안내",
+      "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2905&searchType=all&searchText=&pageIndex=1",
+      "deadline": "2026-11-12",
+      "ai_reason": "ACC 윈터 페스타 마켓 부스 운영을 위한 소상공인 및 참가사 모집 공고로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-28 19:51:18",
       "votes": {}
     }
   },
