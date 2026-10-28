@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28 20:28:17",
+  "updated_at": "2026-10-29 00:52:19",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2590,6 +2590,18 @@
       "ai_reason": "ACC 윈터 페스타 마켓 부스 운영을 위한 소상공인 및 참가사 모집 공고로 접수 기간이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-28 19:51:18",
+      "votes": {}
+    },
+    "-5198533799:793": {
+      "key": "u:1914c1eabe14172bc647",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2026년 부천문화재단×크라이치즈버거 예술상품 개발 공모전",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178469",
+      "deadline": "2026-11-03",
+      "ai_reason": "예술상품 개발을 위한 예술가 및 단체 대상 공모전으로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-29 00:52:19",
       "votes": {}
     }
   },
