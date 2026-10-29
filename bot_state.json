@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-10-29 20:08:55",
+  "last_scan_at": "2026-10-30 00:56:54",
   "last_inbox_at": "2026-10-29 23:15:43",
   "commands_set": true,
   "last_inbox": {
@@ -15,27 +15,25 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-10-29 23:15:43",
+  "updated_at": "2026-10-30 00:56:54",
   "last_scan": {
-    "at": "2026-10-29 20:08:55",
-    "elapsed": 362.2,
+    "at": "2026-10-30 00:56:54",
+    "elapsed": 601.8,
     "sites_total": 46,
-    "sites_ok": 42,
+    "sites_ok": 44,
     "sites_fail": [
       "전북문화관광재단 — HTTP 404",
-      "전북문화관광재단_공모 — HTTP 404",
-      "포털사이트 공모(목록) — 페이지 로딩 시간 초과 (30s)",
-      "포털사이트 공지사항(목록) — 페이지 로딩 시간 초과 (30s)"
+      "전북문화관광재단_공모 — HTTP 404"
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 46,
+    "new_rows": 68,
     "seeded": 0,
-    "candidates": 8,
-    "gemini_calls": 10,
+    "candidates": 13,
+    "gemini_calls": 22,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 1,
+    "alerts": 4,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
