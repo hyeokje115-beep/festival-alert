@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29 16:10:48",
+  "updated_at": "2026-10-29 20:08:55",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2614,6 +2614,18 @@
       "ai_reason": "포항국제불빛축제 퍼레이드 참여단체 추가 모집 공고로, 신청 주체가 단체이며 접수 기간이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-29 12:55:56",
+      "votes": {}
+    },
+    "-5198533799:797": {
+      "key": "u:ed293e53a8f63cbe0a47",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2026년 경기창작캠퍼스 공공갤러리 전시공간 지원 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179010",
+      "deadline": "2026-11-15",
+      "ai_reason": "경기창작캠퍼스 공공갤러리 전시공간 지원 공모로 예술가 대상 모집이 명확하며 접수 기간이 유효함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-29 20:08:55",
       "votes": {}
     }
   },
