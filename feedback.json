@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30 18:19:19",
+  "updated_at": "2026-10-30 20:07:07",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2674,6 +2674,54 @@
       "ai_reason": "인천아트쇼 참여 작가 공모로 예술인을 대상으로 하는 전시 참여 모집임이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-10-30 00:56:54",
+      "votes": {}
+    },
+    "-5198533799:806": {
+      "key": "u:788548c19f080a0bbb78",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2026년 지역문화예술 홍보 버스킹 공연자 모집공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179088",
+      "deadline": "2026-11-04",
+      "ai_reason": "지역문화예술 홍보 버스킹 공연자 모집 공고로, 예술인 및 공연팀을 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-30 20:07:04",
+      "votes": {}
+    },
+    "-5198533799:807": {
+      "key": "u:9c60e549d5f30d4258c8",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 상반기 국립민속박물관 민속공연 공개모집 연장 공고 [신청기간: ~ 11. 6.(금)]",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179091",
+      "deadline": "2026-11-06",
+      "ai_reason": "국립민속박물관 민속공연 공개모집 공고로, 공연 예술가 및 단체를 대상으로 하는 모집이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-30 20:07:05",
+      "votes": {}
+    },
+    "-5198533799:808": {
+      "key": "u:0a43e66cc0c44b9f3fd7",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "「2026 순천 IP 창·제작 지원사업」참여 기업 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179064",
+      "deadline": "2026-11-10",
+      "ai_reason": "순천문화재단에서 주관하는 IP 창·제작 지원사업 참여 기업 모집 공고로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-10-30 20:07:06",
+      "votes": {}
+    },
+    "-5198533799:809": {
+      "key": "u:b43409acb77ac9cd2794",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 상반기 국립민속박물관 민속공연 공개모집 공고문 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=230146&indRow=23&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "국립민속박물관 민속공연 공개모집 공고로 예술인 및 단체를 대상으로 하는 공연 분야 모집임이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-10-30 20:07:07",
       "votes": {}
     }
   },
