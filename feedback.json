@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31 20:03:34",
+  "updated_at": "2026-11-01 00:03:02",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -2962,6 +2962,30 @@
       "ai_reason": "예술인 대상 전시홀 수시 대관 모집 공고로 접수 기간이 명시되어 있음",
       "ai_confidence": 0.95,
       "sent_at": "2026-10-31 12:41:16",
+      "votes": {}
+    },
+    "-5198533799:834": {
+      "key": "u:9c60e549d5f30d4258c8",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 상반기 국립민속박물관 민속공연 공개모집 연장 공고 [신청기간: ~ 11. 6.(금)]",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179091",
+      "deadline": "2026-11-06",
+      "ai_reason": "국립민속박물관 민속공연 공개모집 공고로, 공연 예술가 및 단체를 대상으로 하는 모집이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-01 00:03:01",
+      "votes": {}
+    },
+    "-5198533799:835": {
+      "key": "u:5082975b9f2b6c3b80f2",
+      "site_id": "culture_go_kr_14f8cf",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026년 여주세종문화관광재단 빈집 예술공간 2층 전시공간 대관 신청 공고 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=212710&indRow=47&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전시공간 대관 신청 공고로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-01 00:03:02",
       "votes": {}
     }
   },
