@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02 21:52:09",
+  "updated_at": "2026-11-03 04:15:56",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -3046,6 +3046,54 @@
       "ai_reason": "전시홀 정기대관 공모로 예술가 및 단체를 대상으로 하며 접수 기간이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-02 12:53:08",
+      "votes": {}
+    },
+    "-5198533799:848": {
+      "key": "u:7d00d18e7d105f5202ec",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "대구 청년 음악가 인큐베이팅을 위한 <2026 DCH 앙상블 아카데미-금관> 참가자 추가모집 공고(트롬본, 튜바&베이스트롬본) 지원대상 예술인,관련종사자",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=255417&indRow=0&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "2026-11-03",
+      "ai_reason": "청년 음악가 대상 앙상블 아카데미 참가자 추가모집 공고로 접수 기간이 명시되어 있음",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-03 04:15:53",
+      "votes": {}
+    },
+    "-5198533799:849": {
+      "key": "u:d9da1d2ffd1f79929a4d",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 해외레지던시및프로그램참가지원 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=235312&indRow=37&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "해외 레지던시 및 프로그램 참가 지원사업으로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-11-03 04:15:54",
+      "votes": {}
+    },
+    "-5198533799:850": {
+      "key": "u:cf96eb327d72bdf28ffe",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 어린이청소년을위한공연예술지원 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=235311&indRow=38&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연예술 지원사업 공고로 기업 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-03 04:15:55",
+      "votes": {}
+    },
+    "-5198533799:851": {
+      "key": "u:64300dce33bce8e6cd9b",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 공연예술창작산실(2차 제작지원) 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=235307&indRow=42&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연예술창작산실 제작지원 공고로 예술인 및 단체를 대상으로 하는 지원사업 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-03 04:15:56",
       "votes": {}
     }
   },
