@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-02 12:53:08",
+  "last_scan_at": "2026-11-02 21:52:09",
   "last_inbox_at": "2026-11-02 18:43:05",
   "commands_set": true,
   "last_inbox": {
@@ -15,22 +15,22 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-02 18:43:05",
+  "updated_at": "2026-11-02 21:52:09",
   "last_scan": {
-    "at": "2026-11-02 12:53:08",
-    "elapsed": 262.5,
+    "at": "2026-11-02 21:52:09",
+    "elapsed": 240.8,
     "sites_total": 44,
     "sites_ok": 44,
     "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 7,
+    "new_rows": 3,
     "seeded": 0,
-    "candidates": 3,
-    "gemini_calls": 5,
+    "candidates": 0,
+    "gemini_calls": 0,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 2,
+    "alerts": 0,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
