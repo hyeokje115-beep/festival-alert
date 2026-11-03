@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04 01:35:17",
+  "updated_at": "2026-11-04 01:53:27",
   "alerts": {
     "-5198533799:411": {
       "key": "u:3c1c3166e177f8d736fc",
@@ -3072,6 +3072,102 @@
       "ai_reason": "아트센터예술의시간에서 2027년 연례전시 참여 작가를 모집하며 접수 기간이 명시되어 있음",
       "ai_confidence": 1.0,
       "sent_at": "2026-11-03 13:58:32",
+      "votes": {}
+    },
+    "-5198533799:859": {
+      "key": "u:801573129c29cf1830a5",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[공연장 무료 대관] 김희수아트센터 SPACE1 대관 지원 2027 1차 공모_수림문화재단",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178536",
+      "deadline": "2026-11-09",
+      "ai_reason": "전통예술 공연 제작·주관 경력이 있는 예술인 및 단체를 대상으로 하는 공연장 대관 지원 공모임",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-04 01:53:19",
+      "votes": {}
+    },
+    "-5198533799:860": {
+      "key": "u:24cdad1c1c8379870d69",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[회원등록공고] 김희수아트센터 SPACE1 대관 지원 2027 1차 공모 안내(~11.9)",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178475",
+      "deadline": "2026-11-09",
+      "ai_reason": "전통예술 공연 제작·주관 경력이 있는 예술인 및 단체를 대상으로 하는 공연장 대관 지원 공모임이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-04 01:53:20",
+      "votes": {}
+    },
+    "-5198533799:861": {
+      "key": "u:175ecae084080a7bff38",
+      "site_id": "kotpa_org_f7cbd7",
+      "site_name": "포털사이트 공모(목록)",
+      "title": "2027년 전통공연창작마루 상반기 정기대관 공모",
+      "url": "https://kotpa.org/ucms/bbs/B0000021/view.do?nttId=25327&menuNo=300008&pageIndex=1",
+      "deadline": "2026-11-09",
+      "ai_reason": "전통공연창작마루 상반기 정기대관 공모로 예술가 및 단체를 대상으로 하는 신청 공고임",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-04 01:53:21",
+      "votes": {}
+    },
+    "-5198533799:862": {
+      "key": "u:c341dcb1c4813da72c3f",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "수원SK아트리움 2027년도 아트갤러리 전시 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179157",
+      "deadline": "2026-11-20",
+      "ai_reason": "수원SK아트리움 2027년도 아트갤러리 전시 모집 공고로 예술가 대상 참여 모집이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-04 01:53:22",
+      "votes": {}
+    },
+    "-5198533799:863": {
+      "key": "u:83cd5bb51ff34462afce",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027 스타필드 하남 〈작은미술관〉 참여 작가 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179174",
+      "deadline": "2026-11-24",
+      "ai_reason": "하남문화재단에서 2027년 작은미술관 전시 참여 작가를 모집하며 접수 마감일이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-04 01:53:24",
+      "votes": {}
+    },
+    "-5198533799:864": {
+      "key": "u:4ae7f21fb3975e9d0e8c",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 장애예술 활성화 지원사업",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179143",
+      "deadline": "2026-12-04",
+      "ai_reason": "장애예술인 및 단체를 대상으로 하는 10개 유형의 지원사업 공모로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-04 01:53:25",
+      "votes": {}
+    },
+    "-5198533799:865": {
+      "key": "u:3ccef049b465bd67dd34",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 시각예술전시・행사지원 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=235254&indRow=37&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "시각예술전시 및 행사 지원사업 공고로 예술인 및 단체를 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-11-04 01:53:26",
+      "votes": {}
+    },
+    "-5198533799:866": {
+      "key": "u:819c2a9f61a7dfce7df6",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 시각예술우수작가창작지원 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=235251&indRow=40&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "시각예술우수작가창작지원 공고로 예술인을 대상으로 하는 지원사업 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-04 01:53:27",
       "votes": {}
     }
   },
