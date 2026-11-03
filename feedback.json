@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03 10:52:16",
+  "updated_at": "2026-11-03 13:58:32",
   "alerts": {
     "-5198533799:398": {
       "key": "u:2d1b9b78dec1865b13df",
@@ -3094,6 +3094,54 @@
       "ai_reason": "공연예술창작산실 제작지원 공고로 예술인 및 단체를 대상으로 하는 지원사업 성격이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-11-03 04:15:56",
+      "votes": {}
+    },
+    "-5198533799:853": {
+      "key": "u:177b333871aa77964f74",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[회원등록공고] 2026 ACC 어린이 교육 체험형 놀이 콘텐츠 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179135",
+      "deadline": "2026-11-06",
+      "ai_reason": "어린이 교육 체험형 놀이 콘텐츠를 기획·제작할 지역 스타트업 모집 공고로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-03 13:58:29",
+      "votes": {}
+    },
+    "-5198533799:854": {
+      "key": "u:efd46d981a6658a5669d",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "공고「2026 순천 IP 창·제작 지원사업」참여 기업 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179096",
+      "deadline": "2026-11-10",
+      "ai_reason": "순천문화재단에서 IP 창·제작 지원사업 참여 기업을 모집하며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-03 13:58:30",
+      "votes": {}
+    },
+    "-5198533799:855": {
+      "key": "u:91afcf69e12a50c6a145",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[작가 공모] 주한영국문화원 「2027 차세대 작가 공모전」 ~11월 15일(일) 영국시간 자정(GMT)까지",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179114",
+      "deadline": "2026-11-15",
+      "ai_reason": "주한영국문화원 차세대 작가 공모전으로, 작가를 대상으로 하는 전시 참여 모집이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-03 13:58:31",
+      "votes": {}
+    },
+    "-5198533799:856": {
+      "key": "u:98ccdd2266bccca43070",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[작가 공모 ] 아트센터예술의시간 「아티스트 프롤로그 2027 작가 공모」 ~11월 22일(일), 23:59(KST)까지",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179113",
+      "deadline": "2026-11-22",
+      "ai_reason": "아트센터예술의시간에서 2027년 연례전시 참여 작가를 모집하며 접수 기간이 명시되어 있음",
+      "ai_confidence": 1.0,
+      "sent_at": "2026-11-03 13:58:32",
       "votes": {}
     }
   },
