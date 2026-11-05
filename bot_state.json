@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-05 01:57:42",
+  "last_scan_at": "2026-11-05 13:42:42",
   "last_inbox_at": "2026-11-05 11:20:13",
   "commands_set": true,
   "last_inbox": {
@@ -15,24 +15,24 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-05 11:20:13",
+  "updated_at": "2026-11-05 13:42:42",
   "last_scan": {
-    "at": "2026-11-05 01:57:42",
-    "elapsed": 816.2,
+    "at": "2026-11-05 13:42:42",
+    "elapsed": 250.1,
     "sites_total": 44,
     "sites_ok": 44,
     "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 44,
+    "new_rows": 4,
     "seeded": 0,
-    "candidates": 13,
-    "gemini_calls": 37,
-    "gemini_errors": 3,
+    "candidates": 3,
+    "gemini_calls": 5,
+    "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 8,
+    "alerts": 0,
     "reviewed": 0,
-    "deferred": 3,
+    "deferred": 0,
     "send_errors": [],
     "inbox": {
       "updates": 0,
@@ -44,7 +44,7 @@
     "dry_run": false,
     "moved_kr": [],
     "runner": "github",
-    "gemini_last_error": "Gemini 서버 오류(503)"
+    "gemini_last_error": ""
   },
   "defer_fail_counts": {
     "u:fbc757732e8c6a823eab": 1,
@@ -52,10 +52,7 @@
     "u:6954290471261d302146": 1,
     "u:3d41fe833389ec1afd0f": 1,
     "u:4d0d838d731c4c42cb72": 1,
-    "u:e0269597ed678cb639bd": 1,
-    "u:08ff37378ff0609fe933": 1,
-    "u:5e9e2bca8d14d0626745": 1,
-    "u:328f78114c18e93f3d25": 1
+    "u:e0269597ed678cb639bd": 1
   },
   "commands_version": 2
 }
