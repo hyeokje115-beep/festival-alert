@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08 00:03:49",
+  "updated_at": "2026-11-08 00:24:31",
   "alerts": {
     "-5198533799:442": {
       "key": "u:04fb149fddb87c7b5e62",
@@ -3332,6 +3332,30 @@
       "ai_reason": "공연장상주단체 육성지원사업 참여 공연장 모집 공고로 예술단체 및 공연장 대상 지원사업임이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-11-07 01:37:34",
+      "votes": {}
+    },
+    "-5198533799:899": {
+      "key": "u:99d8ff037a889e110506",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 문학상주작가 지원사업 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178750",
+      "deadline": "2026-11-13",
+      "ai_reason": "2027년 문학상주작가 지원사업 공모로, 작가를 대상으로 하는 지원사업이며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-08 00:24:30",
+      "votes": {}
+    },
+    "-5198533799:900": {
+      "key": "u:dcd96c78bbc6eb866c70",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027 공연장상주단체 육성지원사업 참여 공연장 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179255",
+      "deadline": "2026-11-13",
+      "ai_reason": "공연장상주단체 육성지원사업 참여 공연장 모집 공고로, 신청 주체와 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-08 00:24:31",
       "votes": {}
     }
   },
