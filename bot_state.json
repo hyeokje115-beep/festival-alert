@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-07 13:06:58",
+  "last_scan_at": "2026-11-07 20:20:17",
   "last_inbox_at": "2026-11-07 17:31:59",
   "commands_set": true,
   "last_inbox": {
@@ -15,16 +15,13 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-07 17:31:59",
+  "updated_at": "2026-11-07 20:20:17",
   "last_scan": {
-    "at": "2026-11-07 13:06:58",
-    "elapsed": 289.0,
+    "at": "2026-11-07 20:20:17",
+    "elapsed": 236.0,
     "sites_total": 44,
-    "sites_ok": 42,
-    "sites_fail": [
-      "포털사이트 공모(목록) — 페이지 로딩 시간 초과 (30s)",
-      "포털사이트 공지사항(목록) — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 44,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
     "new_rows": 0,
