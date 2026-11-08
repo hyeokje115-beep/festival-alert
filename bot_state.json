@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-08 12:51:22",
+  "last_scan_at": "2026-11-08 20:32:02",
   "last_inbox_at": "2026-11-08 17:26:37",
   "commands_set": true,
   "last_inbox": {
@@ -15,15 +15,13 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-08 17:26:37",
+  "updated_at": "2026-11-08 20:32:02",
   "last_scan": {
-    "at": "2026-11-08 12:51:22",
-    "elapsed": 252.5,
+    "at": "2026-11-08 20:32:02",
+    "elapsed": 222.7,
     "sites_total": 44,
-    "sites_ok": 43,
-    "sites_fail": [
-      "대전문화재단 — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 44,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
     "new_rows": 0,
