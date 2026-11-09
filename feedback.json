@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09 22:22:52",
+  "updated_at": "2026-11-10 04:30:43",
   "alerts": {
     "-5198533799:455": {
       "key": "u:218122310ebd6a8dd1d8",
@@ -3332,6 +3332,42 @@
       "ai_reason": "전통공연창작마루 상반기 정기대관 공모로 예술인 및 단체를 대상으로 하는 신청 공고임",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-09 00:51:19",
+      "votes": {}
+    },
+    "-5198533799:911": {
+      "key": "u:ed293e53a8f63cbe0a47",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2026년 경기창작캠퍼스 공공갤러리 전시공간 지원 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179010",
+      "deadline": "2026-11-15",
+      "ai_reason": "경기창작캠퍼스 공공갤러리 전시공간 지원 공모로 예술가 대상 모집이 명확하며 접수 기간이 유효함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-10 04:30:41",
+      "votes": {}
+    },
+    "-5198533799:912": {
+      "key": "u:91afcf69e12a50c6a145",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[작가 공모] 주한영국문화원 「2027 차세대 작가 공모전」 ~11월 15일(일) 영국시간 자정(GMT)까지",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179114",
+      "deadline": "2026-11-15",
+      "ai_reason": "주한영국문화원 차세대 작가 공모전으로, 작가를 대상으로 하는 전시 참여 모집이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-10 04:30:42",
+      "votes": {}
+    },
+    "-5198533799:913": {
+      "key": "u:5c775572e7ba998609d6",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2026 칠링페스타 | 청년 시각예술인 전시 연계 네트워킹 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=256423&indRow=30&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "청년 시각예술인 대상 전시 연계 네트워킹 모집 공고로 예술인 대상 공모 성격이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-11-10 04:30:43",
       "votes": {}
     }
   },

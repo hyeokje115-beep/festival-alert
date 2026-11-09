@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-09 22:22:52",
+  "last_scan_at": "2026-11-10 04:30:43",
   "last_inbox_at": "2026-11-09 19:23:47",
   "commands_set": true,
   "last_inbox": {
@@ -15,26 +15,24 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-09 22:22:52",
+  "updated_at": "2026-11-10 04:30:43",
   "last_scan": {
-    "at": "2026-11-09 22:22:52",
-    "elapsed": 436.5,
+    "at": "2026-11-10 04:30:43",
+    "elapsed": 347.1,
     "sites_total": 44,
-    "sites_ok": 41,
+    "sites_ok": 43,
     "sites_fail": [
-      "담양문화재단 — 페이지 로딩 시간 초과 (30s)",
-      "광주문화재단_공지 — 페이지 로딩 시간 초과 (30s)",
-      "포털사이트 공모(목록) — 페이지 로딩 시간 초과 (30s)"
+      "광주문화재단_공지 — 페이지 로딩 시간 초과 (30s)"
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 17,
+    "new_rows": 41,
     "seeded": 0,
-    "candidates": 7,
-    "gemini_calls": 9,
+    "candidates": 5,
+    "gemini_calls": 7,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 0,
+    "alerts": 3,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
