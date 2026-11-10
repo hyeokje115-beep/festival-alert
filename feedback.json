@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10 21:59:29",
+  "updated_at": "2026-11-11 01:59:34",
   "alerts": {
     "-5198533799:473": {
       "key": "u:340b8032120377cd862e",
@@ -3354,6 +3354,18 @@
       "ai_reason": "서울장애예술창작센터 입주작가 정기공모로 예술인 대상 모집이 명확함",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-10 21:59:29",
+      "votes": {}
+    },
+    "-5198533799:918": {
+      "key": "u:c8d72aa8d3ca48a648a2",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "경기문화재단 경기젊은작가(New Blood) 2026년 작품구입 공모 공고(11/2~11/16) 상세보기",
+      "url": "https://www.ggcf.kr/boards/businessNotices/articles/21654",
+      "deadline": "2026-11-16",
+      "ai_reason": "경기문화재단에서 시각예술 작가를 대상으로 작품 구입 공모를 진행하며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-11 01:59:34",
       "votes": {}
     }
   },
