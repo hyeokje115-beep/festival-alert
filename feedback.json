@@ -1,21 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11 12:02:25",
+  "updated_at": "2026-11-11 13:12:35",
   "alerts": {
-    "-5198533799:473": {
-      "key": "u:340b8032120377cd862e",
-      "site_id": "thearts_arko_or_kr_077764",
-      "site_name": "아르코 통합플랫폼 공모",
-      "title": "아트누리 서울문화재단 연극 뮤지컬 무용 + 2027년 서울 커넥트 스테이지(연극·무용·음악·전통) 통합공모 안내 2026.08.24 - 2026.10.02 서울 개인",
-      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260825044202001",
-      "deadline": "2026-10-02",
-      "ai_reason": "2027년 서울 커넥트 스테이지 공연 예술인 대상 통합공모로 접수 기간이 명시되어 있음.",
-      "ai_confidence": 0.95,
-      "sent_at": "2026-09-27 09:13:11",
-      "votes": {
-        "8904986733": "up"
-      }
-    },
     "-5198533799:475": {
       "key": "u:340b8032120377cd862e",
       "site_id": "",
@@ -3366,6 +3352,42 @@
       "ai_reason": "경기문화재단에서 시각예술 작가를 대상으로 작품 구입 공모를 진행하며 접수 기간이 명시되어 있음.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-11 01:59:34",
+      "votes": {}
+    },
+    "-5198533799:920": {
+      "key": "u:dc63721d2c5b0a5cbea2",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "2026년도 부산문화예술지원사업 &lt;쇼케이스 제작지원&gt; 추가모집 공고 (B-ARTs FESTA 초청작 선정)(11/10~11/13) 상세보기",
+      "url": "https://www.bscf.or.kr/view.do?pageIndex=1&pgMode=show&sv=&sw=&no=1010&nowUrl=%2Fview.do%3Fno%3D1010&siteId=SITE003&pbancSn=2447&_csrf=902ad599-60be-4e4a-857c-1dbe11471576",
+      "deadline": "2026-11-13",
+      "ai_reason": "예술단체를 대상으로 하는 쇼케이스 제작지원 추가모집 공고로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-11 13:12:32",
+      "votes": {}
+    },
+    "-5198533799:921": {
+      "key": "u:419665d3137f229a374a",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "2026 &lt;광역문화재단 대표공연 콘텐츠 유통 활성화 지원사업&gt; 콘텐츠 작품공모 공고(11/23~11/27) 상세보기",
+      "url": "https://bscf.or.kr/view.do?pageIndex=1&pgMode=show&sv=&sw=&no=1010&nowUrl=%2Fview.do%3Fno%3D1010&siteId=SITE003&pbancSn=2448&_csrf=e9ddcb98-0e79-4d85-92ac-d795df00842c",
+      "deadline": "2026-11-27",
+      "ai_reason": "부산 소재 공연단체를 대상으로 하는 공연 콘텐츠 유통 지원사업 공모로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-11 13:12:33",
+      "votes": {}
+    },
+    "-5198533799:922": {
+      "key": "u:906704f0576e0d4a0534",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "지역 공연예술 활성화를 위한 2027년 <찾아가는 국립극장> 공모 신청 안내 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=255224&indRow=56&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연예술 활성화를 위한 공모 신청 안내로, 공연 단체를 대상으로 하는 지원사업 공고임이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-11 13:12:34",
       "votes": {}
     }
   },
