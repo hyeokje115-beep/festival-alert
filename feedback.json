@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13 01:14:02",
+  "updated_at": "2026-11-13 02:25:31",
   "alerts": {
     "-5198533799:489": {
       "key": "u:0414bccb1734a1d10e46",
@@ -3362,6 +3362,66 @@
       "ai_reason": "공연장상주단체지원 공고로 공연단체를 대상으로 하는 지원사업 성격이 명확함.",
       "ai_confidence": 0.7,
       "sent_at": "2026-11-12 02:06:21",
+      "votes": {}
+    },
+    "-5198533799:931": {
+      "key": "u:fc7584e04bdc34c41db0",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "(재)인천광역시부평구문화재단 관객 맞춤형 콘텐츠 공동개발 예술단체 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178776",
+      "deadline": "2026-11-18",
+      "ai_reason": "부평구문화재단에서 예술단체를 대상으로 콘텐츠 공동개발 공모를 진행하며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-13 02:25:26",
+      "votes": {}
+    },
+    "-5198533799:932": {
+      "key": "u:bc287802879e7ed5d0e4",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "<아시아CGI애니메이션센터> 2026 제주웹툰캠퍼스 웹툰창작작가실 입주작가 3차 모집",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178755",
+      "deadline": "2026-11-18",
+      "ai_reason": "웹툰창작작가실 입주작가 모집 공고로 신청 주체가 작가이며 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-13 02:25:27",
+      "votes": {}
+    },
+    "-5198533799:933": {
+      "key": "u:214dad3b1475481d5b71",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 충북갤러리 서울관 시·군문화예술기관 협력 초대전 공모 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178871",
+      "deadline": "2026-11-18",
+      "ai_reason": "충북갤러리 서울관 협력 초대전 공모로, 문화예술기관을 대상으로 하는 전시 참여 공모임이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-13 02:25:28",
+      "votes": {}
+    },
+    "-5198533799:934": {
+      "key": "u:6afcc5169c3450435771",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 신당창작아케이드 18기 입주작가 정기공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179467",
+      "deadline": "2026-11-26",
+      "ai_reason": "신당창작아케이드 18기 입주작가 정기공모로, 예술가 대상의 모집 공고가 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-13 02:25:30",
+      "votes": {}
+    },
+    "-5198533799:935": {
+      "key": "u:5a729bdd5159ee2326b7",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[공고] 2027 천안시 창작스튜디오 「입주작가 작업실」 신규작가 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179466",
+      "deadline": "2026-11-30",
+      "ai_reason": "창작스튜디오 입주작가 모집 공고로 예술가 대상의 공모 성격이 명확하며 접수 기간 내임",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-13 02:25:31",
       "votes": {}
     }
   },
