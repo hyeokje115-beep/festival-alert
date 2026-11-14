@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14 20:46:09",
+  "updated_at": "2026-11-15 00:34:34",
   "alerts": {
     "-5198533799:511": {
       "key": "u:3fe24bf39655b44c456d",
@@ -3350,6 +3350,30 @@
       "ai_reason": "국립아시아문화전당의 참여작가 공모로 예술인을 대상으로 하는 전시 관련 공모 성격이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-11-14 02:00:51",
+      "votes": {}
+    },
+    "-5198533799:950": {
+      "key": "u:6bc0b8e85fbf41b2f94d",
+      "site_id": "kcdf_or_kr_6bd01c",
+      "site_name": "한국공예·디자인문화진흥원 사업공모",
+      "title": "2027 KCDF 공예·디자인 공모전시 모집 공고",
+      "url": "https://www.kcdf.or.kr/brd/board/337/L/menu/284?brdType=R&thisPage=1&bbIdx=9218&brdCodeValue=",
+      "deadline": "2026-11-20",
+      "ai_reason": "공예·디자인 분야 작가 및 기획자를 대상으로 하는 전시 지원사업 공모로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-15 00:34:33",
+      "votes": {}
+    },
+    "-5198533799:951": {
+      "key": "u:c341dcb1c4813da72c3f",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "수원SK아트리움 2027년도 아트갤러리 전시 모집 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179157",
+      "deadline": "2026-11-20",
+      "ai_reason": "수원SK아트리움 2027년도 아트갤러리 전시 모집 공고로 예술가 대상 참여 모집이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-15 00:34:34",
       "votes": {}
     }
   },
