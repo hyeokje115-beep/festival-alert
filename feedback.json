@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15 23:07:47",
+  "updated_at": "2026-11-16 01:10:15",
   "alerts": {
     "-5198533799:519": {
       "key": "u:80ab47dc4107220dce88",
@@ -3312,6 +3312,30 @@
       "ai_reason": "수원SK아트리움 2027년도 아트갤러리 전시 모집 공고로 예술가 대상 참여 모집이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-15 00:34:34",
+      "votes": {}
+    },
+    "-5198533799:956": {
+      "key": "u:9e527804f067341338a0",
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국국제문화교류진흥원 전체 2027년 제1차 공모 <해외우수플랫폼 초청 문화예술공연전시 지원(K-arts on the GO)> 2026.11.16 - 2026.11.23 전국 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3629",
+      "deadline": "2026-11-23",
+      "ai_reason": "해외우수플랫폼 초청 문화예술공연전시 지원사업으로 예술단체 대상 공모가 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-16 01:10:14",
+      "votes": {}
+    },
+    "-5198533799:957": {
+      "key": "u:7d53f13bf8ba9b056193",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "<2027 국립극장 전통연희공연예술(마당놀이) 지역 순회공연> 공모 신청 안내 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=256421&indRow=43&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전통연희공연예술 지역 순회공연을 위한 기업·단체 대상 공모 안내임",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-16 01:10:15",
       "votes": {}
     }
   },
