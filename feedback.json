@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16 19:54:52",
+  "updated_at": "2026-11-16 22:08:53",
   "alerts": {
     "-5198533799:529": {
       "key": "u:80ab47dc4107220dce88",
@@ -3312,6 +3312,18 @@
       "ai_reason": "국립극장 마당놀이 지역 순회공연을 위한 공연장 및 공연예술기관 공모로 신청 주체와 기간이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-16 13:17:25",
+      "votes": {}
+    },
+    "-5198533799:961": {
+      "key": "u:daa951036cc257cd806a",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[회원등록공고] 2027 ACC 시각예술 레지던시 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179628",
+      "deadline": "2026-11-26",
+      "ai_reason": "국립아시아문화전당 시각예술 레지던시 입주작가 공모로 신청 주체와 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-16 22:08:52",
       "votes": {}
     }
   },
