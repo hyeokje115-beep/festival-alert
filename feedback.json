@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17 20:54:44",
+  "updated_at": "2026-11-17 22:51:13",
   "alerts": {
     "-5198533799:537": {
       "key": "u:636dbafb53d5d5cfea9e",
@@ -3360,6 +3360,18 @@
       "ai_reason": "공연예술 및 시각예술 분야 예술가 대상 공모로 접수 기간이 명시되어 있음.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-17 15:04:48",
+      "votes": {}
+    },
+    "-5198533799:972": {
+      "key": "u:3d8339fed8c0b8101ae9",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "<2027년 갤러리 活 상반기 전시 참여작가 모집>",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179710",
+      "deadline": "2026-11-24",
+      "ai_reason": "한우리정보문화센터 갤러리 活 상반기 전시 참여작가 모집 공고로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-17 22:51:13",
       "votes": {}
     }
   },
