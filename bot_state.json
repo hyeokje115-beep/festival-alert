@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-17 22:51:13",
+  "last_scan_at": "2026-11-18 03:08:51",
   "last_inbox_at": "2026-11-17 20:54:44",
   "commands_set": true,
   "last_inbox": {
@@ -15,25 +15,22 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-17 22:51:13",
+  "updated_at": "2026-11-18 03:08:51",
   "last_scan": {
-    "at": "2026-11-17 22:51:13",
-    "elapsed": 331.0,
+    "at": "2026-11-18 03:08:51",
+    "elapsed": 389.3,
     "sites_total": 43,
-    "sites_ok": 41,
-    "sites_fail": [
-      "나주문화재단 — 페이지 로딩 시간 초과 (30s)",
-      "광주문화재단_공지 — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 43,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 4,
+    "new_rows": 41,
     "seeded": 0,
-    "candidates": 1,
-    "gemini_calls": 3,
+    "candidates": 7,
+    "gemini_calls": 10,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 1,
+    "alerts": 5,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],

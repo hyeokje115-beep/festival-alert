@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17 22:51:13",
+  "updated_at": "2026-11-18 03:08:51",
   "alerts": {
     "-5198533799:537": {
       "key": "u:636dbafb53d5d5cfea9e",
@@ -3372,6 +3372,66 @@
       "ai_reason": "한우리정보문화센터 갤러리 活 상반기 전시 참여작가 모집 공고로 접수 기간이 명시되어 있음.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-17 22:51:13",
+      "votes": {}
+    },
+    "-5198533799:974": {
+      "key": "u:891f488122273b243443",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "2027년도 상반기 동남아트센터 정기대관(전시홀) 공모(11/2~11/23) 상세보기",
+      "url": "https://dnart.or.kr/%EC%86%8C%EC%8B%9D/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/",
+      "deadline": "2026-11-23",
+      "ai_reason": "전시홀 정기대관 공모로 예술가 및 단체를 대상으로 하며 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-18 03:08:47",
+      "votes": {}
+    },
+    "-5198533799:975": {
+      "key": "u:9e527804f067341338a0",
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 한국국제문화교류진흥원 전체 2027년 제1차 공모 <해외우수플랫폼 초청 문화예술공연전시 지원(K-arts on the GO)> 2026.11.16 - 2026.11.23 전국 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3629",
+      "deadline": "2026-11-23",
+      "ai_reason": "해외우수플랫폼 초청 문화예술공연전시 지원사업으로 예술단체 대상 공모가 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-18 03:08:48",
+      "votes": {}
+    },
+    "-5198533799:976": {
+      "key": "u:1fa7563079424b1f8cb7",
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 대구문화예술진흥원 전체 2027년 지역 대표예술단체 지원 사업 공고 (지역 예술단체 자체 공모) 2026.11.13 - 2026.11.23 대구 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S66131",
+      "deadline": "2026-11-23",
+      "ai_reason": "대구 지역 예술단체를 대상으로 하는 2027년 지역 대표예술단체 지원 사업 공모로 신청 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-18 03:08:49",
+      "votes": {}
+    },
+    "-5198533799:977": {
+      "key": "u:197ed7cd356bc72f28b3",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "&lt;K-arts on the GO&gt; 2027년 제 1차 공모 개최(11/16~11/23) 상세보기",
+      "url": "https://k-go.or.kr/notice/gn2NVps9",
+      "deadline": "2026-11-23",
+      "ai_reason": "공연예술 및 시각예술 분야 예술가 대상 공모로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-18 03:08:50",
+      "votes": {}
+    },
+    "-5198533799:978": {
+      "key": "u:e0f9a8dec42327726290",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 고양문화재단 연극 음악 무용 + 2027년 고양상주단체 공모 안내 2026.11.16 - 2026.12.15 경기 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=S66172",
+      "deadline": "2026-12-15",
+      "ai_reason": "고양문화재단 상주단체 공모로 공연단체 대상의 지원사업이며 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-18 03:08:51",
       "votes": {}
     }
   },
