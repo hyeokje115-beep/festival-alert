@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18 22:26:56",
+  "updated_at": "2026-11-19 02:56:02",
   "alerts": {
     "-5198533799:548": {
       "key": "u:689b1245bb8997140919",
@@ -3420,6 +3420,54 @@
       "ai_reason": "고양문화재단 상주단체 공모로 공연단체 대상의 지원사업이며 접수 기간이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-18 03:08:51",
+      "votes": {}
+    },
+    "-5198533799:982": {
+      "key": "u:81a4b821a28f77d03f3c",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "",
+      "title": "아트누리 서울문화재단 연극 뮤지컬 무용 + 서울문화재단 대학로센터 <제철공연> 참여단체 모집 2026.08.10 - 2026.11.24 서울 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=SFAC_NOTICE_20260808044603001",
+      "deadline": "2026-11-24",
+      "ai_reason": "",
+      "ai_confidence": null,
+      "sent_at": "2026-11-19 02:55:58",
+      "votes": {}
+    },
+    "-5198533799:983": {
+      "key": "u:83cd5bb51ff34462afce",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027 스타필드 하남 〈작은미술관〉 참여 작가 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179174",
+      "deadline": "2026-11-24",
+      "ai_reason": "하남문화재단에서 2027년 작은미술관 전시 참여 작가를 모집하며 접수 마감일이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-19 02:55:59",
+      "votes": {}
+    },
+    "-5198533799:984": {
+      "key": "u:3d8339fed8c0b8101ae9",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "<2027년 갤러리 活 상반기 전시 참여작가 모집>",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179710",
+      "deadline": "2026-11-24",
+      "ai_reason": "한우리정보문화센터 갤러리 活 상반기 전시 참여작가 모집 공고로 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-19 02:56:00",
+      "votes": {}
+    },
+    "-5198533799:985": {
+      "key": "u:a9ff3d6170e0a89cf260",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "<해외우수플랫폼 초청 문화예술공연전시 지원(K-arts on the GO)> 2027년 제1차 공모 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=256452&indRow=45&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "해외우수플랫폼 초청 문화예술공연전시 지원 공모로 예술인 및 단체를 대상으로 하는 지원사업임이 명확함.",
+      "ai_confidence": 0.7,
+      "sent_at": "2026-11-19 02:56:01",
       "votes": {}
     }
   },
