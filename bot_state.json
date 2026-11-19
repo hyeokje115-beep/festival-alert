@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-19 14:31:44",
+  "last_scan_at": "2026-11-19 22:52:59",
   "last_inbox_at": "2026-11-19 17:39:48",
   "commands_set": true,
   "last_inbox": {
@@ -15,24 +15,24 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-19 17:39:48",
+  "updated_at": "2026-11-19 22:52:59",
   "last_scan": {
-    "at": "2026-11-19 14:31:44",
-    "elapsed": 340.9,
+    "at": "2026-11-19 22:52:59",
+    "elapsed": 388.4,
     "sites_total": 43,
     "sites_ok": 42,
     "sites_fail": [
-      "포털사이트 공모(목록) — 페이지 로딩 시간 초과 (30s)"
+      "한국문화예술교육진흥원 — 페이지 로딩 시간 초과 (30s)"
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 19,
+    "new_rows": 39,
     "seeded": 0,
-    "candidates": 6,
-    "gemini_calls": 8,
+    "candidates": 10,
+    "gemini_calls": 12,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 4,
+    "alerts": 2,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
