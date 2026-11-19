@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20 02:38:16",
+  "updated_at": "2026-11-20 03:06:10",
   "alerts": {
     "-5198533799:548": {
       "key": "u:689b1245bb8997140919",
@@ -3540,6 +3540,42 @@
       "ai_reason": "예술곶 산양 레지던시 7기 입주작가 공모로, 예술가 및 기획자를 대상으로 하는 모집 공고임이 명확함.",
       "ai_confidence": 1.0,
       "sent_at": "2026-11-19 22:52:58",
+      "votes": {}
+    },
+    "-5198533799:996": {
+      "key": "u:b417c7d3c2f50bc2654c",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년도 상반기 동남아트센터 정기대관(전시홀) 공모 지원대상 예술인,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=256026&indRow=47&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전시홀 정기대관 공모로 예술인 및 단체를 대상으로 하는 모집 공고임",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-20 03:06:07",
+      "votes": {}
+    },
+    "-5198533799:997": {
+      "key": "u:dabc7b4a9e8cda798f4a",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027년 서울예술단 작품 지역공연 공모 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=255812&indRow=48&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "공연 작품 지역공연 공모로 예술단체 대상의 공모 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-20 03:06:08",
+      "votes": {}
+    },
+    "-5198533799:998": {
+      "key": "u:922c277d81bcb241c6e0",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "[공모] 2027 KCDF 공예·디자인 공모전시 모집 공고 지원대상 예술인,관련종사자,기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=255190&indRow=20&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "제목에 공예·디자인 공모전시 모집 공고가 명시되어 있어 예술인 및 단체 대상 공모로 판단됨.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-20 03:06:10",
       "votes": {}
     }
   },
