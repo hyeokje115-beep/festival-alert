@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-20 14:18:13",
+  "last_scan_at": "2026-11-20 22:34:51",
   "last_inbox_at": "2026-11-20 22:19:26",
   "commands_set": true,
   "last_inbox": {
@@ -15,19 +15,22 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-20 22:19:26",
+  "updated_at": "2026-11-20 22:34:51",
   "last_scan": {
-    "at": "2026-11-20 14:18:13",
-    "elapsed": 302.1,
+    "at": "2026-11-20 22:34:51",
+    "elapsed": 313.6,
     "sites_total": 43,
-    "sites_ok": 43,
-    "sites_fail": [],
+    "sites_ok": 41,
+    "sites_fail": [
+      "한국문화예술교육진흥원 — 페이지 로딩 시간 초과 (30s)",
+      "한국공예·디자인문화진흥원 사업공모 — 페이지 로딩 시간 초과 (30s)"
+    ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 29,
+    "new_rows": 2,
     "seeded": 0,
-    "candidates": 6,
-    "gemini_calls": 8,
+    "candidates": 1,
+    "gemini_calls": 3,
     "gemini_errors": 0,
     "feedback_blocked": 0,
     "alerts": 1,
