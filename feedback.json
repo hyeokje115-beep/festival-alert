@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20 22:34:51",
+  "updated_at": "2026-11-21 02:35:28",
   "alerts": {
     "-5198533799:557": {
       "key": "u:d12ca011a852d870bb04",
@@ -3504,6 +3504,114 @@
       "ai_reason": "창작공간 입주예술가 모집 공고로 예술인을 대상으로 하는 공모 성격이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-20 22:34:51",
+      "votes": {}
+    },
+    "-5198533799:1002": {
+      "key": "u:824c829a61a6dd1e7e64",
+      "site_id": "acc_go_kr_993369",
+      "site_name": "국립아시아문화전당_공지",
+      "title": "2027 ACC 시각예술 레지던시 모집",
+      "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2886&searchType=all&searchText=&pageIndex=1",
+      "deadline": "2026-11-26",
+      "ai_reason": "2027 ACC 시각예술 레지던시 참여 작가 모집 공고로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-21 02:35:19",
+      "votes": {}
+    },
+    "-5198533799:1003": {
+      "key": "u:a453652aef7240609ce9",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027-2028년 대학로극장 쿼드 공동제작 작품 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179254",
+      "deadline": "2026-11-26",
+      "ai_reason": "대학로극장 쿼드 공동제작 작품 공모로 예술단체 대상의 공연 제작 지원사업임이 명확함.",
+      "ai_confidence": 1.0,
+      "sent_at": "2026-11-21 02:35:20",
+      "votes": {}
+    },
+    "-5198533799:1004": {
+      "key": "u:d8b8494a0de68c278458",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 서울문화재단 연극 뮤지컬 무용 + 2027-2028년 대학로극장 쿼드 공동제작 작품 공모 2026.11.04 - 2026.11.26 서울 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=CRL3628",
+      "deadline": "2026-11-26",
+      "ai_reason": "대학로극장 쿼드 공동제작 작품 공모로 공연단체 대상의 신청 접수가 명확함.",
+      "ai_confidence": 1.0,
+      "sent_at": "2026-11-21 02:35:21",
+      "votes": {}
+    },
+    "-5198533799:1005": {
+      "key": "u:6afcc5169c3450435771",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "2027년 신당창작아케이드 18기 입주작가 정기공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179467",
+      "deadline": "2026-11-26",
+      "ai_reason": "신당창작아케이드 18기 입주작가 정기공모로, 예술가 대상의 모집 공고가 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-21 02:35:22",
+      "votes": {}
+    },
+    "-5198533799:1006": {
+      "key": "u:daa951036cc257cd806a",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[회원등록공고] 2027 ACC 시각예술 레지던시 공모",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179628",
+      "deadline": "2026-11-26",
+      "ai_reason": "국립아시아문화전당 시각예술 레지던시 입주작가 공모로 신청 주체와 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-21 02:35:23",
+      "votes": {}
+    },
+    "-5198533799:1007": {
+      "key": "u:87ca7bc2ab1f45576179",
+      "site_id": "thearts_arko_or_kr_e4c473",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 예술경영지원센터 전체 2027년 공연예술 지역유통 지원사업 공모 변경 공고 2026.10.26 - 2027.01.07 전국 전체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=GOKAMS_APPLY_20261120043659002",
+      "deadline": "2027-01-07",
+      "ai_reason": "공연예술 지역유통 지원사업 공모로 공연단체 및 시설을 대상으로 하며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-21 02:35:24",
+      "votes": {}
+    },
+    "-5198533799:1008": {
+      "key": "u:80b1fc9fe55856a898d4",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "[국립아시아문화전당] 2027 ACC 시각예술 레지던시 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=254506&indRow=50&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "시각예술 레지던시 공모로 예술인을 대상으로 하는 참여 모집임이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-21 02:35:26",
+      "votes": {}
+    },
+    "-5198533799:1009": {
+      "key": "u:9cf2a5d7aa76866a0ff0",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027 스타필드 하남 〈작은미술관〉 참여 작가 공모 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=255381&indRow=35&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "제목에 '참여 작가 공모'가 명시되어 있어 전시 분야 예술인 대상 공모로 판단됨.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-21 02:35:27",
+      "votes": {}
+    },
+    "-5198533799:1010": {
+      "key": "u:339774ea27f425fe11c8",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "2027 ACC 시각예술 레지던시 모집 지원대상 예술인",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=254535&indRow=49&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "시각예술 레지던시 모집 공고로 예술인을 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-21 02:35:28",
       "votes": {}
     }
   },
