@@ -1,31 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21 11:28:48",
+  "updated_at": "2026-11-21 14:10:18",
   "alerts": {
-    "-5198533799:557": {
-      "key": "u:d12ca011a852d870bb04",
-      "site_id": "momo365_net_128bd4",
-      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
-      "title": "2026년 공주문화예술촌 스토리 콘텐츠 창작공간 청년 입주작가 수시모집 공고",
-      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=177982",
-      "deadline": "2026-12-04",
-      "ai_reason": "공주문화예술촌 청년 입주작가 모집 공고로 예술가 대상의 공모 성격이 명확함.",
-      "ai_confidence": 0.95,
-      "sent_at": "2026-10-07 09:19:37",
-      "votes": {}
-    },
-    "-5198533799:558": {
-      "key": "u:2d902073b194b507028f",
-      "site_id": "culture_go_kr_14f8cf",
-      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
-      "title": "2026년 양평문화자원 공연 창작프로젝트 공모 지원대상 예술인",
-      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=225881&indRow=54&menuNo=200104&yearmonth=20260918&weekju=3&selectType=&sWord=",
-      "deadline": "",
-      "ai_reason": "공연 창작프로젝트 공모로 예술인을 대상으로 하는 공모 성격이 명확함.",
-      "ai_confidence": 0.75,
-      "sent_at": "2026-10-07 09:19:38",
-      "votes": {}
-    },
     "-5198533799:562": {
       "key": "u:8d39292e0f251a6fd843",
       "site_id": "momo365_net_128bd4",
@@ -3612,6 +3588,30 @@
       "ai_reason": "시각예술 레지던시 모집 공고로 예술인을 대상으로 하는 공모 성격이 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-11-21 02:35:28",
+      "votes": {}
+    },
+    "-5198533799:1012": {
+      "key": "u:cb57b568a14d87434055",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[공고] 2027년도 씨어터링크 지원사업 공연예술단체 공모 공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179890",
+      "deadline": "2026-12-15",
+      "ai_reason": "2027년도 씨어터링크 지원사업 공연예술단체 공모 공고로 신청 주체와 접수 마감일이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-21 14:10:17",
+      "votes": {}
+    },
+    "-5198533799:1013": {
+      "key": "u:5c1f043f3ae9bd14663b",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[공고] 2027년도 부산문화예술지원사업 1차 공모 「예술창작지원(구 우수예술)」, 「창작개발(기초,협업)」 사업공고",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179889",
+      "deadline": "2026-12-16",
+      "ai_reason": "부산문화재단에서 예술창작 및 창작개발 지원사업 공모를 진행하며, 예술가 및 단체를 대상으로 하는 지원사업임이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-21 14:10:18",
       "votes": {}
     }
   },
