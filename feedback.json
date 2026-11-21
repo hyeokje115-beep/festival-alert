@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21 22:00:39",
+  "updated_at": "2026-11-22 01:37:55",
   "alerts": {
     "-5198533799:562": {
       "key": "u:8d39292e0f251a6fd843",
@@ -3612,6 +3612,42 @@
       "ai_reason": "부산문화재단에서 예술창작 및 창작개발 지원사업 공모를 진행하며, 예술가 및 단체를 대상으로 하는 지원사업임이 명확함.",
       "ai_confidence": 0.95,
       "sent_at": "2026-11-21 14:10:18",
+      "votes": {}
+    },
+    "-5198533799:1016": {
+      "key": "u:f7215cee68e1b7c1fef9",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[성북연극협회x플레이티켓] 창작희곡 낭독쇼케이스 제작지원 사업 신청공모 (천장산우화극장)",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=178233",
+      "deadline": "2026-11-27",
+      "ai_reason": "창작희곡 낭독쇼케이스 제작지원 사업 공모로 공연 예술인 및 단체를 대상으로 하며 접수 기간이 명시됨.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-22 01:37:53",
+      "votes": {}
+    },
+    "-5198533799:1017": {
+      "key": "u:419665d3137f229a374a",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "2026 &lt;광역문화재단 대표공연 콘텐츠 유통 활성화 지원사업&gt; 콘텐츠 작품공모 공고(11/23~11/27) 상세보기",
+      "url": "https://bscf.or.kr/view.do?pageIndex=1&pgMode=show&sv=&sw=&no=1010&nowUrl=%2Fview.do%3Fno%3D1010&siteId=SITE003&pbancSn=2448&_csrf=e9ddcb98-0e79-4d85-92ac-d795df00842c",
+      "deadline": "2026-11-27",
+      "ai_reason": "부산 소재 공연단체를 대상으로 하는 공연 콘텐츠 유통 지원사업 공모로 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-22 01:37:54",
+      "votes": {}
+    },
+    "-5198533799:1018": {
+      "key": "u:f7a119a80e36803e525f",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "[공고] 2027년도 &lt;아비뇽 오프 페스티벌&gt; 작품 공모(11/20~11/27) 상세보기",
+      "url": "https://bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2452",
+      "deadline": "2026-11-27",
+      "ai_reason": "아비뇽 오프 페스티벌 상연 작품 공모로, 공연예술단체를 대상으로 하며 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-22 01:37:55",
       "votes": {}
     }
   },
