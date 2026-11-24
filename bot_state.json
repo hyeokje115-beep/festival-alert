@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-24 17:06:44",
+  "last_scan_at": "2026-11-25 00:25:01",
   "last_inbox_at": "2026-11-24 19:01:42",
   "commands_set": true,
   "last_inbox": {
@@ -15,10 +15,10 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-24 19:01:42",
+  "updated_at": "2026-11-25 00:25:01",
   "last_scan": {
-    "at": "2026-11-24 17:06:44",
-    "elapsed": 810.5,
+    "at": "2026-11-25 00:25:01",
+    "elapsed": 852.6,
     "sites_total": 43,
     "sites_ok": 42,
     "sites_fail": [
@@ -26,15 +26,15 @@
     ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 49,
+    "new_rows": 45,
     "seeded": 0,
-    "candidates": 25,
+    "candidates": 16,
     "gemini_calls": 40,
-    "gemini_errors": 2,
+    "gemini_errors": 6,
     "feedback_blocked": 0,
-    "alerts": 2,
-    "reviewed": 5,
-    "deferred": 11,
+    "alerts": 4,
+    "reviewed": 1,
+    "deferred": 15,
     "send_errors": [],
     "inbox": {
       "updates": 0,
@@ -62,8 +62,7 @@
     "u:18e4df5dc14c805dbe0d": 2,
     "u:003e1adfaa4f4f0c5c31": 2,
     "u:0206c6e3a322e7c65ddc": 2,
-    "u:4c35129194ef24fd132b": 2,
-    "u:d067220cef51893763e6": 1,
+    "u:d067220cef51893763e6": 2,
     "u:d8a52c8240d2074d76f1": 1,
     "u:bf70c50e947c0c0e8829": 1,
     "u:9335cb56d887aaed8df5": 1,
@@ -71,8 +70,20 @@
     "u:4c47eea590192f911e76": 1,
     "u:a05c47ca5e4ffb372be5": 1,
     "u:788284a0c62516379f76": 1,
-    "u:2281b2d8debc96c8b6ca": 1,
-    "u:eb4538fe21c2f0b5b0a8": 1
+    "u:2281b2d8debc96c8b6ca": 2,
+    "u:eb4538fe21c2f0b5b0a8": 2,
+    "u:a4a2df118022b1540f16": 1,
+    "u:b221bc190d00b451d718": 1,
+    "u:a4b5a498394ebcfd4fa8": 1,
+    "u:422066de0c821965fbc5": 1,
+    "u:c6df77f7f84ea6fc934d": 1,
+    "u:071edd9a6da4ba271e46": 1,
+    "u:2272af3845bb63f0f57c": 1,
+    "u:b3166d22852e487ae0e5": 1,
+    "u:7d393a716761c1653672": 1,
+    "u:f52f36be0047bc2d9eac": 1,
+    "u:2d5e0852513b7c9f184d": 1,
+    "u:22d6457ac6a1c7fea85b": 1
   },
   "commands_version": 2
 }
