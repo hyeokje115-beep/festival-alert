@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25 00:25:01",
+  "updated_at": "2026-11-25 05:00:40",
   "alerts": {
     "-5198533799:604": {
       "key": "u:372815a454bd55652873",
@@ -3468,6 +3468,66 @@
       "ai_reason": "AI 판정 실패 3회(error: Gemini 서버 오류(503)) — 1차 필터 근거: 신호어 공모 + 본문 분야어 공연예술, 공연",
       "ai_confidence": 0.0,
       "sent_at": "2026-11-25 00:25:01",
+      "votes": {}
+    },
+    "-5198533799:1044": {
+      "key": "u:2281b2d8debc96c8b6ca",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "[모집] 2027년 홍티아트센터 레지던시 예술인 모집(11/23~11/30) 상세보기",
+      "url": "https://hongti.bscf.or.kr/info/notice_view.php?sn=38",
+      "deadline": "2026-11-30",
+      "ai_reason": "홍티아트센터 레지던시 예술인 모집 공고로, 시각예술인을 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 1.0,
+      "sent_at": "2026-11-25 05:00:36",
+      "votes": {}
+    },
+    "-5198533799:1045": {
+      "key": "u:0bcdf23098471152bedc",
+      "site_id": "thearts_arko_or_kr_077764",
+      "site_name": "아르코 통합플랫폼 공모",
+      "title": "아트누리 인천문화재단 연극 뮤지컬 무용 + 2027년 공연장상주단체 육성지원사업 공모 공고 공지 2026.11.23 - 2026.12.02 인천 단체",
+      "url": "https://artnuri.or.kr/crawler/info/view.do?seNo=001&key=2301170002&docid=IFAC_MENU_20261124011610001",
+      "deadline": "2026-12-02",
+      "ai_reason": "2027년 공연장상주단체 육성지원사업 공모로 공연예술단체를 대상으로 하며 접수 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-25 05:00:36",
+      "votes": {}
+    },
+    "-5198533799:1046": {
+      "key": "u:d067220cef51893763e6",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "<2027 국립아시아문화전당재단 미디어아트 협력 전시 기관 공모>",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179963",
+      "deadline": "2026-12-04",
+      "ai_reason": "국립아시아문화전당재단 미디어아트 협력 전시 기관 공모로, 신청 주체가 기관이며 접수 기간이 명시되어 있음.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-25 05:00:38",
+      "votes": {}
+    },
+    "-5198533799:1047": {
+      "key": "u:eb4538fe21c2f0b5b0a8",
+      "site_id": "momo365_net_128bd4",
+      "site_name": "지원정보 조회 문화사업지원플랫폼 모모365",
+      "title": "[공지] 2027년 평화문화진지 창작스튜디오 제10기 입주작가 모집",
+      "url": "https://www.momo365.net/Support?cd=support&ViewType=detail&seq=179966",
+      "deadline": "2026-12-07",
+      "ai_reason": "평화문화진지 창작스튜디오 입주작가 모집 공고로 예술인을 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-25 05:00:39",
+      "votes": {}
+    },
+    "-5198533799:1048": {
+      "key": "u:a4a2df118022b1540f16",
+      "site_id": "culture_go_kr_42d609",
+      "site_name": "누려요 문화혜택 문화지원사업 캘린더(목록)",
+      "title": "[유관기관협조] JEJU, ON 제주를 켜다 전시 추진에 따른 참여기업 모집 지원대상 기업·단체",
+      "url": "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=3&rcrtSn=257025&indRow=50&menuNo=200104&yearmonth=&weekju=&selectType=&sWord=",
+      "deadline": "",
+      "ai_reason": "전시 추진을 위한 참여기업 모집 공고로 신청 주체와 분야가 명확함.",
+      "ai_confidence": 0.75,
+      "sent_at": "2026-11-25 05:00:40",
       "votes": {}
     }
   },
