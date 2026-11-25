@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25 12:43:38",
+  "updated_at": "2026-11-25 15:31:42",
   "alerts": {
     "-5198533799:604": {
       "key": "u:372815a454bd55652873",
@@ -3528,6 +3528,42 @@
       "ai_reason": "전시 추진을 위한 참여기업 모집 공고로 신청 주체와 분야가 명확함.",
       "ai_confidence": 0.75,
       "sent_at": "2026-11-25 05:00:40",
+      "votes": {}
+    },
+    "-5198533799:1050": {
+      "key": "u:2281b2d8debc96c8b6ca",
+      "site_id": "ncas_or_kr_4207b8",
+      "site_name": "국립아시아문화전당_공모",
+      "title": "[모집] 2027년 홍티아트센터 레지던시 예술인 모집(11/23~11/30) 상세보기",
+      "url": "https://hongti.bscf.or.kr/info/notice_view.php?sn=38",
+      "deadline": "2026-11-30",
+      "ai_reason": "홍티아트센터 레지던시 예술인 모집 공고로, 시각예술인을 대상으로 하는 공모 성격이 명확함.",
+      "ai_confidence": 1.0,
+      "sent_at": "2026-11-25 15:31:40",
+      "votes": {}
+    },
+    "-5198533799:1051": {
+      "key": "u:b73568d23d0c9be335e0",
+      "site_id": "acc_go_kr_993369",
+      "site_name": "국립아시아문화전당_공지",
+      "title": "ACC 판소리 연작 [적벽-붉은 강] 출연진(소리꾼/무용수) 모집 공고",
+      "url": "https://www.acc.go.kr/main/board/board.do?PID=0701&boardID=NOTICE&action=Read&idx=2942&searchType=all&searchText=&pageIndex=1",
+      "deadline": "2026-12-15",
+      "ai_reason": "국립아시아문화전당 창·제작 공연 출연진(소리꾼/무용수) 공개 모집 공고로 신청 주체와 기간이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-25 15:31:41",
+      "votes": {}
+    },
+    "-5198533799:1052": {
+      "key": "u:442efb1dbe736dcf9526",
+      "site_id": "tyhansancf_or_kr_22a015",
+      "site_name": "tyhansancf.or.kr 알림마당",
+      "title": "[공고 제 2026-123호] 2027 통영 12공방 전시판매장 전통공예품 입점 모집 공고",
+      "url": "https://tyhansancf.or.kr/notice/view.html?Ncode=b3&num=1351&keyfield=&keyword=",
+      "deadline": "",
+      "ai_reason": "전통공예품 전시판매장 입점 작가 모집 공고로 신청 주체와 목적이 명확함.",
+      "ai_confidence": 0.95,
+      "sent_at": "2026-11-25 15:31:42",
       "votes": {}
     }
   },

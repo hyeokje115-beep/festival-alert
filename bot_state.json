@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-25 05:00:40",
+  "last_scan_at": "2026-11-25 15:31:42",
   "last_inbox_at": "2026-11-25 12:43:38",
   "commands_set": true,
   "last_inbox": {
@@ -15,24 +15,22 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-25 12:43:38",
+  "updated_at": "2026-11-25 15:31:42",
   "last_scan": {
-    "at": "2026-11-25 05:00:40",
-    "elapsed": 575.8,
+    "at": "2026-11-25 15:31:42",
+    "elapsed": 276.3,
     "sites_total": 43,
-    "sites_ok": 42,
-    "sites_fail": [
-      "지역문화진흥원 공모소식 — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 43,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 16,
+    "new_rows": 7,
     "seeded": 0,
-    "candidates": 16,
-    "gemini_calls": 21,
+    "candidates": 3,
+    "gemini_calls": 5,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 5,
+    "alerts": 3,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
