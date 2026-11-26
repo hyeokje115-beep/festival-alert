@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-26 04:06:54",
+  "last_scan_at": "2026-11-26 15:35:38",
   "last_inbox_at": "2026-11-26 13:24:20",
   "commands_set": true,
   "last_inbox": {
@@ -15,24 +15,29 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-26 13:24:20",
+  "updated_at": "2026-11-26 15:35:38",
   "last_scan": {
-    "at": "2026-11-26 04:06:54",
-    "elapsed": 655.3,
+    "at": "2026-11-26 15:35:38",
+    "elapsed": 957.9,
     "sites_total": 43,
-    "sites_ok": 43,
-    "sites_fail": [],
+    "sites_ok": 39,
+    "sites_fail": [
+      "광주문화재단 — 페이지 로딩 시간 초과 (30s)",
+      "나주문화재단 — 페이지 로딩 시간 초과 (30s)",
+      "담양문화재단 — 페이지 로딩 시간 초과 (30s)",
+      "순천문화재단_타기관공모 — 페이지 로딩 시간 초과 (30s)"
+    ],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 82,
+    "new_rows": 39,
     "seeded": 0,
-    "candidates": 20,
-    "gemini_calls": 40,
-    "gemini_errors": 6,
+    "candidates": 21,
+    "gemini_calls": 25,
+    "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 0,
+    "alerts": 8,
     "reviewed": 0,
-    "deferred": 19,
+    "deferred": 0,
     "send_errors": [],
     "inbox": {
       "updates": 0,
@@ -44,7 +49,7 @@
     "dry_run": false,
     "moved_kr": [],
     "runner": "github",
-    "gemini_last_error": "Gemini 서버 오류(503)"
+    "gemini_last_error": ""
   },
   "defer_fail_counts": {
     "u:fbc757732e8c6a823eab": 1,
@@ -67,25 +72,13 @@
     "u:4c47eea590192f911e76": 1,
     "u:a05c47ca5e4ffb372be5": 1,
     "u:788284a0c62516379f76": 1,
-    "u:ac3dcf5769890c897254": 2,
-    "u:4de1f8f3cc910083820a": 2,
     "u:ed02ae4c53f114a91127": 1,
     "u:2fb9faef9d501f105347": 1,
     "u:68f690bcee20a60571a9": 1,
-    "u:8f022113d3b879f42226": 1,
-    "u:f466d23be8b71f1615d7": 1,
     "u:0c5ba8baa0fea8e6a2f0": 1,
     "u:3cf32978821c95afda9f": 1,
-    "u:e430cb93c92e8098084c": 1,
-    "u:8dacea39a41000b02293": 1,
-    "u:8f943bfc386aed57e5c6": 1,
-    "u:cb3ca185b0a4c5df6601": 1,
     "u:b7abcb4afd39c4ff0bec": 1,
-    "u:d0f68eebaad47ac321c2": 1,
-    "u:345812309e98d8d8ff3e": 1,
-    "u:4ca46373d346c0f26533": 1,
-    "u:4126785ac4462d423c83": 1,
-    "u:4c1b162a295d0e60cfe8": 1
+    "u:d0f68eebaad47ac321c2": 1
   },
   "commands_version": 2
 }
