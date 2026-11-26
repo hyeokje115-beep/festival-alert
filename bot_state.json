@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-26 15:35:38",
+  "last_scan_at": "2026-11-26 23:20:14",
   "last_inbox_at": "2026-11-26 23:08:11",
   "commands_set": true,
   "last_inbox": {
@@ -15,27 +15,22 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-26 23:08:11",
+  "updated_at": "2026-11-26 23:20:14",
   "last_scan": {
-    "at": "2026-11-26 15:35:38",
-    "elapsed": 957.9,
+    "at": "2026-11-26 23:20:14",
+    "elapsed": 229.8,
     "sites_total": 43,
-    "sites_ok": 39,
-    "sites_fail": [
-      "광주문화재단 — 페이지 로딩 시간 초과 (30s)",
-      "나주문화재단 — 페이지 로딩 시간 초과 (30s)",
-      "담양문화재단 — 페이지 로딩 시간 초과 (30s)",
-      "순천문화재단_타기관공모 — 페이지 로딩 시간 초과 (30s)"
-    ],
+    "sites_ok": 43,
+    "sites_fail": [],
     "disabled": [],
     "selector_fixed": [],
-    "new_rows": 39,
+    "new_rows": 1,
     "seeded": 0,
-    "candidates": 21,
-    "gemini_calls": 25,
+    "candidates": 1,
+    "gemini_calls": 3,
     "gemini_errors": 0,
     "feedback_blocked": 0,
-    "alerts": 8,
+    "alerts": 0,
     "reviewed": 0,
     "deferred": 0,
     "send_errors": [],
