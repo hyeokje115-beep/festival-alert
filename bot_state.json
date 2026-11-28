@@ -6,7 +6,7 @@
       "at": "2026-09-26 22:27:30"
     }
   },
-  "last_scan_at": "2026-11-28 14:53:45",
+  "last_scan_at": "2026-11-28 22:33:18",
   "last_inbox_at": "2026-11-28 22:19:34",
   "commands_set": true,
   "last_inbox": {
@@ -15,13 +15,15 @@
     "commands": 0,
     "errors": 0
   },
-  "updated_at": "2026-11-28 22:19:34",
+  "updated_at": "2026-11-28 22:33:18",
   "last_scan": {
-    "at": "2026-11-28 14:53:45",
-    "elapsed": 239.5,
+    "at": "2026-11-28 22:33:18",
+    "elapsed": 224.5,
     "sites_total": 43,
-    "sites_ok": 43,
-    "sites_fail": [],
+    "sites_ok": 42,
+    "sites_fail": [
+      "한국문화예술교육진흥원 — 페이지 로딩 시간 초과 (30s)"
+    ],
     "disabled": [],
     "selector_fixed": [],
     "new_rows": 0,
